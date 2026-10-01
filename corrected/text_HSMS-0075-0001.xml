@@ -198,21 +198,23 @@
             </editorialDecl>
             <refsDecl n="physical">
                 <!--Doit &#234;tre adapt&#233; &#224; chaque structure de document, &#224; reprendre-->
-                <citeStructure unit="page" match="//body//pb" use="@n">
-                    <citeStructure unit="column" match=".//cb" use="@n"
-                        delim=".">
-                        <citeStructure unit="line" match=".//lb" use="@n"
-                            delim="."/>
+                <citeStructure unit="page" match="//body/descendant::pb"
+                    use="@n">
+                    <citeStructure unit="column" match="./descendant::cb"
+                        use="@n" delim=".">
+                        <citeStructure unit="line" match="./descendant::lb"
+                            use="@n" delim="."/>
                     </citeStructure>
                 </citeStructure>
-                <refsDecl n="default">
-                    <citeStructure match="/TEI/text/body/div" use="@n"
-                        unit="chapter">
-                        <citeStructure match=".//milestone[@unit='section']"
-                            use="@n" unit="section" delim="."/>
-                    </citeStructure>
-                </refsDecl>
                 <!--Doit &#234;tre adapt&#233; &#224; chaque structure de document-->
+            </refsDecl>
+            <refsDecl n="default">
+                <!--Que fait du front ? Que faire des prologues de partie?-->
+                <citeStructure match="/TEI/text/body/div[@type='livre']"
+                    use="@n" unit="book">
+                    <citeStructure match="./descendant::div[@type='chapitre']"
+                        use="@n" unit="chapitre" delim="."/>
+                </citeStructure>
             </refsDecl>
             <classDecl>
                 <!--Merci &#224; Morgane PICA pour son aide sur l'adaptation &#224; la mod&#233;lisation FRBR-->
