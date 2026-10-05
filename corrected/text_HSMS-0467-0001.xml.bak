@@ -96,7 +96,7 @@
                         <forename>Diego</forename>
                         <roleName>S.J.</roleName>
                     </author>
-                    <date notBefore-iso="1663" notAfter-iso="1725">1663 - 1725</date>
+                    <date notBefore-iso="1663" atMost="1725">1663 - 1725</date>
                     <idno type="HSMS-WORK">HSMS-0467-0001</idno>
                     <idno type="beta-texid"/>
                     <idno type="factgrid-id"/>
@@ -133,7 +133,7 @@
                         <!--Le corresp permet de lier la date &#224; l'unit&#233; codicologique, dans le cas de recueils organis&#233;s-->
                         <origin>
                             <origDate corresp="#HSMS-0467-0001" notBefore-iso="1663"
-                                notAfter-iso="1725">1663 - 1725</origDate>
+                                atMost="1725">1663 - 1725</origDate>
                         </origin>
                         <!--Le corresp permet de lier la date &#224; l'unit&#233; codicologique -->
                     </history>

@@ -288,9 +288,8 @@
                <lb break="yes"/>
             </p>
          </div>
-         <div type="page_titre">
-            <p>
-               <hi rend="rubrique">
+         <titlePage>
+            <titlePart><hi rend="rubrique">
                   <add hand="#other">Relacion de la jor<lb break="no"/>nada de
                      Cibola, con<lb break="no"/>puesta por Pedro de <lb
                         break="yes"/>Castañeda de Na<subst hand="#self">
@@ -300,9 +299,8 @@
                         break="yes"/>todos aquellos pobla<lb break="no"/>dos y
                      ritos, y costumbres, la qual fue <lb break="yes"/>el año de
                      1540</add>
-               </hi>
-            </p>
-         </div>
+               </hi></titlePart>
+         </titlePage>
          <pb n="3v"/>
          <pb n="4r"/>
          <lb break="yes"/>
@@ -478,7 +476,7 @@
                aquellos o a los <lb break="yes"/>mas que fueron a la jornada <lb
                   break="yes"/>quel año de n<ex>uest</ex>ro saluador Je<lb
                   break="no"/>suchristo de mill y quinien<lb break="no"/>tos y
-               quarenta <seg ana="#glose">
+               quarenta <seg type="glose">
                   <add hand="#self">1540</add>
                </seg> hic<choice>
                   <corr>'</corr>
@@ -803,7 +801,7 @@
                      break="yes"/>de auer el solo des<choice>
                      <sic>b</sic>
                      <corr/>
-                  </choice>cubierto <seg ana="#glose">
+                  </choice>cubierto <seg type="glose">
                      <add hand="#self">descubierto</add>
                   </seg>
                   <lb break="yes"/>aquellos poblados de altos tan <lb
@@ -1057,7 +1055,7 @@
                   />aquellos de que tengo me<lb break="no"/>moria que fueron
                   Françisco <lb break="yes"/>de Barrionuebo vn caualle<lb
                      break="no"/>ro de Granada <g/>
-                  <seg ana="#glose">
+                  <seg type="glose">
                      <add hand="#self">
                         <g/>
                      </add>
@@ -1135,7 +1133,7 @@
                   <lb break="yes"/>ello rrelaçion pues al fin to<lb break="no"
                   />dos se juntaron en Conposte<lb break="no"/>la el dia de
                      carnestollen<lb break="no"/>das del año de quarenta y <lb
-                     break="yes"/>vno <seg ana="#glose">
+                     break="yes"/>vno <seg type="glose">
                      <add hand="#self">1541</add>
                   </seg> y como vbo hechado to<lb break="no"/>da la gente de
                   Mexico dio <lb break="yes"/>orden en como Pedro de Alar<lb
@@ -1613,7 +1611,7 @@
                   <lb break="yes"/>Persona digo Señora y los espa<lb break="no"
                   />ñoles le llamaron Señora y an<lb break="no"/>si le llamare
                   de aqui adelan<lb break="no"/>te desde alli se fue a buscar
-                     <seg ana="#glose">
+                     <seg type="glose">
                      <add hand="#self">buscar</add>
                   </seg>
                   <lb break="yes"/>el puerto el rrio abajo a la cos<lb
@@ -1668,7 +1666,7 @@
                   <fw rend="titre-courant">primera +</fw>
                   <cb type="single-column"/>
                   <lb break="yes"/>la partida del campo para Cibo<lb break="no"
-                  />la <seg ana="#glose">
+                  />la <seg type="glose">
                      <add hand="#self">Cibola</add>
                   </seg> y como auia de quedar en <lb break="yes"/>aquella uilla
                   Melchior Dias <lb break="yes"/>por capitan con ochenta hon<lb
@@ -2617,7 +2615,7 @@
                      conber<lb break="no"/>saçion a quien los nuestros <lb
                      break="yes"/>llamauan Juan Aleman <lb break="yes"/>por vn
                   Juan Aleman que <lb break="yes"/>estaba en Mexico a quien <lb
-                     break="yes"/>deçian pareçer <seg ana="#glose">
+                     break="yes"/>deçian pareçer <seg type="glose">
                      <add hand="#self">çer</add>
                   </seg> aqueste <lb break="yes"/>hablo el general diciendo <lb
                      break="yes"/>que le probeyese de tresi<lb break="no"/>entas
@@ -2906,7 +2904,7 @@
                   <cb type="single-column"/>
                   <lb break="yes"/>de flechas çerca de çien <lb break="yes"
                   />hombres de que despues mu<lb break="no"/>rieron algunos por
-                  mala cu<lb break="no"/>ra de vn mal surugano <seg ana="#glose">
+                  mala cu<lb break="no"/>ra de vn mal surugano <seg type="glose">
                      <add hand="#self">jano</add>
                   </seg> que <lb break="yes"/>yba en el campo el çerco duro <lb
                      break="yes"/>sinquenta dias en los quales <lb break="yes"
@@ -2928,7 +2926,7 @@
                   maestre de campo <add hand="#self">
                      <g/>
                   </add>
-                  <seg ana="#glose">
+                  <seg type="glose">
                      <add hand="#self">
                         <g/>
                      </add>
@@ -3079,7 +3077,7 @@
                      <corr>'</corr>
                      <sic/>
                   </choice>o del año de quarenta <lb break="yes"/>y dos <seg
-                     ana="#glose">
+                     type="glose">
                      <add hand="#self">1542</add>
                   </seg> en el qual tiempo a<lb break="no"/>caecieron otras
                   cosas de que <lb break="yes"/>podria dar notiçia que por <lb
@@ -3320,7 +3318,7 @@
                      break="yes"/>tiempo <add hand="#self">
                      <g/>
                   </add>
-                  <seg ana="#glose">
+                  <seg type="glose">
                      <add hand="#self">
                         <g/>
                      </add>
@@ -3463,7 +3461,7 @@
                      <lb break="yes"/>en la auanguardia cogiero<ex>n</ex>
                   <lb break="yes"/>por delante vn gran nume<lb break="no"/>ro de
                   toros y como huyan y v<lb break="no"/>nos a otros se
-                  rrenpugaban <seg ana="#glose">
+                  rrenpugaban <seg type="glose">
                      <add hand="#self">xa</add>
                   </seg> die<lb break="no"/>ron en vna barranca y cayo <lb
                      break="yes"/>tanto ganado dentro que la <lb break="yes"
@@ -3610,7 +3608,7 @@
                   />y fructas <lb break="yes"/>desde alli embio el general <lb
                      break="yes"/>a descubrir y dieron en otras <lb break="yes"
                   />rrancherias a quatro jornadas <lb break="yes"/>a manera de
-                  alixares <seg ana="#glose">
+                  alixares <seg type="glose">
                      <add hand="#self">alixares</add>
                   </seg> era tie<lb break="no"/>rra muy poblada donde auia <lb
                      break="yes"/>muchos frisoles y siruelas como <lb
@@ -3657,7 +3655,7 @@
                   haçer es ge<ex>n</ex>
                   <lb break="no"/>te bien entendida y las muge<lb break="no"
                   />res bien tratadas y de berguença <lb break="yes"/>cubren
-                  todas sus carnes tr<supplied>a</supplied>en <seg ana="#glose">
+                  todas sus carnes tr<supplied>a</supplied>en <seg type="glose">
                      <add hand="#self">traen</add>
                   </seg>
                   <lb break="yes"/>çapatos y borseguiez de cue<lb break="no"/>ro
@@ -3691,7 +3689,7 @@
                   <fw rend="titre-courant">parte</fw>
                   <cb type="single-column"/>
                   <lb break="yes"/>y que por alli no auia tierra <g/>
-                  <seg ana="#glose">
+                  <seg type="glose">
                      <add hand="#self">
                         <g/>
                      </add>
@@ -3944,7 +3942,7 @@
                   <lb break="yes"/>luego que don Tristan de Are<lb break="no"
                   />llano llego en Tiguex me<lb break="no"/>diado el mes de
                   jullio del <lb break="yes"/>año de quarenta y dos <seg
-                     ana="#glose">
+                     type="glose">
                      <add hand="#self">1542</add>
                   </seg> hiço <lb break="yes"/>rrecoger bastimentos para <lb
                      break="yes"/>el inbierno benidero y en<lb break="no"/>bio a
@@ -4004,7 +4002,7 @@
                   leguas <lb break="yes"/>y hallo quatro pueblos gran<lb
                      break="no"/>des que dexo de paz y an<lb break="no"/>dubo
                   hasta que hallo quel <lb break="yes"/>rrio se sumia debajo de
-                     tie<lb break="no"/>rra como Guadiana <seg ana="#glose">
+                     tie<lb break="no"/>rra como Guadiana <seg type="glose">
                      <add hand="#self">Rio que se hunde</add>
                   </seg> en Ex<lb break="no"/>tremadura no paso adela<ex>n</ex>
                   <lb break="no"/>te donde los indios decian q<ex>ue</ex>
@@ -4303,7 +4301,7 @@
                      break="no"/>se en la boca del rrio del Tiçon <lb
                      break="yes"/>esta tierra es la vna punta a <lb break="yes"
                   />el oriente la punta del poni<lb break="no"/>ente es la
-                  California <seg ana="#glose">
+                  California <seg type="glose">
                      <add hand="#self">California</add>
                   </seg> ay de punta <fw type="réclame">a pu</fw>
                   <pb n="103r"/>
@@ -4380,7 +4378,7 @@
                   />lle de Señora <lb break="yes"/>Señora es vn rrio y ualle <lb
                      break="yes"/>muy poblado de gente muy <lb break="yes"
                   />dispuesta las mugeres bisten <lb break="yes"/>naguas <seg
-                     ana="#glose">
+                     type="glose">
                      <add hand="#self">naguas</add>
                   </seg> de cuero adobado <lb break="yes"/>de benados y
                   sanbenitillos has<lb break="no"/>ta medio cuerpo los que son
@@ -4448,7 +4446,7 @@
                      break="no"/>sados son muy buenos y dulces <lb break="yes"
                   />guardanse todo el año asi pa<lb break="no"/>sados <lb
                      break="yes"/>y por esta tierra se bieron a<lb break="no"
-                  />guilas <seg ana="#glose">
+                  />guilas <seg type="glose">
                      <add hand="#self">aguilas</add>
                   </seg> caudales tienenlas <lb break="yes"/>los señores por
                   grandeça en to<lb break="no"/>dos estos pueblos no se bieron
@@ -4557,12 +4555,12 @@
                   cantidad leo<lb break="no"/>nes gatos çeruales y nutrias ay
                      <lb break="yes"/>muy finas tratan turquesas <lb break="yes"
                   />aunque no en la cantidad <lb break="yes"/>que deçian
-                  rrecogen y entro<lb break="no"/>gan <seg ana="#glose">
+                  rrecogen y entro<lb break="no"/>gan <seg type="glose">
                      <add hand="#self">xan</add>
                   </seg> piñones para su año no <lb break="yes"/>tiene vn hombre
                   mas de v<lb break="no"/>na muger ay en los pueblos <lb
                      break="yes"/>estufas que estan en los patios <seg
-                     ana="#glose">
+                     type="glose">
                      <add hand="#self">patios</add>
                   </seg>
                   <fw type="réclame">o pla</fw>
@@ -5268,7 +5266,7 @@
                      break="yes"/>manera como los de la Nue<lb break="no"/>ba
                   España las casas son rre<lb break="no"/>dondas sin çerca
                   tienen v<lb break="no"/>nos altos a manera de bal<lb
-                     break="no"/>bacoas <seg ana="#glose">
+                     break="no"/>bacoas <seg type="glose">
                      <add hand="#self">barbacoas</add>
                   </seg> por baxo la techu<ex>n</ex>
                   <lb break="no"/>bre adonde duermen y tie<lb break="no"/>nen
@@ -5343,7 +5341,7 @@
                   />contentasemos los que a<lb break="no"/>lla fuimos con deçir
                   que fui<lb break="no"/>mos los primeros que lo des<lb
                      break="no"/>cubrimos y tubimos notiçia <lb break="yes"/>de
-                  ello <seg ana="#glose">
+                  ello <seg type="glose">
                      <add hand="#self">no dice nada</add>
                   </seg>
                   <lb break="yes"/>como Hercules conoçer el <lb break="yes"
@@ -5461,7 +5459,7 @@
                      break="yes"/>el general Francisco Uasques <lb break="yes"
                   />Coronado auia sido entre <lb break="yes"/>sus capitanes y
                   soldados el <lb break="yes"/>mas bien quisto y obedeçido <lb
-                     break="yes"/>capitan <seg ana="#glose">
+                     break="yes"/>capitan <seg type="glose">
                      <add hand="#self">capitan</add>
                   </seg> que podia auer sa<lb break="no"/>lido en Indias y como
                   la nece<lb break="no"/>sidad careçe de ley y los capi<lb
@@ -5685,7 +5683,7 @@
                   />pueblos les mataron al<lb break="no"/>guna gente y al cabo
                      sa<lb break="no"/>lieron a Culiacan adonde <lb break="yes"
                   />Hernando Arias de Saya<lb break="no"/>bendra <seg
-                     ana="#glose">
+                     type="glose">
                      <add hand="#self">Saabedr<supplied>a</supplied>
                      </add>
                   </seg> los detubo entrete<lb break="no"/>ni<subst hand="#self">
@@ -5781,7 +5779,7 @@
                   sus negoçios <lb break="yes"/>se auian encaminado a su <lb
                      break="yes"/>uoluntad mando que para <lb break="yes"
                   />entrado el mes de abril del <lb break="yes"/>año de
-                  quinientos y quaren<lb break="no"/>ta y tres <seg ana="#glose">
+                  quinientos y quaren<lb break="no"/>ta y tres <seg type="glose">
                      <add hand="#self">1543</add>
                   </seg> estubiesen todos aper<lb break="no"/>çebidos para salir
                   la buelta <lb break="yes"/>de la Nueba España <lb break="yes"
@@ -6496,7 +6494,7 @@
                      <lb break="yes"/>su peña de vna uara de qua<lb break="no"
                   />dro y muchos palitos adorna<lb break="no"/>dos de plumas a
                   el rrededor <lb break="yes"/>y muchas flores secas desme<lb
-                     break="no"/>nuçadas <seg ana="#glose">
+                     break="no"/>nuçadas <seg type="glose">
                      <add hand="#self">cruz entre los indios</add>
                   </seg>
                   <lb break="yes"/>en Tutahaco en vn sepulcro <lb break="yes"

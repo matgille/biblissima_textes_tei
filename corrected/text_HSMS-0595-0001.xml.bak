@@ -92,7 +92,7 @@
                         Montalbán</title>
                     <author><surname>Felipe
                         II</surname><forename/></author><date
-                        notAfter-iso="1589-06-17">1589-06-17 ad quem</date>
+                        atMost="1589-06-17">1589-06-17 ad quem</date>
                     <idno type="HSMS-WORK">HSMS-0595-0001</idno>
                     <idno type="beta-texid"/>
                     <idno type="factgrid-id"/>

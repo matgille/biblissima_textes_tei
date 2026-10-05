@@ -67,11 +67,10 @@
                         Tormes</title><author
                         corresp="https://database.factgrid.de/entity/Q266835"
                             ><surname>Alfonso X el
-                        Sabio</surname><forename/></author><date
-                        notBefore-iso="1252" notAfter-iso="1284">1252 a quo-
-                        1284 ad quem</date><idno type="HSMS-WORK"
-                        >HSMS-0001-0001</idno><idno type="beta-texid"
-                        >2418</idno><idno type="factgrid-id"
+                        Sabio</surname><forename/></author><date notBefore-iso="1252"
+                        atMost="1284">1252 a quo- 1284 ad quem</date><idno
+                        type="HSMS-WORK">HSMS-0001-0001</idno><idno
+                        type="beta-texid">2418</idno><idno type="factgrid-id"
                         corresp="https://database.factgrid.de/entity/Q1084565"
                         >Q1084565</idno><idno type="biblissima-id"/><idno
                         type="BNF-id"/><idno type="BNE-id"/><idno type="VIAF-id"
@@ -108,9 +107,8 @@
                     <history>
                         <!--Le corresp permet de lier la date &#224; l'unit&#233; codicologique, dans le cas de recueils organis&#233;s-->
                         <origin><origDate corresp="#HSMS-0001-0001"
-                                cert="medium" notBefore-iso="1251"
-                                notAfter-iso="1350">1251 ca. - 1350
-                                ca.</origDate></origin>
+                                cert="medium" notBefore-iso="1251" atMost="1350">1251
+                                ca. - 1350 ca.</origDate></origin>
                         <!--Le corresp permet de lier la date &#224; l'unit&#233; codicologique -->
                     </history>
                     <msContents>

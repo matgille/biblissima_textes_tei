@@ -1323,7 +1323,7 @@
                     <l><lb break="yes"/>Qui q<ex>u</ex><hi rend="superscript"
                             >i</hi>er q<ex>ue</ex> la uestiesse; fuesse siempre
                         leal. </l>
-                    <seg ana="#glose"><add hand="#self"><lb break="yes"/>esta
+                    <seg type="glose"><add hand="#self"><lb break="yes"/>esta
                             camisa creo <lb break="yes"/>mira la
                         vistio</add></seg>
                     <l><lb break="yes"/>Et numq<ex>u</ex><hi rend="superscript"
@@ -3686,7 +3686,7 @@
                         fondon. </l>
                     <l><lb break="yes"/>Cuemo fue destroyda; &amp; sobre qual
                         razon. </l>
-                    <seg ana="#glose"><add hand="#self"><lb break="yes"/>la
+                    <seg type="glose"><add hand="#self"><lb break="yes"/>la
                                 co<ex>n</ex>q<ex>u</ex><hi rend="superscript"
                                 >i</hi>sta <lb break="yes"/>de
                                 tro<supplied>ya</supplied></add></seg>
@@ -8310,7 +8310,7 @@
                     <l><lb break="yes"/><g ref="#calderon1"/> Mando fazer unas
                             l<ex>et</ex>ras. q<ex>ue</ex> auie<ex>n</ex> tal
                         tenor. </l>
-                    <seg ana="#glose"><lb break="yes"/><add hand="#self"
+                    <seg type="glose"><lb break="yes"/><add hand="#self"
                             >letras</add></seg>
                     <l><lb break="yes"/>Dario Rey delos Reys. egual del
                             c<ex>r</ex><hi rend="superscript">i</hi>ador. </l>
@@ -13720,7 +13720,7 @@
                         parido. </l>
                     <l><lb break="yes"/>Nol q<ex>ue</ex>rie el g<ex>r</ex><hi
                             rend="superscript">i</hi>ego; la cabeça tornar. </l>
-                    <seg ana="#glose"><add hand="#self">
+                    <seg type="glose"><add hand="#self">
                             <lb break="yes"/>aq<ex>u</ex><hi rend="superscript"
                                 >i</hi> es la metad <lb break="yes"/>del
                             libro</add></seg>
@@ -14430,7 +14430,7 @@
                     <l><lb break="yes"/>Compeço a faular; con los oios moiados. </l>
                     <l><lb break="yes"/>Ca entendie q<ex>ue</ex> todos; estauan
                         desmayados. </l>
-                    <seg ana="#glose">
+                    <seg type="glose">
                         <lb break="yes"/><add hand="#self">ov<ex>ier</ex>on
                                 marauj<lb break="no"/>llosa q<ex>ue</ex> hizo
                                 da<lb break="no"/>rio alos suyos</add></seg>
@@ -17503,7 +17503,7 @@
                         furan p<ex>r</ex><hi rend="superscript">i</hi>uado. </l>
                     <l><lb break="yes"/>Por q<ex>ue</ex> fuera saliro<ex>n</ex>;
                         teniense por errados. </l>
-                    <seg ana="#glose"><lb break="yes"/><add hand="#self"
+                    <seg type="glose"><lb break="yes"/><add hand="#self"
                             >narbaçenes</add></seg>
                 </lg>
                 <lg>
@@ -25511,10 +25511,10 @@
                     <l><lb break="yes"/>Non pod<ex>r</ex><hi rend="superscript"
                             >i</hi>e alexandre; mas q<ex>ue</ex> yo
                             conq<ex>ue</ex>rir. </l>
-                    <l><lb break="yes"/><seg ana="#glose"><add hand="#self"
+                    <l><lb break="yes"/><seg type="glose"><add hand="#self"
                                 >b</add></seg> Tan grant Ribaço aze; entre fazer
                         &amp; dezir. </l>
-                    <l><lb break="yes"/><seg ana="#glose"><add hand="#self"
+                    <l><lb break="yes"/><seg type="glose"><add hand="#self"
                                 >a</add></seg> Mas como es g<ex>r</ex><hi
                             rend="superscript">a</hi>nt salto; poral çielo
                         sobir. </l>
@@ -25983,10 +25983,10 @@
                         pierna diestra; europa notada. </l>
                     <l><lb break="yes"/>Esta es mas catholica; dela fe mas
                         poblada. </l>
-                    <l><lb break="yes"/><seg ana="#glose"><add hand="#self"
+                    <l><lb break="yes"/><seg type="glose"><add hand="#self"
                                 >b</add></seg> Tiene<ex>n</ex> petrus &amp;
                         paulus; enella su posada. </l>
-                    <l><lb break="yes"/><seg ana="#glose"><add hand="#self"
+                    <l><lb break="yes"/><seg type="glose"><add hand="#self"
                                 >a</add></seg> Esta es la diestra; del obispo
                         santiguada. </l>
                 </lg>

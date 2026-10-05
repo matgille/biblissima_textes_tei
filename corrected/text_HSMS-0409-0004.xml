@@ -1,4 +1,4 @@
-<?xml-model href="/home/mgl/Bureau/Travail/projets/Biblissima-Text/Transform/schemata/out/ODD_v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="/home/mgl/Bureau/Travail/projets/Biblissima-Text/Transform/schemata/out/ODD_gold.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -110,8 +110,9 @@
                     <monogr>
                         <!--ISTC pour les incunables. Voir ce qu'on fait pour les imprim&#233;s plus tardifs-->
                         <idno type="ISTC"/>
-                        <title/>
-                        <author/>
+                        <title>FArsas y Eglogas al modo y estilo pastoril y
+                            castellano Fechas por Lucas fernandez Salmantino
+                            Nueuamente impressas</title>
                         <imprint>
                             <pubPlace>Salamanca</pubPlace>
                             <publisher>Lorenzo de Liomdedei</publisher>
@@ -199,19 +200,12 @@
             <refsDecl n="physical">
                 <!--Doit &#234;tre adapt&#233; &#224; chaque structure de document, &#224; reprendre-->
                 <citeStructure unit="page" match="//body//pb" use="@n">
-                    <citeStructure unit="column" match=".//cb" use="@n"
+                    <citeStructure unit="colonne" match=".//cb" use="@n"
                         delim=".">
-                        <citeStructure unit="line" match=".//lb" use="@n"
+                        <citeStructure unit="ligne" match=".//lb" use="@n"
                             delim="."/>
                     </citeStructure>
                 </citeStructure>
-                <refsDecl n="default">
-                    <citeStructure match="/TEI/text/body/div" use="@n"
-                        unit="chapter">
-                        <citeStructure match=".//milestone[@unit='section']"
-                            use="@n" unit="section" delim="."/>
-                    </citeStructure>
-                </refsDecl>
                 <!--Doit &#234;tre adapt&#233; &#224; chaque structure de document-->
             </refsDecl>
             <classDecl>
@@ -269,37 +263,38 @@
     </teiHeader>
     <text>
         <body>
-            <div>
+            <div type="piece">
                 <pb n="11r"
                     facs="/home/mgl/Bureau/Travail/projets/Biblissima-Text/data/Biblissima-Textes/facsimiles/HSMS-0409/pg_0028.pdf"/>
                 <cb type="single-column"/>
-                <head>
-                    <hi rend="rubrique"><hi rend="initiale" n="2">F</hi>Arsa o
-                        quasi comedia hecha por Lucas fernandez: Enla
-                            q<ex>u</ex><hi rend="superscript">a</hi>l se
-                        introduzen q<ex>u</ex><hi rend="superscript">a</hi>tro
-                            <lb break="yes"/>persona<choice>
-                            <sic> </sic>
-                            <corr/>
-                        </choice>s combiene a saber dos pastores &amp; vn
-                        Soldado &amp; vna pastora. El primer <lb break="yes"
-                        />pastor llamado Prauos entra primero muy fatigado de
-                        amores de vna zagala llama<lb break="no"/>da Antona. El
-                            q<ex>u</ex><hi rend="superscript">a</hi>l pastor
-                        arrojado enel suelo conten<choice>
-                            <sic> </sic>
-                            <corr/>
-                        </choice>plando y hablando en su mal lle<lb break="no"
-                        />ga el Soldado: El qual estando platicando conel pastor
-                        en su pena: entra el segundo <lb break="yes"/>pastor
-                        &amp; tercera persona el qual se llama Pascual: Con el
-                        qual el Soldado ha ciertas <lb break="yes"/>barajas y el
-                        otro pastor namorado los pone en paz. &amp; despues el
-                        Pascual sabiendo d<ex>e</ex>
-                        <lb break="yes"/>sus amores llama a la zagala &amp; el
-                        Soldado y el los desposan &amp; se van al lugar
-                            canta<ex>n</ex>do.</hi>
-                </head>
+                <argument>
+                    <p><hi rend="rubrique"><hi rend="initiale" n="2">F</hi>Arsa
+                            o quasi comedia hecha por Lucas fernandez: Enla
+                                q<ex>u</ex><hi rend="superscript">a</hi>l se
+                            introduzen q<ex>u</ex><hi rend="superscript"
+                            >a</hi>tro <lb break="yes"/>persona<choice>
+                                <sic> </sic>
+                                <corr/>
+                            </choice>s combiene a saber dos pastores &amp; vn
+                            Soldado &amp; vna pastora. El primer <lb break="yes"
+                            />pastor llamado Prauos entra primero muy fatigado
+                            de amores de vna zagala llama<lb break="no"/>da
+                            Antona. El q<ex>u</ex><hi rend="superscript">a</hi>l
+                            pastor arrojado enel suelo conten<choice>
+                                <sic> </sic>
+                                <corr/>
+                            </choice>plando y hablando en su mal lle<lb
+                                break="no"/>ga el Soldado: El qual estando
+                            platicando conel pastor en su pena: entra el segundo
+                                <lb break="yes"/>pastor &amp; tercera persona el
+                            qual se llama Pascual: Con el qual el Soldado ha
+                            ciertas <lb break="yes"/>barajas y el otro pastor
+                            namorado los pone en paz. &amp; despues el Pascual
+                            sabiendo d<ex>e</ex>
+                            <lb break="yes"/>sus amores llama a la zagala &amp;
+                            el Soldado y el los desposan &amp; se van al lugar
+                                canta<ex>n</ex>do.</hi></p>
+                </argument>
                 <cb type="double-column"/>
                 <sp>
                     <lb break="yes"/>
@@ -4302,9 +4297,9 @@
                     <l><lb break="yes"/>no pierda esperança </l>
                     <l><lb break="yes"/>que fe y esperança </l>
                     <l><lb break="yes"/>es firme primor </l>
-                    <lb break="yes"/>
-                    <hi rend="rubrique">Fin</hi>
                 </lg>
+                <ab><lb break="yes"/>
+                    <hi rend="rubrique">Fin</hi></ab>
             </div>
         </body>
     </text>
