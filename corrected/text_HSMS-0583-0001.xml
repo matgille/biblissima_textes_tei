@@ -6242,24 +6242,25 @@
                             <sic/>
                         </choice>sancto viuit &amp; regnat <lb break="yes"/>deus
                         per infinita seculorum secula. Amen.</foreign>
-                    <lb break="yes"/><g ref="#calderon1"/> Fin. <lb break="yes"
-                        /><g ref="#calderon1"/> A loor &amp; gloria de dios todo
-                    poderoso: y de su <lb break="yes"/>bendita madre
-                        n<ex>uest</ex>ra señora la virge<ex>n</ex> maria se <lb
-                        break="yes"/>acabo la presente obra llamada repre<lb
-                        break="no"/>he<ex>n</ex>sion de jugadores: hecha y co<lb
-                        break="no"/>pilada por el doctor Casti<lb break="no"
-                    />llo vezino dela villa de <lb break="yes"/>Molina. Acabose
-                        <lb break="yes"/>de<choice>
-                        <corr> </corr>
-                        <sic/>
-                    </choice>imprimir <lb break="yes"/>enla <lb break="yes"/>muy
-                    noble &amp; muy leal villa de <lb break="yes"/>Ualladolid:
-                    por maestre <lb break="yes"/>Nicolas tyerri. A <lb
-                        break="yes"/>xviij. de Abril <lb break="yes"/>de.M .D.
-                        <lb break="yes"/>xxviij. <lb break="yes"/>años. <lb
-                        break="yes"/><g>cross.</g></p>
+                </p>
+                <trailer><lb break="yes"/><g ref="#calderon1"/>Fin.</trailer>
             </div>
+            <div type="colophon"><lb break="yes"/><g ref="#calderon1"/> A loor
+                &amp; gloria de dios todo poderoso: y de su <lb break="yes"
+                />bendita madre n<ex>uest</ex>ra señora la virge<ex>n</ex> maria
+                se <lb break="yes"/>acabo la presente obra llamada repre<lb
+                    break="no"/>he<ex>n</ex>sion de jugadores: hecha y co<lb
+                    break="no"/>pilada por el doctor Casti<lb break="no"/>llo
+                vezino dela villa de <lb break="yes"/>Molina. Acabose <lb
+                    break="yes"/>de<choice>
+                    <corr> </corr>
+                    <sic/>
+                </choice>imprimir <lb break="yes"/>enla <lb break="yes"/>muy
+                noble &amp; muy leal villa de <lb break="yes"/>Ualladolid: por
+                maestre <lb break="yes"/>Nicolas tyerri. A <lb break="yes"
+                />xviij. de Abril <lb break="yes"/>de.M .D. <lb break="yes"
+                />xxviij. <lb break="yes"/>años. <lb break="yes"
+                /><g>cross.</g></div>
         </back>
     </text>
 </TEI>

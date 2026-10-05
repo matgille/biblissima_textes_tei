@@ -4298,8 +4298,8 @@
                     <l><lb break="yes"/>que fe y esperança </l>
                     <l><lb break="yes"/>es firme primor </l>
                 </lg>
-                <ab><lb break="yes"/>
-                    <hi rend="rubrique">Fin</hi></ab>
+                <trailer><lb break="yes"/>
+                    <hi rend="rubrique">Fin</hi></trailer>
             </div>
         </body>
     </text>
