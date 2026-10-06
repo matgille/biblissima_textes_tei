@@ -377,7 +377,7 @@
                     pudo <lb break="yes"/>sacar consigo /</p>
             </div>
         </front>
-        <body n="1">
+        <body>
             <div type="section" n="1">
                 <p><lb break="yes"/>a diez y sjete dias del mes de junjo del año
                     de mjll e quj<ex>nient</ex><hi rend="superscript">o</hi>s e
@@ -6455,6 +6455,7 @@
         </body>
         <back>
             <div type="colophon">
+                <!--Est-ce vraiment un colophon ?-->
                 <p><hi rend="rubrique"><g ref="#calderon1"/> joanes baptista
                         goyenez pyrrhañez</hi></p>
             </div>
