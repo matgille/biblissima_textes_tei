@@ -208,13 +208,18 @@
                     est conservée: sauts de ligne, changements de colonne,
                     espaces en blanc, miniatures, illustrations, diagrammes,
                     etc.</p>
-                <p>Le texte est structuré en livres et chapitres. Des divisions
-                    de type section viennent marquer l'alternance du texte
-                    support de Végèce et les différentes gloses d'Alfonso de San
-                    Cristóbal. Pour des raisons d'homogénéité, les paragraphes
-                    textuels se trouvent systématiquement dans une divisiond e
-                    type section, enfant d'une division chapitre ou sommaire ou
-                    prologue.</p>
+                <p>Le texte est structuré en livres et chapitres, et la glose
+                    est distinguée du texte tuteur. Des divisions de type
+                    section viennent marquer l'alternance du texte support de
+                    Végèce et les différentes gloses d'Alfonso de San Cristóbal.
+                    Pour des raisons d'homogénéité, <emph>l'intégralité des
+                        paragraphes textuels se trouvent dans une division de
+                        type section</emph>, enfant d'une division chapitre ou
+                    sommaire ou prologue. La numération des chapitres est
+                    alignée avec celle du texte latin édité par Reeve:
+                        <bibl>Vegetius, Flavius Renatus. Epitoma Rei Militaris.
+                        Edited by M. D. Reeve. Oxford Classical Texts. Oxford
+                        University Press, 2004</bibl>.</p>
                 <p>Pour plus d'informations, voir l'ODD.</p>
             </editorialDecl>
             <refsDecl n="physical">
@@ -1005,13 +1010,13 @@
         </front>
         <body>
             <div type="livre" n="1">
-                <p><lb break="yes"/>Aquj comjença el prime<lb break="no"/>ro
+                <head><lb break="yes"/>Aquj comjença el prime<lb break="no"/>ro
                     libro de Vegeçio ca<lb break="no"/>pitulo primero que <lb
                         break="yes"/>fabla porque las mane<lb break="no"/>ras de
                     los rromanos <lb break="yes"/>ve<ex>n</ex>çieron todas las
                         <lb break="yes"/>gentes del mu<ex>n</ex>do &amp; las <lb
-                        break="yes"/>sojudgaron a su sen<ex>n</ex>orio. <lb
-                        break="yes"/></p>
+                        break="yes"/>sojudgaron a su sen<ex>n</ex>o<lb
+                        break="yes"/>rio. </head>
                 <div type="chapitre" n="1">
                     <head><hi rend="initiale" n="4">N</hi>on </head>
                     <div type="section" n="1">
@@ -6414,12 +6419,17 @@
                                 yma<lb break="no"/>gen. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="7">
+                <div type="chapitre" n="8">
                     <head><hi rend="rubrique">Capitulo .vij. q<ex>ue</ex>
                             <lb break="yes"/>fabla de los no<ex>n</ex>bres ⇒<lb
                                 break="yes"/>de aq<ex>ue</ex>llos que guiauan
                                 <lb break="yes"/>las hordenes antiguas <lb
                                 break="yes"/>de la batalla. </hi>
+                        <note resp="#mgl">Le texte omet le chapitre 2.6
+                                    (<quote><foreign>Nomina et gradus
+                                    principiorum legionis</foreign></quote>) de
+                                l'<title>Epitoma</title> originelle,d'où un
+                            chapitre de moins dans le texte castillan. </note>
                     </head>
                     <div type="section" n="1">
                         <p><cb type="double-column"/><lb break="yes"/><lb
@@ -6515,7 +6525,7 @@
                             <cb type="double-column"/><lb break="yes"/></p>
                     </div>
                 </div>
-                <div type="chapitre" n="8">
+                <div type="chapitre" n="9">
                     <head><hi rend="rubrique">Capitulo .viij. que fa<lb
                                 break="no"/>bla del ofiçio del mayor <lb
                                 break="yes"/>de toda la legion.</hi>
@@ -6601,7 +6611,7 @@
                                 sen<ex>n</ex>or. <lb break="yes"/></p>
                     </div>
                 </div>
-                <div type="chapitre" n="9">
+                <div type="chapitre" n="10">
                     <head><hi rend="rubrique">Capitulo .jx. que fa<lb break="no"
                             />bla del ofiçio del per<lb break="no"/>fecto &amp;
                             adelantado &amp; ma<lb break="no"/>yoral &amp; del
@@ -6676,7 +6686,7 @@
                                 break="yes"/>con grand loor. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="10">
+                <div type="chapitre" n="11">
                     <head><hi rend="rubrique">Capitu<lb break="no"/>lo .x. que
                             fabla del ofiçio <lb break="yes"/>del mayoral de los
                                 ferre<lb break="no"/>ros &amp; carpinteros.</hi>
@@ -6724,7 +6734,7 @@
                                 break="yes"/></p>
                     </div>
                 </div>
-                <div type="chapitre" n="11">
+                <div type="chapitre" n="12">
                     <head><hi rend="rubrique">Capitulo .xj. que fa<lb break="no"
                             />bla del ofiçio del tribuno <lb break="yes"/>que
                             era mayoral de los <lb break="yes"/>caualleros.</hi>
@@ -6787,7 +6797,7 @@
                             costu<ex>n</ex>bres. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="12">
+                <div type="chapitre" n="13">
                     <head><hi rend="rubrique">Ca<lb break="no"/>pitulo .xij. que
                             fabla <lb break="yes"/>de los çenturiones que <lb
                                 break="yes"/>son capitanes de çiento <lb
@@ -6900,7 +6910,7 @@
                             <cb type="double-column"/><lb break="yes"/></p>
                     </div>
                 </div>
-                <div type="chapitre" n="13">
+                <div type="chapitre" n="14">
                     <head><hi rend="rubrique">Capitulo .xiij. que fa<lb
                                 break="no"/>bla de las rrotas &amp; tro<lb
                                 break="no"/>peles de los omes a caua<lb
@@ -7018,7 +7028,7 @@
                                 break="no"/>llos. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="14">
+                <div type="chapitre" n="15">
                     <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo
                             .xiiij. q<ex>ue</ex>
                             <lb break="yes"/>fabla en que gujsa son de <lb
@@ -7127,7 +7137,7 @@
                                 break="no"/>gu<ex>n</ex>da haz. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="15">
+                <div type="chapitre" n="16">
                     <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo <lb
                                 break="yes"/>.xv. que fabla en que <lb
                                 break="yes"/>manera se deue<ex>n</ex> armar <lb
@@ -7176,7 +7186,7 @@
                                 break="no"/>yna. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="16">
+                <div type="chapitre" n="17">
                     <head><hi rend="rubrique">Capitulo .xvj. q<ex>ue</ex>
                             <lb break="yes"/>fabla como come<ex>n</ex>çada la
                                 <lb break="yes"/>batalla que la armadura <lb
@@ -7235,7 +7245,7 @@
                             guardauase syn dan<ex>n</ex>o. <lb break="yes"/></p>
                     </div>
                 </div>
-                <div type="chapitre" n="17">
+                <div type="chapitre" n="18">
                     <head><hi rend="rubrique">Capitulo. xvij. que <lb
                                 break="yes"/>fabla que los no<ex>n</ex>bres <lb
                                 break="yes"/>de los caualleros a los <lb
@@ -7334,7 +7344,7 @@
                             espensas. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="18">
+                <div type="chapitre" n="19">
                     <head><hi rend="rubrique">Ca<lb break="no"/>pitulo .xviij.
                             que fa<lb break="no"/>bla como es de escoger <lb
                                 break="yes"/>el arte en los ma<ex>n</ex>çebos
@@ -7436,7 +7446,7 @@
                                 break="yes"/>todo su aparejo de casa. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="19">
+                <div type="chapitre" n="20">
                     <head><hi rend="rubrique"><g ref="#calderon1"/>
                             <lb break="yes"/>Capitulo .xjx. que fa<lb break="no"
                             />bla como los caualle<lb break="no"/>ros deuen
@@ -7527,7 +7537,7 @@
                         </p>
                     </div>
                 </div>
-                <div type="chapitre" n="20">
+                <div type="chapitre" n="21">
                     <head><hi rend="rubrique">Capi<lb break="no"/>tulo .xx. que
                             fabla como <lb break="yes"/>se deue<choice>
                                 <corr>n</corr>
@@ -7605,7 +7615,7 @@
                             />tre sy. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="21">
+                <div type="chapitre" n="22">
                     <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo
                             .xxj. <lb break="yes"/>que fabla que
                                 difere<ex>n</ex><lb break="no"/>çia es entre los
@@ -7682,7 +7692,7 @@
                                 break="yes"/>fazer en la batalla. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="22">
+                <div type="chapitre" n="23">
                     <head><hi rend="rubrique"><g ref="#calderon1"/> Ca<lb
                                 break="no"/>pitulo .xxij. que fabla <lb
                                 break="yes"/>del vso de los caualle<lb
@@ -7941,7 +7951,7 @@
                                 break="no"/>uallero al villano. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="23">
+                <div type="chapitre" n="24">
                     <head><hi rend="rubrique"><g ref="#calderon1"/> Ca<lb
                                 break="no"/>pitulo .xxiij. que fabla <lb
                                 break="yes"/>de las amonestaçiones+<fw
@@ -8005,7 +8015,7 @@
                                 <lb break="yes"/>estan en el vso. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="24">
+                <div type="chapitre" n="25">
                     <head><hi rend="rubrique"><g ref="#calderon1"/> Capi<lb
                                 break="no"/>tulo .xxiiij. q<ex>ue</ex> fabla de
                             las <lb break="yes"/>ferramjentas &amp; de los <lb
@@ -16650,12 +16660,20 @@
                                 break="no"/>terrados. </p>
                     </div>
                 </div>
-                <div type="chapitre" n="44">
+                <div type="chapitre" n="45">
                     <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo <lb
                                 break="yes"/>.xlvj.<note resp="#mgl">On passe du
-                                chapitre 43 à 46 dans la numérotation. Ce
-                                chapitre est bien le chapitre 44.</note> fabla
-                            que se a de fa<lb break="no"/>zer qua<ex>n</ex>do
+                                chapitre 43 à 46 dans la numérotation, mais il
+                                s'agit bien du chapitre 45. Seul un chapitre est
+                                omis: le chapitre 44 latin (<quote><foreign>De
+                                        telis tormentisque
+                                    muralibus</foreign></quote>). Concernant le
+                                présent chapitre, son titre ne correspond pas au
+                                contenu du texte. Le titre correct du texte
+                                latin est: <foreign><quote>Quemadmodum navali
+                                        bello collocentur
+                                    insidiae</quote></foreign></note> fabla que
+                            se a de fa<lb break="no"/>zer qua<ex>n</ex>do
                                 magnjfiesta<lb break="no"/>mente se comete la
                             pelea <lb break="yes"/>en la mar.</hi>
                     </head>
@@ -16716,7 +16734,7 @@
                         </p>
                     </div>
                 </div>
-                <div type="chapitre" n="45">
+                <div type="chapitre" n="46">
                     <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo
                             .xlvj. <lb break="yes"/>fabla que se a de fazer
                                 qua<ex>n</ex><lb break="no"/>do los naujos
@@ -16796,21 +16814,24 @@
         </body>
         <back>
             <div type="epilogue">
-                <p><lb break="yes"/><hi rend="initiale" n="2">E</hi>ste libro
-                        rroma<ex>n</ex>ço <lb break="yes"/>frey Alfonso maes<lb
-                        break="no"/>tro en theologia de las hor<lb break="no"
-                    />denes de los pedricadores <lb break="yes"/>&amp; lo gloso
-                    &amp; declaro en al<lb break="no"/>gunos lugares segund
-                        pa<lb break="no"/>resçe por el por ma<ex>n</ex>dado <lb
-                        break="yes"/>del muy alto p<ex>ri</ex>nçipe &amp; se<lb
-                        break="no"/>n<ex>n</ex>or rrey de Castilla &amp; de
-                        Le<lb break="no"/>on don Enrrique por la <lb break="yes"
-                    />graçia de Dios a q<ex>u</ex><hi rend="superscript"
-                    >i</hi>en Dios <lb break="yes"/>dexe rreynar &amp; beujr por
-                        <lb break="yes"/>muchos tie<ex>n</ex>pos. Amen &amp;<lb
-                        break="no"/>c<ex>etera</ex>
-                    <lb break="yes"/>Deo gr<ex>açi</ex>as. <cb
-                        type="double-column"/></p>
+                <div type="section">
+                    <p><lb break="yes"/><hi rend="initiale" n="2">E</hi>ste
+                        libro rroma<ex>n</ex>ço <lb break="yes"/>frey Alfonso
+                            maes<lb break="no"/>tro en theologia de las hor<lb
+                            break="no"/>denes de los pedricadores <lb
+                            break="yes"/>&amp; lo gloso &amp; declaro en al<lb
+                            break="no"/>gunos lugares segund pa<lb break="no"
+                        />resçe por el por ma<ex>n</ex>dado <lb break="yes"/>del
+                        muy alto p<ex>ri</ex>nçipe &amp; se<lb break="no"
+                            />n<ex>n</ex>or rrey de Castilla &amp; de Le<lb
+                            break="no"/>on don Enrrique por la <lb break="yes"
+                        />graçia de Dios a q<ex>u</ex><hi rend="superscript"
+                            >i</hi>en Dios <lb break="yes"/>dexe rreynar &amp;
+                        beujr por <lb break="yes"/>muchos tie<ex>n</ex>pos. Amen
+                            &amp;<lb break="no"/>c<ex>etera</ex>
+                        <lb break="yes"/>Deo gr<ex>açi</ex>as. <cb
+                            type="double-column"/></p>
+                </div>
             </div>
         </back>
     </text>
