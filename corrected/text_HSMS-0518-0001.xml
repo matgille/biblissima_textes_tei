@@ -1,0 +1,2555 @@
+<?xml-model href="/home/mgl/Bureau/Travail/projets/Biblissima-Text/Transform/schemata/out/ODD_gold.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Instrucción y regimiento de guerra</title>
+                <respStmt>
+                    <resp>Transcrit par</resp>
+                    <name><surname>Fradejas Rueda</surname><forename>José
+                            Manuel</forename></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Textes édités et rassemblés par </resp>
+                    <name>
+                        <forename>Francisco</forename>
+                        <surname>Gago Jover</surname>
+                    </name>
+                    <name>
+                        <forename>Javier</forename>
+                        <surname>Pueyo Mena</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Modélisation, encodage et structuration XML-TEI
+                        par</resp>
+                    <name xml:id="mgl">
+                        <forename>Matthias</forename>
+                        <surname>Gille Levenson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabilité du projet Biblissima-Textes: </resp>
+                    <name>
+                        <forename>Thibault</forename>
+                        <surname>Clérice</surname>
+                    </name>
+                    <name>
+                        <forename>Olivier</forename>
+                        <surname>Brisville-Fertin</surname>
+                    </name>
+                    <name>
+                        <forename>Ariane</forename>
+                        <surname>Pinche</surname>
+                    </name>
+                    <name>
+                        <forename>Marianne</forename>
+                        <surname>Reboul</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Publié dans le cadre de Biblissima-textes à partir de
+                    matériaux publiés auparavant.</publisher>
+                <availability status="restricted">
+                    <licence
+                        target="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Creative Commons Attribution Non Commercial Share Alike
+                        4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!--La source premi&#232;re: le projet OSTA-->
+                <bibl xml:id="IRG" type="source-transcription">
+                    <title>TEXT.IRG.txt</title>
+                    <editor>
+                        <forename>Francisco</forename>
+                        <surname>Gago Jover</surname>
+                    </editor>
+                    <editor>
+                        <forename>Javier</forename>
+                        <surname>Pueyo Mena</surname>
+                    </editor>
+                    <publisher>Hispanic Seminary of Medieval Studies</publisher>
+                    <date when="2026-03-07"/>
+                    <availability status="restricted">
+                        <licence
+                            target="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                            >Creative Commons Attribution Non Commercial Share
+                            Alike 4.0 International</licence>
+                    </availability>
+                    <note>Projet OSTA (Old Spanish Textual Archive). Source des
+                        données: <ptr
+                            target="https://raw.githubusercontent.com/hispanicseminary/OSTA/refs/heads/main/transcriptions/TEXT.IRG.txt"
+                        />, v 2.0.</note>
+                </bibl>
+                <!--La source premi&#232;re: le projet OSTA-->
+
+                <!--L'oeuvre abstraite = work-->
+                <!--On va cat&#233;goriser la classe frbr et la forme<-->
+                <bibl ana="#frbr.work" type="work">
+                    <title>Instrucción y regimiento de guerra</title>
+                    <author><surname>Montes</surname><forename>Diego</forename></author><date
+                        notAfter-iso="1537-10-31">1537-10-31 ad quem</date>
+                    <idno type="HSMS-WORK">HSMS-0518-0001</idno>
+                    <idno type="beta-texid"/>
+                    <idno type="factgrid-id"/>
+                    <idno type="biblissima-id"/>
+                    <idno type="BNF-id"/>
+                    <idno type="BNE-id"/>
+                    <idno type="VIAF-id"/>
+                </bibl>
+                <!--L'oeuvre abstraite-->
+
+                <!--&#201;dition (uniquement pour les sources imprim&#233;es) = manifestation-->
+                <biblStruct type="edition" ana="#frbr.manifestation">
+                    <monogr>
+                        <!--ISTC pour les incunables. Voir ce qu'on fait pour les imprim&#233;s plus tardifs-->
+                        <idno type="ISTC"/>
+                        <title/>
+                        <imprint>
+                            <pubPlace>Zaragoza</pubPlace>
+                            <publisher>Jorge Coci</publisher>
+                            <date when="1537-10-31">1537-10-31</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <!--&#201;dition uniquement pour les sources imprim&#233;es-->
+
+
+                <!--Exemplaire / manuscrit = frbr.item (imprim&#233;) ou frbr.manifestation_singleton (manuscrit). Attribut ajout&#233; automatiquement.-->
+                <msDesc ana="#frbr.item">
+                    <msIdentifier
+                        facs="https://bdh.bne.es/bnesearch/detalle/bdh0000286011">
+                        <settlement>Madrid</settlement>
+                        <!--Un identifiant de biblioth&#232;que id&#233;alement-->
+                        <repository>Biblioteca Nacional de España</repository>
+                        <!--Un identifiant de biblioth&#232;que id&#233;alement-->
+                        <idno type="cote">R/1350</idno>
+                        <idno type="HSMS-ID">HSMS-0518</idno>
+                        <idno type="factgrid-id"/>
+                        <idno type="biblissima-id"/>
+                        <!--Manuscrit-->
+                        <idno type="beta-manid"/>
+                        <!--Manuscrit-->
+                        <!--Imprim&#233;-->
+                        <idno type="beta-copid"/>
+                        <!--Imprim&#233;-->
+                        <msName/>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem xml:id="HSMS-0518-0001">
+                            <locus>1r-19r</locus>
+                            <idno type="beta-cnum"
+                                ><!--identifiant de contr&#244;le
+                                philobiblon du t&#233;moin (witness):
+                                "Una copia espec&#237;fica de esta obra (texid) dentro de una fuente primaria (manid)"--></idno>
+                            <idno type="factgrid-cnum"
+                                ><!--identifiant de contr&#244;le
+                                philobiblon du t&#233;moin (witness), identifiant factgrid--></idno>
+                            <incipit/>
+                            <explicit/>
+                            <colophon/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <!--Exemplaire-->
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="osp-x-med">castellano</language>
+            </langUsage>
+            <textClass>
+                <catRef target="#prose #didactica #cientifica #arte militar"/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Ce document est le fruit d'une conversion automatisée de la
+                    transcription originale, qui utilise des normes d'encodages
+                    propres au projet OSTA (Old Spanish Textual Archive).</p>
+                <p>Transcription de type graphématique: réduction des
+                    allographes au graphème. Tous les graphèmes sont conservés
+                    excepté pour les abréviations qui sont développées sans
+                    conservation de la graphie originale, en indiquant cependant
+                    qu'il s'agit d'une expansion. Les transcriptions ne sont ni
+                    ponctuées, ni accentuées selon les normes actuelles. La
+                    césure à la ligne est indiquée.</p>
+                <p>La description des phénomènes matériels et/ou non textuels
+                    est conservée: sauts de ligne, changements de colonne,
+                    espaces en blanc, miniatures, illustrations, diagrammes,
+                    etc.</p>
+                <p>Le texte est structuré en divisions, en fonction de son genre
+                    (chapitres, ici). La division en paragraphes n'est pas
+                    réalisée.</p>
+                <p>Pour plus d'informations, voir l'ODD.</p>
+            </editorialDecl>
+            <refsDecl n="physical">
+                <!--Doit &#234;tre adapt&#233; &#224; chaque structure de document, &#224; reprendre-->
+                <citeStructure unit="page" match="//body//pb" use="@n">
+                    <citeStructure unit="column" match=".//cb" use="@n"
+                        delim=".">
+                        <citeStructure unit="line" match=".//lb" use="@n"
+                            delim="."/>
+                    </citeStructure>
+                </citeStructure>
+                <refsDecl n="default">
+                    <citeStructure match="/TEI/text/body/div" use="@n"
+                        unit="chapter">
+                        <citeStructure match=".//milestone[@unit='section']"
+                            use="@n" unit="section" delim="."/>
+                    </citeStructure>
+                </refsDecl>
+                <!--Doit &#234;tre adapt&#233; &#224; chaque structure de document-->
+            </refsDecl>
+            <classDecl>
+                <taxonomy>
+                    <bibl>
+                        <title>Catégories de segments annotés</title>
+                    </bibl>
+                    <category xml:id="glose">
+                        <catDesc>Segment glosé</catDesc>
+                    </category>
+                    <category xml:id="addendum">
+                        <catDesc>Ajout intellectuel</catDesc>
+                    </category>
+                </taxonomy>
+                <!--Merci &#224; Morgane PICA pour son aide sur l'adaptation &#224; la mod&#233;lisation FRBR-->
+                <taxonomy xml:id="frbr"
+                    sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/">
+                    <bibl>
+                        <title>Catégories FRBRoo</title>
+                    </bibl>
+                    <category xml:id="frbr.work"
+                        sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/F1">
+                        <catDesc>Work</catDesc>
+                    </category>
+                    <category xml:id="frbr.expression"
+                        sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/F2">
+                        <catDesc>Expression</catDesc>
+                    </category>
+                    <category xml:id="frbr.manifestation"
+                        sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/F3">
+                        <catDesc>Manifestation</catDesc>
+                    </category>
+                    <category xml:id="frbr.manifestation_singleton"
+                        sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/F4">
+                        <catDesc>Manifestation Singleton</catDesc>
+                    </category>
+                    <category xml:id="frbr.item"
+                        sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/F5">
+                        <catDesc>Item</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="categorisation_formelle">
+                    <bibl>
+                        <title>Catégorisation formelle</title>
+                    </bibl>
+                    <category xml:id="prose">
+                        <catDesc xml:lang="es">prosa</catDesc>
+                        <catDesc xml:lang="fr">prose</catDesc>
+                    </category>
+                    <category xml:id="vers">
+                        <catDesc xml:lang="es">verso</catDesc>
+                        <catDesc xml:lang="fr">vers</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="matiere_textuelle">
+                    <bibl>
+                        <title>Matière textuelle</title>
+                    </bibl>
+                    <category xml:id="didactica">
+                        <catDesc xml:lang="es">Didáctica</catDesc>
+                        <catDesc xml:lang="fr">Didactique</catDesc>
+                    </category>
+                    <category xml:id="juridica">
+                        <catDesc xml:lang="es">Jurídica</catDesc>
+                        <catDesc xml:lang="fr">Juridique</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="sommaire">
+                <p><pb n="1r"/>
+                    <cb type="single-column"/><lb break="yes"/><figure
+                        type="illumination">
+                        <ab><figure type="miniature"/></ab>
+                    </figure>
+                    <lb break="yes"/>
+                    <g ref="#calderon1"/> Esta obra llamada Jnstrucion y
+                    regimiento <lb break="yes"/>de guerra hizo y ordeno Diego
+                    montes vezino dela villa dela Guardia <lb break="yes"
+                    />soldado viejo de su Magestad. Dirigida al Jllustre y muy
+                    magnifico <lb break="yes"/>señor don Beltran dela Cueua
+                    Duque de Alburquerque. Enla qual <lb break="yes"/>trata
+                    sutiles auisos y cosas secretas del exercicio militar dela
+                    guerra. <pb n="1v"/>
+                    <cb type="single-column"/><lb break="yes"/><hi
+                        rend="rubrique"><g ref="#calderon1"/> La tabla delos
+                        capitulos que se contienen en<lb break="no"/>este libro:
+                        y de que tratan.</hi>
+                    <lb break="yes"/><g ref="#calderon1"/> Capitulo j.
+                        q<ex>ue</ex> trata como se ha de ordenar la guerra justa
+                        fol<ex>io</ex> iij. <lb break="yes"/><g ref="#calderon1"
+                    /> Capitulo .ij. como se deue hazer la gente: y como se han
+                    de regir co<ex>n</ex>
+                    <lb break="yes"/>la gente despues de hecha. fol<ex>io</ex>
+                    iiij. <lb break="yes"/><g ref="#calderon1"/> Capitulo .iij.
+                    dela orden que se ha de tener enla vitualla. f<ex>oli</ex>o
+                    .v. <lb break="yes"/><g ref="#calderon1"/> Capitulo .iiij
+                    dela orden que se ha de tener enel lleuar dela artille<lb
+                        break="no"/>ria. f<ex>oli</ex>o. vj. <lb break="yes"/><g
+                        ref="#calderon1"/> Capitulo .v. como se ha de gouernar
+                    vn exercito: y que personas <lb break="yes"/>son obligadas a
+                    le gouernar. fol<ex>io</ex> .vij. <lb break="yes"/><g
+                        ref="#calderon1"/> Capitulo .vj. que trata la orden que
+                    ha de lleuar el exercito quan<lb break="no"/>do marchare: y
+                    la orden que ha de lleuar quando se retirare. fol<ex>io</ex>
+                    .x. <lb break="yes"/><g ref="#calderon1"/> Capitulo .vij. en
+                    que se declara: si sera mejor para dar vna batalla <lb
+                        break="yes"/>lleuar poca gente o mucha. fol<ex>io</ex>
+                    .xij. <lb break="yes"/><g ref="#calderon1"/> Capitulo .viij.
+                    como el general deue ordenar la batalla: para ha<lb
+                        break="no"/>uer vitoria de sus enemigos. fol<ex>io</ex>.
+                    xiij. <lb break="yes"/><g ref="#calderon1"/> Capitulo
+                    .viiij. como se han de guardar las Ciudades: Uillas y <lb
+                        break="yes"/>Castillos que el señor del exercito ganare.
+                        fol<ex>io</ex> .xvij.</p>
+            </div>
+            <div type="prologue">
+                <p>
+                    <pb n="2r"/>
+                    <fw rend="titre-courant">Prologo. \ II</fw>
+                    <cb type="single-column"/><lb break="yes"/><hi
+                        rend="rubrique">Jllustrissimo señor.</hi>
+                    <lb break="yes"/><hi rend="initiale" n="6">L</hi>Os antiguos
+                    escriptores y sapientissimos Philoso<lb break="no"/>phos
+                    discurriendo por el oriente: y por el mar adriati<lb
+                        break="no"/>co: fasta el mar terrento / y mediterraneo:
+                    que confi<lb break="no"/>na conel estrecho: hasta el mar
+                    Occeano: que es la <lb break="yes"/>madre de todas las
+                    aguas: por saber los secretos del <lb break="yes"/>vniuerso
+                    visitaron las prouincias / y en algunos lu<lb break="no"
+                    />gares principales hallaron algunas antiguallas debuxadas
+                    de vul<lb break="no"/>to: y otras de pintura: enlas quales
+                    manifiestamente parescia / y se <lb break="yes"/>mostrauan
+                    los grandes hechos que los inuencibles Caualleros de <lb
+                        break="yes"/>las dichas prouincias naturales hauian
+                    hecho por las armas. Y <lb break="yes"/>los naturales porque
+                    de sus notables hechos quedasse memoria: <lb break="yes"
+                    />hazian entretallar en piedra marmol sus batallas y grandes
+                        he<lb break="no"/>chos de armas. Y los que no los
+                        podia<ex>n</ex> hazer de talla: pintauan sus <lb
+                        break="yes"/>grandes hystorias y coronicas de sus
+                    gloriosas vitorias: porque de <lb break="yes"/>sus prohezas
+                    quedasse memoria. Y como los Philosophos vieron <lb
+                        break="yes"/>sus antiguas hystorias debuxadas en piedras
+                    y en pinturas: pare<lb break="no"/>scia les que aquello no
+                    podia permanescer tanto tiempo / que por ti<lb break="no"
+                    />empo no se perdiesse la entretalladura &amp; pintura: y
+                    perdida: se perde<lb break="no"/>ria la memoria delas
+                    hazañas que aquellos caualleros hauian he<lb break="no"
+                    />cho. Y porq<ex>ue</ex> viniessen las tales coronicas a
+                    noticia delos aduenide<lb break="no"/>ros: acordaron de
+                    trasladar las dichas coronicas: y escreuir las por <lb
+                        break="yes"/>letra. Assi que los dichos Philosophos
+                    escriuieron &amp; hizieron coro<lb break="no"/>nicas de sus
+                    grandes hechos / las quales hoy veemos escriptas. y <lb
+                        break="yes"/>esto hyzieron ellos por tres cosas. Lo
+                    primero porque quedasse me<lb break="no"/>moria delas
+                    hazañas de aquellos caualleros. Lo segundo porque <lb
+                        break="yes"/>fuesse notorio alos otros philosophos /
+                    como ellos hauian descubi<lb break="no"/>erto aquellos
+                    secretos / que estauan tan occultos. Lo tercero: por<lb
+                        break="no"/>que los que despues dellos viniessen: que
+                    supiessen que ellos haui<lb break="no"/>an sido philosophos
+                    / que hauian discurrido la mayor parte del mu<ex>n</ex><lb
+                        break="no"/>do / por alcançar a saber las cosas occultas
+                    / y que ellos hauian escri<lb break="no"/>pto lo que otros
+                    no pudieron alcançar. Y lo otro fue: que los caua<lb
+                        break="no"/>lleros que despues dellos viniessen: leyendo
+                    las dichas coronicas / <lb break="yes"/><fw type="signature"
+                        >A ij</fw>
+                    <pb n="2v"/>
+                    <fw rend="titre-courant">Prologo.</fw>
+                    <cb type="single-column"/><lb break="yes"/>verian las
+                    hazañas delos caualleros passados y leyendo las les to<lb
+                        break="no"/>maria desseo de hazer otros semejantes:
+                    porque dellos quedasse eter<lb break="no"/>nal memoria: y
+                    fuessen puestos en coronica sus grandes hechos. E <lb
+                        break="yes"/>porque no viniessen en diminucion: los
+                    dirigian alos principes y se<lb break="no"/>ñores delos
+                    exercitos: porque con mas honrra fuessen mantenidas <lb
+                        break="yes"/>y guardadas / y conseruadas: &amp; porque
+                    de sus industrias delos passa<lb break="no"/>dos tomassen
+                    alguna dotrina para el exercicio militar. Porende <lb
+                        break="yes"/>muy illustrissimo señor: &amp; acordando me
+                    delos grandes hechos que <lb break="yes"/>sus antecessores
+                    enlas armas hizieron: y el esclarescido y alto lina<lb
+                        break="no"/>ge: donde vuestra illustrissima señoria
+                    procede: como a lugartenien<lb break="no"/>te general del
+                    inuictissimo Cesar nuestro Monarca: y como a
+                        inue<ex>n</ex><lb break="no"/>cible capita<ex>n</ex> de
+                    nuestra España: dirigi la presente obra llamada Jn<lb
+                        break="no"/>strucion y regimiento de guerra: enla qual
+                    si yo alguna cosa <choice>
+                        <corr>e</corr>
+                        <sic>e</sic>
+                    </choice>screui / <lb break="yes"/>superflua / o faltosa: me
+                    someto ala correccion de vuestra illustrissi<lb break="no"
+                    />ma señoria: para que como maestro de guerra me corrija: y
+                    como se<lb break="no"/>ñor me reprehenda. Cuya vida
+                    illustrissima dios todo poderoso en<lb break="no"/>salce / y
+                    estado accresciente.</p>
+            </div>
+        </front>
+        <body>
+            <p><pb n="3r"/>
+                <fw rend="titre-courant">Libro llamado Jnstrucio<ex>n</ex> y<choice>
+                        <corr> </corr>
+                        <sic/>
+                    </choice>regimie<ex>n</ex>to de guerra. \ III</fw>
+                <cb type="single-column"/><lb break="yes"/></p>
+            <div type="chapitre" n="1">
+                <head><hi rend="rubrique">Capitulo. primero. del libro llamado
+                            Jn<lb break="no"/>strucion y regimiento de guerra:
+                        que nota como se ha de <lb break="yes"/>ordenar la
+                        guerra justa.</hi>
+                </head>
+                <p><lb break="yes"/><hi rend="initiale" n="5">J</hi>Llustrissimo
+                    señor: cosa muy necessaria es alos caualle<lb break="no"
+                    />ros y gra<ex>n</ex>des señores / leer las cosas de famosos
+                    hechos <lb break="yes"/>del arte militar / que los principes
+                    y sus capitanes ha<lb break="no"/>zen enlas guerras y
+                    batallas que enprenden. E porque <lb break="yes"/>despues de
+                    diestros enla guerra no quieren dar la or<lb break="no"/>den
+                    que tienen enel vencer / ni pelear porque aquella gloria
+                    quieren <lb break="yes"/>guardar para si. E por esta razon
+                    es cosa necessaria / que los caualle<lb break="no"/>ros que
+                    liguen la guerra / procuren con toda diligencia dela saber
+                        <lb break="yes"/>exercitar / y el estilo q<ex>ue</ex> se
+                    deue tener enel principiar dela guerra: y los <lb
+                        break="yes"/>aparejos q<ex>ue</ex> son menester para la
+                    hazer: y avn q<ex>ue</ex> algunas cosas delas <lb
+                        break="yes"/>que aqui escriuo son manuales: q<ex>ue</ex>
+                        comu<ex>n</ex>mente los mas las alcança<ex>n</ex>: <lb
+                        break="yes"/>hay otras q<ex>ue</ex> no se pueden
+                    alcançar: sino es el q<ex>ue</ex> ha praticado la gue<lb
+                        break="no"/>rra. Assi q<ex>ue</ex> procediendo en mi
+                    escriptura digo / q<ex>ue</ex> despues q<ex>ue</ex> la
+                    guerra <lb break="yes"/>fuere declarada por justa : el señor
+                    del exercito y los de su consejo de <lb break="yes"/>guerra
+                    ante todas las cosas deue<ex>n</ex> saber la ge<ex>n</ex>te
+                        q<ex>ue</ex> sera menester para <lb break="yes"/>hazer
+                    la guerrar assi de pie como de cauallo: para hauer vitoria
+                    enla <lb break="yes"/>empresa y conquista q<ex>ue</ex>
+                        quisiere<ex>n</ex> hazer. E como lo sepan deue su
+                        prin<lb break="no"/>cipe proueer dinero para la pagar /
+                        porq<ex>ue</ex> la gente bien pagada haze <lb
+                        break="yes"/>la guerra: y esto q<ex>ue</ex> no falte en
+                    todo el tiempo q<ex>ue</ex> la guerra durare: con<lb
+                        break="no"/>formandose primero como la guerra seha de
+                    hazer: y porq<ex>ue</ex> parte: &amp; si <lb break="yes"/>la
+                    prouincia por donde han de entrar a hazer la guerra es rica
+                    o po<lb break="no"/>bre: porq<ex>ue</ex> si la prouincia
+                        do<ex>n</ex>de la guerra se houiere de hazer es pobre /
+                        <lb break="yes"/>mas guerra les haria la hambre
+                        q<ex>ue</ex> los enemigos: por la mucha falta <lb
+                        break="yes"/>delos bastimentos q<ex>ue</ex> no se
+                        podria<ex>n</ex> hauer: a cuya causa el exercito les <lb
+                        break="yes"/>seria forçado de retirar se Porende el
+                    principe q<ex>ue</ex> ha de exercitar gue<lb break="no"/>rra
+                        co<ex>n</ex>uiene que lo haga a su enemigo por la parte
+                    donde la prouin<lb break="no"/>cia fuere mas abundante de
+                    vituallas: porq<ex>ue</ex> el exercito sea abastado <lb
+                        break="yes"/>de bastimentos: y para esto el general del
+                    exercito ha de ser persona <lb break="yes"/>pratica enla
+                    guerra: alomenos q<ex>ue</ex> tenga alguna esperiencia
+                    enella: y <lb break="yes"/>sea gran señor y de gran linage:
+                    y delos principales del reyno: porque <lb break="yes"/>a
+                    este tal los caualleros y soldados del exercito ternan
+                        acatamie<ex>n</ex>to <lb break="yes"/><fw
+                        type="signature">A iij</fw>
+                    <pb n="3v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>como a su capitan
+                    general: y lo obedesceran como ala persona de su <lb
+                        break="yes"/>Rey: mas el tenga tal cuydado enla
+                        gouernacio<ex>n</ex> del exercito que no <lb break="yes"
+                    />les haga falta la presencia de su rey natural. Y enlas
+                    affrentas / y re<lb break="no"/>cuentros q<ex>ue</ex> se
+                    halle de contino presente con valeroso animo: porque <lb
+                        break="yes"/>sus soldados no conozcan ni sientan enel
+                    flaqueza de animo: sino to<lb break="no"/>do esfuerço y
+                    osadia. Y este tal siendo general lleuando las cosas por <lb
+                        break="yes"/>buena orden y sano consejo sera bien quisto
+                    dela caualleria y solda<lb break="no"/>dos del exercito. E
+                    despues q<ex>ue</ex> el principe houiere criado el general
+                        q<ex>ue</ex>
+                    <lb break="yes"/>ha de yr en su lugar enel exercito haga sus
+                    Capitanes de gente dar<lb break="no"/>mas: cauallos ligeros:
+                    y de infanteria. Mas conuiene y es cosa ne<lb break="no"
+                    />cessaria para hauer vitoria q<ex>ue</ex> los capitanes y
+                    alferez dela infanteria <lb break="yes"/>que el principe
+                    hiziere &amp; criare q<ex>ue</ex> sean hombres q<ex>ue</ex>
+                        haya<ex>n</ex> seguido la gue<lb break="no"/>rra cinco
+                    años / o mas tiempo. Y estos tales soldados platicos son <lb
+                        break="yes"/>despues muy buenos capitanes. Y estos tales
+                    vayan a hazer la gen<lb break="no"/>te: porque mejor orden
+                    daran los platicos soldados viejos enla gue<lb break="no"
+                    />rra siendo capitanes: que no los que nunca se
+                        hallaro<ex>n</ex> enella porque <lb break="yes"/>el
+                    soldado q<ex>ue</ex> no se ha hallado enla guerra: ni sabe
+                    por donde entrar: <lb break="yes"/>ni por donde salir ni
+                    ordenar la gente como seria menester. De mane<lb break="no"
+                    />ra que siendo los capitanes nueuos / y no siendo
+                    esperimentados en <lb break="yes"/>la guerra: ellos mismos
+                    no se sabran ordenar: y no sabiendo se orde<lb break="no"
+                    />nar a si: claro esta q<ex>ue</ex> no sabra<ex>n</ex>
+                    ordenar alos otros: por manera q<ex>ue</ex> para <lb
+                        break="yes"/>hazer mejor la guerra: es menester que los
+                    capitanes que han de yr <lb break="yes"/>enel exercito sean
+                    soldados viejos: criados enla guerra. E po<ex>n</ex>go por
+                        <lb break="yes"/>caso que si para hazer la gente no se
+                        hallare<ex>n</ex> tantos soldados viejos <lb break="yes"
+                    />como seria menester: den los officios de capitanes y
+                    Alferez a hom<lb break="no"/>bres nobles que sean hijos
+                    dalgo: los q<ex>ue</ex> conosciere<ex>n</ex> que son mas
+                        abi<lb break="no"/>les para ello: q<ex>ue</ex> de su
+                        condicio<ex>n</ex> muestren ser animosos: y a estos
+                    tales <lb break="yes"/>dexe les el cargo de capitanes:
+                        porq<ex>ue</ex> destos tales se solian seruir los <lb
+                        break="yes"/>principes enlos tiempos passados enlas
+                    guerras que tenia<ex>n</ex> contra <lb break="yes"
+                    />infieles: y conellos hizieron sus conquistas. Y enlos
+                    hijos dalgo ha<lb break="no"/>llaron mas lealtad que en
+                    otros ningunos: y ellos en seruicio de di<lb break="no"/>os
+                    y de sus principes hizieron cosas hazañosas como hoy lo
+                    vemos <lb break="yes"/>por las coronicas de España: y es
+                    notorio a todo hombre. E los Re<lb break="no"/>yes les
+                    dieron muchas exe<ex>m</ex>ptiones &amp; libertades por sus
+                    buenos ser<lb break="no"/>uicios. E por esta razon pues dios
+                    los crio con tanta lealtad para el <lb break="yes"/><choice>
+                        <corr>s</corr>
+                        <sic>s</sic>
+                    </choice>eruicio suyo y de sus principes: es razon que a
+                    ellos se den los seme-jantes <pb n="4r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ IIII</fw>
+                    <cb type="single-column"/><lb break="yes"/>cargos por la su
+                    mucha bo<ex>n</ex>dad y estos tales siguie<ex>n</ex>do la
+                        gue<lb break="no"/>rra: avn que al principio no fuessen
+                    muy platicos: viendo la orden q<ex>ue</ex>
+                    <lb break="yes"/>los otros capitanes platicos daran al
+                    tiempo del pelear: y enlas o<lb break="no"/>tras cosas
+                    necessarias al entrar de vn fuerte / o ciudad / o castillo /
+                    en <lb break="yes"/>poco tie<ex>m</ex>po se harian platicos:
+                    y haria<ex>n</ex> la guerra como ho<ex>m</ex>bres plati<lb
+                        break="no"/>cos: co<ex>n</ex> desseo de seruir a su rey:
+                        porq<ex>ue</ex> de tales personas no es de
+                    pe<ex>n</ex>sar <lb break="yes"/>q<ex>ue</ex>
+                        haria<ex>n</ex> otra cosa: hazie<ex>n</ex>do se dellos
+                    la tal co<ex>n</ex>fiança por su rey natural. <lb
+                        break="yes"/></p>
+            </div>
+            <div type="chapitre" n="2">
+                <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo
+                            segu<ex>n</ex>do como se deue hazer la
+                            ge<ex>n</ex><lb break="no"/>te: y como se han de
+                        regir con la gente despues de hecha.</hi>
+                </head>
+                <p><lb break="yes"/><hi rend="initiale" n="5">D</hi>Espues
+                        q<ex>ue</ex> los capitanes tuuiere<ex>n</ex> sus
+                    condutas para ha<lb break="no"/>zer cada vno su gente. Cada
+                    yno dellos la deue yr a ha<lb break="no"/>zer ala prouincia
+                        q<ex>ue</ex> le sera señalada por su Rey: como lo <lb
+                        break="yes"/>vera por la patente q<ex>ue</ex> le dieren.
+                    y en aq<ex>ue</ex>llas prouincias q<ex>ue</ex>
+                    <lb break="yes"/>le seran señaladas: cada capitan haga su
+                    poder a toque <lb break="yes"/>de atambor: desplegando sus
+                    banderas: las quales esten puestas en <lb break="yes"/>el
+                    lugar / o ciudad mas principal dela prouincia que le fuere
+                        señala<lb break="no"/>da: dela qual bandera terna cargo
+                    su alferez que el capitan para ha<lb break="no"/>zer la
+                    gente houiere criado: conel qual alferez / o
+                        capita<ex>n</ex> estara su Ca<ex>n</ex><lb break="no"
+                    />ciller / o Furer / o vn escriuano / que assiente todos sus
+                    soldados que <lb break="yes"/>se vinieren a assentar para
+                    seguir la bandera del dicho capita<ex>n</ex> / en ser<lb
+                        break="no"/>uicio de su rey. E dela gente q<ex>ue</ex>
+                    viniere a seruir la bandera del dicho <lb break="yes"
+                    />capitan tome dellos los mas platicos y mas
+                        esperime<ex>n</ex>tados: y haga <lb break="yes"/>quatro
+                    Caporales q<ex>ue</ex> comunme<ex>n</ex>te llaman cabos de
+                    esquadra: y estos <lb break="yes"/>vayan por toda la
+                    prouincia a hazer la gente: y la gente q<ex>ue</ex>
+                        hiziere<ex>n</ex> sea <lb break="yes"/>la mas vsada al
+                    exercicio delas armas que se pudiere hauer: y sean <lb
+                        break="yes"/>hombres de buena casta / sueltos / ligeros
+                    / abiles en sus personas / de <lb break="yes"/>buena
+                    conuersacion / y criança: y los que son desseosos del
+                    exercicio <lb break="yes"/>militar q<ex>ue</ex> son hombres
+                    de buen genero: desseosos de ganar honrra: <lb break="yes"
+                    />estos son despues muy honrrados soldados / de noble
+                        co<ex>n</ex>uersacion: <lb break="yes"/>y suelen salir
+                    destos algunos muy señalados enlas armas de valien<lb
+                        break="no"/>te animo: &amp; ingeniosos. Estos tales
+                        anda<ex>n</ex> siempre bien adereçados / <lb break="yes"
+                    />y galanes: trahen muy luzidas armas: huelga<ex>n</ex> se
+                    de hazer cosas muy <lb break="yes"/>señaladas:
+                        porq<ex>ue</ex> sean conoscidos. Estos tales son
+                    llamados enel ca<ex>m</ex><lb break="no"/>po de Ytalia los
+                    Guzmanes entre los Españoles. Dan se a toda vir<lb
+                        break="no"/>tud: vsan de toda buena cria<ex>n</ex>ça:
+                    todos los capitanes del exercito ha-zen <lb break="yes"/><fw
+                        type="signature">A iiij</fw>
+                    <pb n="4v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>dellos mucha
+                    cuenta: porque cada vno destos despues que son <lb
+                        break="yes"/>platicos enla guerra: meresce ser Capitan
+                    por su mucha virtud y va<lb break="no"/>lentia: &amp; por su
+                    saber. E qualquier soldado viejo q<ex>ue</ex> haya platicado
+                    la <lb break="yes"/>guerra siendo persona de cuenta: podria
+                    dar muy buena cuenta de<lb break="no"/>lo que le fuesse
+                    encomendado en seruicio de su Rey. Porende los ca<lb
+                        break="no"/>pitanes que fueren a hazer gente deuen
+                    procurar de hazer gente que <lb break="yes"/>sea de afrenta
+                    / y de verguença: porque no le hagan falta al tiempo
+                        d<ex>e</ex>l <lb break="yes"/>menester. Y enel hazer
+                    dela gente tenga el Capitan especial cuyda<lb break="no"/>do
+                    de dar los officios a personas que los merezcan tener: que
+                    sean <lb break="yes"/>solicitos &amp; diligentes: &amp;
+                    tales que de noche y de dia esten desuelados <lb break="yes"
+                    />en como podran mejor seruir a su Rey: dando orden enla
+                    gente dela <lb break="yes"/>compañia: y que esten proueydos
+                    delas armas que les fueren dadas <lb break="yes"/>enel
+                    tiempo dela reseña: porque no les falte al tiempo del
+                    pelear: &amp; <lb break="yes"/>que tengan toda la gente muy
+                    luzida y adereçada de picas y cosele<lb break="no"/>tes para
+                    el tiempo del pelear. El otro que los capitanes han de
+                        pro<lb break="no"/>ueer enlos lugares donde su gente
+                    tuuieren aloxada: no consientan <lb break="yes"/>que sus
+                    soldados enlas tierras de su Rey hagan ningunas fuerças /
+                        <lb break="yes"/>ni violencias: sino todo buen
+                    tratamiento: porque tambien son aq<ex>ue</ex><lb break="no"
+                    />llos vassallos de su Rey como ellos: y no seria razon que
+                    los vassa<lb break="no"/>llos con los vassallos se hiziessen
+                    mal vnos a otros: siendo todos de <lb break="yes"/>vn
+                    principe: y el Capitan q<ex>ue</ex> lo tal consintiesse:
+                    meresce de ser priuado <lb break="yes"/>del officio militar.
+                    Y el soldado que en tal caso hiziesse fuerça / o roba <lb
+                        break="yes"/>so color de ser soldado / meresce muerte:
+                    mas deue de ser oydo de su <lb break="yes"/>derecho ante su
+                    capitan / o ante el general / o maestres de campo del <lb
+                        break="yes"/>exercito: mas si el delito no fuere muy
+                    graue: el Capitan lo puede ca<lb break="no"/>stigar: no enla
+                    persona: sino en despedir lo de su compañia. Y esto <lb
+                        break="yes"/>por tres cosas: por ladron / o reboluedor /
+                    o ruffian: o por otra sin ra<lb break="no"/>zon que el
+                    capitan conosciere que meresce ser castigado. Mas si el <lb
+                        break="yes"/>delito es por amotinador: es mas graue: y
+                    este tal delito ha lo de ca<lb break="no"/>stigar el maestro
+                    del campo / o el señor del exercito. Y ha se de saber <lb
+                        break="yes"/>gobernar tambien el capitan con su gente:
+                    que enlos pueblos don<lb break="no"/>de fuere <choice>
+                        <corr>a</corr>
+                        <sic/>
+                    </choice>loxado no se quexen del ala partida: porque muchas
+                    vezes <lb break="yes"/>acontesce hazer los soldados tales
+                    desordenes: que los pueblos se <lb break="yes"/>van a quexar
+                    al Rey dellos: y paga el Capitan la culpa que sus sol<lb
+                        break="no"/>dados tienen: y esto da causa el capitan por
+                    no ponellos en justicia / <lb break="yes"/>y en razon.
+                    Porende los Capitanes deuen poner mucho recaudo <pb n="5r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ V</fw>
+                    <cb type="single-column"/><lb break="yes"/>en que su
+                        ge<ex>n</ex>te no hagan mal por las tierras que
+                        passare<ex>n</ex> de su rey: ni <lb break="yes"/>en otra
+                    parte algu<ex>n</ex>a: saluo si la tierra fuere de enemigos
+                    porque alos <lb break="yes"/>tales han se de tratar como
+                    enemigos: y enesto no se los puede poner <lb break="yes"
+                    />premio alos soldados: saluo si los enemigos viniessen en
+                    concierto <lb break="yes"/>de se rendir y dar la obediencia:
+                    en tal caso los soldados son obliga<lb break="no"/>dos de
+                    guardar todo lo que el general co<ex>n</ex>ellos capitulare
+                    en nombre <lb break="yes"/>del rey: porque si lo contrario
+                    hiziessen: quebrantarian la palabra da<lb break="no"/>da por
+                    el general: y serian dados por rebeldes. Lo otro que el
+                    capitan <lb break="yes"/>deue de proueer: es vn
+                        Sarge<ex>n</ex>to: y este officio es el segundo enla
+                        co<ex>m</ex><lb break="no"/>pañia despues del alferez:
+                    este tiene cargo de regir la gente: poner la <lb break="yes"
+                    />en orden: &amp; si alguno saliesse dela orden puede le
+                    castigar el sargento: <lb break="yes"/>mas fuera dela orden
+                    no le puede castigar: saluo si le mandasse yr ala <lb
+                        break="yes"/>orde<ex>n</ex> y no quisiesse: en tal caso
+                    podria le el sarge<ex>n</ex>to herir: &amp; si dela heri<lb
+                        break="no"/>da muriesse el tal soldado: no por esso
+                    meresce culpa el sargento: por<lb break="no"/>que haze el
+                    officio en seruicio de su rey: y en tal caso ha de ser
+                        obedesci<lb break="no"/>do como lo es el capitan enel
+                    suyo. E assi mesmo deuen proueer los <lb break="yes"
+                    />capitanes quando fueren de camino q<ex>ue</ex> las
+                    banderas vayan acompa<lb break="no"/>ñadas al entrar delas
+                    ciudades de toda la gente que el capitan ho<lb break="no"
+                    />uiere hecho: que esta pagada por su lista: &amp; vayan los
+                    arcabuzeros <lb break="yes"/>delante / y tras ellos los
+                    soldados de cosseletes: y enla tercera hile<lb break="no"
+                    />ra delos cosseletes vaya la bandera: y tras los cosseletes
+                    vayan los <lb break="yes"/>soldados de pica seca: y en
+                    reçaga vayan algunas hileras de cossele<lb break="no"/>tes:
+                    porque va la compañia muy mas honrrada y mas vistosa: y en
+                        <lb break="yes"/>mejor orden: si houiesse necessidad: y
+                    esto se haga porque no vayan <lb break="yes"/>las banderas
+                    desautorizadas: porque esta orden se tiene entre los <lb
+                        break="yes"/>soldados viejos de Ytalia. Una opinion se
+                    tiene entre la gente de <lb break="yes"/>guerra: que vnos
+                    dizen que vna compañia es mejor que sea de qui<lb break="no"
+                    />nientos hombres: que no de trezientos: otros affirman que
+                    es me<lb break="no"/>jor de trezientos. Los Tudescos de
+                    quien primero vino el origen <lb break="yes"/>de dar la
+                    orden enla infanteria / dieron a cada bandera quinientos <lb
+                        break="yes"/>hombres conforme ala vsança suya: y en
+                    tiempo antiguo assi lo vsa<lb break="no"/>ron ellos enlas
+                    guerras que tuuieron por la corona del Jmperio. <lb
+                        break="yes"/>Y esta costumbre ellos siempre la han
+                    obseruado y guardado: y al <lb break="yes"/>parescer de
+                    todos esta es la mejor orden: que cada capitan ten<lb
+                        break="no"/>ga quinientos hombres en su compañia debaxo
+                    de su bandera: <lb break="yes"/>porque quando vn Capitan
+                    quisiesse hazer alguna cosa que fuesse <lb break="yes"/><fw
+                        type="signature">v</fw>
+                    <pb n="5v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>señalada: mejor
+                    la hara co<ex>n</ex> quinientos hombres q<ex>ue</ex> no con
+                    trezientos. <lb break="yes"/>E pues este origen se guarda
+                    tanto entre los Tudescos: justo es que <lb break="yes"/>toda
+                    la infanteria guarde esta orden: porque es la mejor y
+                        co<ex>n</ex> menos <lb break="yes"/>gasto. La gente
+                    darmas y cauallos ligeros no lleua<ex>n</ex> esta
+                        orde<ex>n</ex>: porq<ex>ue</ex>
+                    <lb break="yes"/>cada capitan trahe solamente cinquenta de
+                    cauallo: a vn q<ex>ue</ex> algunos <lb break="yes"/>hay que
+                    trahen ciento. E los hombres darmas trahen dobladas ar<lb
+                        break="no"/>mas. y los cauallos doblado<hi
+                        rend="superscript">s</hi>: &amp; su officio es de mayor
+                    dignidad: que <lb break="yes"/>el cauallo ligero: porque son
+                    llamados entre los principes: gente de <lb break="yes"
+                    />guerra: qua<ex>n</ex>do estan en su campaña el cuerpo dela
+                    caualleria: y estos <lb break="yes"/>puestos en su
+                    esquadron: el dia dela batalla hazen cuerpo: porq<ex>ue</ex>
+                    esta <lb break="yes"/>entre ellos la flor dela caualleria: y
+                    la fortaleza de vna batalla esta <lb break="yes"/>enellos: y
+                    los cauallos ligeros tienen otra orden: q<ex>ue</ex> son mas
+                    prestos <lb break="yes"/>para combatir: porque andan ala
+                    ligera: y de contino andan a vista <lb break="yes"/>delos
+                    enemigos: y estos siruen mucho enla guerra: porque señorean
+                        <lb break="yes"/>la campaña: lo que no hazen los hombres
+                    darmas: que estos no sale<ex>n</ex>
+                    <lb break="yes"/>sino a cosa de hecho: &amp; si salen: salen
+                    sobre cosa pensada. <lb break="yes"/></p>
+            </div>
+            <div type="chapitre" n="3">
+                <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo .iij.
+                        dela orden que se ha de tener <lb break="yes"/>enla
+                        vitualla.</hi>
+                </head>
+                <p><lb break="yes"/><hi rend="initiale" n="5">P</hi>Ues que se
+                    ha dicho la forma que se ha de tener enel ha<lb break="no"
+                    />zer dela infanteria y gente de guerra: cosa conuenible <lb
+                        break="yes"/>sera hablar enlo dela vitualla: pues que es
+                    cosa que ta<ex>n</ex><lb break="no"/>to importa. Despues que
+                    el exercito sea junto: deue pro<lb break="no"/>ueer el
+                    general las vituallas que fueren menester para <lb
+                        break="yes"/>el mantenimiento del exercito: conforme ala
+                    gente que va enel: y con<lb break="no"/>forme ala prouincia
+                    donde la guerra se ha de hazer: porque si la pro<lb
+                        break="no"/>uincia es esteril y faltosa de bastimentos /
+                    donde la guerra se houie<lb break="no"/>re de principiar:
+                    sera necessario proueer mas bastimentos: y esto esta <lb
+                        break="yes"/>a discrecion del general: delo que el
+                    mandare de proueer Mas enel <lb break="yes"/>proueer dela
+                    vitualla: tenga el general tal instinto que en tiempo de <lb
+                        break="yes"/>la mayor necessidad no falte: porque seria
+                    al exercito gran falta: por<lb break="no"/>que muchas vezes
+                    se ha visto retirar se los exercitos touiendo vi<lb
+                        break="no"/>toria conoscida contra sus enemigos por
+                    falta dela vitualla. E mu<lb break="no"/>chas tierras y
+                    castillos fuertes se ha<ex>n</ex> rendido por falta de
+                    vituallas: <lb break="yes"/>mas que por combate delos
+                    enemigos: y enesto ha<ex>n</ex> de mirar mucho <lb
+                        break="yes"/>los generales: que las fuerças que ganaren
+                    que las hagan proueer <pb n="6r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ VI</fw>
+                    <cb type="single-column"/><lb break="yes"/>de vituallas:
+                    porque los enemigos no las tome<ex>n</ex> por hambre: porque
+                        <lb break="yes"/>mejor es ya que sucede la fortuna: que
+                    vna fuerça se pierda por bata<lb break="no"/>lla que no por
+                    hambre. E por esto es razon que los generales proue<lb
+                        break="no"/>an los castillos y fortalezas que ganaren de
+                    todos los materiales <lb break="yes"/>que son menester para
+                    la defensa d<ex>e</ex>las fortalezas y castillos: porque <lb
+                        break="yes"/>el dia dela batalla no les falte ninguna
+                    cosa: porque muchas vezes <lb break="yes"/>los Alcaydes
+                    defenderian sus castillos y fortalezas: si tuuiessen los <lb
+                        break="yes"/>aparejos para la defensa que hauian
+                    menester y avn que algunas ve<lb break="no"/>zes son
+                    reprehendidos por se rendir alos enemigos: no serian
+                        culpa<lb break="no"/>dos si supiessen el secreto / o la
+                    causa porque se rendieron. Aquel es de <lb break="yes"
+                    />culpar el alcayde que tiene bien proueyda su fortaleza: y
+                    se puede de<lb break="no"/>fender de sus enemigos: y se
+                    rende. y a este tal nunca le falta vn color <lb break="yes"
+                    />con que cierre las bocas a todos. E porende los generales
+                    / señores / <lb break="yes"/>que tienen castillos y
+                    fortalezas / y se temen de sus enemigos / no se <lb
+                        break="yes"/>deuen descuydar enlas visitar / y
+                    reconoscer. Y enlo que toca ala vi<lb break="no"/>tualla del
+                    exercito tenga cargo dello vna persona que sea de confian<lb
+                        break="no"/>ça y hombre de buen zelo: el qual ha de
+                    tener sus nuncios: que vayan <lb break="yes"/>alas tierras
+                    mas cercanas d<ex>e</ex>l exercito a hazer venir las
+                    vituallas al <lb break="yes"/>exercito: y el general haga
+                    asegurar los passos: por donde la vitua<lb break="no"/>lla
+                    viniere al exercito: porq<ex>ue</ex> los soldados del
+                    exercito no los tomen / o <lb break="yes"/>los enemigos no
+                    los maten. Por manera q<ex>ue</ex> assi la vitualla / como
+                        o<lb break="no"/>tra mercaduria / pueda venir segura al
+                    exercito: y boluer a sus casas. <lb break="yes"/>y
+                        aq<ex>ue</ex>lla se les pague en sus justos precios. Mas
+                    si aco<ex>n</ex>tesciere q<ex>ue</ex> algu<lb break="no"/>na
+                    villa / o ciudad no quisiere traher vituallas al exercito: a
+                    esta tal <lb break="yes"/>haga se le guerra como a enemigos:
+                    por la rebellio<ex>n</ex> q<ex>ue</ex> haze: hasta
+                        q<ex>ue</ex> ve<ex>n</ex><lb break="no"/>ga a dar la
+                        obedie<ex>n</ex>cia al general / o señor del exercito.
+                    esta tal deue ser <lb break="yes"/>castigada:
+                        porq<ex>ue</ex> sea escarmie<ex>n</ex>to alas otras
+                    tierras comarcanas. E si <lb break="yes"/>por caso las otras
+                    tierras hiziere<ex>n</ex> lo mismo y fuere<ex>n</ex>
+                    rebeldes haga se <lb break="yes"/>enellos el mismo castigo:
+                        porq<ex>ue</ex> la guerra ha se de hazer con daño de <lb
+                        break="yes"/>los enemigos: y de todos aquellos que
+                    siguen su opinion: y no a pro<lb break="no"/>uecho suyo: y
+                    delas vituallas que vinieren al exercito haga se casa de <lb
+                        break="yes"/>municion: y gaste se por orden: de manera
+                    que no haya falta enel exer<lb break="no"/>cito: y gastense
+                    de contino las vituallas mas viejas: guardando de <lb
+                        break="yes"/>contino las mas frescas para la postre:
+                    porque desta manera se con<lb break="no"/>seruara la
+                    vitualla: y el exercito sera sustentado. Y el que fuere
+                        comis<lb break="no"/>sario haga su libro del gasto: y
+                    delo que recibe: y de cue<ex>n</ex>ta dello porq<ex>ue</ex>
+                    <pb n="6v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>se sepa como se
+                    destribuye: porque los gastos del exercito son
+                    gra<ex>n</ex>des <lb break="yes"/>y es menester que anden
+                    por orden: y tenga la misma orden el comis<lb break="no"
+                    />sario que recibiere la moneda para pagar el exercito. <lb
+                        break="yes"/></p>
+            </div>
+            <div type="chapitre" n="4">
+                <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo .iiij.
+                        dela orden que se terna enel <lb break="yes"/>lleuar
+                        dela artilleria.</hi>
+                </head>
+                <p><lb break="yes"/><hi rend="initiale" n="6">D</hi>Espues que
+                    el exercito sea ju<ex>n</ex>tado: el principe / o señor del
+                        <lb break="yes"/>exercito deue criar vn Capitan de
+                    artilleria para que te<ex>n</ex><lb break="no"/>ga cargo
+                    della. Y este sea el capita<ex>n</ex> mas pratico enla
+                        gue<lb break="no"/>rra: y mas diligente: y mas leal
+                    &amp; fiable q<ex>ue</ex> se pudiere ha<lb break="no"/>uer.
+                    Este capitan ha de tener mucho cuydado enla guar<lb
+                        break="no"/>da dela artilleria &amp; municiones: ha se
+                    de desuelar en lleuar la artille<lb break="no"/>ria a muy
+                        bue<ex>n</ex> recaudo: al seguro: y por passos seguros:
+                    donde no pue<lb break="no"/>da hauer daño delos enemigos. Y
+                    para la lleuar mas a plazer haga <lb break="yes"/>los
+                    carretones ala francesa: las ruedas altas: porq<ex>ue</ex>
+                    caminara mas <lb break="yes"/>conel: y para dar vna bateria
+                    son mejores: porq<ex>ue</ex> los artilleros tirara<ex>n</ex>
+                    <lb break="yes"/>mejor de punteria / siendo las ruedas
+                    altas: porq<ex>ue</ex> conlas baxas / ni <lb break="yes"/>se
+                    puede abaxar ni alçar. Lo otro que los cauallos q<ex>ue</ex>
+                    lleuare para ti<lb break="no"/>rar la artilleria sean rezios
+                    y crescidos y bie<ex>n</ex> mantenidos. Y los ca<lb
+                        break="no"/>rreteros sean platicos/ q<ex>ue</ex> sepan
+                    adereçar los carretones &amp; cinchos y <lb break="yes"
+                    />collares porq<ex>ue</ex> si se quiebran los sepan
+                    adereçar. Haga lleuar sus ca<lb break="no"/>rros de
+                    municiones de collares exes y ruedas y clauaçones: porque
+                        <lb break="yes"/>si se quebraren se prouea de presto:
+                        q<ex>ue</ex> muchas vezes por no lleuar los <lb
+                        break="yes"/>aparejos necessarios se q<ex>ue</ex>da vna
+                    pieça enel camino. Y para esto de<lb break="no"/>uen lleuar
+                    vn ingeniero para leuantar los tiros. Carpe<ex>n</ex>teros
+                    para <lb break="yes"/>adereçar los exes / y otros ingenieros
+                    para limpiar los tiros. Bom<lb break="no"/>barderos
+                        q<ex>ue</ex> sean buenos maestros en su arte. Carros de
+                    municion / <lb break="yes"/>de pelotas / y poluora. Una
+                        co<ex>m</ex>pañia de infanteria / o dos: q<ex>ue</ex>
+                        vaya<ex>n</ex> ala <lb break="yes"/>guarda del.
+                    Comissarios q<ex>ue</ex> haga<ex>n</ex> venir las tierras
+                    comarcanas a ti<lb break="no"/>rar la artilleria y abrir los
+                    caminos / para q<ex>ue</ex> la artilleria pueda pas<lb
+                        break="no"/>sar. Y desto te<ex>n</ex>ga cargo vna
+                    persona / el qual se ha de llamar Capita<ex>n</ex>
+                    <lb break="yes"/>de gastadores. E si las tierras no
+                        quisiere<ex>n</ex> venir a abrir los passos y <lb
+                        break="yes"/>caminos / para q<ex>ue</ex> la artilleria
+                    pueda passar ha se les de hazer guerra <lb break="yes"/>como
+                    a enemigos. O tros officiales co<ex>n</ex>uiene lleuar enel
+                    exercito que <lb break="yes"/>son muy necessarios / assi
+                    como clauazo<ex>n</ex> para la artilleria: y otros a<lb
+                        break="no"/>parejos / maestros para hazer curueñas:
+                    herradores para herrar <pb n="7r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ VII</fw>
+                    <cb type="single-column"/><lb break="yes"/>los cauallos: y
+                    otros officiales. Mas a algunos no se les deue dar <lb
+                        break="yes"/>sueldo: porq<ex>ue</ex> ellos va<ex>n</ex>
+                    por su p<ex>ro</ex>pio interes. Mas alos herreros / y car<lb
+                        break="no"/>pinteros y bo<ex>m</ex>barderos &amp;
+                    ingenieros d<ex>e</ex>ue se les dar sueldo: por la mu<lb
+                        break="no"/>cha necessidad q<ex>ue</ex> dellos hay
+                        en<ex>e</ex>l exercito. Y ta<ex>m</ex>bie<ex>n</ex> se
+                    suele dar sueldo a <lb break="yes"/>los municioneros
+                        q<ex>ue</ex> haze<ex>n</ex> el pa<ex>n</ex> enel
+                    exercito. para el ma<ex>n</ex>tenimie<ex>n</ex>to de <lb
+                        break="yes"/>la ge<ex>n</ex>te. Mas si enla prouincia
+                        q<ex>ue</ex> se co<ex>n</ex>quistare hay
+                        bastime<ex>n</ex>to en abu<ex>n</ex><lb break="no"
+                        />da<ex>n</ex>cia: nose le deue dar sueldo al
+                    municionero del pa<ex>n</ex>: porq<ex>ue</ex> delos ga<lb
+                        break="no"/>stos excessiuos no es seruido el señor
+                        d<ex>e</ex>l exercito. Y aq<ex>ue</ex>llos seruidores
+                        <lb break="yes"/>q<ex>ue</ex> el señor del exercito
+                    tiene q<ex>ue</ex> lo gasta<ex>n</ex> mal gastado: no se les
+                    deue dar <lb break="yes"/>mas cargo. Y aq<ex>ue</ex>llos
+                        q<ex>ue</ex> lo gasta<ex>n</ex> por orde<ex>n</ex> el
+                    señor d<ex>e</ex>l exercito les deue <lb break="yes"
+                        />co<ex>n</ex>firmar sus cargos: y hazelles mercedes:
+                    por sus buenos seruicios. <lb break="yes"/></p>
+            </div>
+            <div type="chapitre" n="5">
+                <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo .v.
+                        Como se ha de gouernar vn <lb break="yes"/>exercito: y
+                        que personas son obligadas a le gouernar.</hi>
+                </head>
+                <p><lb break="yes"/><hi rend="initiale" n="6">P</hi>Ues se ha
+                    hablado enlo dela artilleria: bien sera q<ex>ue</ex> se <lb
+                        break="yes"/>sepa: que personas han de gouernar el
+                    exercito: y co<lb break="no"/>mo se han de hauer enla
+                    gouernacion del. Porque <lb break="yes"/>no dura mas en
+                    Campaña el exercito de quanto du<lb break="no"/>ra la buena
+                        gouernacio<ex>n</ex> del. Nueue personas me pa<lb
+                        break="no"/>resce a mi que basta<ex>n</ex> para gouernar
+                    vn exercito: por <lb break="yes"/>gra<ex>n</ex>de
+                        q<ex>ue</ex> sea. Mas estas nueue personas:
+                    co<ex>n</ex>uiene q<ex>ue</ex> sea<ex>n</ex>
+                    ho<ex>m</ex>bres sabi<lb break="no"/>os y platicos enla
+                    guerra. Y ha<ex>n</ex> de ser caualleros y personas de mu<lb
+                        break="no"/>cha sangre: y de linage: porq<ex>ue</ex> vna
+                    cosa ta<ex>n</ex> alta como vn exercito: no se <lb
+                        break="yes"/>deue co<ex>n</ex>fiar de p<ex>er</ex>sonas
+                    baxas: por tres razones q<ex>ue</ex> p<ex>ar</ex>a ello
+                    dire. La p<ex>r</ex><hi rend="superscript">i</hi>me<lb
+                        break="no"/>ra: porq<ex>ue</ex> los capitanes
+                        d<ex>e</ex>l exercito no se dexaria<ex>n</ex> gouernar
+                        d<ex>e</ex> personas <lb break="yes"/>baxas: sino de
+                    caualleros: y p<ex>er</ex>sonas q<ex>ue</ex> ellos se
+                        te<ex>n</ex>ga<ex>n</ex> por muy ho<ex>n</ex>rrados <lb
+                        break="yes"/>de ser gouernados de aq<ex>ue</ex>llos
+                        q<ex>ue</ex> tiene<ex>n</ex> el gouierno. La
+                        segu<ex>n</ex>da razo<ex>n</ex> es: <lb break="yes"
+                        />q<ex>ue</ex> los nueue caualleros q<ex>ue</ex>
+                        ha<ex>n</ex> de tener cargo del gouierno del exerci<lb
+                        break="no"/>to: ha<ex>n</ex> de ser mas platicos enla
+                    guerra: q<ex>ue</ex> no los otros capitanes del <lb
+                        break="yes"/>exercito / o alomenos ta<ex>n</ex>to como
+                    los mas platicos: porq<ex>ue</ex> si algu<ex>n</ex>a co<lb
+                        break="no"/>sa ordenare<ex>n</ex> / o
+                        proueyere<ex>n</ex>: mo sea<ex>n</ex>
+                    reprehe<ex>n</ex>didos por sus capitanes d<ex>e</ex> su <lb
+                        break="yes"/>mal co<ex>n</ex>sejo q<ex>ue</ex>
+                        houiero<ex>n</ex> enel p<ex>ro</ex>ueer. La iij.
+                        razo<ex>n</ex> es: q<ex>ue</ex> los soldados plati<lb
+                        break="no"/>cos q<ex>u</ex><hi rend="superscript"
+                        >i</hi>ere<ex>n</ex> ser gouernados d<ex>e</ex>
+                        p<ex>er</ex>sonas q<ex>ue</ex> sea<ex>n</ex> platicas
+                    enla guerra: y d<ex>e</ex> su <lb break="yes"
+                        />nacio<ex>n</ex>: porq<ex>ue</ex> platicos co<ex>n</ex>
+                    platicos se entie<ex>n</ex>de<ex>n</ex>. &amp; si no lo son:
+                    no se puede<ex>n</ex>
+                    <lb break="yes"/>ente<ex>n</ex>der: y assi co<ex>n</ex>uiene
+                        q<ex>ue</ex> sea<ex>n</ex> platicos los caualleros
+                        q<ex>ue</ex> tiene<ex>n</ex> cargo d<ex>e</ex>
+                    <lb break="yes"/>exercito. Y los que han de mandar y
+                    gouernar el exercito. El prime<lb break="no"/>ro es: el
+                    general o señor del exercito: porque por el se rije y
+                    gouierna <pb n="7v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>el exercito. El
+                    segundo es el general de toda la infanteria. y el terce<lb
+                        break="no"/>ro es el general de toda la gente darmas. Y
+                    el quarto es el general <lb break="yes"/>delos cauallos
+                    ligeros. E los otros quatro que le rijen: son quatro <lb
+                        break="yes"/>maestres de campo: que ha de hauer enel
+                    exercito: y el noueno es vn <lb break="yes"/>Sargento
+                    general del exercito. Mas todos estos generales y mae<lb
+                        break="no"/>stres de campo y Sargento general: son
+                    subjetos al general / o señor <lb break="yes"/>del exercito.
+                    E todos los otros capitanes / y señores del exercito: <lb
+                        break="yes"/>con todo el cuerpo del exercito: estan
+                    debaxo del dominio del señor <lb break="yes"/>del exercito:
+                    y delos dichos generales y maestres de campo y Sar<lb
+                        break="no"/>gento general. Mas comunmente toda la
+                    infanteria se rije y goui<lb break="no"/>erna por los quatro
+                    maestres de campo: porque conellos descarga <lb break="yes"
+                    />el señor del exercito / o su general. Fueron llamados assi
+                    maestres de <lb break="yes"/>campo: porque cada vno dellos
+                    trahe vn baston enlas manos para <lb break="yes"/>regir y
+                    gouernar el exercito: porque ellos dan la orden como se han
+                        <lb break="yes"/>de hazer los esquadrones y affrenta
+                    enlas batallas los primeros. Y <lb break="yes"/>avn que para
+                    los ordenar el Sargento general tiene el cargo co<ex>n</ex>
+                    los <lb break="yes"/>otros sargentos que son a el subjetos.
+                    Mas como el officio del mae<lb break="no"/>stre de campo sea
+                    de mas preeminencia: y les va en aquello la hon<lb
+                        break="no"/>rra dela buena orden / hazen lo ellos muchas
+                    vezes juntamente co<ex>n</ex>
+                    <lb break="yes"/>el Sargento general. Y estos que son
+                    llamados maestres de cam<lb break="no"/>po: son los mas
+                    viejos enla guerra. Y de buena razon: no se deurian <lb
+                        break="yes"/>llamar maestres de campo: sino maestres de
+                    guerra: porque ellos <lb break="yes"/>son los que mas saben
+                    enlas cosas dela guerra. Y ellos son los qua<lb break="no"
+                    />tro pilares del exercito: por donde se rije y gouierna el
+                    exercito. Ta<ex>n</ex><lb break="no"/>bien tienen el
+                    gouierno dela justicia enel exercito: que si alguno me<lb
+                        break="no"/>resce muerte: por ellos es juzgado: si el
+                    soldado que sirue enel exerci<lb break="no"/>to haze
+                        algu<ex>n</ex> delito so color de ser soldado
+                    priuilegiado: justo es que <lb break="yes"/>sea castigado.
+                    Mas ante todas cosas ha de ser oydo de su desculpa: <lb
+                        break="yes"/>mas en tal caso no se han de guardar los
+                    terminos del derecho por <lb break="yes"/>ser hechos los
+                    delitos en tiempo de guerra / y entre soldados: saluo <lb
+                        break="yes"/>que aueriguada la verdad: el maestre de
+                    campo deue hazer la justi<lb break="no"/>cia segun el
+                    pecado. Y enesto ha de mirar mucho el maestre del cam<lb
+                        break="no"/>po lo que haze: porque se deue escusar
+                    quanto pudiere de no matar <lb break="yes"/>ningun soldado:
+                    sino fuesse el delito muy grande: que no pudiesse ha<lb
+                        break="no"/>zer menos: porque el señor del exercito
+                    pierde mucho en perder vn <lb break="yes"/>soldado / en
+                    especial estando el exercito delos soldados en tierra <pb
+                        n="8r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ VIII</fw>
+                    <cb type="single-column"/><lb break="yes"/>estrangera:
+                    haziendo guerra adonde si le matan vno: no pueden ha<lb
+                        break="no"/>uer otro: en especial siendo los soldados
+                    Españoles : estando fuera <lb break="yes"/>de su patria:
+                    adonde no se puede hauer: porque aquellos no nascen: <lb
+                        break="yes"/>sino es enel coraçon de España: que es
+                    Castilla. E cumple mu<lb break="no"/>cho alos generales del
+                    exercito mirar por la vida delos tales sol<lb break="no"
+                    />dados: por la mucha lealtad que tienen a su principe: y
+                    valentia que <lb break="yes"/>dios les dio: que muchas vezes
+                    se ha visto por el esfuerço de vn solo <lb break="yes"
+                    />soldado: ser vitorioso vn exercito: por acometer aquel /
+                    cosa que cin<lb break="no"/>quenta juntos no osaran
+                    acometer: y los otros por vergue<ex>n</ex>ça seguir<lb
+                        break="no"/>le: y trauarse la batalla con los enemigos
+                    de tal arte: que donde pe<ex>n</ex><lb break="no"/>sauan ser
+                    vencedores quedauan vencidos: como acontescio sobre Ar<lb
+                        break="no"/>cilla que tuuiendo la el conde de Borba por
+                    el rey de Portugal: los <lb break="yes"/>reyes de Fez y de
+                    Tremezen: co<ex>n</ex> otros principes de Berueria vinie<lb
+                        break="no"/>ron sobre el con sesenta mil moros de pelea:
+                    y ganaron le la ciudad <lb break="yes"/>de Arcilla: y el
+                    retraxo se al castillo: que junto ala plaça estaua:
+                        q<ex>ue</ex> tie<lb break="no"/>ne la puerta ala banda
+                    de Centa: a donde le tenian cercado: y el rey <lb
+                        break="yes"/>Catholico de gloriosa memoria por hazer
+                    buena obra al rey de Por<lb break="no"/>tugal embio a
+                    socorrer a Arcilla: y fue al socorro el conde Pedro na<lb
+                        break="no"/>uarro: con tres mil soldados viejos delos
+                    que el gran Capitan tru<lb break="no"/>xo de Ytalia: y llego
+                    la armada sobre Arcilla: y avn el socorro de por<lb
+                        break="no"/>tugal no era venido: y enesto hizo el conde
+                    desembarcar la gente de<lb break="no"/>las galeras y
+                    bateles. E todos juntos dimos con las proas en tie<lb
+                        break="no"/>rra: por echar la ge<ex>n</ex>te toda de vn
+                    golpe en tierra: y esto era en anoche<lb break="no"
+                    />sciendo: y avn que los moros defendian la salida: los
+                    nuestros toma<lb break="no"/>ron tierra. E vn soldado
+                        q<ex>ue</ex> se llamaua Contreras el tuerto:
+                        q<ex>ue</ex> despu<lb break="no"/>es fue
+                        Capita<ex>n</ex> enlo de Buxia: arremetio ala puerta con
+                    vna espada / <lb break="yes"/>y vna rodela: y otro que se
+                    llamaua Alborado con vna pica: y come<ex>n</ex><lb
+                        break="no"/>çaron a pelear con los moros que estauan
+                    delante la puerta en su <lb break="yes"/>esquadron: y ala
+                    bozeria fuero<ex>n</ex> otros soldados al socorro: porque no
+                        <lb break="yes"/>los matassen: y enesto el conde mando
+                    mouer el esquadron: &amp; dieron <lb break="yes"/>enlos
+                    moros: y fueron socorridos los soldados: y ganada la puerta
+                        <lb break="yes"/>dela ciudad. E como los moros vieron
+                    perdida la puerta pone<ex>n</ex> fue<lb break="no"/>go ala
+                    ciudad: visto que no la podian defender. Y esta ciudad se
+                        ga<lb break="no"/>no por el esfuerço de aq<ex>ue</ex>l
+                    soldado: porq<ex>ue</ex> aquella noche no se hauia de <lb
+                        break="yes"/>dar la batalla ala ciudad: sino fuera por
+                    el mouimiento de aq<ex>ue</ex>l solda<lb break="no"/>do.
+                    Este soldado fue hecho capita<ex>n</ex> / y le
+                        mataro<ex>n</ex> los moros en Buxia: <pb n="8v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>&amp; hizo cosas
+                    muy señaladas el dia d<ex>e</ex> su muerte. E los moros
+                        lleuaro<ex>n</ex>
+                    <lb break="yes"/>su cabeça a Tremeze<ex>n</ex>: &amp;
+                        dixero<ex>n</ex> q<ex>ue</ex> les pesaua hauer muerto vn
+                        ta<ex>n</ex> vali<lb break="no"/>ente ho<ex>m</ex>bre.
+                    Por esto me paresce q<ex>ue</ex> los maestres d<ex>e</ex>
+                        ca<ex>m</ex>po deue<ex>n</ex> de escu<lb break="no"/>sar
+                    se mucho por no quitar la vida a vn soldado: q<ex>ue</ex>
+                        aq<ex>ue</ex>l q<ex>ue</ex> pie<ex>n</ex>san
+                        q<ex>ue</ex> va<lb break="no"/>le menos: el dia dela
+                    necessidad vale mas: &amp; por los buenos seruicios <lb
+                        break="yes"/>q<ex>ue</ex> haze<ex>n</ex> a su rey
+                        deue<ex>n</ex> ser oydos de su desculpa el dia
+                        q<ex>ue</ex> pecare<ex>n</ex>. Y es ra<lb break="no"
+                        />zo<ex>n</ex> q<ex>ue</ex> se te<ex>n</ex>ga respeto a
+                    sus leales seruicios: ya q<ex>ue</ex> merezca q<ex>ue</ex>
+                    passe por el <lb break="yes"/>hilo dela justicia: haga se
+                    justicia publica y la mas ho<ex>n</ex>rrosa q<ex>ue</ex> ser
+                        pue<lb break="no"/>de: porq<ex>ue</ex> se sepa la causa
+                        d<ex>e</ex> su muerte: y no secreto: porq<ex>ue</ex>
+                        antiguame<ex>n</ex>te <lb break="yes"/>los generales: no
+                        acostu<ex>m</ex>braua<ex>n</ex> ahorcar
+                        ni<ex>n</ex>gu<ex>n</ex> soldado: porq<ex>ue</ex> se
+                        infama<lb break="no"/>ua el exercito: y agora no
+                        mira<ex>n</ex> en nada desto. Deuria se passar el tal
+                        <lb break="yes"/>soldado por las picas: y no ahorcar le:
+                    o alomenos d<ex>e</ex>gollar le: o empo<lb break="no"/>çar
+                    le: porq<ex>ue</ex> son muertes mas ho<ex>n</ex>rrosas:
+                        q<ex>ue</ex> no la otra : pues assi como <lb break="yes"
+                    />assi se haze la justicia: avn q<ex>ue</ex> los
+                        q<ex>ue</ex> son hijos dalgo ha<ex>n</ex> d<ex>e</ex>
+                    tener mas p<ex>re</ex>e<lb break="no"/>mine<ex>n</ex>cia
+                        q<ex>ue</ex> los otros enel morir. Y esto esta al
+                    aluedrio d<ex>e</ex>l maestre de <lb break="yes"
+                        />ca<ex>m</ex>po. Mas si el soldado es amotinador: o
+                        p<ex>er</ex>sona q<ex>ue</ex> tocasse en hazer <lb
+                        break="yes"/>co<ex>n</ex>cierto / o alebosia
+                        co<ex>n</ex> los en<ex>e</ex>migos: a estos tales no se
+                    les deue guar<lb break="no"/>dar ni<ex>n</ex>gu<ex>n</ex>a
+                        p<ex>re</ex>emine<ex>n</ex>cia: antes se deue hazer la
+                    justicia de p<ex>re</ex>sto. y los ta<lb break="no"/>les no
+                        ha<ex>n</ex> d<ex>e</ex> ser oydos sie<ex>n</ex>do
+                    aueriguada su culpa. Y en tal caso la justi<lb break="no"
+                    />cia q<ex>ue</ex> se haze secreta es buena. Mucho
+                        vale<ex>n</ex> los buenos soldados el <lb break="yes"
+                    />dia de necessidad: porq<ex>ue</ex> co<ex>n</ex>ellos los
+                    generales ensalça<ex>n</ex> la corona de su <lb break="yes"
+                        />pri<ex>n</ex>cipe: y ellos sube<ex>n</ex> en mucha
+                        ho<ex>n</ex>rra. E por esto: y por sus gra<ex>n</ex>des
+                        he<lb break="no"/>chos so<ex>n</ex> temidos de todas las
+                    naciones: sino vea<ex>n</ex> lo por las batallas <lb
+                        break="yes"/>q<ex>ue</ex> ha<ex>n</ex> ve<ex>n</ex>cido:
+                    y por vna respuesta q<ex>ue</ex> dio antonio de leyua a vn
+                        co<ex>n</ex>de co<lb break="no"/>ronel d<ex>e</ex>los
+                    tudescos. El co<ex>n</ex>de le p<ex>re</ex>gu<ex>n</ex>to
+                        q<ex>ue</ex> como podia el tener subjeta <lb break="yes"
+                    />a ytalia co<ex>n</ex> ta<ex>n</ex> poca ge<ex>n</ex>te. El
+                    valeroso antonio le respo<ex>n</ex>dio: y dixo: yo
+                        te<ex>n</ex><lb break="no"/>go por mis hermanos alos
+                    españoles: y alos tudescos por mis co<ex>m</ex>pa<lb
+                        break="no"/>ñeros: y alos ytalianos por mis amigos. E
+                        d<ex>e</ex>sta manera hago tener <lb break="yes"/>en
+                        razo<ex>n</ex> a ytalia / y en paz. General q<ex>ue</ex>
+                    tales palabras dixo en su respue<lb break="no"/>sta no tenia
+                    gana d<ex>e</ex> maltratar ni<ex>n</ex>gu<ex>n</ex> soldado:
+                        porq<ex>ue</ex> ellos le q<ex>ue</ex>ria<ex>n</ex>
+                        bie<ex>n</ex>: y <lb break="yes"/>el a ellos mucho mas.
+                    E d<ex>e</ex>st<choice>
+                        <sic> </sic>
+                        <corr/>
+                    </choice>a manera su palabra les era castigo: y ha<lb
+                        break="no"/>zia lo q<ex>ue</ex> q<ex>ue</ex>ria
+                        co<ex>n</ex> valeroso animo: porq<ex>ue</ex> sabia
+                        q<ex>ue</ex> ellos no le hauia<ex>n</ex> de fal<lb
+                        break="no"/>tar: y ello<hi rend="superscript">s</hi>
+                        sabia<ex>n</ex> lo mesmo d<ex>e</ex>l. E porq<ex>ue</ex>
+                    el amor d<ex>e</ex>los generales y d<ex>e</ex> su
+                        ge<ex>n</ex><lb break="no"/>te es gra<ex>n</ex>de
+                        q<ex>u</ex><hi rend="superscript">a</hi>ndo se
+                        q<ex>u</ex><hi rend="superscript">i</hi>ere<ex>n</ex>
+                        bie<ex>n</ex>: ento<ex>n</ex>ces anda el gouierno
+                        bue<ex>n</ex>o q<ex>u</ex><hi rend="superscript"
+                    >a</hi>ndo el <lb break="yes"/>general esta bie<ex>n</ex>
+                        co<ex>n</ex> sus soldados: porq<ex>ue</ex> no dura mas
+                    en ca<ex>m</ex>paña el exer<lb break="no"/>cito: de
+                        qua<ex>n</ex>to dura la buena orde<ex>n</ex> delos
+                        q<ex>ue</ex> le gouierna<ex>n</ex> que muchas <pb n="9r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ IX</fw>
+                    <cb type="single-column"/><lb break="yes"/>vezes se ha visto
+                    romper se vn exercito por la mala orde<ex>n</ex>
+                        q<ex>ue</ex> tiene<ex>n</ex> enla <lb break="yes"
+                        />gobernacio<ex>n</ex> del. Y porq<ex>ue</ex> quando
+                    despues de affirmado vn exercito en <lb break="yes"/>vna
+                    parte no deue<ex>n</ex> tenello mucho tie<ex>m</ex>po
+                    affirmado: por tres razones <lb break="yes"/>q<ex>ue</ex>
+                    dare para ello. La primera porq<ex>ue</ex> los q<ex>ue</ex>
+                    estan en campaña duerme<ex>n</ex> en <lb break="yes"/>el
+                    sereno: y al agua y al sol: y esta<ex>n</ex>do desta manera
+                        viene<ex>n</ex> a enfermar. <lb break="yes"/>Lo segundo
+                        q<ex>ue</ex> delas tales enfermedades se suele
+                    inficionar vn exerci<lb break="no"/>to: y venir peste enel:
+                        q<ex>ue</ex> es gran desasosiego para vn exercito. Lo
+                    otro <lb break="yes"/>q<ex>ue</ex> quando esta mucho
+                        tie<ex>m</ex>po en vn sitio: la ge<ex>n</ex>te del
+                    exercito sele derra<lb break="no"/>ma: vnos a correr: otros
+                    a buscar de comer. y otros se va<ex>n</ex> a sus tierras <lb
+                        break="yes"/>de ca<ex>n</ex>sados dela lue<ex>n</ex>ga
+                    guerra / o por no dormir enel sitio / donde el
+                        ca<ex>m</ex><lb break="no"/>po esta assentado: por ser
+                    mal sano. Por esto deue<ex>n</ex> de mirar q<ex>ue</ex> el
+                        exer<lb break="no"/>cito quando se houiere de assentar /
+                    no se assie<ex>n</ex>te entre lagunas y luga<lb break="no"
+                    />res enpantanosos: porq<ex>ue</ex> son muy dañ<choice>
+                        <corr>o</corr>
+                        <sic>o</sic>
+                    </choice>sos para la salud del exercito. <lb break="yes"
+                    />Quando el gra<ex>n</ex> capitan affirmaua su exercito: era
+                    por muy poco tie<ex>m</ex><lb break="no"/>po: q<ex>ue</ex>
+                    nunca se hallo q<ex>ue</ex> lo tuuiesse quinze dias
+                    affirmado en vn lugar: <lb break="yes"/>por los grandes
+                        inconuenie<ex>n</ex>tes q<ex>ue</ex> vehia:
+                        porq<ex>ue</ex> mas es de doler vn sol<lb break="no"
+                    />dado q<ex>ue</ex> muere de dolencia: q<ex>ue</ex> no si le
+                    matassen enemigos Qua<ex>n</ex>do los <lb break="yes"
+                    />Franceses ganaro<ex>n</ex> a Apulla: el gran Capitan se
+                    metio en Barleta: <lb break="yes"/>con muy poca
+                    ge<ex>n</ex>te Española q<ex>ue</ex> tenia: y el Uisorey de
+                    Francia co<ex>n</ex> po<lb break="no"/>deroso exercito venia
+                    la buelta d<ex>e</ex>l: para le assitiar de<ex>n</ex>tro en
+                    Barleta: <lb break="yes"/>y embio le a dezir co<ex>n</ex> vn
+                        tro<ex>m</ex>peta q<ex>ue</ex> re<ex>n</ex>diesse la
+                    ciudad: y le dexasse la ar<lb break="no"/>tilleria y se
+                    fuesse: sino q<ex>ue</ex> le pornia sitio: y q<ex>ue</ex> no
+                    le tomaria<ex>n</ex> d<ex>e</ex>spues a par<lb break="no"
+                    />tido. El gra<ex>n</ex> capita<ex>n</ex> le respondio:
+                        q<ex>ue</ex> el miedo hauia dexado enel vie<ex>n</ex>tre
+                        <lb break="yes"/>de su madre: y q<ex>ue</ex> si
+                    viniesse: q<ex>ue</ex> enel campo lo hallaria: y
+                        aq<ex>ue</ex>lla misma no<lb break="no"/>che salio de
+                    Barleta alos veynte y siete de abril: y alos veynte y ocho
+                        <lb break="yes"/>del dicho mes arribo el gran Capitan
+                    debaxo dela Chirinola / ado<ex>n</ex><lb break="no"/>de los
+                    Franceses estauan / y puso se con los Españoles enel mesmo
+                        <lb break="yes"/>passo donde Anibal rompio alos Romanos.
+                    Y otro dia le quemaro<ex>n</ex>
+                    <lb break="yes"/>la poluora al gra<ex>n</ex> Capitan por
+                    engaño: y assi no se pudo aprouechar <lb break="yes"/>del
+                    artilleria. Y como los españoles eran pocos y vieron
+                        q<ex>ue</ex>mada la <lb break="yes"/>poluora: no
+                        tenia<ex>n</ex> espera<ex>n</ex>ça de vitoria: y como el
+                        gra<ex>n</ex> Capita<ex>n</ex> los viesse <lb
+                        break="yes"/>assi mal contentos les dixo q<ex>ue</ex> se
+                    esforçassen / y q<ex>ue</ex> no tuuiessen en nada <lb
+                        break="yes"/>el quemar dela poluora / q<ex>ue</ex> los
+                    buenos y valie<ex>n</ex>tes hombres / no pelea<lb break="no"
+                    />uan con poluora / sino co<ex>n</ex> lança y espada: y
+                        q<ex>ue</ex> sus antepassados con la <lb break="yes"
+                    />espada enla mano hauian ganado los reynos de España. Y por
+                    esso <lb break="yes"/>estaua en ta<ex>n</ex>ta honrra subida
+                    la fama delos Españoles: y pues ellos <lb break="yes"/><fw
+                        type="signature">B</fw>
+                    <pb n="9v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>estauan a vista
+                    de sus enemigos: no hauia<ex>n</ex> de hazer menos: y que
+                        mi<lb break="no"/>rassen: que yua alli la honrra de su
+                    rey: y que estuuiessen de buen ani<lb break="no"/>mo / que
+                    el les daria la vitoria / y que estuuiessen a punto. Enesto
+                    el <lb break="yes"/>gran Capitan hizo llamar los capitanes
+                    del exercito / y les dixo que <lb break="yes"/>quando el
+                        ma<ex>n</ex>dasse tocar al arma / que todos a vna boz
+                    dixessen que <lb break="yes"/>los Franceses huyan: y todos
+                    juntos fuessen a dar enlos franceses. <lb break="yes"/>Y con
+                    esta orden el gran capitan mouio su campo: diziendo que los
+                        <lb break="yes"/>franceses huyan. Yua delante delos
+                    suyos / animando los / &amp; dio en <lb break="yes"/>los
+                    franceses ala vna despues de medio dia. Y fueron rotos y
+                        desba<lb break="no"/>ratados: y muerto el visorey de
+                    Francia: con la mayor parte de su ca<lb break="no"
+                    />ualleria. Duro la batalla hasta la noche. Esta batalla se
+                    vencio con <lb break="yes"/>muy poca gente: por la buena
+                    orden que dio alli el gran Capitan. Y <lb break="yes"
+                    />porque no tuuo affirmado su exercito el gran capitan /
+                    sino tres dia<hi rend="superscript">s</hi>
+                    <lb break="yes"/>debaxo dela Chirinola: y al tercer dia que
+                    llego dio la batalla. Con <lb break="yes"/>razon pudo el
+                    dezir / que hauia dexado el miedo enel vie<ex>n</ex>tre de
+                    su ma<lb break="no"/>dre. Estas palabras hauian de ser
+                    escriptas con letras de oro: pues <lb break="yes"/>lo que
+                    dixo passo por obra: y salio conel. Y los capitanes que
+                        sigue<ex>n</ex> la <lb break="yes"/>guerra las hauian de
+                    lleuar por espejo: porque sus hechos fuessen di<lb
+                        break="no"/>gnos de poner en coronica. Hay algunos
+                    generales / que desque vna <lb break="yes"/>vez affirman vn
+                    campo en vna parte / no lo leuantan: hasta a ver el <lb
+                        break="yes"/>fin delo que dessean: si aquello se puede
+                    alcançar bueno es / mas si lo <lb break="yes"/>que dessean
+                    se dilata: es malo para la salud del exercito: que esta al
+                        se<lb break="no"/>reno enla campaña: porq<ex>ue</ex>
+                    tanto se deue mirar por la salud del exerci<lb break="no"
+                    />to: como por el vencimiento delos enemigos:
+                        porq<ex>ue</ex> si su campo enfer<lb break="no"/>ma /
+                    con la gente enferma no se puede hazer guerra: y deue se de
+                        mi<lb break="no"/>rar: que los que mueren de dolencias /
+                    por estar los campos quedos: <lb break="yes"/>mas vtil seria
+                    que viuiessen peleando con los enemigos / &amp; si pelean<lb
+                        break="no"/>do muriessen: no era tanto de doler su
+                    muerte: como si muriessen de <lb break="yes"/>otras
+                    enfermedades. Porende el que assentare campo / deue le de
+                        <lb break="yes"/>assentar enel sitio mas sano/ por donde
+                    mas daño seles puede hazer <lb break="yes"/>alos enemigos: y
+                    deue tener tal orden / de no ariscar su campo a mu<lb
+                        break="no"/>chos peligros / sino q<ex>ue</ex> le deue
+                    guardar para la mayor necessid<choice>
+                        <sic> </sic>
+                        <corr/>
+                    </choice>ad. <lb break="yes"/></p>
+            </div>
+            <div type="chapitre" n="6">
+                <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo sexto
+                        que trata la orden <lb break="yes"/>que ha de llenar el
+                        exercito quando marchare. y la <lb break="yes"/>orden
+                        que ha de lleuar quando se retirare.</hi>
+                </head>
+                <p><pb n="10r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ X</fw>
+                    <cb type="single-column"/><lb break="yes"/><hi
+                        rend="initiale" n="6">Q</hi>Uando el exercito començare
+                    a marchar: la buelt<choice>
+                        <corr>a</corr>
+                        <sic/>
+                    </choice>
+                    <lb break="yes"/>adonde estan los enemigos: han de echar de
+                        ban<lb break="no"/>guardia la gente mas platica enla
+                    guerra: y tras a<lb break="no"/>quella vaya el cuerpo dela
+                    batalla / y luego la ar<lb break="no"/>tilleria: y de
+                    retaguardia vaya la gente que no es <lb break="yes"/>tan
+                    platica. E los cauallos ligeros han de yr delan<lb
+                        break="no"/>te de todo el cuerpo del exercito /
+                        descubrie<ex>n</ex>do la campaña: hasta que <lb
+                        break="yes"/>lleguen a vista delos enemigos. Mas si
+                    conosciere que los enemi<lb break="no"/>gos estuuieren mas
+                    pujantes que no ellos / y se quisieren retirar/ <lb
+                        break="yes"/>echen la gente mas platica de retaguarda: y
+                    la que no es tan platica <lb break="yes"/>vaya de banguardia
+                    con la artilleria. E la caualleria vaya en me<lb break="no"
+                    />dio conel cuerpo dela batalla / y enel caminar vaya en tal
+                    orden que <lb break="yes"/>se den lugar vnos a otros / y
+                    echen los carruajes de banguardia: <lb break="yes"/>porque
+                    no los embaraçen enlos passos / y caminos estrechos. Y los
+                        <lb break="yes"/>cauallos ligeros vayan detras de todo
+                    el exercito: los postreros / <lb break="yes"/>reconosciendo
+                    de contino los enemigos: porque no los tomen de so<lb
+                        break="no"/>bresalto: y quando se retiraren: no den
+                    batalla publica: avn que los <lb break="yes"/>enemigos la
+                    pidan: si ya no fuesse que no pudiessen hazer menos: y en
+                        <lb break="yes"/>tal caso hauiendo la dar de necessidad:
+                    den la sobre seguro: antes del <lb break="yes"/>dia : o
+                    estando el exercito delos enemigos descuydado: porque
+                        qua<ex>n</ex><lb break="no"/>do se metiessen en orden ya
+                    ternia lo mejor dela batalla. Y si la noche <lb break="yes"
+                    />lo tomasse antes que la batalla sea rota: retiren se en
+                    parte donde su <lb break="yes"/>campo este fortificado: y no
+                    pueda recebir daño delos enemigos. E <lb break="yes"/>los
+                    soldados que sean mas platicos / aquellos se pongan enel
+                    lugar <lb break="yes"/>por donde los enemigos houieren de
+                    venir: porque no hay cosa mas <lb break="yes"/>fuerte en
+                    campaña: que es vn esquadron de infanteria: &amp; por esso
+                    el <lb break="yes"/>señor del exercito: ya que gasta sus
+                    dineros deue hazer la gente que <lb break="yes"/>sea platica
+                    enla guerra: si la pudiere hauer: &amp; si no haga enla
+                        prouin<lb break="no"/>cia donde la gente suele salir mas
+                    bellicosa para la guerra. Lo otro <lb break="yes"/>que el
+                    general deue proueer: que los soldados lleuen todos picas:
+                        <lb break="yes"/>porque para la guerra es arma
+                    fortissima: porque vn esquadron de <lb break="yes"/>piqueros
+                    en campaña es vn castillo. Y estando bien ordenado: por <lb
+                        break="yes"/>impossible ternia yo / poder se romper /
+                    siendo la gente platica en<lb break="no"/>la guerra. Assi
+                    mesmo son buenas armas Arcabuzes y escopetas <lb break="yes"
+                    />para hazer la guerra: &amp; si enel campo houiere treynta
+                    mil infan<lb break="no"/>tes / los siete mil sean
+                    Arcabuzeros: &amp; si fueren quinze mil / los <lb
+                        break="yes"/><fw type="signature">B j</fw>
+                    <pb n="10v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>quatro mil bastan
+                    que sean arcabuzeros. Las armas que han de lle<lb break="no"
+                    />uar los caualleros enla guerra / son differenciadas delas
+                    dela infan<lb break="no"/>teria: y los que lleuan picas y
+                    cosseletes van delante / y los que lleua<ex>n</ex>
+                    <lb break="yes"/>pica seca van a tras en medio del
+                    esquadron. Y por los lados / y enlas <lb break="yes"
+                    />postreras hileras del esquadron van tambien otras hileras
+                    de cosse<lb break="no"/>letes/ y la arcabuzeria va delante /
+                    y en torno del esquadron: y esto se <lb break="yes"/>haze
+                    quando son los enemigos muchos: porque el esquadron vaya <lb
+                        break="yes"/>mas fortificado / y no puede ser roto por
+                    ninguna parte que le acome<lb break="no"/>tan. Assi que la
+                    mejor arma para seguir la guerra son picas y cossele<lb
+                        break="no"/>tes / y escopetas / y arcabuzes: y estas con
+                    la artilleria es la fortaleza <lb break="yes"/>de todo vn
+                    campo. La gente darmas y cauallos ligeros son los que <lb
+                        break="yes"/>hazen fortificar el campo: y son
+                    differentes enel traer delas armas: <lb break="yes"/>porque
+                    van a cauallo: y las armas que traen son mejores para su
+                        pro<lb break="no"/>posito que no las picas: porque con
+                    las picas no se podrian gouer<lb break="no"/>nar sobre los
+                    cauallos: porque vnos traen lanças de ristre: y otros <lb
+                        break="yes"/>traen lanças ala ligera: y los que traen
+                    lanças de ristre: son la gente <lb break="yes"/>darmas: y
+                    los que traen lanças ligeras son cauallos ligeros y los
+                        ca<lb break="no"/>uallos ligeros han querido vsar las
+                    lanças de ristre: y hallan se bien <lb break="yes"
+                    />conellas: y no les hallan sino solo vn defecto: que las
+                    lanças de ristre <lb break="yes"/>no se pueden aprouechar
+                    dellas mas de vn encuentro: y las lanças <lb break="yes"
+                    />ligeras que comunmente llaman ginetas siruen se dellas en
+                    todo el <lb break="yes"/>tiempo que la guerra dure / lo que
+                    no hazen delas otras: porque d<ex>e</ex>las <lb break="yes"
+                    />otras no se siruen mas de para vn encuentro: y por esto la
+                    gente dar<lb break="no"/>mas quando entra en vna batalla /
+                    lleuan sus lançones enla mano <lb break="yes"/>dela rienda:
+                    los que son platicos enla guerra / para que despues de <lb
+                        break="yes"/>rompidas las lanças hieren con aquellas
+                    alos enemigos a diestro <lb break="yes"/>y a siniestro: y
+                    hazen la guerra como buenos caualleros platicos en <lb
+                        break="yes"/>la guerra: y lleuan assi mesmo sus maças /
+                    y martillos / y estoques: y <lb break="yes"/>espadas / y
+                    dagas. Mas destas armas poco se siruen enla guerra: y <lb
+                        break="yes"/>delo mas que se siruen y se aprouechan: es
+                    dela lança de ristre / y dela <lb break="yes"/>lança de
+                    ristre y dela maça: y del lançon: porque quando vienen a
+                        ser<lb break="no"/>uir se delas otras armas: no va bueno
+                    el partido dela ge<ex>n</ex>te darmas: <lb break="yes"
+                    />porque los enemigos se defienden valerosamente:
+                        qua<ex>n</ex>do todas las <lb break="yes"/>armas se
+                    esperimentan el dia dela batalla. Y quando yo esto viesse
+                        <lb break="yes"/>ternia por muy dudosa la victoria: y
+                    por muy valientes caualleros a <lb break="yes"/>los que
+                    tanto durassen enla batalla: que combatiessen co<ex>n</ex>
+                    todo el ge-nero <pb n="11r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ XI</fw>
+                    <cb type="single-column"/><lb break="yes"/>de armas: sin
+                    dexar se vencer de sus enemigos. E por esta cau<lb
+                        break="no"/>sa al primero impetu deuen de entrar los
+                    infantes y gente darmas: <lb break="yes"/>y cauallos
+                    ligeros: que los enemigos no sean partes para poder es<lb
+                        break="no"/>perar la furia y sobresalto de su exer<choice>
+                        <corr>c</corr>
+                        <sic>c</sic>
+                    </choice>ito: y los que entraren no han <lb break="yes"/>de
+                    entrar enla batalla con pensamiento de ser rotos: sino que
+                    los e<lb break="no"/>nemigos han de ser rotos / vencidos / y
+                    desbaratados / y muertos: y <lb break="yes"/>lo que traen
+                    que es para ellos propios / y que selo deuen de derecho: <lb
+                        break="yes"/>por ser ellos soldados del Principe que por
+                    derecho le compete la <lb break="yes"/>conquista de todo el
+                    vniuerso / y de aquello principalmente que su <lb
+                        break="yes"/>Principe demanda en aquella batalla: por
+                    donde se principio la gue<lb break="no"/>rra justa: y con
+                    este animo y pensamiento: ni la gente darmas / ni la <lb
+                        break="yes"/>infanteria lleuando tan justa demanda:
+                    ternan razon de rehusar la <lb break="yes"/>batalla: pues la
+                    demanda que lleuan es tan justa: fin peligro &amp; fin so<lb
+                        break="no"/>specha: lleuando buena orden podrian dar la
+                    batalla con la orde<ex>n</ex> de <lb break="yes"/><choice>
+                        <sic>de</sic>
+                        <corr/>
+                    </choice> su general: no excediendo de aquello. E no ternia
+                    yo por ventu<lb break="no"/>roso al general que se escusasse
+                    de dar la tal batalla lleuando la ge<ex>n</ex>te <lb
+                        break="yes"/>tan diestra enla guerra: y la demanda tan
+                    justa. E quando el campo <lb break="yes"/>assentare a vista
+                    delos enemigos: los maestros de campo tengan <lb break="yes"
+                    />tal auiso que donde el campo se assentare: haya tres cosas
+                    para el <lb break="yes"/>mantenimiento del campo / agua para
+                    la gente / yerua para los ca<lb break="no"/>uallos / leña
+                    para hazer fuegos: y choças donde se meta la gente. E <lb
+                        break="yes"/>quando el campo se assentare: el General
+                    delos cauallos ligeros em<lb break="no"/>biara sus
+                    corredores por la parte do<ex>n</ex>de pensare que haya
+                    enemigos / <lb break="yes"/>y como venga ala noche pongan
+                    las cintinellas por los caminos y <lb break="yes"/>passos
+                    por do<ex>n</ex>de los enemigos podria<ex>n</ex> venir a
+                    hazer daño al exercito. <lb break="yes"/>Y la infanteria
+                    ponga las mismas cintinellas dobladas por los ca<lb
+                        break="no"/>minos y passos: porq<ex>ue</ex> los vnos no
+                    se deuen descuydar con los otros: <lb break="yes"/>porque es
+                    razon que la gente darmas haga su guarda: y los cauallos <lb
+                        break="yes"/>ligeros hagan la suya: y la infanteria haga
+                    la suya: y no se descuyden <lb break="yes"/>los vnos por los
+                    otros: porq<ex>ue</ex> enel seruicio de su Rey: el que mejor
+                    lo <lb break="yes"/>hiziere aquel sera mas honrrado y
+                    gratificado de su Rey. Y los que <lb break="yes"
+                        />tuuiere<ex>n</ex> cargo de visitar las guardas y
+                    cintinellas no se deue<ex>n</ex> descuy<lb break="no"/>dar
+                    delas visitar: y este officio toca al Sargento general: y
+                        Sargen<lb break="no"/>tos del campo / y alferizes / y
+                    Capitanes: porque qua<ex>n</ex>to mejor hiziere<ex>n</ex>
+                    <lb break="yes"/>su officio mas seguro estara el exercito de
+                    enemigos: mas todas las <lb break="yes"/>guardas de
+                    cintinellas son obligadas a obedescer al Sargento ge-neral
+                        <lb break="yes"/><fw type="signature">B iij</fw>
+                    <pb n="11v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>y los Capitanes:
+                    y sus Caporales en ausencia suya cada vno <lb break="yes"
+                    />en su compañia ha de hazer la misma diligencia por escusar
+                    el exerci<lb break="no"/>to de peligro: porque aquel es buen
+                    Capitan el que haze bien su offi<lb break="no"/>cio. Si
+                    tuuieren nueuas de enemigos: deuen fortificar se enlos
+                        pas<lb break="no"/>sos por do los enemigos vinieren a
+                    dar al exercito: haziendo repa<lb break="no"/>ros / porque
+                    los enemigos no puedan passar adonde estuuiere la
+                        ge<ex>n</ex><lb break="no"/>te del exercito / y aquellos
+                    reparos que hiziere<ex>n</ex> / deuen los fortificar <lb
+                        break="yes"/>muy bien: y deçaga delos reparos pongan los
+                    esquadrones dela in<lb break="no"/>fanteria / y arcabuzeria:
+                    porque si los enemigos vinieren: hallen resi<lb break="no"
+                    />stencia / y no los tomen descuydados / y no puedan passar
+                        ligerame<ex>n</ex><lb break="no"/>te sin batalla de
+                    manos. E si la batalla fuere de noche / no se salgan <lb
+                        break="yes"/>de su fuerte: porque podrian tener algunas
+                    embuscadas que los ro<ex>m</ex><lb break="no"/>piessen: mas
+                    deuen guardar su fuerte: porque de vna manera han de <lb
+                        break="yes"/>pelear los que son acometidos: y de otra
+                    manera han de pelear los <lb break="yes"/>que van a cometer.
+                    E por esto los que son acometidos / deuen guar<lb break="no"
+                    />dar su fuerte: y no deuen salir de su fuerte: porque si
+                    saliessen podrian <lb break="yes"/>correr peligro por tres
+                    cosas. La primera por la escuridad dela no<lb break="no"
+                    />che. La segunda por embuscad<choice>
+                        <corr>a</corr>
+                        <sic>a</sic>
+                    </choice>s delos enemigos: y la tercera por <lb break="yes"
+                    />su mal consejo: porque saldrian delo seguro a poner se
+                    enlo peligro<lb break="no"/>so / donde passarian riesgo de
+                    ser rotos / y es mejor jugar al seguro co<ex>n</ex>
+                    <lb break="yes"/>los enemigos / que no poner se en peligro
+                    con pensar de hauer vito<lb break="no"/>ria / que mejor es
+                    alcançar la vitoria con ventaja conoscida: que no <lb
+                        break="yes"/>alcançar la vitoria con peligro de ser
+                    vencidos. E por esto deuen los <lb break="yes"/>Capitanes de
+                    hazer la guerra al seguro: porque se haze gran serui<lb
+                        break="no"/>cio al Principe del exercito: porque lo que
+                    en vn dia se pierde: en mil <lb break="yes"/>años no se
+                    cobra: &amp; quando se cobre: es con mucha perdida de gen<lb
+                        break="no"/>te: y con mucho trabajo dela ge<ex>n</ex>te
+                    de guerra / y desassosiego de su prin<lb break="no"/>cipe y
+                    señor del exercito: porque algunas vezes tuuiendo la vitoria
+                        <lb break="yes"/>segura: por no ser la gente platica: la
+                    hazen dubdosa. Y enesto se ha <lb break="yes"/>de mirar y
+                    desuelar / como y de que manera / y por que via / y a que
+                        ho<lb break="no"/>ra / y con quanta gente se dara el
+                    salto alos enemigos. E si al tiempo <lb break="yes"/>que se
+                    diere se podra hauer vitoria: y que tanta gente podra hauer
+                        <lb break="yes"/>para la resistencia: porgue si los
+                    Capitanes conoscieren que no po<lb break="no"/>dran salir
+                    con la empresa no la deuen principiar: mas si conoscieren
+                        <lb break="yes"/>que la vitoria esta clara y conoscida
+                    por la ventaja que les tienen en <lb break="yes"/>tener
+                    mejor gente / mas luzida / y mejor armada / y mas platica
+                    enla <pb n="12r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ XII</fw>
+                    <cb type="single-column"/><lb break="yes"/>guerra / avn que
+                    no fuessen tantos como los enemigos: deuen los a<lb
+                        break="no"/>cometer: porque la vitoria esta clara y
+                    conoscida quando la infante<lb break="no"/>ria es platica
+                    enla guerra: y lleua justa demanda. <lb break="yes"/></p>
+            </div>
+            <div type="chapitre" n="7">
+                <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo septimo
+                        en que se declara si se<lb break="no"/>ra mejor para dar
+                        vna batalla lleuar poca gente o mucha.</hi>
+                </head>
+                <p><lb break="yes"/><hi rend="initiale" n="6">P</hi>Ues que
+                    hemos hablado enel capitulo precedente: <lb break="yes"
+                    />justo sera que sepamos que tanta gente sera mene<lb
+                        break="no"/>ster para dar vna batalla. Comunmente los
+                        princi<lb break="no"/>pes Cristianos quando mueuen
+                    guerra: el que mas <lb break="yes"/>gente lleua / no passa
+                    de cie<ex>n</ex>t mil hombres / otros lle<lb break="no"/>uan
+                    treynta mil / otros veynte mil / y otros menos. <lb
+                        break="yes"/>E muchas vezes hemos visto que los pocos
+                    vencen alos muchos: <lb break="yes"/>por tres cosas. La
+                    primera: como dicho tengo por lleuar el principe <lb
+                        break="yes"/>la dema<ex>n</ex>da justa: y lo
+                        segu<ex>n</ex>do por ser la ge<ex>n</ex>te platica enla
+                    guerra. Lo <lb break="yes"/>tercero por saber dar la
+                        orde<ex>n</ex> el dia dela batalla. E por esto el
+                        princi<lb break="no"/>pe / o señor del exercito
+                        qua<ex>n</ex>do hiziere gente deue de hazer la gente
+                        q<ex>ue</ex>
+                    <lb break="yes"/>sea platica enla guerra: y el general
+                        q<ex>ue</ex> los gouernare sea maestro de <lb
+                        break="yes"/>guerra: porq<ex>ue</ex> el dia q<ex>ue</ex>
+                    se da vna batalla: mas se pierde por la mala or<lb
+                        break="no"/>de<ex>n</ex> q<ex>ue</ex> tienen enel
+                    ordenar dela batalla: q<ex>ue</ex> no por co<ex>m</ex>bate
+                    delos enemi<lb break="no"/>gos. E por esto los q<ex>ue</ex>
+                    el dia dela batalla esta<ex>n</ex> bie<ex>n</ex> ordenados
+                    avn q<ex>ue</ex> se<lb break="no"/>an pocos antes
+                        alca<ex>n</ex>çara<ex>n</ex> la vitoria q<ex>ue</ex> no
+                    los muchos por la buena or<lb break="no"/>de<ex>n</ex>
+                        q<ex>ue</ex> da<ex>n</ex> en<ex>e</ex>l dia dela
+                    batalla: y por ser la ge<ex>n</ex>te platica enla guerra:
+                    mas <lb break="yes"/>sobre todo han de lleuar la demanda
+                    justa: porq<ex>ue</ex> a aquellos da dios <lb break="yes"
+                    />la vitoria: como lo hemos visto. E no piense nadie que la
+                    mucha ge<ex>n</ex><lb break="no"/>te haze la guerra: porque
+                    los muchos no se dexan gouernar de su ge<lb break="no"
+                    />neral como los pocos: por ser la gente mucha: y vn solo
+                    caudillo: no <lb break="yes"/>gouierna vn exercito grande:
+                    como haria vn pequeño. Y al tiempo <lb break="yes"/>que
+                    mouiere el campo para marchar / enlos passos: &amp; rios /
+                    &amp; cami<lb break="no"/>nos estrechos no puede<ex>n</ex>
+                    passar en buena orde<ex>n</ex> como haze<ex>n</ex> los pocos
+                        <lb break="yes"/>y embaraça<ex>n</ex> se y al
+                        tie<ex>m</ex>po del passar enlos puertos y passos
+                    estrechos <lb break="yes"/>vnos se
+                        desma<ex>n</ex>da<ex>n</ex> por vna parte y otros por
+                    otra. Unos va<ex>n</ex> roba<ex>n</ex>do: <lb break="yes"
+                    />otros pelea<ex>n</ex>do co<ex>n</ex> los enemigos: otros
+                        quita<ex>n</ex> los bastime<ex>n</ex>tos q<ex>ue</ex>
+                        vie<lb break="no"/>ne<ex>n</ex> al exercito. A cuya
+                    causa los capitanes no puede<ex>n</ex> tener orden ni <lb
+                        break="yes"/>co<ex>n</ex>cierto co<ex>n</ex>ellos: por
+                    ser ta<ex>n</ex>to numero de ge<ex>n</ex>tes: y co<ex>n</ex>
+                    el gra<ex>n</ex> poder que <lb break="yes"/>trae<ex>n</ex>:
+                    no haze<ex>n</ex> caso delos enemigos ni quiere<ex>n</ex>
+                    tener acatamie<ex>n</ex>to alos <lb break="yes"/><fw
+                        type="signature">B iiij</fw>
+                    <pb n="12v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>amigos: ni a sus
+                    Capitanes: y por este menosprecio suele<ex>n</ex> venir a
+                    ser <lb break="yes"/>desbaratados y rotos delos pocos /
+                    porque los pocos estan debaxo <lb break="yes"/>dela
+                    obediencia de su general / y de sus Capitanes: y siguen la
+                    orden <lb break="yes"/>que ellos les dan. Y las vituallas
+                    que toman delos enemigos meten<lb break="no"/>las en lugares
+                    fuertes / y aquellas ponen en buena guarda para la <lb
+                        break="yes"/>mayor necessidad / y affirma<ex>n</ex> el
+                    exercito ay cerca: porque esten prouey<lb break="no"/>dos de
+                    vituallas / y de todo lo mas que houieren menester. Mas el
+                        <lb break="yes"/>exercito grande como es copioso de
+                    gente mas sujeto esta al peligro <lb break="yes"/>que no los
+                    pocos / por tres razones / por falta de bastime<ex>n</ex>tos
+                    que no <lb break="yes"/>le pueden abastar. Lo
+                    segu<ex>n</ex>do por el trabajo luengo dela guerra que <lb
+                        break="yes"/><choice>
+                        <corr>n</corr>
+                        <sic><hi rend="inverted-char">n</hi></sic>
+                    </choice>o lo pueden suffrir / assi por el frio del ynuierno
+                    como por el calor de <lb break="yes"/>verano. E lo tercero
+                    por las enfermedades q<ex>ue</ex> succeden enel exercito.
+                        <lb break="yes"/>Y visto esto el pequeño exercito no da
+                    batalla al copioso exercito / si <lb break="yes"/>no es
+                    sobre seguro / viendo le necessitado de bastime<ex>n</ex>tos
+                    / o faltoso de <lb break="yes"/>dineros / o faltoso de
+                    gente: y entonces sobre cosa pensada dan la ba<lb break="no"
+                    />talla alos enemigos: y assi alca<ex>n</ex>ça<ex>n</ex> la
+                    vitoria los pocos delos muchos <lb break="yes"/>por saber se
+                    gouernar: y por ser ge<ex>n</ex>te platica enlas cosas dela
+                    guerra: <lb break="yes"/>porque de refresco no se deue dar
+                    batalla a ningun exercito / quando <lb break="yes"/>viene de
+                    refresco: porque entonces viene muy soberuio / pujante /
+                        po<lb break="no"/>deroso / y entonces no se podria hauer
+                    vitoria / y para alcançar vito<lb break="no"/>ria / dexen
+                    los estar enel campo al sereno / y al agua / que al cabo de
+                        <lb break="yes"/>la guerra: ellos diran como les va
+                    enello. Y entonces que estara<ex>n</ex> me<lb break="no"
+                    />dio vencidos dela hambre / y del frio / y del calor / y
+                    molidos los hues<lb break="no"/>sos delas armas / entonces
+                    es bueno dar les la batalla: porque sa<lb break="no"/>bran
+                    como se haze la guerra / y perderan entonces la soberuia que
+                        <lb break="yes"/>trahian en principio dela guerra /
+                        q<ex>ue</ex> de vencidos / o perdidos / o muer<lb
+                        break="no"/>tos / o despojados: tomando les en tal
+                    estrecho / no pueden escapar: <lb break="yes"/>porque en tal
+                    tiempo los soldados platicos que sean acostumbra<lb
+                        break="no"/>dos a passar los semejantes trabajos: no
+                    tienen por mucho traba<lb break="no"/>jo en dar vna batalla
+                    / porque cada vno dellos vee ala clara tener la <lb
+                        break="yes"/>vitoria conoscida / y con la gloria dela
+                    vitoria no sienten el trabajo <lb break="yes"/>delas armas:
+                    ni el gran calor / ni la sed que los atormenta / ni otro <lb
+                        break="yes"/>trabajo ninguno los espanta conel amor
+                    verdadero que lleua<ex>n</ex> de ser<lb break="no"/>uir a su
+                    Rey natural. Otras maneras de guerra se podrian tener pa<lb
+                        break="no"/>ra romper alos muchos: assi como emboscadas
+                    / o encamisadas que <lb break="yes"/>les arme<ex>n</ex> de<choice>
+                        <corr> </corr>
+                        <sic/>
+                    </choice>noche: tomando los sobre seguro / o en algun passo
+                    estre-cho / <pb n="13r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ XIII</fw>
+                    <cb type="single-column"/><lb break="yes"/>dando les algun
+                    recuentro por donde les hiziessen perder par<lb break="no"
+                    />te de su exercito: porque despues si los enemigos
+                    quisiessen dar bata<lb break="no"/>lla / fuessen yguales
+                    enla gente: y en tal caso podria se dar batalla a<lb
+                        break="no"/>plaçada / y no se podria perder la vitoria /
+                    siendo la gente platica del <lb break="yes"/>exercito:
+                    porque alos primeros encuentros no pelean sino las diez <lb
+                        break="yes"/>hileras primeras: &amp; si aquellas se
+                    rompen es roto el exercito: porque <lb break="yes"/>siempre
+                    se ha visto ro<ex>m</ex>pidas las primeras hileras: ser roto
+                    el exerci<lb break="no"/>to: sino fue en Rauena:
+                        q<ex>ue</ex> alli despues de rota la infanteria española
+                        <lb break="yes"/>se torno a rehazer: y rompio la gente
+                    darmas Francesa: y mataron <lb break="yes"/>su Capitan
+                    General: q<ex>ue</ex> era Mossiur de Fox: con toda la
+                    caualleria <lb break="yes"/>de fra<ex>n</ex>cia: por la
+                    mucha bo<ex>n</ex>dad y fortaleza dela infanteria española.
+                        <lb break="yes"/></p>
+            </div>
+            <div type="chapitre" n="8">
+                <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo .viij.
+                        como el general deue orde<lb break="no"/>nar la batalla:
+                        para hauer vitoria de sus enemigos.</hi>
+                </head>
+                <p><lb break="yes"/><hi rend="initiale" n="6">S</hi>Uelen dezir
+                    los soldados: mil años de guerra: y no <lb break="yes"/>vn
+                    dia de batalla: y algunos pensaran que lo dizen <lb
+                        break="yes"/>por se escusar de pelear: mas este refran
+                    que anda en<lb break="no"/>tre la ge<ex>n</ex>te de guerra
+                    no se dize porque los soldados <lb break="yes"/>del exercito
+                    no dessean ver se en batalla con sus ene<lb break="no"
+                    />migos: ni por temor que tienen dellos: mas dize se <lb
+                        break="yes"/>por aquel que sera vencido el dia dela
+                    batalla: porque mejor le estu<lb break="no"/>uiera hazer la
+                    guerra ala larga: que no auenturar su exercito en vn <lb
+                        break="yes"/>dia: adonde auentura la honrra: &amp;
+                    pierde la hazienda / y el exercito: <lb break="yes"
+                    />podiendo escusar le de peligro: mucho se deue mirar los
+                        inconuenie<ex>n</ex><lb break="no"/>tes y peligros:
+                    antes que se de la batalla aplaçada: porq<ex>ue</ex> de vna
+                        ho<lb break="no"/>ra para otra succeden muchos reueses:
+                    porque lo que alos vnos da<lb break="no"/>ña: haze prouecho
+                    alos otros: y enesto no se puede dar otra declara<lb
+                        break="no"/>cion: sino que el tal aluedrio esta enel
+                    gouierno del señor / o general <lb break="yes"/>del
+                    exercito. Y para assegurar su exercito de peligro deue el
+                    general <lb break="yes"/>hazer sus cosas secretas al seguro:
+                    sin que venga a noticia delos e<lb break="no"/>nemigos. Mas
+                    si el general conosciere que su exercito correra pe<lb
+                        break="no"/>ligro el dia dela batalla de ser roto por
+                    algunos inconuenientes: o <lb break="yes"/>señales que les
+                    seran reueladas: o por falta de gente: o de artilleria: <lb
+                        break="yes"/>o de poluora y pelotas: o de bastimentos y
+                    agua dulce: que no se po<lb break="no"/>dria hauer el dia
+                    dela batalla: porque si aquella faltasse: el calor los <lb
+                        break="yes"/>ahogaria: en tal caso el señor del exercito
+                    no es obligado a dar bata-lla <lb break="yes"/><fw
+                        type="signature">B v</fw>
+                    <pb n="13v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>aplaçada. Mas
+                    antes d<ex>e</ex>ue tener co<ex>n</ex> sus enemigos tales
+                    formas <lb break="yes"/>de alargar lo mas que pudiere el dia
+                    dela batalla: y no consentir an<lb break="no"/>dar a tal
+                    batalla: avn que de todo lo que tengo dicho tuuiesse su
+                        ca<ex>m</ex><lb break="no"/>po muy complido: no deue dar
+                    batalla aplaçada: sino tuuiesse consi<lb break="no"/>go tres
+                    cosas mas que sus enemigos. Lo primero la demanda justa: <lb
+                        break="yes"/>porque enlas armas se declara y demuestra
+                    mucho la justicia: como <lb break="yes"/>lo hemos visto por
+                    otras batallas y campos cerrados: que en Yta<lb break="no"
+                    />lia: o en otras partes ha hauido: que por pocos que
+                    fuessen los que <lb break="yes"/>lleuauan la demanda justa:
+                    siempre los hemos visto quedar vito<lb break="no"/>riosos.
+                    Lo segundo que ha de tener el señor del exercito es mante<lb
+                        break="no"/>ner en justicia a su campo: y hazella
+                    guardar assi alos amigos como <lb break="yes"/>alos
+                    enemigos. Y la tercera cosa que ha de tener para hauer
+                    vitoria: <lb break="yes"/>es que la gente de guerra que
+                    tuuiere en su exercito que sea tal / q<ex>ue</ex> nin<lb
+                        break="no"/>guna otra le tenga ventaja: y procure de se
+                    poner el general en tal lu<lb break="no"/>gar el dia dela
+                    batalla / que pueda tener ventaja a sus enemigos. Y <lb
+                        break="yes"/>touiendo estas tres cosas sera parte para
+                    alcançar vitoria de sus e<lb break="no"/>nemigos. Dando el
+                    general buena orden el dia dela batalla en orde<lb
+                        break="no"/>nar su gente. Mas si el general pudiere
+                    romper a sus enemigos sin <lb break="yes"/>dar batalla
+                    aplaçada / deue lo hazer: porque mas al seguro rompe a <lb
+                        break="yes"/>sus enemigos sin dar batalla aplaçada / y
+                    con menos muertes de ge<ex>n</ex><lb break="no"/>tes /
+                    porque el dia dela batalla aplaçada se haze vna cruel
+                    carniceria <lb break="yes"/>entre los vnos y los otros: mas
+                    si la batalla es salteada / no se haze <lb break="yes"
+                    />tanto mal y alcança se la vitoria mas presto. Y enel
+                    ordenar dela ge<ex>n</ex><lb break="no"/>te para dar la
+                    batalla: vnos la dan de vna manera / y otros de otra: <lb
+                        break="yes"/>y esto es conforme al lugar donde la
+                    batalla se da: porque si es sierra <lb break="yes"/>ha se de
+                    ordenar en vna manera: &amp; si es en llano: ha se de
+                    ordenar de <lb break="yes"/>otra manera. Y si es en valle
+                    estrecho: ha se de ordenar de otra mane<lb break="no"/>ra:
+                    porque enel valle: con menos gente haura la vitoria el señor
+                    del <lb break="yes"/>exercito que no enlo llano: porque enlo
+                    estrecho tanto valen los po<lb break="no"/>cos como los
+                    muchos. No piense nadie que la mucha gente haze la <lb
+                        break="yes"/>guerra: ni el dia dela batalla
+                        podra<ex>n</ex> pelear todos: si son muchos: por<lb
+                        break="no"/>que como son muchos: embaraçan se los vnos
+                    con los otros y pelea<ex>n</ex>
+                    <lb break="yes"/>solamente las quatorze hileras primeras:
+                    &amp; si aquellas se rompen: <lb break="yes"/>es roto el
+                    exercito delos muchos: porq<ex>ue</ex> enlas primeras
+                    hileras esta <lb break="yes"/>la fortaleza de todo el
+                    exercito. Por esso han de yr las primeras hile<lb break="no"
+                    />ras armadas de armas que sean cosseletes y morreones y
+                    braçales: <pb n="14r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ XIIII</fw>
+                    <cb type="single-column"/><lb break="yes"/>y picas
+                        porq<ex>ue</ex> la furia delos enemigos da enestas
+                    primeras hileras. <lb break="yes"/>Y por esso es razon que
+                    esten muy armados. Y avn por esto echan la <lb break="yes"
+                    />mejor ge<ex>n</ex>te enlas primeras hileras: y enestas
+                    primeras hileras se po<lb break="no"/>nen aquel dia los
+                    buenos por animar la gente el dia dela batalla. Y <lb
+                        break="yes"/>por esso es el cuerpo del exercito la
+                    infanteria: y la fortaleza del exer<lb break="no"/>cito es
+                    la infanteria: y por esso el dia dela batalla se haze cuerpo
+                    enel <lb break="yes"/>esquadron de infanteria: donde fueren
+                    los soldados mas platicos <lb break="yes"/>enla guerra:
+                    porque enellos esta aquel dia la fortaleza del exercito / y
+                        <lb break="yes"/>ellos han de affrontar los primeros:
+                    despues que los caualleros ho<lb break="no"/>uieren
+                    affrontado: y enellos se espera la vitoria: y por aquella
+                        hon<lb break="no"/>rra tan grande que se les da: son
+                    obligados a morir / o vencer los ta<lb break="no"/>les
+                    soldados platicos por la vitoria que dellos se espera aquel
+                    dia. <lb break="yes"/>Si el esquadron fuere de dos mil
+                    hombres: ha de lleuar cada hilera <lb break="yes"/>quinze
+                    hombres: &amp; si fuere de quatro mil / ha de lleuar treynta
+                        hom<lb break="no"/>bres cada hilera: &amp; si fuere de
+                    ocho mil: al respecto. Y por la mesma or<lb break="no"/>den
+                    se ha de ordenar la caualleria. Y ningun esquadro<ex>n</ex>
+                    de infanteria <lb break="yes"/>ha de passar de ocho mil
+                    hombres: o quando mucho de diez mil: porq<ex>ue</ex>
+                    <lb break="yes"/>si mas gente houiesse en vn
+                        esquadro<ex>n</ex>: no se podria<ex>n</ex> dar buena
+                    orden <lb break="yes"/>enel pelear: porq<ex>ue</ex> como
+                        yria<ex>n</ex> muchos en el esquadron no
+                        podria<ex>n</ex> pele<lb break="no"/>ar todos / alomenos
+                    de medio a tras. E por esto es bueno dexar al<lb break="no"
+                    />gunas ma<ex>n</ex>gas de gente fuera delos esquadrones:
+                        co<ex>n</ex> vna cabeça que <lb break="yes"/>los rija:
+                        porq<ex>ue</ex> estas mangas despues q<ex>ue</ex> sus
+                    esquadrones han affro<ex>n</ex>ta<lb break="no"/>do
+                        va<ex>n</ex> a fauorescer cada vno a su
+                        esquadro<ex>n</ex>. Y estas mangas sean los <lb
+                        break="yes"/>mas arcabuzeros: porq<ex>ue</ex> estos
+                        haze<ex>n</ex> mucho daño enlos enemigos. Y <lb
+                        break="yes"/>los arcabuzeros vaya<ex>n</ex>
+                        adela<ex>n</ex>te / y en torno del esquadro<ex>n</ex>
+                    por las dos <lb break="yes"/>alas: &amp; si los enemigos
+                        fuere<ex>n</ex> muchos: po<ex>n</ex>ga<ex>n</ex>
+                    arcabuzeria enla reçaga: <lb break="yes"/>porq<ex>ue</ex> el
+                        esquadro<ex>n</ex> vaya fortificado por todas partes: y
+                    todos los o<lb break="no"/>tros esquadrones lleue<ex>n</ex>
+                    la mesma orde<ex>n</ex>: &amp; si houiere sobra de
+                        ge<ex>n</ex>te: de<lb break="no"/>xara<ex>n</ex> los
+                        sarge<ex>n</ex>tos algu<ex>n</ex> esquadro<ex>n</ex>
+                        q<ex>ue</ex> socorra do<ex>n</ex>de viere<ex>n</ex>
+                        q<ex>ue</ex> hay necessi<lb break="no"/>dad: y puestos
+                        en<ex>e</ex>l lugar q<ex>ue</ex> ha<ex>n</ex> de ser
+                    para dar enlos en<ex>e</ex>migos: el gene<lb break="no"/>ral
+                    o señor del exercito los deue visi<choice>
+                        <corr>t</corr>
+                        <sic>t</sic>
+                    </choice>ar a menudo co<ex>n</ex> alegre cara: y su <lb
+                        break="yes"/>gesto amoroso y no turbado: porq<ex>ue</ex>
+                    no conosca<ex>n</ex> en<ex>e</ex>l q<ex>ue</ex> hay temor
+                    mas <lb break="yes"/>se represente en su gesto la señal
+                        d<ex>e</ex>la vitoria. Y ento<ex>n</ex>ces haga les vna
+                        <lb break="yes"/>platica: traye<ex>n</ex>do les ala
+                    memoria sus gra<ex>n</ex>des hechos y p<ex>ro</ex>metales
+                        mu<lb break="no"/>chas mercedes: dando les a
+                        ente<ex>n</ex>der la flaqueza delos enemigos: &amp; si
+                        <lb break="yes"/>conosciere enla gente alguna
+                        turbacio<ex>n</ex>: no de aq<ex>ue</ex>l dia la batalla:
+                    por <pb n="14v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>que es mala señal
+                        qua<ex>n</ex>do el dia dela batalla esta la gente
+                    turbada <lb break="yes"/>para hauer vitoria. Mas si los
+                    hallare alegres y esforçados desseo<lb break="no"/>sos de
+                    ver se con los enemigos: entonces deue dar la batalla:
+                        porq<ex>ue</ex>
+                    <lb break="yes"/>es bue<ex>n</ex> señal de vitoria: y al
+                    tiempo del affrentar delas batallas va<lb break="no"/>ya el
+                    general enla ala derecha dela batalla : porque aquel es su
+                        lu<lb break="no"/>gar: avn q<ex>ue</ex> el gran capitan
+                    quando dio la batalla del Garelano no <lb break="yes"
+                    />ordeno la gente por esquadrones porque vna noche echo tres
+                        puen<lb break="no"/>tes sobre el rio: y antes que
+                    amanesciesse començaron a passar las <lb break="yes"
+                    />puentes: y por la vna puente passo la gente darmas: y con
+                    ellos el <lb break="yes"/>gran capitan: y por la otra puente
+                    passo la infanteria: y por la otra <lb break="yes"/>puente
+                    passaron los cauallos ligeros: y enla misma orden que pas<lb
+                        break="no"/>saron las puentes fueron a dar enlos
+                    enemigos: que estauan enla <lb break="yes"/>otra parte del
+                    rio: sin dar otra orden. E assi la infanteria fue hecha <lb
+                        break="yes"/>toda vn cuerpo: y la gente darmas otra: y
+                    otra los cauallos ligeros: <lb break="yes"/>&amp; dieron
+                    enlos Franceses al alua del dia: y fueron los Franceses
+                        ro<lb break="no"/>tos y desbaratados: con toda la
+                    potestad de Francia: y señores de <lb break="yes"/>Ytalia:
+                    que estauan con los Franceses: y fueron vitoriosos los
+                        espa<lb break="no"/>ñoles por la buena orden que alli
+                    dio el gran capitan Gonçalo Fer<lb break="no"/>nandez Y
+                    houieron grandes prisioneros y señores de salua: y
+                        porq<ex>ue</ex>
+                    <lb break="yes"/>los pusiessen en su libertad: dexaron a
+                    Gaeta que estaua por Fran<lb break="no"/>ceses: y alli se
+                    acabo de ganar el reyno de Napoles. Mas enla Chi<lb
+                        break="no"/>rinola no se puso el gran capitan enel ala
+                    derecha dela batalla: qua<ex>n</ex><lb break="no"/>do rompio
+                    alos Franceses: sino en medio delos suyos: mas hizo lo <lb
+                        break="yes"/>aquello el gran Capitan: porque tenia poca
+                    gente y por dar animo <lb break="yes"/>alos suyos: y porque
+                    ellos le viessen mejor: y como el yua delante de <lb
+                        break="yes"/>todos los Españoles: por le sacar del
+                    peligro en que el gran Capi<lb break="no"/>tan yua / dieron
+                    enlos Franceses con tanto animo: que en espacio <lb
+                        break="yes"/>de tres horas rompieron todo el poder del
+                    Rey de Francia: y fue mu<lb break="no"/>erto alli el visorey
+                    de Francia: con la mayor parte de su caualleria: y <lb
+                        break="yes"/>esta vitoria ta<ex>n</ex> alta gano el
+                        gra<ex>n</ex> Capitan: porq<ex>ue</ex> supo dar la
+                        orde<ex>n</ex> enel <lb break="yes"/>dar d<ex>e</ex>la
+                    batalla. Ca el tenia poca ge<ex>n</ex>te: &amp; si de otra
+                    manera la ordena<lb break="no"/>ra: pudiera correr peligro.
+                    Mas quando el rey de Fra<ex>n</ex>cia ro<ex>m</ex>pio enla
+                        <lb break="yes"/>Geredada alos venecianos: de otra
+                    manera la ordeno: porq<ex>ue</ex> puso to<lb break="no"/>da
+                    su ge<ex>n</ex>te por esquadrones: y el se puso al lado
+                    derecho d<ex>e</ex>la batalla: <lb break="yes"/>mas si el
+                    Criti entrara enla batalla ju<ex>n</ex>tame<ex>n</ex>te
+                        co<ex>n</ex> bartolome dalbia<lb break="no"/>no. no se
+                        perdiera<ex>n</ex> los venecianos aq<ex>ue</ex>l dia y
+                    avn assi tuuo el rey Fede-rico <pb n="15r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ XV</fw>
+                    <cb type="single-column"/><lb break="yes"/>de francia la
+                    vitoria por dudosa: Y alcanço el rey la vitoria por <lb
+                        break="yes"/>que el Crity que era general de Uenecianos
+                    / no affronto alos prin<lb break="no"/>cipios / y quando
+                    quiso affrontar con su gente no pudo / porque ya <lb
+                        break="yes"/>era rota la vanguarda de Uenecianos y el
+                    cuerpo dela batalla: y pre<lb break="no"/>so Bartolome
+                    dalbiano / y estos perdieron se aquel dia / por la mala <lb
+                        break="yes"/>orden de su General. Pues si dixessemos
+                    dela cruel batalla de Raue<lb break="no"/>na: esta no se
+                    perdio por el ordenar del exercito: que bien ordenado <lb
+                        break="yes"/>estaua: mas perdio se por dos cosas. La vna
+                    porque el sitio donde el <lb break="yes"/>campo de España se
+                    affirmo: no era conueniente para dar batalla a<lb break="no"
+                    />plaçada. Y la segunda causa porque se perdio fue por dar
+                    batalla a<lb break="no"/>plaçada. Por esso los generales se
+                    deuen guardar de dar batalla a<lb break="no"/>plaçada:
+                    porque el vencedor queda sin gente: y el vencido queda del
+                        <lb break="yes"/>todo perdido: despojado de su exercito:
+                    y dela noble caualleria: avn <lb break="yes"/>que en Rauena
+                    no lleuaron los franceses vitoria conoscida por tres <lb
+                        break="yes"/>cosas. La vna porque no fueron parte para
+                    esecutar la vitoria. La o<lb break="no"/>tra porque no
+                    quedaron con exercito formado. Ca toda la gente del <lb
+                        break="yes"/>Rey de Fra<ex>n</ex>cia quedo muerta y
+                    desbaratada. La tercera porque fue <lb break="yes"/>ron
+                    muertos el general delos Franceses / que era Mossiur de Fox:
+                        <lb break="yes"/>con todos sus Capitanes. E assi fue
+                    deshecho el exercito delos fran<lb break="no"/>ceses / por
+                    quedar como quedaron sin Caudillos: porque fueron mu<lb
+                        break="no"/>ertos por la infanteria Española. Algunos
+                    les quisieron atribuyr la <lb break="yes"/>vitoria: porque
+                    robaron ellos el campo: y lleuaron los despojos. La <lb
+                        break="yes"/>verdad es que segun la costumbre y
+                    ordenança antigua delos vence<lb break="no"/>dores / el que
+                    queda señor del campo y lleua los despojos / de aquel es <lb
+                        break="yes"/>la vitoria: mas esto se entiende que no
+                    solamente han de señorear el <lb break="yes"/>campo: mas son
+                    obligados a executar la vitoria: hasta lleuar la gue<lb
+                        break="no"/>rra a deuido effecto. Ca por esso se llaman
+                    vencedores / y el que esto <lb break="yes"/>no haze / no se
+                    le atribuye vitoria conoscida / saluo si van a dar la ba<lb
+                        break="no"/>talla / despues de aplaçada: y puestos en su lugar<choice>
+                        <corr> </corr>
+                        <sic/>
+                    </choice>si los enemigos no <lb break="yes"/>dan la batalla
+                    / en tal caso el señor del exercito podria leuantar su
+                        ca<ex>m</ex><lb break="no"/>po / &amp; yr se con
+                    vitoria: porque el ya hizo su deuido: y a este tal no se le
+                        <lb break="yes"/>podria negar la vitoria: porque avn que
+                    no dio la batalla / quedo se<lb break="no"/>ñor del campo: y
+                    guardo la palabra que hauia dado d<ex>e</ex> dar la batalla.
+                        <lb break="yes"/>Y esto no lo pudieron hazer los
+                    Franceses: que avn que robaron el <lb break="yes"/>campo: no
+                    pudieron executar la vitoria / y assi no se les pudo dar la
+                        <lb break="yes"/>honrra dela vitoria conoscida / porque
+                    los pocos que quedaro<ex>n</ex> se bol-uieron <pb n="15v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>en francia
+                    perdidos y desbaratados: y mas yuan como hom<lb break="no"
+                    />bres vencidos: q<ex>ue</ex> no como vencedores: porque
+                    perdieron todo lo que <lb break="yes"/>hauian ganado. Essos
+                    se llaman vencedores: los que son señores d<ex>e</ex>l <lb
+                        break="yes"/>campo / y delo poblado: y lo defienden de
+                    sus enemigos en batalla y <lb break="yes"/>fuera della. E
+                    por esto no deue dar batalla aplaçada ningu<ex>n</ex>
+                    general: <lb break="yes"/>por euitar muertes de tantas
+                        ge<ex>n</ex>tes: y por no aue<choice>
+                        <corr><ex>n</ex></corr>
+                        <sic/>
+                    </choice>turar su exercito: ni <lb break="yes"/>arriscallo a
+                    peligro: porque de no dar batalla publica se siguen tres <lb
+                        break="yes"/>grandes bienes. Lo primero: gra<ex>n</ex>
+                    seruicio q<ex>ue</ex> se haze a dios en euitar <lb
+                        break="yes"/>tantos males como aquel dia se
+                        haze<ex>n</ex>. Lo segu<ex>n</ex>do haze se gran
+                        serui<lb break="no"/>cio al principe y señor del
+                    exercito en escusar su exercito de peligro: &amp; <lb
+                        break="yes"/>lo tercero assegura tie<ex>m</ex>po para
+                    hauer la ve<ex>n</ex>gança de sus enemigos co<ex>n</ex>
+                    <lb break="yes"/>crescida vitoria. No digo yo que los
+                    generales no den batalla: sino <lb break="yes"/>q<ex>ue</ex>
+                        defie<ex>n</ex>do q<ex>ue</ex> la batalla no sea
+                    aplaçada: sino q<ex>ue</ex> pues los exercitos
+                        esta<ex>n</ex>
+                    <lb break="yes"/>en ca<ex>m</ex>paña dessafiados
+                        co<ex>n</ex> desseo de hazer se todo daño el vno al
+                    otro: <lb break="yes"/>cada vno procure como mejor pudiere:
+                    de tomar a su enemigo enla <lb break="yes"/>cama:
+                        porq<ex>ue</ex> assi lo hizo Bartolome dalbiano:
+                        qua<ex>n</ex>do se dio la batalla <lb break="yes"/>de
+                    Uenecia: q<ex>ue</ex> como supo q<ex>ue</ex> don Ramon de
+                    cardona era passado con <lb break="yes"/>el exercito delos
+                    españoles al Paduano/ y tierra de venecia: aguar<lb
+                        break="no"/>do lo en vn passo cerca de vn rio para le
+                    romper y dar batalla saltea<lb break="no"/>da con veynte dos
+                    mil infantes / &amp; mil y sietecientos hombres dar<lb
+                        break="no"/>mas: y quatro mil cauallos ligeros: y
+                    allende desto hizo venir sesen<lb break="no"/>ta mil hombres
+                    populares: los quales puso por los passos: para que <lb
+                        break="yes"/>despues de rota la batalla: matassen los
+                    que quedauan: porque no q<ex>ue</ex><lb break="no"/>dasse
+                    memoria de ningun Español en Ytalia: mas no le sobreuino a
+                        <lb break="yes"/>Bartolome dalbiano como el
+                    pe<ex>n</ex>saua: que como el campo delos espa<lb break="no"
+                    />ñoles se allego a vista del suyo / el valeroso Marques de
+                    pescara co<ex>n</ex>
+                    <lb break="yes"/>la infanteria Española affronto por vn lado
+                    lleuando toda la infan<lb break="no"/>teria hecha vn cuerpo:
+                    y don Ramon de Cardona con la caualleria <lb break="yes"
+                    />affronto por el otro lado: de tal manera que en espacio de
+                    tres horas <lb break="yes"/>fue roto todo el campo delos
+                    Uenecianos: adonde perdieron toda <lb break="yes"/>la
+                    caualleria con muy hermosa artilleria: y como los sesenta
+                    mil que <lb break="yes"/>estauan por los passos vieron su
+                    campo roto: no quisieron esperar <lb break="yes"/>batalla :
+                    antes huyeron por las montañas como hombres desespe<lb
+                        break="no"/>rados sin lleuar consigo ninguna orden. Y
+                    esta vitoria tan grande al<lb break="no"/>canço don Ramon de
+                    Cardona con los Españoles porque supo dar <lb break="yes"
+                    />la orden al tiempo dela batalla: y porque tenia buena
+                    gente. E por <pb n="16r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ XVI</fw>
+                    <cb type="single-column"/><lb break="yes"/>esto los
+                    generales deuen de tener buena gente para los semejantes <lb
+                        break="yes"/>dias / pues va alli la honrra de su
+                    principe. Y despues que esta bata<lb break="no"/>lla se dio:
+                    los Uenecianos embiaron a dezir a Bartolome dalbiano <lb
+                        break="yes"/>que como hauia sido desbaratado de tan poca
+                    gente? Bartolome <lb break="yes"/>dalbiano les respondio:
+                    que los Españoles no peleauan como hom<lb break="no"/>bres
+                    humanos / sino como ho<ex>m</ex>bres desesperados:
+                        q<ex>ue</ex> no temia<ex>n</ex> la muer<lb break="no"
+                    />te / y que era impossible poder resistir la furia delos
+                    españoles en ba<lb break="no"/>talla: por tanto que no lo
+                    culpassen: y de ay adelante proueyeron los <lb break="yes"
+                    />Uenecianos de no dar batalla contra los españoles. Porende
+                    los <lb break="yes"/>generales deuen de conseruar la gente
+                    de su campo: quando la gen<lb break="no"/>te es platica enla
+                    guerra / y buena: y no arrisgalla en batalla aplaça<lb
+                        break="no"/>da: podiendo hauer la vitoria de sus
+                    enemigos con poca perdida de <lb break="yes"/>gente. E todo
+                    hombre de guerra deue pensar q<ex>ue</ex> la mucha gente
+                    enla <lb break="yes"/>guerra esta mas subjeta al peligro
+                        q<ex>ue</ex> la poca: como paresce por esta <lb
+                        break="yes"/>rota tan grande delos Uenecianos: porque
+                    como arriba es dicho el <lb break="yes"/>exercito copioso de
+                    gente no puede dar la orden enel pelear / como <lb
+                        break="yes"/>los pocos: y los pocos son mas prestos a
+                    combatir / q<ex>ue</ex> los muchos: <lb break="yes"/>y la
+                    mucha gente no puede<ex>n</ex> passar los rios / y passos
+                    malos por mon<lb break="no"/>tañas y caminos / como los
+                    pocos. Y con mejor orden se retiran los <lb break="yes"
+                    />pocos que los muchos: y gasta se mas dinero con la mucha
+                    gente q<ex>ue</ex>
+                    <lb break="yes"/>con la poca: y no se dexan gouernar. E si
+                    vn esquadro<ex>n</ex> huye el dia de <lb break="yes"/>la
+                    batalla: todos van tras aq<ex>ue</ex><choice>
+                        <sic>e</sic>
+                        <corr/>
+                    </choice>l. De manera q<ex>ue</ex> ellos mismos no se sa<lb
+                        break="no"/>ben entender: ni de sus capitanes se dexan
+                    regir. Y los pocos ponen<lb break="no"/>se mas presto en su
+                    orden: y no dan batalla quando los enemigos vie<lb
+                        break="no"/>nen de refresco: hasta que los vean cansados
+                    dela luenga guerra: o <lb break="yes"/>faltosos de
+                    vituallas: o faltosos de gente. E quando acuerdan de <lb
+                        break="yes"/>dar batalla dan la sobre cosa
+                    pe<ex>n</ex>sada / &amp; muy al seguro / o qua<ex>n</ex>do
+                        vee<ex>n</ex>
+                    <lb break="yes"/>tener el juego ganado: y esto
+                        haze<ex>n</ex> por no perder el exercito dela bue<lb
+                        break="no"/>na gente que tienen. <g ref="#calderon1"/>
+                    Muchas vezes acontesce que la inuidia de<lb break="no"/>los
+                    Capitanes daña al exercito: por donde se les suelen seguir
+                        algu<lb break="no"/>nos reueses / y enesto
+                        deue<ex>n</ex> mirar mucho los capitanes / q<ex>ue</ex>
+                    la inuidia <lb break="yes"/>entre ellos no dañe al señor del
+                    exercito: porq<ex>ue</ex> las diuisiones en<ex>e</ex>l
+                        exer<lb break="no"/>cito son dañosas y muy peligrosas al
+                        bie<ex>n</ex> del exercito: porq<ex>ue</ex> los ene<lb
+                        break="no"/>migos no q<ex>ue</ex>rria<ex>n</ex> otra
+                    cosa sino ver gra<ex>n</ex> discordia entre sus
+                    co<ex>n</ex>trarios <lb break="yes"/>p<ex>ar</ex>a se poder
+                        ap<ex>ro</ex>uechar dellos: y por esso los capitanes
+                        ha<ex>n</ex> de estar el <lb break="yes"/>dia
+                        d<ex>e</ex>la batalla muy <ex>con</ex>formes y jurados
+                        d<ex>e</ex>
+                    <ex>com</ex>batir por su p<ex>r</ex><hi rend="superscript"
+                        >i</hi>ncipe como <pb n="16v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>hermanos darmas /
+                    y de no desamparar la batalla hasta morir o ve<ex>n</ex><lb
+                        break="no"/>cer porque en vencer / o ser vencidos va la
+                    honrra de su Principe / y <lb break="yes"/>han de andar
+                    aquel dia muy esforçados y feroçes / esforçando los su<lb
+                        break="no"/>yos / apellidando el apellido de su patria /
+                    pugnando por fuerça de ar<lb break="no"/>mas de lleuar a
+                    deuido effecto lo començado: porque sus hazañas se<lb
+                        break="no"/>an sonadas por todo el mundo y la corona
+                    real de su principe sea en<lb break="no"/>salçada sobre
+                    todos los otros principes. Y la gente mas vsada enla <lb
+                        break="yes"/>guerra affrue<ex>n</ex>te primero enlo mas
+                    flaco delos enemigos: porque des<lb break="no"/>spues de
+                    rotos los mas flacos: con menos trabajo romperan alos <lb
+                        break="yes"/>platicos: porque con todo el cuerpo del
+                    exercito daran enlos plati<lb break="no"/>cos / y assi con
+                    poco trabajo los romperan / y alcançaran la vitoria. <lb
+                        break="yes"/>Algunos pensaran que seria mejor affrontar
+                    primero conla gente <lb break="yes"/>mas platica enla
+                    guerra: mas engañan se: porque rompiendo lo mas <lb
+                        break="yes"/>flaco dela batalla: despues queda junto
+                    todo el cuerpo del exercito / <lb break="yes"/>para dar
+                    enlos platicos. Y desta manera no se puede perder la vito<lb
+                        break="no"/>ria / y antes se alcança mas presto la
+                    vitoria. Mas si al exercito le fal<lb break="no"/>tare
+                    dinero / o vitualla / o gente / o poluora / deue se de
+                    escusar de dar <lb break="yes"/>batalla: &amp; si no pudiere
+                    hazer menos / sino que la ha de dar / de la secre<lb
+                        break="no"/>ta / y comience se antes del dia / y lleuen
+                    todos sus deuisas sobre las <lb break="yes"/>armas: porque
+                    con la escuridad dela noche no se maten vnos a otros: <lb
+                        break="yes"/>y tomen el sol alas espaldas porque no les
+                    de enla vista:y tambien el <lb break="yes"/>ayre: porque no
+                    los ciegue el poluo. Y despues que houieren affronta<lb
+                        break="no"/>do: las mangas socorran a sus esquadrones /
+                    dando alos enemigos <lb break="yes"/>por los lados. E si el
+                    general diere otra orde<ex>n</ex> dela que se suele dar / no
+                        <lb break="yes"/>por esso se deue<ex>n</ex> turbar la
+                        ge<ex>n</ex>te / ca lo haze por algun buen respeto. Y
+                        <lb break="yes"/>para essos tales dias deue<ex>n</ex>
+                    procurar los generales de ser bie<ex>n</ex> quistos <lb
+                        break="yes"/>dela ge<ex>n</ex>te de guerra / en especial
+                    dela infanteria y que ellos sepan q<ex>ue</ex> el <lb
+                        break="yes"/>los ama de buen coraçon / y lo mismo sepa
+                    el dellos / y ellos touie<ex>n</ex>do <lb break="yes"/>le
+                    esta voluntad ternan especial cuydado de sacar le con honrra
+                    el <lb break="yes"/>dia dela batalla: sin daño de sus
+                    enemigos. Como los enemigos se<lb break="no"/>an rotos
+                    siguan la vitoria: y no se occupen en robar el campo /
+                        porq<ex>ue</ex>
+                    <lb break="yes"/>podrian reboluer los enemigos sobre ellos:
+                    y donde eran vencedo<lb break="no"/>res quedar vencidos. Y
+                    por esso deuen los Generales de executar la <lb break="yes"
+                    />vitoria: hasta que los enemigos sea<ex>n</ex> del todo
+                    rotos / y desbaratados. <lb break="yes"/>porende esta
+                    defendido que no se de la honrra dela vitoria / sino al
+                        ge<lb break="no"/>neral q<ex>ue</ex> la executa: porque
+                    executando la vitoria: assegura su exercito <pb n="17r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ XVII</fw>
+                    <cb type="single-column"/><lb break="yes"/>de peligro: Y por
+                    esso el dia que los generales alca<ex>n</ex>çan vitoria de
+                    sus <lb break="yes"/>enemigos: no se deuen descuydar en
+                    seguir la vitoria hasta rompe<lb break="no"/>llos de todo
+                    punto: porque no se rehagan: y despues de hauida la vi<lb
+                        break="no"/>toria deue el general hazer guardar la orden
+                    que antes que se diesse <lb break="yes"/>la batalla se
+                    tenian en su exercito: enel poner delas guardas &amp;
+                        cinti<lb break="no"/>nellas: porque avn que no lo haga
+                    por miedo delos enemigos: deue <lb break="yes"/>lo hazer por
+                    no poner mal vso en su exercito / y despues que hayan ro<lb
+                        break="no"/>bado el campo deue el general
+                    ju<ex>n</ex>tar toda la infanteria y caualleria / <lb
+                        break="yes"/>y dar les gracias por la vitoria
+                        q<ex>ue</ex> dios le ha dado / y prometa les mu<lb
+                        break="no"/>chas mercedes: diziendo les que el principe
+                    y el señor del exerci<choice>
+                        <corr>t</corr>
+                        <sic>t</sic>
+                    </choice>o ter<lb break="no"/>na cuydado de gratificar les
+                    sus buenos seruicios: y alos caualleros <lb break="yes"/>y
+                    soldados / que mas se señalaren el dia dela batalla: haga
+                    les merce<lb break="no"/>des: y de les doblado sueldo:
+                    porque otro dia de alli adelante lo ha<lb break="no"/>gan
+                    mejor: y porque los otros tengan especial cuydado de hazer
+                    lo <lb break="yes"/>mismo: por ser remunerados / y honrrados
+                    como aquellos. <lb break="yes"/></p>
+            </div>
+            <div type="chapitre" n="9">
+                <head><hi rend="rubrique"><g ref="#calderon1"/> Capitulo .viiij.
+                        Como se ha<ex>n</ex> de guardar las <lb break="yes"
+                        />ciudades / villas y castillos que el señor del
+                        exercito ganare.</hi>
+                </head>
+                <p><lb break="yes"/><hi rend="initiale" n="6">D</hi>Espues que
+                    el señor del exercito houiere hauido la <lb break="yes"
+                    />vitoria de sus enemigos: deue conquistar las ciu<lb
+                        break="no"/>dades / villas y castillos comarcanas /
+                    sobre que se <lb break="yes"/>mouio la guerra / enlas quales
+                    deue poner mucha <lb break="yes"/>guarda / y deue las
+                    fortalescer / alomenos aquellas <lb break="yes"/>que el
+                    conosciere que se pueden defender alos ene<lb break="no"
+                    />migos. <g ref="#calderon1"/> Tres cosas ha de tener vna
+                    ciudad para ser fuerte. La pri<lb break="no"/>mera muy buen
+                    muro en llano: que no tenga padrasto en torno pa<lb
+                        break="no"/>ra que le puedan tirar. La segunda que tenga
+                    su fuessa de agua en<lb break="no"/>torno del muro por la
+                    parte defuera: de hondura de vna gineta y de <lb break="yes"
+                    />ancho de pica y media / o de dos picas con sus puentes
+                    leuadizas / <lb break="yes"/>por donde entre y salga la
+                    gente dela ciudad. Y la tercera que tenga <lb break="yes"
+                    />muchas vituallas para el mantenimiento dela gente de
+                    guerra / y <lb break="yes"/>touiendo estas tres cosas no se
+                    podria ganar por batalla la tal ciu<lb break="no"/>dad. El
+                    muro ha de ser bien fraguado: ha de tener sus traueses que
+                        <lb break="yes"/>jueguen por lo baxo del fosso: con que
+                    haya de traues a traues ci<lb break="no"/>ento y cinquenta
+                    passos / o alomenos casas matas: para que la ar<lb
+                        break="no"/>tilleria pueda jugar dentro dellas: por lo
+                    alto / y por lo baxo. Y <lb break="yes"/><fw
+                        type="signature">C</fw>
+                    <pb n="17v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>por lo alto tenga
+                    el muro sus defensas: y andamios con sus trone<lb break="no"
+                    />ras: para que los arcabuzeros puedan tirar alos defuera.
+                    Otras for<lb break="no"/>mas se podrian dar para la defensa
+                    de vna ciudad: assi como bastio<lb break="no"/>nes / y
+                    reparos que descubran la campaña: huuiendo abundancia de <lb
+                        break="yes"/>artilleria: y ha de estar la campaña muy
+                    limpia de arboles en torno <lb break="yes"/>dela ciudad: y
+                        d<ex>e</ex> ribaços porque estos son muy dañosos al
+                    cuerpo de <lb break="yes"/>la ciudad / y para la guarda
+                    della deuen poner enla plaça principal <lb break="yes"/>dela
+                    ciudad el cuerpo dela guarda. y el Sargento ponga ala
+                        prime<lb break="no"/>ra sus guardas: si fuere en
+                    inuierno: haga la primera seys horas: y la <lb break="yes"
+                    />segunda guarda deue hazer cinco horas: y la diana haga el
+                    resto que <lb break="yes"/>son tres horas hasta el dia: y
+                    este muy desuelada la guarda dela dia<lb break="no"/>na:
+                    porque comunmente a aquella hora suelen venir los enemigos:
+                    y <lb break="yes"/>las guardas &amp; cintinellas quando
+                    hizieren su guarda: no esten dan<lb break="no"/>do vozes: ni
+                    tañendo bozinas: porque si estuuiessen haziendo ruydo <lb
+                        break="yes"/>no sentirian la huella delos enemigos /
+                    quando viniesen. Por esto <lb break="yes"/>ha de estar muy
+                        d<ex>e</ex>suelado enla guarda: porque si viniessen
+                    enemigos: <lb break="yes"/>los sientan antes que lleguen al
+                    muro: y en sintiendo / de auiso al cuer<lb break="no"/>po
+                    dela guarda / enel qual se de arma: y reparta el
+                        capita<ex>n</ex> su gente por <lb break="yes"/>el muro:
+                    y porna el Capitan en cada puerta dela ciudad vna esqua<lb
+                        break="no"/>dra de gente / ala misma puerta: en cada
+                    parte la suya: en vna cabeça <lb break="yes"/>que la rija:
+                    que guarden la defensa dela puerta: y porque si algunos <lb
+                        break="yes"/>delos de dentro quisieren abrir alos
+                    enemigos con algun sutil inge<lb break="no"/>nio no se de
+                    lugar a su traycion: avn que al traydor no dura mas su <lb
+                        break="yes"/>vida de quanto dura la traycion: y cada
+                    esquadra destas se rija por <lb break="yes"/>su Caporal / o
+                    Capitan: y esten enesta orden hasta el dia: &amp; si el
+                        cam<lb break="no"/>po no se leuantare: por la misma
+                    orden la pueden defender: &amp; si le die<lb break="no"/>ren
+                    bateria: hagan abasti<choice>
+                        <corr>o</corr>
+                        <sic/>
+                    </choice>nar la muralla por donde la bateria se die<lb
+                        break="no"/>re por la parte de dentro / de tierra y
+                    estiercol y fustas gruessas: tapia<lb break="no"/>do todo a
+                    manera de tapia que sea muy ancha: porque si los enemi<lb
+                        break="no"/>gos derribaren el muro: que quede otro mas
+                    fuerte que no el derri<lb break="no"/>bado: al qual si esta
+                    hecho segun estilo de guerra: poco daño le podra <lb
+                        break="yes"/>hazer la artilleria / y los cargos dela
+                    gubernacion delas tales ciuda<lb break="no"/>des deue los
+                    dar el general alos caualleros y soldados q<ex>ue</ex> le
+                        siruie<lb break="no"/>ron enla guerra: &amp; se les
+                    ayudaron a ganar: y al tiempo que les diere <lb break="yes"
+                    />los semejantes cargos: traya les ala memoria la voluntad
+                    que tiene <lb break="yes"/>su principe de hazelles mercedes:
+                    y que aquellos cargos se les dan <pb n="18r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ XVIII</fw>
+                    <cb type="single-column"/><lb break="yes"/>por sus buenos
+                    seruicios: y que tengan especial cuydado enla guber<lb
+                        break="no"/>nacion y guarda de aquellas ciudades: porque
+                    su rey quede en obli<lb break="no"/>gacion de hazelles otras
+                    muy mayores mercedes: y que miren mu<lb break="no"/>cho por
+                    la defensa dellas: y que viuan de contina muy desuelados / y
+                        <lb break="yes"/>que hagan todo buen tratamiento alos
+                    vezinos y moradores de a<lb break="no"/>quellas ciudades:
+                    porque de enemigos los conuierta en buenos a<lb break="no"
+                    />migos. <g ref="#calderon1"/> Los castillos y fortalezas
+                    que ganaren / los que conoscie<lb break="no"/>re que se
+                    pueden defender: deue los fortalescer: y los que no se
+                        pudie<lb break="no"/>ren defender deue los derriuar:
+                    porque no pongan en gasto al señor <lb break="yes"/>del
+                    exercito / porque mas daño se sigue de tener las tales
+                    fuerças en <lb break="yes"/>no derriballes por tres razones.
+                    La primera: porque el principe ga<lb break="no"/>sta sus
+                    rentas enlas sustentar: sin recebir prouecho dellas. La
+                        segu<ex>n</ex><lb break="no"/>da porque algunas dellas
+                    estan en parte que son mas cueuas de la<lb break="no"
+                    />drones que no fortalezas. La tercera que es peor: que si
+                    sienten ene<lb break="no"/>migos no osan esperar batalla.
+                    Assi que gozan el prouecho los Al<lb break="no"/>caydes y no
+                    quieren auenturar se al peligro: y estas tales fuerças es
+                        <lb break="yes"/>mejor derriballas que no tenellas /
+                    pues no recibe dellas el señor nin<lb break="no"/>gun
+                    seruicio: antes se espera daño dellas que no prouecho. E los
+                        ca<lb break="no"/>stillos y fortalezas que se pudieren
+                    tener alos enemigos: enestos <lb break="yes"/>tales deuen
+                    los Principes poner mucho recaudo: pues son par<lb
+                        break="no"/>te para hazer todo daño alos enemigos. Y
+                    estos tales los alcaydes <lb break="yes"/>dellos han de ser
+                    hombres de guerra / de buen genero: porque el dia <lb
+                        break="yes"/>dela necessidad sabra como se ha de
+                    defender: &amp; si le quisiere fortifi<lb break="no"/>car:
+                    mejor lo sabra hazer el alcayde que fuere ho<ex>m</ex>bre de
+                    guera que no <lb break="yes"/>otro. Si el castillo esta en
+                    cerro alto: haga le peñar el cerro por ma<lb break="no"
+                    />nera que en todo el cerro donde el castillo estuuiere
+                    assentado delo <lb break="yes"/>alto alo baxo / no haya
+                    ningun reparo: ni otra cosa donde los enemi<lb break="no"
+                    />gos se pudiessen embuscar: sino que todo este limpio y
+                    peñado: por<lb break="no"/>que los soldados del castillo
+                    puedan tirar alos enemigos quando <lb break="yes"/>subieren
+                    el cerro. Y el castillo por de dentro este muy desembara<lb
+                        break="no"/>çado porque se puedan socorrer los vnos alos
+                    otros el dia dela ne<lb break="no"/>cessidad: y haga se la
+                    misma guarda q<ex>ue</ex> se haze enla ciudad: por la me<lb
+                        break="no"/>sma orden. Mas si el castillo estuuiere en
+                    llano no seria tan fuerte <lb break="yes"/>sino tuuiesse su
+                    fossa de agua entorno / y sus traueses / por do juegen <lb
+                        break="yes"/>los artilleros. Y este tal deue se poner
+                    mucho recaudo en le fortale<lb break="no"/>scer: y deuen le
+                    guardar por la misma orden susodicha: y ha de tener <lb
+                        break="yes"/><fw type="signature">E ij</fw>
+                    <pb n="18v"/>
+                    <fw rend="titre-courant">Libro llamado +</fw>
+                    <cb type="single-column"/><lb break="yes"/>oche<ex>n</ex>ta
+                    passos de traues a traues: y ha de estar prouehido de
+                        artille<lb break="no"/>ria / poluora y pelotas /
+                    arcabuzes / picas / artilleros y la ge<ex>n</ex>te
+                        q<ex>ue</ex> tuuie<lb break="no"/>re dentro
+                        sea<ex>n</ex> los mas arcabuzeros. Y este prouehido de
+                    todo gene<lb break="no"/>ro de bastime<ex>n</ex>tos: porque
+                    el dia dela necessidad no le falte<ex>n</ex>. Y los Al<lb
+                        break="no"/>caydes q<ex>ue</ex>
+                            estuuiere<supplied><ex>n</ex></supplied>
+                        de<ex>n</ex>tro te<ex>n</ex>ga<ex>n</ex> a mucho recaudo
+                    la tal fortaleza: por <lb break="yes"/>que no se la
+                        hurte<ex>n</ex> de noche / o de dia / por algu<ex>n</ex>
+                    engaño / o traycio<ex>n</ex> y no <lb break="yes"/>se deue
+                    rendir por batalla: mi por otro co<ex>m</ex>bate ninguno:
+                    porque el Al<lb break="no"/>cayde rendido: no puede ser
+                    alcayde de otro castillo: pues se rendio / <lb break="yes"
+                        />porq<ex>ue</ex> mas sano le seria morir
+                        pelea<ex>n</ex>do co<ex>n</ex> los enemigos:
+                        q<ex>ue</ex> no<ex>n</ex> viuir ha<lb break="no"
+                        />uie<ex>n</ex>do se re<ex>n</ex>dido: porq<ex>ue</ex>
+                    regla es entre ge<ex>n</ex>te de guerra: q<ex>ue</ex> vn
+                        ho<ex>m</ex>bre rendi<lb break="no"/>do / no puede<choice>
+                        <corr> </corr>
+                        <sic/>
+                    </choice><ex>com</ex>batir co<ex>n</ex> otro: sin
+                        lice<ex>n</ex>cia d<ex>e</ex> aq<ex>ue</ex>l a
+                        quie<ex>n</ex><choice>
+                        <corr> </corr>
+                        <sic/>
+                    </choice>se re<ex>n</ex>dio. Pues assi <lb break="yes"
+                    />mesmo el Alcayde que rendio vn castillo: no puede ser
+                    Alcayde de <lb break="yes"/>otro castillo: si por su persona
+                    no torna a ganar el castillo q<ex>ue</ex> rendio. <lb
+                        break="yes"/>Porende los alcaydes han de ser hombres de
+                    guerra: porque mu<lb break="no"/>chas vezes acontesce perder
+                    se las tierras: porque los que tiene<ex>n</ex> car<lb
+                        break="no"/>go dela defensa dellas: no saben dar la
+                    orden para las defender. Y <lb break="yes"/>por esto el
+                    señor del exercito enlas tierras q<ex>ue</ex> ganare ponga
+                    tales per<lb break="no"/>sonas q<ex>ue</ex> no
+                        haga<ex>n</ex> fal<choice>
+                        <corr>t</corr>
+                        <sic>t</sic>
+                    </choice>a su persona: y el gasto q<ex>ue</ex> hiziere enlas
+                    fortalescer <lb break="yes"/>sea de manera q<ex>ue</ex>
+                    aproueche: y no sea vicioso: porq<ex>ue</ex> el dinero no
+                    sea mal <lb break="yes"/>gastado. Y como vaya
+                    gana<ex>n</ex>do: vaya fortifica<ex>n</ex>do las plazas
+                    fuertes: <lb break="yes"/>porq<ex>ue</ex> los enemigos no se
+                        pueda<ex>n</ex> amparar d<ex>e</ex>llas y enellas. De
+                    otros <lb break="yes"/>auisos de guerra se podria dar
+                        declaracio<ex>n</ex>: mas para dar la declara<lb
+                        break="no"/>cio<ex>n</ex> dellas: era menester
+                        q<ex>ue</ex> los viessen de obra / y no por escripto:
+                        porq<ex>ue</ex>
+                    <lb break="yes"/>debaxo deste articulo hay muchos secretos y
+                    ardides de guerra / los <lb break="yes"/>quales se
+                        suele<ex>n</ex> esperime<ex>n</ex>tar qua<ex>n</ex>do se
+                    representa la mayor necessidad. <lb break="yes"/>E por esto
+                    no se deue co<ex>m</ex>municar en publico: pues es menester
+                    para <lb break="yes"/>lo semejante mas obra q<ex>ue</ex>
+                    escriptura: para vencer / o hazer daño alos <lb break="yes"
+                    />enemigos q<ex>ue</ex> de noche y de dia estudia<ex>n</ex>
+                    de hazer lo mesmo. <g ref="#calderon1"/> Por qua<lb
+                        break="no"/>tro maneras de batalla se puede ganar vn
+                    Castillo: o por batalla de <lb break="yes"/>manos / o por
+                    bateria / o por mina / o por hambre: si se gana por mina:
+                        <lb break="yes"/>puede se defender por
+                    co<ex>n</ex>tramina: si se gana por bateria puede se de<lb
+                        break="no"/>fender repara<ex>n</ex>do el muro por la
+                    parte de de<ex>n</ex>tro: hazie<ex>n</ex>do vn
+                        co<ex>n</ex>tramu<lb break="no"/>ro / echa<ex>n</ex>do
+                    entre muro y muro muchos barriles de poluora:
+                        hazie<ex>n</ex>do <lb break="yes"/>algunos
+                        pale<ex>n</ex>ques: para q<ex>ue</ex> los arcabuzeros
+                    puedan tirar dende alos <lb break="yes"/>enemigos: quando
+                    entraren por el portillo: y la batalla de manos <lb
+                        break="yes"/>puede se defender por batalla:
+                        porq<ex>ue</ex> mas valen los pocos dentro del <pb
+                        n="19r"/>
+                    <fw rend="titre-courant">Jnstrucion y regimiento de guerra.
+                        \ XIX</fw>
+                    <cb type="single-column"/><lb break="yes"/>fuerte: que los
+                    muchos defuera del fuerte: mas ala ha<ex>m</ex>bre no hay
+                        de<lb break="no"/>fensa: porque si el alcayde no tiene
+                    vitualla dentro del castillo para <lb break="yes"/>sus
+                    soldados: claro esta q<ex>ue</ex> se ha de rendir / sin dar
+                    batalla ni esperar. <lb break="yes"/>Y enel hazer dela mina
+                    / si la tierra es pantanosa: y manantial: no se <lb
+                        break="yes"/>podria hazer mina: mas si la tierra es
+                    arzilla / o greda / o arenosa / pue<lb break="no"/>de se
+                    hazer la mina: mas enel hazer del horno debaxo del centro
+                    del <lb break="yes"/>torreon es menester q<ex>ue</ex> lo
+                    haga el ingeniero: porque otro ninguno no <lb break="yes"
+                    />lo acertaria: por no saber dar la orde<ex>n</ex> del meter
+                    dela poluora: y del ce<lb break="no"/>rrar del horno. E si
+                    la tierra es sufficie<ex>n</ex>te para suffrir la mina:
+                        porq<ex>ue</ex> si <lb break="yes"/>despues de hecho el
+                    horno q<ex>ue</ex>dasse algu<ex>n</ex> espiradero: no podria
+                    hauer <lb break="yes"/>effecto la mina: mas si lo saben
+                    hazer: ha de ser sin ningu<ex>n</ex> espiradero: <lb
+                        break="yes"/>porq<ex>ue</ex> despues de dado el fuego
+                    ala poluora: todo lo q<ex>ue</ex> topare dela<ex>n</ex>te:
+                        <lb break="yes"/>lo hara volar por el ayre. Por esto el
+                    que ha de fraguar vn Castillo: <lb break="yes"/>ha de mirar
+                    estos inconuenientes: que antes q<ex>ue</ex> eche los
+                        cimie<ex>n</ex>tos de<lb break="no"/>ue hazer las
+                    contraminas: porque el castillo no pueda ser minado. <lb
+                        break="yes"/>Y este es vn secreto que no se puede dar a
+                    entender: sino se viesse por <lb break="yes"/>la obra porque
+                    no es materia que se da declaracion dello: por ser co<lb
+                        break="no"/>mo es vna cosa que no se puede saber: sino
+                    es quando se obra. <g ref="#calderon1"/> Y <lb break="yes"
+                    />assi haze fin la presente obra llamada regimiento de
+                    guerra : la qual <lb break="yes"/>sea esperimentada en
+                    seruicio de dios co<ex>n</ex>tra los perfidos turcos sa<lb
+                        break="no"/>rracenos nuestros enemigos y no entre
+                    Christianos: y para ello di<lb break="no"/>os que es el
+                    guiador &amp; criador de todas las cosas enfunda enla gen<lb
+                        break="no"/>te Christiana tanta gracia y esfuerço que
+                    sean parte para co<ex>n</ex>quistar <lb break="yes"/>la
+                    tierra que los infieles tienen ocupada: y traher la debaxo
+                    de sub<lb break="no"/>jecion del inuictissimo Cesar: y ellos
+                        ve<ex>n</ex>gan en conoscimie<ex>n</ex>to de nue<lb
+                        break="no"/>stra santa fe catolica: y resciban el sancto
+                    baptismo: porque no sean <lb break="yes"/>engañados por la
+                    falsa secta Mahometica: como lo han sido hasta <lb
+                        break="yes"/>aqui. Y sus animas sean saluas <foreign
+                        xml:lang="lat"><g ref="#calderon1"/> Deo
+                        gracias.</foreign>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="colophon">
+                <p><lb break="yes"/><g ref="#calderon1"/> Acabo se el presente
+                    libro enla ciudad de <lb break="yes"/><choice>
+                        <corr>Ç</corr>
+                        <sic>Ç</sic>
+                    </choice>aragoça en casa de maestre Geor<lb break="no"/>ge
+                    coci: el vltimo dia de Octu<lb break="no"/>bre. Año de mil y
+                        quinien<lb break="no"/>tos y treynta y <lb break="yes"
+                    />syete. <lb break="yes"/><g>cross.</g></p>
+            </div>
+        </back>
+    </text>
+</TEI>

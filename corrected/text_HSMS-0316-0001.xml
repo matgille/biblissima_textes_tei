@@ -92,14 +92,17 @@
                 <!--L'oeuvre abstraite = work-->
                 <!--On va cat&#233;goriser la classe frbr et la forme<-->
                 <bibl ana="#frbr.work" type="work">
-                    <title/>
+                    <title>Arbre des batailles</title>
                     <author
                         corresp="https://database.factgrid.de/entity/Q1076052"
-                            ><surname>Bouvet</surname><forename>Honoré</forename></author><date/>
+                            ><surname>Bouvet</surname><forename>Honoré</forename></author>
+                    <date/>
                     <idno type="HSMS-WORK"/>
                     <idno type="beta-texid"/>
                     <idno type="factgrid-id"/>
-                    <idno type="biblissima-id"/>
+                    <idno type="biblissima-id"
+                        corresp="https://data.biblissima.fr/w/Item:Q283047"
+                        >Q283047</idno>
                     <idno type="BNF-id"/>
                     <idno type="BNE-id"/>
                     <idno type="VIAF-id"/>
