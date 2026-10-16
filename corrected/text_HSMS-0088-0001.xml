@@ -245582,12 +245582,12 @@
                             </choice>torna a<choice>
                                 <corr> </corr>
                                 <sic/>
-                            </choice>lançarote ⇒<lb break="yes"/>E al Rey Artur
+                            </choice>lançarote ⇒<pb n="236r"/>
+                        <fw rend="titre-courant">\ 236</fw>
+                        <cb type="single-column"/><lb break="yes"/>E al Rey Artur
                         </hi>
                     </head>
-                    <p><pb n="236r"/>
-                        <fw rend="titre-courant">\ 236</fw>
-                        <cb type="single-column"/><lb break="yes"/><lb
+                    <p><lb break="yes"/><lb
                             break="yes"/>Dize el cuento que<choice>
                             <corr> </corr>
                             <sic/>
@@ -263740,7 +263740,9 @@
                     <head><hi rend="rubrique" type="merged">Como don dinax paso el<choice>
                                 <corr> </corr>
                                 <sic/>
-                            </choice>agua ⇒<lb break="yes"/>e<choice>
+                            </choice>agua ⇒<pb n="256r"/>
+                        <fw rend="titre-courant">\ 256</fw>
+                        <cb type="single-column"/><lb break="yes"/>e<choice>
                                 <corr> </corr>
                                 <sic/>
                             </choice>fue<choice>
@@ -263751,9 +263753,7 @@
                                 <sic/>
                             </choice>prision </hi>
                     </head>
-                    <p><pb n="256r"/>
-                        <fw rend="titre-courant">\ 256</fw>
-                        <cb type="single-column"/><lb break="yes"/><lb
+                    <p><lb break="yes"/><lb
                             break="yes"/>EN<choice>
                             <sic> </sic>
                             <corr/>
