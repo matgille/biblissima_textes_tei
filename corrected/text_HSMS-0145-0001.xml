@@ -186,9 +186,10 @@
                     est conservée: sauts de ligne, changements de colonne,
                     espaces en blanc, miniatures, illustrations, diagrammes,
                     etc.</p>
-                <p>Le texte est structuré en divisions minimales, en fonction de
-                    son genre. La division en paragraphes, pour la prose, n'est
-                    pas réalisée.</p>
+                <p>Le texte est structuré en divisions minimales (livres:
+                    section, titres: sous-section, lois: sous-sous-section). La
+                    classe précise de chaque division est indiquée via le
+                    subtype. Le texte n'est pas divisé en paragraphes.</p>
                 <p>Pour plus d'informations, voir l'ODD.</p>
             </editorialDecl>
             <refsDecl n="physical">
@@ -1860,9 +1861,7 @@
                                 rend="superscript">o</hi>. d<ex>e</ex>la guarda
                                 d<ex>e</ex>los fijos del. Rey.</hi>
                     </head>
-                    <div type="prologue" n="6">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -1956,9 +1955,7 @@
                                 ma<ex>n</ex>da<lb break="no"/>mjentos del
                             Rey.</hi>
                     </head>
-                    <div type="prologue" n="8">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -2010,9 +2007,7 @@
                                 rend="superscript">o</hi>. d<ex>e</ex>la guarda
                             delas cosas de <ex>santa</ex> egl<ex>es</ex>ia.</hi>
                     </head>
-                    <div type="prologue" n="10">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -2562,9 +2557,7 @@
                             &amp; de sus estables<lb break="no"
                             />cimje<ex>n</ex>tos.</hi>
                     </head>
-                    <div type="prologue" n="18">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -2697,9 +2690,7 @@
                                 >o</hi>. delos officios delos
                             alcall<ex>e</ex>s.</hi>
                     </head>
-                    <div type="prologue" n="24">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -3087,9 +3078,7 @@
                     <head><hi rend="rubrique">Titulo .viij<hi rend="superscript"
                                 >o</hi>. delos escriuanos publicos.</hi>
                     </head>
-                    <div type="prologue" n="35">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -3430,9 +3419,7 @@
                                 <add>r</add>
                             </subst>os.</hi>
                     </head>
-                    <div type="prologue" n="43">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley. j<hi rend="superscript"
                                     >a</hi></hi>
@@ -4333,9 +4320,7 @@
                                 q<ex>ue</ex> deue<ex>n</ex> ualer o
                             no<ex>n</ex></hi>
                     </head>
-                    <div type="prologue" n="69">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -4566,9 +4551,7 @@
                                 >o</hi>. delas cosas q<ex>ue</ex> son en
                             contienda.</hi>
                     </head>
-                    <div type="prologue" n="78">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -5432,9 +5415,7 @@
                                 ma<ex>n</ex>damje<ex>n</ex>to delos
                             alcalles.</hi>
                     </head>
-                    <div type="prologue" n="96">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -5676,9 +5657,7 @@
                                 emplazamje<ex>n</ex>tos. &amp; d<ex>e</ex>los
                                 q<ex>ue</ex> fu<ex>er</ex>en rebeldes.</hi>
                     </head>
-                    <div type="prologue" n="100">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -6927,9 +6906,7 @@
                                 rend="superscript">a</hi>rto d<ex>e</ex>las
                             demandas.</hi>
                     </head>
-                    <div type="prologue" n="111">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley. j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -7399,9 +7376,7 @@
                 <div type="sous-section" subtype="titulo" n="5">
                     <head><hi rend="rubrique">Titulo qujnto delas ferias.</hi>
                     </head>
-                    <div type="prologue" n="113">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley. j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -7561,9 +7536,7 @@
                                 <sic/>
                             </choice> d<ex>e</ex>las Respuestas.</hi>
                     </head>
-                    <div type="prologue" n="115">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -7752,9 +7725,7 @@
                                 rend="superscript">i</hi><ex>sti</ex>anos &amp;
                             moros &amp; judios.</hi>
                     </head>
-                    <div type="prologue" n="118">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -8003,7 +7974,13 @@
                             alos fijos de isr<ex>ae</ex>l q<ex>u</ex><hi
                                 rend="superscript">a</hi>ndo adoraro<ex>n</ex>
                             el ydolo. responda sin co<ex>n</ex>tie<ex>n</ex>da.
-                                Am<ex>en</ex>. <pb n="78r"/>
+                                Am<ex>en</ex>. </p>
+                    </div>
+                    <div type="sous-sous-section" n="4" subtype="ley">
+                        <head><hi rend="rubrique">Ley .iiij<hi
+                                    rend="superscript">a</hi>.</hi>
+                        </head>
+                        <p><pb n="78r"/>
                             <fw rend="titre-courant">Libro .ij<hi
                                     rend="superscript">o</hi>.
                                         .T<ex>itul</ex><supplied><hi
@@ -8017,15 +7994,8 @@
                             apartada en esta man<ex>er</ex>a. Deue el moro <choice>
                                 <corr><g ref="#calderon2"/></corr>
                                 <sic/>
-                            </choice>
-                        </p>
-                    </div>
-                    <div type="sous-sous-section" n="4" subtype="ley">
-                        <head><hi rend="rubrique">Ley .iiij<hi
-                                    rend="superscript">a</hi>.</hi>
-                        </head>
-                        <p><lb break="yes"/>estar en pie. &amp; tornar se de
-                            cara &amp; alçar la mano contral meridie: <lb
+                            </choice><lb break="yes"/>estar en pie. &amp; tornar
+                            se de cara &amp; alçar la mano contral meridie: <lb
                                 break="yes"/>a q<ex>u</ex><hi rend="superscript"
                                 >i</hi> llama<choice>
                                 <corr><ex>n</ex></corr>
@@ -8152,9 +8122,7 @@
                                 rend="superscript">o</hi>. d<ex>e</ex>las
                                 connosçe<ex>n</ex>cias.</hi>
                     </head>
-                    <div type="prologue" n="123">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -8241,9 +8209,7 @@
                                 rend="superscript">o</hi>. delos testigos &amp;
                             delas prueuas.</hi>
                     </head>
-                    <div type="prologue" n="127">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley. j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -9412,9 +9378,7 @@
                                 >o</hi>. d<ex>e</ex>las cartas &amp;
                             d<ex>e</ex>los traslaudos.</hi>
                     </head>
-                    <div type="prologue" n="149">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -10015,9 +9979,7 @@
                                 rend="superscript">o</hi>. d<ex>e</ex>las
                             defenssiones.</hi>
                     </head>
-                    <div type="prologue" n="160">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -10900,9 +10862,7 @@
                                 <sic/>
                             </choice> delas iuras.</hi>
                     </head>
-                    <div type="prologue" n="183">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -11139,9 +11099,7 @@
                             iuyzios afinados com<ex>m</ex>o se deue<ex>n</ex>
                             dar.</hi>
                     </head>
-                    <div type="prologue" n="190">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley. j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -11593,9 +11551,7 @@
                     <head><hi rend="rubrique">Titulo .xvj<hi rend="superscript"
                                 >o</hi>. d<ex>e</ex>las alçadas.</hi>
                     </head>
-                    <div type="prologue" n="201">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley p<ex>r</ex><hi
                                     rend="superscript">i</hi>m<ex>er</ex>a.</hi>
@@ -12241,9 +12197,7 @@
                                 rend="superscript">i</hi>m<ex>er</ex>o delos
                                 casamje<ex>n</ex>tos.</hi>
                     </head>
-                    <div type="prologue" n="213">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -12625,9 +12579,7 @@
                     <head><hi rend="rubrique">Titulo .ij<hi rend="superscript"
                                 >o</hi>. d<ex>e</ex>las arras.</hi>
                     </head>
-                    <div type="prologue" n="228">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -12913,9 +12865,7 @@
                                 rend="superscript">s</hi> del marido &amp; dela
                             mugier.</hi>
                     </head>
-                    <div type="prologue" n="235">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley p<ex>r</ex><hi
                                     rend="superscript">i</hi>m<ex>er</ex>a.</hi>
@@ -13260,9 +13210,7 @@
                                 >o</hi>. delas lauores &amp; delas
                                 partiç<ex>i</ex>ones.</hi>
                     </head>
-                    <div type="prologue" n="240">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley. p<ex>r</ex><hi
                                     rend="superscript">i</hi>m<ex>er</ex>a.</hi>
@@ -14118,9 +14066,7 @@
                     <head><hi rend="rubrique">Titulo q<ex>u</ex><hi
                                 rend="superscript">i</hi>nto de las mandas.</hi>
                     </head>
-                    <div type="prologue" n="259">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -14668,9 +14614,7 @@
                 <div type="sous-section" subtype="titulo" n="6">
                     <head><hi rend="rubrique">Titulo sexto delas herencias.</hi>
                     </head>
-                    <div type="prologue" n="274">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley. p<ex>r</ex><hi
                                     rend="superscript"
@@ -15492,9 +15436,7 @@
                                 >o</hi>. d<ex>e</ex>la guarda d<ex>e</ex>los
                             huerfanos.</hi>
                     </head>
-                    <div type="prologue" n="296">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .<supplied>j<hi
                                         rend="superscript"
@@ -15825,9 +15767,7 @@
                                 >o</hi>. de los goujernos &amp; com<ex>m</ex>o
                             se han de fazer.</hi>
                     </head>
-                    <div type="prologue" n="303">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley p<ex>r</ex><hi
                                     rend="superscript">i</hi>m<ex>er</ex>a.</hi>
@@ -16040,9 +15980,7 @@
                     <head><hi rend="rubrique">Titulo .ix<hi rend="superscript"
                                 >o</hi>. delos deseredamjentos</hi>
                     </head>
-                    <div type="prologue" n="309">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .p<ex>r</ex><hi
                                     rend="superscript">i</hi>m<ex>er</ex>a.</hi>
@@ -16248,9 +16186,7 @@
                                 >o</hi>. delas uendidas &amp; de las
                             compras.</hi>
                     </head>
-                    <div type="prologue" n="315">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .p<ex>r</ex><hi
                                     rend="superscript">i</hi>m<ex>er</ex>a.</hi>
@@ -17561,9 +17497,7 @@
                     <head><hi rend="rubrique">Titulo .xij<hi rend="superscript"
                                 >o</hi>. delas donaçiones</hi>
                     </head>
-                    <div type="prologue" n="341">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .p<ex>r</ex><hi
                                     rend="superscript">i</hi>m<ex>er</ex>a.</hi>
@@ -18090,9 +18024,7 @@
                                 d<ex>e</ex>lo q<ex>ue</ex> les dan los
                                 sen<ex>n</ex>ores.</hi>
                     </head>
-                    <div type="prologue" n="354">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -18302,9 +18234,7 @@
                                 rend="superscript">o</hi>. d<ex>e</ex>las cosas
                             acomendadas.</hi>
                     </head>
-                    <div type="prologue" n="362">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .p<ex>r</ex><hi
                                     rend="superscript">i</hi>m<ex>er</ex>a.</hi>
@@ -18869,9 +18799,7 @@
                                 rend="superscript">o</hi>. d<ex>e</ex>las cosas
                             emprestadas</hi>
                     </head>
-                    <div type="prologue" n="374">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -19136,9 +19064,7 @@
                                 rend="superscript">o</hi>. d<ex>e</ex>las cosas
                             logadas.</hi>
                     </head>
-                    <div type="prologue" n="381">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -19429,9 +19355,7 @@
                                 rend="superscript">o</hi>. delos fiadores. &amp;
                             delas fiaduras.</hi>
                     </head>
-                    <div type="prologue" n="391">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -20119,9 +20043,7 @@
                                 rend="superscript">o</hi>. delos
                             pen<ex>n</ex>os: &amp; delas peyndras</hi>
                     </head>
-                    <div type="prologue" n="410">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi></hi>
@@ -21517,7 +21439,7 @@
                     --></p>
                 </div>
                 <div type="sous-section" subtype="titulo" n="1">
-                    <div type="sous-sous-section" n="26" subtype="ley">
+                    <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
                         </head>
@@ -22038,9 +21960,7 @@
                     <head><hi rend="rubrique">Titulo quarto delas fuerças &amp;
                                 d<ex>e</ex>los dan<ex>n</ex>os.</hi>
                     </head>
-                    <div type="prologue" n="462">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -22876,9 +22796,7 @@
                     <head><hi rend="rubrique">Titulo q<ex>u</ex><hi
                                 rend="superscript">i</hi>nto delas penas.</hi>
                     </head>
-                    <div type="prologue" n="488">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -23445,9 +23363,7 @@
                             </choice> çierra<ex>n</ex> las carre<lb break="no"
                             />ras &amp; los exidos. &amp; los rios.</hi>
                     </head>
-                    <div type="prologue" n="506">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley p<ex>r</ex><hi
                                     rend="superscript">i</hi>mera.</hi>
@@ -23632,9 +23548,7 @@
                     <head><hi rend="rubrique">Titulo .vij<hi rend="superscript"
                                 >o</hi>. delos adulterios</hi>
                     </head>
-                    <div type="prologue" n="513">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .p<ex>r</ex><hi
                                     rend="superscript">i</hi>mera.</hi>
@@ -23800,9 +23714,7 @@
                                 cun<ex>n</ex>adas / o con mug<ex>ie</ex>res de
                             orden.</hi>
                     </head>
-                    <div type="prologue" n="521">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -24464,9 +24376,7 @@
                                 />q<ex>ue</ex> casan con sieruos o con los
                                 q<ex>ue</ex> fuero<ex>n</ex> sieruos.</hi>
                     </head>
-                    <div type="prologue" n="538">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .p<ex>r</ex><hi
                                     rend="superscript">i</hi>mera.</hi>
@@ -24640,9 +24550,7 @@
                             />rios &amp; delas esc<ex>r</ex><hi
                                 rend="superscript">i</hi>pturas falsas</hi>
                     </head>
-                    <div type="prologue" n="544">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .p<ex>r</ex><hi
                                     rend="superscript">i</hi>mera.</hi>
@@ -25414,9 +25322,7 @@
                                 rend="superscript">o</hi>. delos q<ex>ue</ex>
                             uenden los om<ex>n</ex>es libres o sieruos.</hi>
                     </head>
-                    <div type="prologue" n="572">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">.Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -25670,9 +25576,7 @@
                                 fisi<lb break="no"/>cos &amp; d<ex>e</ex>los
                             maestros delas llagas</hi>
                     </head>
-                    <div type="prologue" n="584">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -26154,9 +26058,7 @@
                                 rend="superscript">o</hi>. d<ex>e</ex>los
                                 q<ex>ue</ex> destierran los muertos.</hi>
                     </head>
-                    <div type="prologue" n="600">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -26402,9 +26304,7 @@
                                 q<ex>ue</ex> no<ex>n</ex> uan ala hueste o se
                             tornan dalla.</hi>
                     </head>
-                    <div type="prologue" n="606">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -26633,9 +26533,7 @@
                             acusationes &amp; delas pesqu<hi rend="superscript"
                                 >i</hi>sas.</hi>
                     </head>
-                    <div type="prologue" n="612">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -26885,11 +26783,16 @@
                             sin muerte <add hand="#other">o syn ljsion</add>
                             <lb break="yes"/><add hand="#other">de
                                 aq<ex>ue</ex>L</add> de q<ex>u</ex><hi
-                                rend="superscript">i</hi> ha q<ex>ue</ex>rella. <choice>
+                                rend="superscript">i</hi> ha q<ex>ue</ex>rella.
+                        </p>
+                    </div>
+                    <div type="sous-sous-section" n="5" subtype="ley">
+                        <head><choice>
                                 <corr>Ley .v<hi rend="superscript"
                                     >a</hi>.</corr>
                                 <sic/>
-                            </choice>
+                            </choice></head>
+                        <p>
                             <lb break="yes"/><hi rend="initiale" n="2"
                                 >Q</hi><add hand="#other">ujen a ot<ex>r</ex><hi
                                     rend="superscript">o</hi> q<ex>ue</ex>siere
@@ -26936,7 +26839,7 @@
                                 d<ex>e</ex>la acusaçi<add hand="#other">on</add>
                         </p>
                     </div>
-                    <div type="sous-sous-section" n="5" subtype="ley">
+                    <div type="sous-sous-section" n="6" subtype="ley">
                         <head><hi rend="rubrique">Ley .vj<hi rend="superscript"
                                     >a</hi>.</hi>
                         </head>
@@ -26961,7 +26864,7 @@
                                 />cont<ex>r</ex><hi rend="superscript">a</hi>
                                 aq<ex>ue</ex>l q<ex>ue</ex> fizo el tuerto. </p>
                     </div>
-                    <div type="sous-sous-section" n="6" subtype="ley">
+                    <div type="sous-sous-section" n="7" subtype="ley">
                         <head><hi rend="rubrique">.Ley .vij<hi
                                     rend="superscript">a</hi>.</hi>
                         </head>
@@ -26972,7 +26875,7 @@
                                 rend="superscript">a</hi>l aurie el acusado si
                             gelo prouasse. </p>
                     </div>
-                    <div type="sous-sous-section" n="7" subtype="ley">
+                    <div type="sous-sous-section" n="8" subtype="ley">
                         <head><hi rend="rubrique">.Ley .viij<hi
                                     rend="superscript">a</hi>.</hi>
                         </head>
@@ -27015,7 +26918,7 @@
                                 >dgado</add>
                             <lb break="yes"/>por fuero &amp; por derecho. </p>
                     </div>
-                    <div type="sous-sous-section" n="8" subtype="ley">
+                    <div type="sous-sous-section" n="9" subtype="ley">
                         <head><hi rend="rubrique">.Ley .<choice>
                                     <corr>ix<hi rend="superscript"
                                         >a</hi>.</corr>
@@ -27060,7 +26963,7 @@
                             />chen. assi com<ex>m</ex>o manda la ley segunda
                             &amp; la nouena del titulo delos furtos. </p>
                     </div>
-                    <div type="sous-sous-section" n="9" subtype="ley">
+                    <div type="sous-sous-section" n="10" subtype="ley">
                         <head><hi rend="rubrique">Ley .x<hi rend="superscript"
                                     >a</hi>.</hi>
                         </head>
@@ -27085,7 +26988,7 @@
                                 break="yes"/>q<ex>ue</ex> lo puede saber &amp;
                             fazer iusticia. </p>
                     </div>
-                    <div type="sous-sous-section" n="10" subtype="ley">
+                    <div type="sous-sous-section" n="11" subtype="ley">
                         <head><hi rend="rubrique">.Ley .xj<hi rend="superscript"
                                     >a</hi>.</hi>
                         </head>
@@ -27139,7 +27042,7 @@
                     </choice>
                     --></p>
                     </div>
-                    <div type="sous-sous-section" n="11" subtype="ley">
+                    <div type="sous-sous-section" n="12" subtype="ley">
                         <head><hi rend="rubrique">Le<supplied>y .xij<hi
                                         rend="superscript"
                                 >a</hi>.</supplied></hi>
@@ -27229,20 +27132,19 @@
                                     .T<ex>itul</ex><supplied><hi
                                         rend="superscript">o</hi></supplied>
                                     .xxj<hi rend="superscript">o</hi>.</fw>
-                            <cb type="single-column"/><lb break="yes"/><hi
-                                rend="initiale" n="2">D</hi>Espues q<ex>ue</ex>
+                            <cb type="single-column"/><lb break="yes"/>
+                        </p>
+                    </div>
+                    <div type="sous-sous-section" n="13" subtype="ley">
+                        <head><hi rend="rubrique">.Ley .xiij<hi
+                                    rend="superscript">a</hi>.</hi>
+                        </head>
+                        <p><hi rend="initiale" n="2">D</hi>Espues q<ex>ue</ex>
                                 algu<ex>n</ex> om<ex>n</ex>e acusado de
                                 algu<ex>n</ex> mal fecho fu<ex>er</ex>e dado <choice>
                                 <corr><g ref="#calderon2"/></corr>
                                 <sic/>
-                            </choice>
-                        </p>
-                    </div>
-                    <div type="sous-sous-section" n="12" subtype="ley">
-                        <head><hi rend="rubrique">.Ley .xiij<hi
-                                    rend="superscript">a</hi>.</hi>
-                        </head>
-                        <p><lb break="yes"/>por q<ex>u</ex><hi
+                            </choice><lb break="yes"/>por q<ex>u</ex><hi
                                 rend="superscript">i</hi>to por juyzio.
                                 nj<ex>n</ex>gu<ex>n</ex>o nol pueda despues
                             acusar daq<ex>ue</ex>l fecho mis<lb break="no"/>mo.
@@ -27269,7 +27171,7 @@
                             </choice>
                         </p>
                     </div>
-                    <div type="sous-sous-section" n="13" subtype="ley">
+                    <div type="sous-sous-section" n="14" subtype="ley">
                         <head><hi rend="rubrique">Ley .xiiij<hi
                                     rend="superscript">a</hi>.</hi>
                         </head>
@@ -27306,7 +27208,7 @@
                                 rend="superscript">o</hi>
                             <lb break="yes"/>acusar daq<ex>ue</ex>l fecho. </p>
                     </div>
-                    <div type="sous-sous-section" n="14" subtype="ley">
+                    <div type="sous-sous-section" n="15" subtype="ley">
                         <head><hi rend="rubrique">.Ley .xv<hi rend="superscript"
                                     >a</hi>.</hi>
                         </head>
@@ -27373,33 +27275,29 @@
                     <head><hi rend="rubrique">T<ex>itul</ex><hi
                                 rend="superscript">o</hi> .xxj<hi
                                 rend="superscript">o</hi>. d<ex>e</ex>los
-                            rieptos</hi>
-                    </head>
-                    <div type="prologue" n="627">
-                        <p><lb break="yes"/><add hand="#other">en q<ex>ue</ex>
-                                ay .xxjx leys</add>
+                                rieptos<lb break="yes"/><add hand="#other">en
+                                    q<ex>ue</ex> ay .xxjx leys</add>
                             <lb break="yes"/><seg ana="#glose"><add hand="#self"
                                         ><supplied><g ref="#calderon1"/>
                                         en</supplied> q<ex>ue</ex> ay
                                         x<supplied>xjx <lb break="yes"
                                         />l</supplied>ey<supplied>s</supplied></add></seg>
-                            <lb break="yes"/><hi rend="initiale" n="2"
-                                >A</hi><add hand="#other">gntiua</add> mjente
-                            los fijos dalgo co<ex>n</ex> consentimjento delos
-                            reyes <choice>
-                                <corr><g ref="#calderon2"/></corr>
-                                <sic/>
-                            </choice>
-                        </p>
-                    </div>
+                            <lb break="yes"/></hi>
+                    </head>
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
                         </head>
-                        <p><lb break="yes"/><add hand="#other">pusi</add>eron
-                            entresi amiztad &amp; diero<ex>n</ex> se fe unos a
-                                ot<ex>r</ex><hi rend="superscript">o</hi>s de se
-                            la tener. <pb n="145r"/>
+                        <p><hi rend="initiale" n="2">A</hi><add hand="#other"
+                                >gntiua</add> mjente los fijos dalgo
+                                co<ex>n</ex> consentimjento delos reyes <choice>
+                                <corr><g ref="#calderon2"/></corr>
+                                <sic/>
+                            </choice><lb break="yes"/><add hand="#other"
+                                >pusi</add>eron entresi amiztad &amp;
+                                diero<ex>n</ex> se fe unos a ot<ex>r</ex><hi
+                                rend="superscript">o</hi>s de se la tener. <pb
+                                n="145r"/>
                             <fw rend="titre-courant">Libro .iiijo. .Titulo
                                 .xxjo. </fw><fw rend="numerotation-ancienne"
                                 >cxlv</fw>
@@ -28419,9 +28317,7 @@
                                 >o</hi>. <lb break="yes"/>del
                                 recibimje<ex>n</ex>to delos fijos</hi>
                     </head>
-                    <div type="prologue" n="658">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
@@ -28595,38 +28491,37 @@
                                 />p<ex>ro</ex>pinq<ex>u</ex><hi
                                 rend="superscript">o</hi>s hereden lo suyo.
                             &amp; no<ex>n</ex> los parientes daq<ex>ue</ex>l
-                                q<ex>ue</ex> lo reçibio por fijo. <lb
-                                break="yes"/><hi rend="initiale" n="2"
+                                q<ex>ue</ex> lo reçibio por fijo. </p>
+                    </div>
+                    <div type="sous-sous-section" n="6" subtype="ley">
+                        <head><hi rend="rubrique">Ley .vj<hi rend="superscript"
+                                    >a</hi>.</hi>
+                        </head>
+                        <p><lb break="yes"/><hi rend="initiale" n="2"
                                 >Q</hi><ex>u</ex><hi rend="superscript"
                             >a</hi>Ndo algu<ex>n</ex>o q<ex>u</ex><hi
                                 rend="superscript">i</hi>siere reçebir a
                                 algu<ex>n</ex>o por fijo. reciba lo <choice>
                                 <corr><g ref="#calderon2"/></corr>
                                 <sic/>
-                            </choice>
-                        </p>
-                    </div>
-                    <div type="sous-sous-section" n="6" subtype="ley">
-                        <head><hi rend="rubrique">Ley .vj<hi rend="superscript"
-                                    >a</hi>.</hi>
-                        </head>
-                        <p><lb break="yes"/>delante el Rey el alcalle conçeiera
-                            mjente en tal man<ex>er</ex>a: llame <lb break="yes"
-                            />lo. &amp; digal sen<ex>n</ex>or si ant<ex>e</ex>l
-                            Rey fu<ex>er</ex>e. Et si fu<ex>er</ex>e antel
-                            alcalle: diga: alcalle <lb break="yes"/>este reçibo
-                            yo aq<ex>u</ex><hi rend="superscript">i</hi> por
-                            fijo. &amp; daq<ex>u</ex><hi rend="superscript"
-                                >i</hi> adelante q<ex>u</ex><hi
-                                rend="superscript">i</hi>ero q<ex>ue</ex> ande
-                            por mjo fijo. de <lb break="yes"/>g<ex>u</ex><hi
-                                rend="superscript">i</hi>sa q<ex>ue</ex> sea
-                            manjfiesto &amp; no<ex>n</ex> se pueda negar
-                                q<ex>u</ex><hi rend="superscript">a</hi>ndo
-                                fu<ex>er</ex>e mester. Et esto se <lb
-                                break="yes"/>entie<ex>n</ex>da delos fijos
-                                q<ex>ue</ex> no<ex>n</ex> son nat<ex>ur</ex>ales
-                            &amp; no<ex>n</ex> reçebidos por fijos. </p>
+                            </choice><lb break="yes"/>delante el Rey el alcalle
+                            conçeiera mjente en tal man<ex>er</ex>a: llame <lb
+                                break="yes"/>lo. &amp; digal sen<ex>n</ex>or si
+                                ant<ex>e</ex>l Rey fu<ex>er</ex>e. Et si
+                                fu<ex>er</ex>e antel alcalle: diga: alcalle <lb
+                                break="yes"/>este reçibo yo aq<ex>u</ex><hi
+                                rend="superscript">i</hi> por fijo. &amp;
+                                daq<ex>u</ex><hi rend="superscript">i</hi>
+                            adelante q<ex>u</ex><hi rend="superscript">i</hi>ero
+                                q<ex>ue</ex> ande por mjo fijo. de <lb
+                                break="yes"/>g<ex>u</ex><hi rend="superscript"
+                                >i</hi>sa q<ex>ue</ex> sea manjfiesto &amp;
+                                no<ex>n</ex> se pueda negar q<ex>u</ex><hi
+                                rend="superscript">a</hi>ndo fu<ex>er</ex>e
+                            mester. Et esto se <lb break="yes"
+                            />entie<ex>n</ex>da delos fijos q<ex>ue</ex>
+                                no<ex>n</ex> son nat<ex>ur</ex>ales &amp;
+                                no<ex>n</ex> reçebidos por fijos. </p>
                     </div>
                     <div type="sous-sous-section" n="7" subtype="ley">
                         <head><hi rend="rubrique">Ley .vij<hi rend="superscript"
@@ -28772,9 +28667,7 @@
                                 rend="superscript">o</hi> .xxiiij<hi
                                 rend="superscript">o</hi>. delos romeros.</hi>
                     </head>
-                    <div type="prologue" n="670">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique"><supplied>Ley .j<hi
                                         rend="superscript"
@@ -28973,9 +28866,7 @@
                     <head><hi rend="rubrique">Titulo .xxv<hi rend="superscript"
                                 >o</hi>. del peçio delos naujos</hi>
                     </head>
-                    <div type="prologue" n="675">
-                        <p/>
-                    </div>
+
                     <div type="sous-sous-section" n="1" subtype="ley">
                         <head><hi rend="rubrique">Ley .j<hi rend="superscript"
                                     >a</hi>.</hi>
