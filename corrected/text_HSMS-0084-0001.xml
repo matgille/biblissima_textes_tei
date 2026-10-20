@@ -196,8 +196,8 @@
                     est conservée: sauts de ligne, changements de colonne,
                     espaces en blanc, miniatures, illustrations, diagrammes,
                     etc.</p>
-                <p>Le texte est structuré en divisions minimales, en fonction de
-                    son genre. La division en paragraphes, pour la prose, n'est
+                <p>Le texte est structuré en divisions minimales (titres:
+                    section). La division en paragraphes, pour la prose, n'est
                     pas réalisée.</p>
                 <p>Pour plus d'informations, voir l'ODD.</p>
             </editorialDecl>
@@ -2205,7 +2205,7 @@
         </front>
         <body>
             <lb break="yes"/>
-            <div type="chapitre" n="1">
+            <div type="section" n="1">
                 <head><hi rend="rubrique">prim<ex>er</ex>o. Titulo del
                             p<ex>r</ex><hi rend="superscript">i</hi>uylegio
                         delos huerfanos q<ex>ue</ex> dio <lb break="yes"/>el Rey
@@ -2354,7 +2354,7 @@
                         oche<ex>n</ex>ta <lb break="yes"/>et cinco
                     an<ex>n</ex>os </p>
             </div>
-            <div type="chapitre" n="2">
+            <div type="section" n="2">
                 <head><hi rend="rubrique">ij<hi rend="superscript">o</hi>.
                         Titulo del albergador.</hi>
                 </head>
@@ -2380,7 +2380,7 @@
                         q<ex>u</ex><hi rend="superscript">a</hi>ntos el Romero
                     tomo sobre su <lb break="yes"/>viage. </p>
             </div>
-            <div type="chapitre" n="3">
+            <div type="section" n="3">
                 <head><hi rend="rubrique">iij<hi rend="superscript">o</hi>.
                         Titulo dela mançeba escossa que q<ex>ue</ex>rrella <lb
                             break="yes"/>de su amo q<ex>ue</ex> la forzc<choice>
@@ -2413,7 +2413,7 @@
                         no<ex>n</ex> deuya valer por derecho &amp; no<ex>n</ex>
                     pecho na<lb break="no"/>da por ella. </p>
             </div>
-            <div type="chapitre" n="4">
+            <div type="section" n="4">
                 <head><hi rend="rubrique">iiij<hi rend="superscript">o</hi>.
                         Titulo delos q<ex>ue</ex> compran mueble <lb break="yes"
                         />et viene otro &amp; dema<ex>n</ex>dalo por suyo.</hi>
@@ -2450,7 +2450,7 @@
                     <cb type="single-column"/><lb break="yes"/>sea demandado por
                     furto. </p>
             </div>
-            <div type="chapitre" n="5">
+            <div type="section" n="5">
                 <head><hi rend="rubrique">v<hi rend="superscript">o</hi>. Titulo
                         dela mug<ex>er</ex>
                         <lb break="yes"/>q<ex>ue</ex> se va ap<ex>re</ex>çiar de
@@ -2472,7 +2472,7 @@
                         <lb break="yes"/>aquel sobre q<ex>u</ex><hi
                         rend="superscript">i</hi>en se ap<ex>re</ex>çia. </p>
             </div>
-            <div type="chapitre" n="6">
+            <div type="section" n="6">
                 <head><hi rend="rubrique">vi<hi rend="superscript">o</hi>.
                         Titulo de ag<ex>u</ex><hi rend="superscript">i</hi>ion
                             <lb break="yes"/>o de fierro:</hi>
@@ -2487,7 +2487,7 @@
                         ap<ex>re</ex>ciar que es ferida del fierro q<ex>ue</ex>
                     peche <lb break="yes"/>por cada ferida veynte sueldos. </p>
             </div>
-            <div type="chapitre" n="7">
+            <div type="section" n="7">
                 <head><hi rend="rubrique">vij<hi rend="superscript">o</hi>.
                         Titulo dela feri<lb break="no"/>da delos mangos del
                         cuchiello q<ex>ue</ex> calo<ex>n</ex>nia a.</hi>
@@ -2502,7 +2502,7 @@
                     />p<ex>re</ex>ciar del fierro del ma<ex>n</ex>go que peche
                     por cada <lb break="yes"/>colpe veynte sueldos. </p>
             </div>
-            <div type="chapitre" n="8">
+            <div type="section" n="8">
                 <head><hi rend="rubrique">viij<hi rend="superscript">o</hi>.
                         Titulo del cardeno de ⇒<pb n="15r"/>
                         <cb type="single-column"/><lb break="yes"/>la ferida.
@@ -2521,7 +2521,7 @@
                         aq<ex>ue</ex>l <lb break="yes"/>sobre q<ex>u</ex><hi
                         rend="superscript">i</hi>en se apreçia. </p>
             </div>
-            <div type="chapitre" n="9">
+            <div type="section" n="9">
                 <head><hi rend="rubrique">ix<hi rend="superscript">o</hi>.
                         Titulo <lb break="yes"/>dela ferida dela cara a
                             om<ex>n</ex>e o a muger.</hi>
@@ -2536,7 +2536,7 @@
                         aq<ex>ue</ex>l sobre q<ex>u</ex><hi rend="superscript"
                         >i</hi>en se ap<ex>re</ex>çiar. </p>
             </div>
-            <div type="chapitre" n="10">
+            <div type="section" n="10">
                 <head><hi rend="rubrique">x<hi rend="superscript">o</hi>. Titulo
                             <lb break="yes"/>dela ferida dela mug<ex>er</ex> por
                             q<ex>ue</ex>l cahen los die<ex>n</ex>tes.</hi>
@@ -2573,7 +2573,7 @@
                         no<ex>n</ex> encasare el die<ex>n</ex>te <lb break="yes"
                         />no<ex>n</ex> lo deue ap<ex>re</ex>çiar. </p>
             </div>
-            <div type="chapitre" n="11">
+            <div type="section" n="11">
                 <head><hi rend="rubrique">xi. Titulo delos q<ex>ue</ex> compran
                             <lb break="yes"/>ganados &amp; viene<ex>n</ex> otros
                         &amp; dize<ex>n</ex> que son su<lb break="no"/>yos et
@@ -2648,7 +2648,7 @@
                         faz<ex>er</ex> suyos &amp; no pecho garçia nada. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="12">
+            <div type="section" n="12">
                 <head><hi rend="rubrique">xij. Titulo delos q<ex>ue</ex> dan
                         acondesar algunas cosas <lb break="yes"/>et se
                         pierden.</hi>
@@ -2674,7 +2674,7 @@
                         <corr/>
                     </choice> p<ex>er</ex>dio non lo deue pechar. </p>
             </div>
-            <div type="chapitre" n="13">
+            <div type="section" n="13">
                 <head><hi rend="rubrique">xiij. Titulo del <lb break="yes"
                         />ganado que es p<ex>re</ex>so en las miesses
                             da<ex>n</ex>no fazie<ex>n</ex>do.</hi>
@@ -2702,7 +2702,7 @@
                     pechar el da<ex>n</ex>no del <lb break="yes"/>demandador
                     assy com<ex>m</ex>o es fuero. </p>
             </div>
-            <div type="chapitre" n="14">
+            <div type="section" n="14">
                 <head><hi rend="rubrique">xiiij. Titulo delas <lb break="yes"
                         />mugeres que son forçadas.</hi>
                 </head>
@@ -2738,7 +2738,7 @@
                     </choice>a al merino. trezie<ex>n</ex>tos sueldos. Et el <lb
                         break="yes"/>cuerpo finque a juyzio del Rey. </p>
             </div>
-            <div type="chapitre" n="15">
+            <div type="section" n="15">
                 <head><hi rend="rubrique">xv. Titulo delos <lb break="yes"
                         />puercos q<ex>ue</ex> son p<ex>re</ex>sos en myeses
                         agenas &amp; foçare<ex>n</ex>.</hi>
@@ -2756,7 +2756,7 @@
                         break="no"/>er que fizo el su ganado que lo peche et <lb
                         break="yes"/>por lo al que faga derecho. </p>
             </div>
-            <div type="chapitre" n="16">
+            <div type="section" n="16">
                 <head><hi rend="rubrique">xvi. Titulo de fur<lb break="no"/>to
                         de ganado o de otro auer q<ex>u</ex><hi
                             rend="superscript">a</hi>l q<ex>u</ex><hi
@@ -2773,7 +2773,7 @@
                     su cabesça &amp; finq<ex>ue</ex>
                     <lb break="yes"/>quito de aquella demanda. </p>
             </div>
-            <div type="chapitre" n="17">
+            <div type="section" n="17">
                 <head><hi rend="rubrique">xvij. Titulo delos <lb break="yes"
                         />que amparan pe<ex>n</ex>nos al sayon o al
                         m<ex>er</ex>yno.</hi>
@@ -2797,7 +2797,7 @@
                         aq<ex>ue</ex>l que empara los pe<ex>n</ex>nos por el <lb
                         break="yes"/>juez &amp; çinco sueldos por el sayon. </p>
             </div>
-            <div type="chapitre" n="18">
+            <div type="section" n="18">
                 <head><hi rend="rubrique">xviij. Titulo del ⇒<pb n="18r"/>
                         <cb type="single-column"/><lb break="yes"
                         />m<ex>er</ex>yno que demanda a alguno su
@@ -2812,7 +2812,7 @@
                     fiziere a<ex>n</ex>te <lb break="yes"/>q<ex>u</ex><hi
                         rend="superscript">a</hi>l quier juez. </p>
             </div>
-            <div type="chapitre" n="19">
+            <div type="section" n="19">
                 <head><hi rend="rubrique">xix. Titulo delos deubdores.</hi>
                 </head>
                 <p><lb break="yes"/><hi rend="initiale" n="3">E</hi>sto es por
@@ -2849,7 +2849,7 @@
                         q<ex>ue</ex>l venga por sy <lb break="yes"/>a pagar el
                     deudor. </p>
             </div>
-            <div type="chapitre" n="20">
+            <div type="section" n="20">
                 <head><hi rend="rubrique">xx. Titulo delos furtos delos <lb
                             break="yes"/>Romeros en casa delos
                         aluergadores.</hi>
@@ -2875,7 +2875,7 @@
                         break="no"/>lido maguer que sea el huespede de buen
                         testi<lb break="no"/>monio que lo peche. </p>
             </div>
-            <div type="chapitre" n="21">
+            <div type="section" n="21">
                 <head><hi rend="rubrique">xx.i. Titulo delos
                         testame<ex>n</ex>tos <lb break="yes"/>del sayon &amp;
                         del m<ex>er</ex>yno sin ma<ex>n</ex>dado del
@@ -2895,7 +2895,7 @@
                         <lb break="yes"/>deue pechar. sesenta sueldos. por juez.
                     &amp; çinco su<lb break="no"/>eldos por el sayon. </p>
             </div>
-            <div type="chapitre" n="22">
+            <div type="section" n="22">
                 <head><hi rend="rubrique">xx.ij. Titulo delas cosas logadas <lb
                             break="yes"/>et huertos &amp; heredamie<ex>n</ex>tos
                         dados a lauor.</hi>
@@ -2920,7 +2920,7 @@
                     dela heredat ante <lb break="yes"/>que el m<ex>er</ex>yno
                     venga. </p>
             </div>
-            <div type="chapitre" n="23">
+            <div type="section" n="23">
                 <head><hi rend="rubrique">xx.iij. Titulo delos omezidios.</hi>
                 </head>
                 <p><lb break="yes"/><hi rend="initiale" n="3">E</hi>sto es por
@@ -2940,7 +2940,7 @@
                     />fue juzgado por garçia molinero marido de <lb break="yes"
                     />juliana que mato a joh<ex>a</ex>n cortes. </p>
             </div>
-            <div type="chapitre" n="24">
+            <div type="section" n="24">
                 <head><hi rend="rubrique">xx.iiij. Titulo delas <lb break="yes"
                         />fuerças &amp; delos furtos.</hi>
                 </head>
@@ -2958,7 +2958,7 @@
                         se<ex>n</ex>nor no<ex>n</ex> deue <lb break="yes"/>pasar
                     sobre nos. </p>
             </div>
-            <div type="chapitre" n="25">
+            <div type="section" n="25">
                 <head><hi rend="rubrique">xx.v. Titulos delos deudores en<lb
                             break="no"/>fermos de fiebre o de gota o de
                         dolor.</hi>
@@ -2995,7 +2995,7 @@
                     alcalle. &amp; fue ella a cu<ex>m</ex>plir de derecho. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="26">
+            <div type="section" n="26">
                 <head><hi rend="rubrique">xx.vi. Titulo delos fijos q<ex>ue</ex>
                         demandan p<ex>ar</ex><choice>
                             <sic>a</sic>
@@ -3025,7 +3025,7 @@
                     <pb n="20v"/>
                     <cb type="single-column"/><lb break="yes"/>demanda. </p>
             </div>
-            <div type="chapitre" n="27">
+            <div type="section" n="27">
                 <head><hi rend="rubrique">xx.vij. Titulo delos feridos de
                         muerte.</hi>
                 </head>
@@ -3046,7 +3046,7 @@
                         break="yes"/>çerrada nin encorada deue pechar el ome<lb
                         break="no"/>zidio &amp; seer enemigo. </p>
             </div>
-            <div type="chapitre" n="28">
+            <div type="section" n="28">
                 <head><hi rend="rubrique">xx.viij. Titulo delos huer<lb
                             break="no"/>fanos que fincan sin tiempo.</hi>
                 </head>
@@ -3068,7 +3068,7 @@
                     />et que lo den a q<ex>u</ex><hi rend="superscript">i</hi>en
                     mas de por la heredat. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="29">
+            <div type="section" n="29">
                 <head><hi rend="rubrique">xx.ix. Titulo delos ni<ex>n</ex>nos
                             q<ex>ue</ex> son feridos a<ex>n</ex>te de siete
                             an<ex>n</ex>os</hi>
@@ -3084,7 +3084,7 @@
                         <lb break="yes"/>ferida. &amp; vale el
                     ap<ex>re</ex>ciamiento. </p>
             </div>
-            <div type="chapitre" n="30">
+            <div type="section" n="30">
                 <head><hi rend="rubrique">xxx. Titulo del x<ex>r</ex><hi
                             rend="superscript">i</hi><ex>sti</ex>a<lb break="no"
                         />no que apreçia sobre judio.</hi>
@@ -3103,7 +3103,7 @@
                         break="yes"/>deue pechar las calo<ex>n</ex>nias a fuero
                     de nagera. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="31">
+            <div type="section" n="31">
                 <head><hi rend="rubrique">xxx.i. Titulo delos de fuera dela
                         villa que dema<ex>n</ex><lb break="no"/>dan deuda alos
                         dela villa.</hi>
@@ -3135,7 +3135,7 @@
                     <lb break="yes"/>fuere que atienda fasta que venga. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="32">
+            <div type="section" n="32">
                 <head><hi rend="rubrique">xxx.ij. Titulo delos m<ex>er</ex>ynos
                             q<ex>ue</ex> demanda<ex>n</ex> alos padres <lb
                             break="yes"/>por los fijos fiador.</hi>
@@ -3151,7 +3151,7 @@
                     fuerça que <lb break="yes"/>aduga a derecho a su fijo deuel
                     aduzir. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="33">
+            <div type="section" n="33">
                 <head><hi rend="rubrique">xxx.iij. Titulo sy x<ex>r</ex><hi
                             rend="superscript">i</hi><ex>sti</ex>ano demanda
                         deuda a jvdio.</hi>
@@ -3172,7 +3172,7 @@
                     tornar al juyzio co<ex>m</ex>mo de p<ex>r</ex><hi
                         rend="superscript">i</hi>mero. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="34">
+            <div type="section" n="34">
                 <head><hi rend="rubrique">xxx.iiij. Titulo delas cartas
                         juzgadas.</hi>
                 </head>
@@ -3194,7 +3194,7 @@
                     fizo la carta deue prouar con <lb break="yes"/>jvdio &amp;
                     con xpi<ex>sti</ex>ano. </p>
             </div>
-            <div type="chapitre" n="35">
+            <div type="section" n="35">
                 <head><hi rend="rubrique" type="merged">xxx.v. Titulo delos
                             p<ex>re</ex>sos &amp; delas +<lb break="yes"
                             />p<ex>re</ex>ndas. </hi>
@@ -3204,7 +3204,7 @@
                     prisiere a otro sin la jvsticia <lb break="yes"/>que peche
                     trezientos sueldos. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="36">
+            <div type="section" n="36">
                 <head><hi rend="rubrique">xxx.vi. Titulo delas llagas
                         menguadas.</hi>
                 </head>
@@ -3222,7 +3222,7 @@
                         <add>c</add>
                     </subst>alle apreciar. </p>
             </div>
-            <div type="chapitre" n="37">
+            <div type="section" n="37">
                 <head><hi rend="rubrique">xxx.vij. Titulo <lb break="yes"/>delas
                         feridas de asta o de fierro.</hi>
                 </head>
@@ -3243,7 +3243,7 @@
                     />et cabo delos carriellos &amp; dela baru<add hand="#self"
                         >i</add>ella. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="38">
+            <div type="section" n="38">
                 <head><hi rend="rubrique">xxx.viij. Titulo en co<ex>m</ex>mo
                         deue jurar el jvdio.</hi>
                 </head>
@@ -3258,7 +3258,7 @@
                     fuere otra cosa o pa<ex>n</ex><lb break="no"/>nos esso
                     mysmo. </p>
             </div>
-            <div type="chapitre" n="39">
+            <div type="section" n="39">
                 <head><hi rend="rubrique">xxx.ix. Titulo delos apreçiami<lb
                             break="no"/>entos delas mugeres dela çinta
                         arriba.</hi>
@@ -3274,7 +3274,7 @@
                     çinta arriba &amp; delos ginoios ajuso. <lb break="yes"
                     /></p>
             </div>
-            <div type="chapitre" n="40">
+            <div type="section" n="40">
                 <head><hi rend="rubrique">xL. Titulo delos que tagan agua alos
                             moli<lb break="no"/>nos o a huertos o a
                         vi<ex>n</ex>nas.</hi>
@@ -3291,7 +3291,7 @@
                     taga el agua. q<ex>u</ex><hi rend="superscript">a</hi>tro
                         suel<lb break="no"/>dos. </p>
             </div>
-            <div type="chapitre" n="41">
+            <div type="section" n="41">
                 <head><hi rend="rubrique">xLi. Titulo delas alçadas delos
                         jvyzios <lb break="yes"/>delos alcall<ex>e</ex>s al
                         Rey.</hi>
@@ -3309,7 +3309,7 @@
                     gelo deue dar que no<ex>n</ex> auemos <lb break="yes"/>fuero
                     de dar mysiones. </p>
             </div>
-            <div type="chapitre" n="42">
+            <div type="section" n="42">
                 <head><hi rend="rubrique">xLij. Titulo delos q<ex>ue</ex> an <lb
                             break="yes"/>de dar mysiones por mandado del
                         alcalle.</hi>
@@ -3328,7 +3328,7 @@
                         om<ex>ne</ex>s bue<ex>n</ex>nos que aya. <lb break="yes"
                     />es el otro vençido. </p>
             </div>
-            <div type="chapitre" n="43">
+            <div type="section" n="43">
                 <head><hi rend="rubrique">xLiij. Titulo delos alcall<ex>e</ex>s
                             <lb break="yes"/>de bilforado &amp; delos derechos
                         que an.</hi>
@@ -3347,7 +3347,7 @@
                     testimonias de om<ex>n</ex>es bue<ex>n</ex><lb break="no"
                     />nos que aya. es el otro uençido. </p>
             </div>
-            <div type="chapitre" n="44">
+            <div type="section" n="44">
                 <head><hi rend="rubrique">xLiij. Titulo delos ⇒<pb n="24r"/>
                         <cb type="single-column"/><lb break="yes"
                             />alcall<ex>e</ex>s de bilforado &amp; delos
@@ -3372,7 +3372,7 @@
                         quebra<ex>n</ex><lb break="no"/>tados de cabesças de
                         om<ex>n</ex>es &amp; de mugeres. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="45">
+            <div type="section" n="45">
                 <head><hi rend="rubrique">xLiiij. Titulo delos derechos delos
                         fieles.</hi>
                 </head>
@@ -3403,7 +3403,7 @@
                         break="yes"/>a ambos los fieles amparar los
                     pe<ex>n</ex>nos a se<lb break="no"/>senta sueldos. </p>
             </div>
-            <div type="chapitre" n="46">
+            <div type="section" n="46">
                 <head><hi rend="rubrique" type="merged">xLv. Titulo delos que
                         enfian alos +<lb break="yes"/>dela villa. </hi>
                 </head>
@@ -3420,7 +3420,7 @@
                     Ca por eso cumple <lb break="yes"/>el dela villa con
                     testimonia dela villa. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="47">
+            <div type="section" n="47">
                 <head><hi rend="rubrique">xLvij. Titulo del enplimi<ex>n</ex>to
                         delos molinos.</hi>
                 </head>
@@ -3439,7 +3439,7 @@
                     <cb type="single-column"/><lb break="yes"/>solia venir de su
                     presa. </p>
             </div>
-            <div type="chapitre" n="48">
+            <div type="section" n="48">
                 <head><hi rend="rubrique" type="merged">xLvij. Titulo de
                             q<ex>u</ex><hi rend="superscript">a</hi>ndo da <lb
                             break="yes"/>alguno fiador al m<ex>er</ex>yno de
@@ -3461,7 +3461,7 @@
                     Rey <lb break="yes"/>non le deue el alcalle echar al Rey al
                     judio. </p>
             </div>
-            <div type="chapitre" n="49">
+            <div type="section" n="49">
                 <head><hi rend="rubrique">xLviiij. Ti<lb break="no"/>tulo del
                         alcalle que a de yr ap<ex>re</ex>çiar a om<ex>n</ex>e o.
                             <lb break="yes"/>de yr testimoniar om<ex>ne</ex>
@@ -3476,7 +3476,7 @@
                     &amp; p<ex>re</ex>çiar <lb break="yes"/>en su casa sy fuere
                     con su plazer. </p>
             </div>
-            <div type="chapitre" n="50">
+            <div type="section" n="50">
                 <head><hi rend="rubrique">xLix. Titulo <lb break="yes"/>dela
                         calonnia del alcalle fasta xx. sueldos.</hi>
                 </head>
@@ -3490,7 +3490,7 @@
                     veynte <lb break="yes"/>sueldos arriba deue pechar la
                         calo<ex>n</ex>nia. </p>
             </div>
-            <div type="chapitre" n="51">
+            <div type="section" n="51">
                 <head><hi rend="rubrique">L. Ti<lb break="no"/>tulo de
                             om<ex>n</ex>e que se viene ap<ex>reci</ex>ar al
                         alcalle.</hi>
@@ -3511,7 +3511,7 @@
                     que vaya sobre qual <lb break="yes"/>delos fijos le firio.
                     Et com<ex>m</ex>o le dizen y luego. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="52">
+            <div type="section" n="52">
                 <head><hi rend="rubrique">Lj. Titulo de om<ex>n</ex>e que planta
                         vinna.</hi>
                 </head>
@@ -3521,7 +3521,7 @@
                         m<ex>er</ex>yno non gelo qui<lb break="no"/>tar a
                     sesenta sueldos en calo<ex>n</ex>nya. </p>
             </div>
-            <div type="chapitre" n="53">
+            <div type="section" n="53">
                 <head><hi rend="rubrique">Lij. Titulo dela <lb break="yes"
                             />mug<ex>er</ex> que se le muere el marido. &amp;
                         toma ma<ex>n</ex><lb break="no"/>to sobre su cabesça por
@@ -3534,7 +3534,7 @@
                     <cb type="single-column"/><lb break="yes"/>quito a sesenta
                     sueldos en calo<ex>n</ex>nia. </p>
             </div>
-            <div type="chapitre" n="54">
+            <div type="section" n="54">
                 <head><hi rend="rubrique">Liij. Titulo dela <lb break="yes"
                             />calo<ex>n</ex>nya que los jurados an sobre el
                         custiero.</hi>
@@ -3550,7 +3550,7 @@
                     sy non respondiere deue <lb break="yes"/>pechar el custiero.
                     vn carnero alos jvrados. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="55">
+            <div type="section" n="55">
                 <head><hi rend="rubrique">Liiij. Titulo del om<ex>n</ex>e que
                         taia en monte verde <lb break="yes"/>de noche o de dia
                         &amp; lo fallan taiando.</hi>
@@ -3577,7 +3577,7 @@
                     ocho sueldos &amp; tome<ex>n</ex> le la le<ex>n</ex>na. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="56">
+            <div type="section" n="56">
                 <head><hi rend="rubrique">Lv. Titulo del Romero que pierde algo
                         en casa <lb break="yes"/>del aluergador do posa.</hi>
                 </head>
@@ -3602,7 +3602,7 @@
                     Romero que en Rom<ex>er</ex>ya salio de su casa. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="57">
+            <div type="section" n="57">
                 <head><hi rend="rubrique">Lvi. Titulo del Romero que vende
                         bestia. o Ropa <lb break="yes"/>o plata o otra
                         cosa.</hi>
@@ -3619,7 +3619,7 @@
                     va. &amp; que suyo es aquello q<ex>ue</ex> ven<lb break="no"
                     />de que lo aya aquel que lo compro. </p>
             </div>
-            <div type="chapitre" n="58">
+            <div type="section" n="58">
                 <head><hi rend="rubrique">Lviij. Titulo dela he<lb break="no"
                         />redat testada de juez o de sayo<ex>n</ex> por mandado
                         del alcall<ex>e</ex>.</hi>
@@ -3641,7 +3641,7 @@
                     que vala la venta fasta que sea q<ex>u</ex><hi
                         rend="superscript">i</hi>ta. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="59">
+            <div type="section" n="59">
                 <head><hi rend="rubrique">Lviiij. Titulo del Romero q<ex>ue</ex>
                         muere en casa de aluergador.</hi>
                 </head>
@@ -3656,7 +3656,7 @@
                     sy non vinier algun pariente del <lb break="yes"/>Romero de
                     mandar lo suyo. </p>
             </div>
-            <div type="chapitre" n="60">
+            <div type="section" n="60">
                 <head><hi rend="rubrique">Lix. Titulo del Rom<ex>er</ex>o que
                             <lb break="yes"/>vende bestias o Ropa en casa del
                             alu<ex>er</ex>gador.</hi>
@@ -3704,7 +3704,7 @@
                         break="no"/>gador su huespede dixiere que fue la compra
                         <lb break="yes"/>o la venta deue pasar. </p>
             </div>
-            <div type="chapitre" n="61">
+            <div type="section" n="61">
                 <head><hi rend="rubrique">Lx. Titulo del om<ex>n</ex>e que <lb
                             break="yes"/>se querella de otro que lo ençerro en
                         su casa.</hi>
@@ -3743,7 +3743,7 @@
                     fizieron el encerramie<ex>n</ex>to por cada om<ex>n</ex>e.
                     et <lb break="yes"/>por cada muger trezientos sueldos. </p>
             </div>
-            <div type="chapitre" n="62">
+            <div type="section" n="62">
                 <head><hi rend="rubrique" type="merged">Lxj. Titulo <lb
                             break="yes"/>del judio que demanda a
                         xpi<ex>sti</ex>ano deuda por +<lb break="yes"/>carta.
@@ -3761,7 +3761,7 @@
                     deue p<ex>er</ex>der la deuda &amp; pechar <lb break="yes"
                     />sesenta sueldos. </p>
             </div>
-            <div type="chapitre" n="63">
+            <div type="section" n="63">
                 <head><hi rend="rubrique">Lxij. Titulo dela judia por casar <lb
                             break="yes"/>et se enprennar &amp; del judio que la
                             enpre<ex>n</ex>nar.</hi>
@@ -3772,7 +3772,7 @@
                     que la enprenno &amp; la <lb break="yes"/>judia al merino
                     trenta sueldos. </p>
             </div>
-            <div type="chapitre" n="64">
+            <div type="section" n="64">
                 <head><hi rend="rubrique" type="merged">Lxiij. Titulo del <lb
                             break="yes"/>fijo que mora con el padre &amp;
                             co<ex>n</ex> la madre &amp; fa<lb break="no"/>zen
@@ -3788,7 +3788,7 @@
                     />del padre. deue pechar el padre la calo<ex>n</ex>nia al
                         me<lb break="no"/>rino. </p>
             </div>
-            <div type="chapitre" n="65">
+            <div type="section" n="65">
                 <head><hi rend="rubrique" type="merged">Lx.iiij. Titulo de
                             om<ex>n</ex>e que compra bestia &amp; Ropa &amp;
                             +<lb break="yes"/>da se<ex>n</ex>nal. </hi>
@@ -3801,7 +3801,7 @@
                         sen<ex>n</ex>al non quisiere dar la co<lb break="no"/>sa
                     comprada deue doblar la sen<ex>n</ex>al al otro. </p>
             </div>
-            <div type="chapitre" n="66">
+            <div type="section" n="66">
                 <head><hi rend="rubrique">Lxv. Ti<lb break="no"/>tulo del
                             om<ex>n</ex>e que va en Romeria &amp; pone o
                             ma<ex>n</ex><lb break="no"/>da algo por su alma
@@ -3818,7 +3818,7 @@
                     &amp; <lb break="yes"/>fiziere manda o deuda con la prueua
                     de aquel <lb break="yes"/>logar vala. </p>
             </div>
-            <div type="chapitre" n="67">
+            <div type="section" n="67">
                 <head><hi rend="rubrique">Lx.vi. Titulo de om<ex>n</ex>e enfermo
                         que <lb break="yes"/>faze manda ante que muera &amp; a
                         fijos.</hi>
@@ -3835,7 +3835,7 @@
                     alma. o vna <lb break="yes"/>heredat que venda &amp; dar por
                     su alma. </p>
             </div>
-            <div type="chapitre" n="68">
+            <div type="section" n="68">
                 <head><hi rend="rubrique">Lx.vii. Titulo <lb break="yes"/>dela
                         salua del que compra ganado menudo.</hi>
                 </head>
@@ -3855,7 +3855,7 @@
                         break="yes"/>sera quito del furto. &amp; sera el ganado
                     suyo. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="69">
+            <div type="section" n="69">
                 <head><hi rend="rubrique">Lx.viij. Titulo delas cosas que da el
                         marido a la mu<lb break="no"/>ger o la mug<ex>er</ex> al
                         marido a la ora dela muerte.</hi>
@@ -3899,7 +3899,7 @@
                     al ma<lb break="no"/>rido. auyendo heredat que dexen a los
                     fijos. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="70">
+            <div type="section" n="70">
                 <head><hi rend="rubrique">Lx.ix. Titulo delas casas que salen
                         las almoxagas <lb break="yes"/>sobre la carrera &amp; an
                         los hermanos de p<ex>ar</ex><choice>
@@ -3919,7 +3919,7 @@
                     />meioria de aquello de aquella contia que <lb break="yes"
                     />sele de sobre la carrera. </p>
             </div>
-            <div type="chapitre" n="71">
+            <div type="section" n="71">
                 <head><hi rend="rubrique" type="merged">Lxx. Titulo de
                             com<ex>m</ex>o <lb break="yes"/>deue el juez meter
                         que sea el merino dela +<lb break="yes"/>villa. </hi>
@@ -3937,7 +3937,7 @@
                         querien<lb break="no"/>do henguerar vn plazo el
                         om<ex>n</ex>e que deue <lb break="yes"/>la deuda. </p>
             </div>
-            <div type="chapitre" n="72">
+            <div type="section" n="72">
                 <head><hi rend="rubrique">Lxx.j. Titulo delos fijos del
                         abad.</hi>
                 </head>
@@ -3957,7 +3957,7 @@
                         <add>e</add>
                     </subst>ro. </p>
             </div>
-            <div type="chapitre" n="73">
+            <div type="section" n="73">
                 <head><hi rend="rubrique" type="merged">Lxx.ij. Titulo <lb
                             break="yes"/>de ni<ex>n</ex>guna heredat que
                             no<ex>n</ex> se deue vender +<lb break="yes"/>de
@@ -3968,7 +3968,7 @@
                         ven<lb break="no"/>der de noche nin de dia a puertas <lb
                         break="yes"/>çerradas. </p>
             </div>
-            <div type="chapitre" n="74">
+            <div type="section" n="74">
                 <head><hi rend="rubrique" type="merged">Lxx.iij. Titulo de judio
                         que demanda <lb break="yes"/>deuda por carta a
                             xpi<ex>sti</ex>ano de fuera dela vil<lb break="no"
@@ -4007,7 +4007,7 @@
                     alcalle. Et el m<ex>er</ex>yno non deue <lb break="yes"
                     />auer sesenta sueldos por tal Razon. </p>
             </div>
-            <div type="chapitre" n="75">
+            <div type="section" n="75">
                 <head><hi rend="rubrique">Lxx.iiij. Titulo <lb break="yes"/>de
                             om<ex>n</ex>e que compra heredat de otro et des<lb
                             break="no"/>pues viene otro &amp; demanda gela.</hi>
@@ -4032,7 +4032,7 @@
                     de carrion quel demandaua la vi<ex>n</ex>na <lb break="yes"
                     />de pedroso de sant Roman. </p>
             </div>
-            <div type="chapitre" n="76">
+            <div type="section" n="76">
                 <head><hi rend="rubrique">Lxx.v. Titulo de com<ex>m</ex>o ⇒<pb
                             n="32r"/>
                         <cb type="single-column"/><lb break="yes"/>a de prouar
@@ -4050,7 +4050,7 @@
                     villa &amp; due<ex>n</ex>nos de <lb break="yes"/>su casa.
                 </p>
             </div>
-            <div type="chapitre" n="77">
+            <div type="section" n="77">
                 <head><hi rend="rubrique">Lxx.vi. Titulo del que demanda a otro
                             deu<lb break="no"/>da o heredat. &amp; prendal con
                         el sayon.</hi>
@@ -4067,7 +4067,7 @@
                     prendar luego <lb break="yes"/>et no<ex>n</ex> le quitar mas
                     la prenda fasta que <lb break="yes"/>cumpla de derecho. </p>
             </div>
-            <div type="chapitre" n="78">
+            <div type="section" n="78">
                 <head><hi rend="rubrique">Lxx.vii. Titulo de com<ex>m</ex>o a
                             q<ex>u</ex><hi rend="superscript">i</hi>en de <lb
                             break="yes"/>mandan derecho &amp; heredat &amp;
@@ -4107,7 +4107,7 @@
                         break="yes"/>prendar al demandador que lieue la deman<lb
                         break="no"/>da adelante o que se parta della. </p>
             </div>
-            <div type="chapitre" n="79">
+            <div type="section" n="79">
                 <head><hi rend="rubrique">Lxx.viij. Titulo <lb break="yes"/>de
                             om<ex>n</ex>e que para ante juez
                         se<ex>n</ex>nal.</hi>
@@ -4131,7 +4131,7 @@
                         q<ex>u</ex><hi rend="superscript">i</hi>siere fazer
                     derecho. </p>
             </div>
-            <div type="chapitre" n="80">
+            <div type="section" n="80">
                 <head><hi rend="rubrique">Lxxix. Titulo de <lb break="yes"
                             />om<ex>n</ex>e que quebranta presa de molino.</hi>
                 </head>
@@ -4147,7 +4147,7 @@
                         p<ex>er</ex>dio de molendura que peche tanto. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="81">
+            <div type="section" n="81">
                 <head><hi rend="rubrique">Lxxx. Titulo delos om<ex>n</ex>es que
                         non pueden fazer te<lb break="no"/>nimiento de anno
                         &amp; dia de heredat.</hi>
@@ -4164,7 +4164,7 @@
                     <cb type="single-column"/><lb break="yes"/>villa que son de
                     fuera. </p>
             </div>
-            <div type="chapitre" n="82">
+            <div type="section" n="82">
                 <head><hi rend="rubrique">Lxxx.j. Titulo de om<ex>n</ex>e que
                             <lb break="yes"/>non deue caber en testimonio contra
                         otro.</hi>
@@ -4181,7 +4181,7 @@
                         due<ex>n</ex>nos de sus <lb break="yes"/>casas. &amp;
                         ni<ex>n</ex>nos que non sean de tiempo. </p>
             </div>
-            <div type="chapitre" n="83">
+            <div type="section" n="83">
                 <head><hi rend="rubrique">Lxxx.ij. Titu<lb break="no"/>lo de vna
                             faza<ex>n</ex>nia de vn om<ex>n</ex>e que fallo a
                             <lb break="yes"/>otro faziendo çespedes en su
@@ -4204,7 +4204,7 @@
                     </choice>ado &amp; no<ex>n</ex> pudo testiguar el
                         da<ex>n</ex>no. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="84">
+            <div type="section" n="84">
                 <head><hi rend="rubrique">Lxxx.iij. Titulo de vna
                         faza<ex>n</ex>nia de vn om<ex>n</ex>e de al<lb
                             break="no"/>len sierra que deman<choice>
@@ -4233,7 +4233,7 @@
                     fincose el moro por suyo de do<lb break="no"/>mingo fijo de
                     martin dela sierra. </p>
             </div>
-            <div type="chapitre" n="85">
+            <div type="section" n="85">
                 <head><hi rend="rubrique">Lxxx.iiij. Titulo <lb break="yes"/>de
                             om<ex>n</ex>e que caua çespedes en heredat
                         agena.</hi>
@@ -4245,7 +4245,7 @@
                     derechos. deue pechar por cada a<lb break="no"/>çadada.
                     çinco sueldos. </p>
             </div>
-            <div type="chapitre" n="86">
+            <div type="section" n="86">
                 <head><hi rend="rubrique">Lxxx.v. Titulo delos <add hand="#self"
                                 >q<ex>ue</ex></add> fazen <lb break="yes"
                         />vnidat por escusar pecho q<ex>ue</ex> son
@@ -4263,7 +4263,7 @@
                     o al conçeio. Et proua<ex>n</ex><lb break="no"/>do la vnidat
                         com<ex>m</ex>o es derecho. </p>
             </div>
-            <div type="chapitre" n="87">
+            <div type="section" n="87">
                 <head><hi rend="rubrique" type="merged">Lxxx.vi. Titulo del <lb
                             break="yes"/>juez com<ex>m</ex>o puede enplazar a
                             om<ex>n</ex>e que de<lb break="no"/>ue deuda a otro.
@@ -4279,7 +4279,7 @@
                     quien enplaza. &amp; vale el enplaza<lb break="no"/>miento.
                 </p>
             </div>
-            <div type="chapitre" n="88">
+            <div type="section" n="88">
                 <head><hi rend="rubrique" type="merged">Lxxx.vii. Titulo de
                             com<ex>m</ex>o deue el sayon dar <lb break="yes"
                         />los pe<ex>n</ex>nos que p<ex>re</ex>nda <choice>
@@ -4301,7 +4301,7 @@
                     fuera. Et aquel logar pa<lb break="no"/>gar el aluger a
                     aquel que a de dar la de<lb break="no"/>uda. </p>
             </div>
-            <div type="chapitre" n="89">
+            <div type="section" n="89">
                 <head><hi rend="rubrique">Lxxx.viij<choice>
                             <corr>.</corr>
                             <sic/>
@@ -4350,7 +4350,7 @@
                         >r</add>ola &amp; don ponz que los echara fiadores <lb
                         break="yes"/>contra don peydro de nagera. </p>
             </div>
-            <div type="chapitre" n="90">
+            <div type="section" n="90">
                 <head><hi rend="rubrique" type="merged">Lxxx.x. Titulo de
                             om<ex>n</ex>e <lb break="yes"/>de fuera de villa que
                         a querella de om<ex>n</ex>e +<lb break="yes"/>dela
@@ -4371,7 +4371,7 @@
                         m<ex>er</ex>yno <lb break="yes"/>que faga derecho alos
                         om<ex>n</ex>es. </p>
             </div>
-            <div type="chapitre" n="91">
+            <div type="section" n="91">
                 <head><hi rend="rubrique" type="merged">xC. Titulo de <lb
                             break="yes"/>muger que echa fiador a otro
                             om<ex>n</ex>e de +<lb break="yes"/>la villa. </hi>
@@ -4386,7 +4386,7 @@
                     doblo. Et de<lb break="no"/>ue auer el sen<ex>n</ex>or la
                     meatad &amp; el fiador <lb break="yes"/>la otra meatad. </p>
             </div>
-            <div type="chapitre" n="92">
+            <div type="section" n="92">
                 <head><hi rend="rubrique">xC.j. Titulo de om<ex>n</ex>e que ⇒<pb
                             n="36r"/>
                         <cb type="single-column"/><lb break="yes"/>labra por pan
@@ -4421,7 +4421,7 @@
                         break="no"/>sas dando el vno com<ex>m</ex>o el otro deue
                     auer <lb break="yes"/>la heredat aquel que es tenedor. </p>
             </div>
-            <div type="chapitre" n="93">
+            <div type="section" n="93">
                 <head><hi rend="rubrique">xC.ij. Titulo <lb break="yes"/>del
                         judio que demanda deuda a dos om<ex>ne</ex>s <lb
                             break="yes"/>o a mas con carta o en otra guisa.</hi>
@@ -4456,7 +4456,7 @@
                         <sic/>
                     </choice>a. </p>
             </div>
-            <div type="chapitre" n="94">
+            <div type="section" n="94">
                 <head><hi rend="rubrique">xc.iij. Titulo de om<ex>n</ex>e que
                         enfia <lb break="yes"/>heredat co<ex>m</ex>mo la a de
                         fazer sanar.</hi>
@@ -4473,7 +4473,7 @@
                         no<ex>n</ex> son en la tierra &amp; de otros
                         om<ex>n</ex>es no<ex>n</ex>. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="95">
+            <div type="section" n="95">
                 <head><hi rend="rubrique">xc.iiij. Titulo de om<ex>n</ex>e que
                         es preso por deuda que ⇒<pb n="37r"/>
                         <cb type="single-column"/><lb break="yes"/>deua a
@@ -4488,7 +4488,7 @@
                         no<ex>n</ex>
                     <lb break="yes"/>quisiere. </p>
             </div>
-            <div type="chapitre" n="96">
+            <div type="section" n="96">
                 <head><hi rend="rubrique">xc.v. Titulo de om<ex>n</ex>e que iaga
                         preso en <lb break="yes"/>casa de juez por deuda que
                         deua.</hi>
@@ -4510,7 +4510,7 @@
                     carçelage seis din<ex>er</ex>os. &amp; lo quel di<lb
                         break="no"/>ere a comer. </p>
             </div>
-            <div type="chapitre" n="97">
+            <div type="section" n="97">
                 <head><hi rend="rubrique" type="merged">xc.vi. Titulo de
                             om<ex>n</ex>e que deue a judio +<lb break="yes"
                         />deuda manifiesta. </hi>
@@ -4523,7 +4523,7 @@
                     com<ex>m</ex>o fuero es et non le sa<lb break="no"/>que dela
                     villa. </p>
             </div>
-            <div type="chapitre" n="98">
+            <div type="section" n="98">
                 <head><hi rend="rubrique">xc.viij. Titulo de om<ex>n</ex>e o de
                         muger <lb break="yes"/>qu<choice>
                             <corr>e</corr>
@@ -4546,7 +4546,7 @@
                     del padre et de <lb break="yes"/>la madre asy com<ex>m</ex>o
                     heredan lo suyo. </p>
             </div>
-            <div type="chapitre" n="99">
+            <div type="section" n="99">
                 <head><hi rend="rubrique" type="merged">xc.viij. Titulo <lb
                             break="yes"/>de om<ex>n</ex>e que deue deuda a otro
                         et enferma +<lb break="yes"/>et yaze. </hi>
@@ -4563,7 +4563,7 @@
                     pues que non querello <lb break="yes"/>assi com<ex>m</ex>o
                     fuero es. </p>
             </div>
-            <div type="chapitre" n="100">
+            <div type="section" n="100">
                 <head><hi rend="rubrique" type="merged">xC.ix. Titulo del sayon
                             q<ex>ue</ex>
                         <lb break="yes"/>es vezino dela villa &amp; del alcalle
@@ -4581,7 +4581,7 @@
                     derecho el <lb break="yes"/>sayon puede prendar las bestias
                     dela villa <lb break="yes"/>por el sayon. </p>
             </div>
-            <div type="chapitre" n="101">
+            <div type="section" n="101">
                 <head><hi rend="rubrique" type="merged">C. Titulo delas
                             calo<ex>n</ex>nias que +<lb break="yes"
                             />fuere<ex>n</ex> apreçiadas. </hi>
@@ -4605,7 +4605,7 @@
                     prestar el prestam<ex>er</ex>o <lb break="yes"/>q<ex>ue</ex>
                     mete el merino &amp; el juez. &amp; el sayon. </p>
             </div>
-            <div type="chapitre" n="102">
+            <div type="section" n="102">
                 <head><hi rend="rubrique" type="merged">C.j. Ti<lb break="no"
                         />tulo de om<ex>n</ex>e que demanda deuda a
                             vezi<ex>n</ex>-no +<lb break="yes"/>dela villa.
@@ -4635,7 +4635,7 @@
                     en <lb break="yes"/>la noche non le diere su iornal deuel el
                         al<lb break="no"/>calle mandar entergar luego. </p>
             </div>
-            <div type="chapitre" n="103">
+            <div type="section" n="103">
                 <head><hi rend="rubrique">C.ij. Titulo <lb break="yes"/>de
                             com<ex>m</ex>o deuen vender la carne a peso.</hi>
                 </head>
@@ -4646,7 +4646,7 @@
                         nauy<lb break="no"/>dat fasta el dia de çincuesma vender
                     sin peso. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="104">
+            <div type="section" n="104">
                 <head><hi rend="rubrique" type="merged">C.iij. Titulo delas
                         cueças delos molinos et +<lb break="yes"/>delos mercados
                         &amp; dela sal. </hi>
@@ -4657,7 +4657,7 @@
                         break="yes"/>la sal de veynte &amp; seys el
                         alcall<ex>e</ex>. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="105">
+            <div type="section" n="105">
                 <head><hi rend="rubrique" type="merged">C.iiij. Titulo de
                             om<ex>n</ex>e &amp; de mug<ex>er</ex> que muere
                         &amp; de<lb break="no"/>xa fijos chicos. </hi></head>
@@ -4690,7 +4690,7 @@
                     de mill et dozientos. &amp; veynte &amp; vn an<ex>n</ex>os.
                         <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="106">
+            <div type="section" n="106">
                 <head><hi rend="rubrique" type="merged">C.v. Titulo de vna
                             faza<ex>n</ex>nia del Rey. &amp; de vn om<ex>n</ex>e
                             +<lb break="yes"/>que forço vna mug<ex>er</ex>.
@@ -4715,7 +4715,7 @@
                         rend="superscript">i</hi>so mandar <lb break="yes"
                     />dexar et mandol sacar los oios. </p>
             </div>
-            <div type="chapitre" n="107">
+            <div type="section" n="107">
                 <head><hi rend="rubrique">C.vi. Titulo <lb break="yes"/>del auer
                         que es fallado so tierra.</hi>
                 </head>
@@ -4745,7 +4745,7 @@
                     <cb type="single-column"/><lb break="yes"/>&amp; non lo
                     mostro a om<ex>n</ex>e ninguno. </p>
             </div>
-            <div type="chapitre" n="108">
+            <div type="section" n="108">
                 <head><hi rend="rubrique">C.vii. Titulo <lb break="yes"/>de
                             co<ex>m</ex>mo los judios todos son del Rey.</hi>
                 </head>
@@ -4757,7 +4757,7 @@
                     />dos deuen ser del Rey en su goarda &amp; para su <lb
                         break="yes"/>seruycio. </p>
             </div>
-            <div type="chapitre" n="109">
+            <div type="section" n="109">
                 <head><hi rend="rubrique" type="merged">C.viij. Titulo de
                             om<ex>n</ex>e que se a de saluar +<lb break="yes"
                         />por los <ex>santos</ex>. </hi>
@@ -4776,7 +4776,7 @@
                     conjurar. Et deue tres vezes recodir <lb break="yes"/>amen.
                 </p>
             </div>
-            <div type="chapitre" n="110">
+            <div type="section" n="110">
                 <head><hi rend="rubrique" type="merged">C.ix. Titulo de
                             om<ex>n</ex>e que a de parar palos +<lb break="yes"
                         />a otro. </hi>
@@ -4809,7 +4809,7 @@
                         bue<ex>n</ex>nos deue gelo parar doblado a<lb break="no"
                     />quel que Resçibe emienda. </p>
             </div>
-            <div type="chapitre" n="111">
+            <div type="section" n="111">
                 <head><hi rend="rubrique" type="merged">C.x. Titulo de
                             om<ex>n</ex>e +<lb break="yes"/>reubtado. </hi>
                 </head>
@@ -4825,7 +4825,7 @@
                         break="yes"/>yr por el fuero. &amp; no<ex>n</ex> por
                     batalla. </p>
             </div>
-            <div type="chapitre" n="112">
+            <div type="section" n="112">
                 <head><hi rend="rubrique">C.xi. Titulo de <lb break="yes"
                             />om<ex>n</ex>e que fiere a otro en la cara de
                         punno.</hi>
@@ -4845,7 +4845,7 @@
                         ni<ex>n</ex> ezer le nin baxar le. <lb break="yes"/>et
                     non boluer el cuerpo. </p>
             </div>
-            <div type="chapitre" n="113">
+            <div type="section" n="113">
                 <head><hi rend="rubrique">C.xii. Titulo de om<ex>n</ex>e que <lb
                             break="yes"/>pesca en heredat agena &amp; taga el
                         agua.</hi>
@@ -4863,7 +4863,7 @@
                         break="no"/>ger cogiendo agraz o huuas en heredat age<lb
                         break="no"/>na deuel ser demandado por furto. </p>
             </div>
-            <div type="chapitre" n="114">
+            <div type="section" n="114">
                 <head><hi rend="rubrique">C.xiiij. Titulo <lb break="yes"/>de
                             om<ex>n</ex>e que presta pan por pan annueuo.</hi>
                 </head>
@@ -4884,7 +4884,7 @@
                     nauydat o fasta an<ex>n</ex>o nueuo <lb break="yes"/>sy de
                     antes non ouyesse prendado por ello. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="115">
+            <div type="section" n="115">
                 <head><hi rend="rubrique" type="merged">C.xiiij. Titulo de
                             om<ex>n</ex>e que deua deuda a otro ante <lb
                             break="yes"/>del plazo vase dela tierra &amp; anda
@@ -4910,7 +4910,7 @@
                     de buen Recaubdo por <lb break="yes"/>lo suyo por que gelo
                     de a su plazo. </p>
             </div>
-            <div type="chapitre" n="116">
+            <div type="section" n="116">
                 <head><hi rend="rubrique">C.xv. Titulo ⇒<pb n="42r"/>
                         <cb type="single-column"/><lb break="yes"/>de vna
                             faza<ex>n</ex>nia de villa mayor. &amp; el comen<lb
@@ -4965,7 +4965,7 @@
                     <cb type="single-column"/><lb break="yes"/>et por su
                     termyno. </p>
             </div>
-            <div type="chapitre" n="117">
+            <div type="section" n="117">
                 <head><hi rend="rubrique" type="merged">C.xvi. Titulo de vna
                             faza<ex>n</ex><lb break="no"/>nia de vn
                             cauall<ex>er</ex>o de çiubdat Rodrigo <lb
@@ -5000,7 +5000,7 @@
                         break="yes"/>Et deuel el Rey justiciar el cuerpo por
                     este <lb break="yes"/>fecho. </p>
             </div>
-            <div type="chapitre" n="118">
+            <div type="section" n="118">
                 <head><hi rend="rubrique">C.xvii. Titulo delas cosas que el Rey
                             <lb break="yes"/>deue pesquirir.</hi>
                 </head>
@@ -5020,7 +5020,7 @@
                         no<ex>n</ex> lo deue pesq<ex>u</ex><hi
                         rend="superscript">i</hi>rir </p>
             </div>
-            <div type="chapitre" n="119">
+            <div type="section" n="119">
                 <head><hi rend="rubrique" type="merged">C.xviij. Titulo de <lb
                             break="yes"/>los fieles. &amp; delos jurados. &amp;
                         delos custieros <lb break="yes"/>sobr<ex>e</ex> los
@@ -5050,7 +5050,7 @@
                         deue<ex>n</ex> lo pechar doblado a su du<lb break="no"
                         />e<ex>n</ex>no. </p>
             </div>
-            <div type="chapitre" n="120">
+            <div type="section" n="120">
                 <head><hi rend="rubrique" type="merged">C.xix. Titulo de
                             om<ex>n</ex>e que quebranta casa +<lb break="yes"
                         />de ot<add hand="#self">r</add>o por fuerça. </hi>
@@ -5066,7 +5066,7 @@
                         deue<ex>n</ex> a merino <lb break="yes"/>Recudir el que
                     fiere a om<ex>n</ex>e en su casa. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="121">
+            <div type="section" n="121">
                 <head><hi rend="rubrique" type="merged">C.xx. Titulo de
                             om<ex>n</ex>e que fiere a otro con ma<lb break="no"
                         />no auyesa. </hi></head>
@@ -5083,7 +5083,7 @@
                         q<ex>ue</ex>
                     <lb break="yes"/>se salue en los sanctos. </p>
             </div>
-            <div type="chapitre" n="122">
+            <div type="section" n="122">
                 <head><hi rend="rubrique">C.xxi. Titulo dela era <lb break="yes"
                         />que se deue partir entre los hermanos.</hi>
                 </head>
@@ -5104,7 +5104,7 @@
                         q<ex>u</ex><hi rend="superscript">i</hi>siere <lb
                         break="yes"/>en su era. </p>
             </div>
-            <div type="chapitre" n="123">
+            <div type="section" n="123">
                 <head><hi rend="rubrique">C.xxii. Titulo de com<ex>m</ex>o puede
                             om<ex>n</ex>e <lb break="yes"/>vender heredat maguer
                             no<ex>n</ex> sea partida.</hi>
@@ -5130,7 +5130,7 @@
                         co<ex>m</ex>mo con otro omne. <pb n="44v"/>
                     <cb type="single-column"/><lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="124">
+            <div type="section" n="124">
                 <head><hi rend="rubrique">C.xxiij. Titulo del om<ex>n</ex>e que
                         echa pe<ex>n</ex>nos et dize el <lb break="yes"/>otro
                         que los echo a tiempo &amp; q<ex>ue</ex> los a
@@ -5157,7 +5157,7 @@
                     peor <lb break="yes"/>tomelo &amp; no<ex>n</ex> faga salua
                     por el. </p>
             </div>
-            <div type="chapitre" n="125">
+            <div type="section" n="125">
                 <head><hi rend="rubrique" type="merged">C.xxiiij. Titulo de <lb
                             break="yes"/>om<ex>n</ex>e o de muger que manda algo
                         por su al<lb break="no"/>ma. </hi></head>
@@ -5195,7 +5195,7 @@
                     non deuen <lb break="yes"/>ellos comprar la heredat de que
                     son manseso<lb break="no"/>res. </p>
             </div>
-            <div type="chapitre" n="126">
+            <div type="section" n="126">
                 <head><hi rend="rubrique">C.xxv. Titulo dela heredat o Ropa que
                         padre <lb break="yes"/>et madre dan a fijo en
                         casamiento.</hi>
@@ -5248,7 +5248,7 @@
                     que no<ex>n</ex> es para el aquella co<ex>m</ex>pra. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="127">
+            <div type="section" n="127">
                 <head><hi rend="rubrique">C.xxvi. Titulo del om<ex>n</ex>e &amp;
                         dela muger que muere<ex>n</ex>
                         <lb break="yes"/>et dexan fijos &amp; fijas
@@ -5274,7 +5274,7 @@
                     dellos vallia de diez m<ex>o</ex>r<ex>avedi</ex>s non deue
                         <lb break="yes"/>pechar nadi. </p>
             </div>
-            <div type="chapitre" n="128">
+            <div type="section" n="128">
                 <head><hi rend="rubrique">C.xx.vij. Titulo delos herederos
                             ala<lb break="no"/>da<ex>n</ex>nos. &amp; arrinca el
                         vno delos lo<add hand="#self">s</add>
@@ -5301,7 +5301,7 @@
                         com<ex>m</ex>o es fuero deue pechar por cada <lb
                         break="yes"/>moion que arrenco sesenta sueldos. </p>
             </div>
-            <div type="chapitre" n="129">
+            <div type="section" n="129">
                 <head><hi rend="rubrique">C.xx.viij. Titu<lb break="no"/>lo de
                             om<ex>n</ex>e que alloga bestia a otro omne.</hi>
                 </head>
@@ -5339,7 +5339,7 @@
                     dantes. et prouandolo con om<ex>ne</ex>s bue<ex>n</ex><lb
                         break="no"/>nos. </p>
             </div>
-            <div type="chapitre" n="130">
+            <div type="section" n="130">
                 <head><hi rend="rubrique">C.xx.ix. Titulo delos om<ex>n</ex>es
                         que mandan algo <lb break="yes"/>a bodas o a desposorios
                             q<ex>u</ex><hi rend="superscript">a</hi>ndo
@@ -5365,7 +5365,7 @@
                         acertaro<ex>n</ex> al comer de <lb break="yes"/>la boda
                     o al despossorio fazer. </p>
             </div>
-            <div type="chapitre" n="131">
+            <div type="section" n="131">
                 <head><hi rend="rubrique">C.xxx. Titulo delos fi<lb break="no"
                         />ios &amp; delas fijas que se uan de casa por casami<lb
                             break="no"/>ento o por otra guisa con liçençia.</hi>
@@ -5423,7 +5423,7 @@
                     et sy muriere el padre o la madre <lb break="yes"/>en casa
                     del fijo non se deue temer delo suyo. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="132">
+            <div type="section" n="132">
                 <head><hi rend="rubrique">C.xxxi. Titulo de om<ex>n</ex>e que a
                         fijos &amp; fijas &amp; mora <lb break="yes"
                             />algu<ex>n</ex>no dellos çerca de su casa.</hi>
@@ -5439,7 +5439,7 @@
                         partiçio<ex>n</ex> tan bien co<ex>m</ex>mo sy morassen
                         <lb break="yes"/>con ellos en su casa. </p>
             </div>
-            <div type="chapitre" n="133">
+            <div type="section" n="133">
                 <head><hi rend="rubrique" type="merged">C.xxxii. Titulo delos
                         fijos que an <lb break="yes"/>el padre muerto &amp;
                         demandan partiçio<ex>n</ex> al parie<ex>n</ex>te +<lb
@@ -5471,7 +5471,7 @@
                     suyo quel <lb break="yes"/>auya dado el pariente muerto.
                 </p>
             </div>
-            <div type="chapitre" n="134">
+            <div type="section" n="134">
                 <head><hi rend="rubrique" type="merged">C.xxxiii. Titulo de <lb
                             break="yes"/>om<ex>n</ex>e que el &amp; su muger
                         mete a <del hand="#self">su</del> otro por +<lb
@@ -5515,7 +5515,7 @@
                     villa &amp; non <lb break="yes"/>querello com<ex>m</ex>o es
                     fuero &amp; mando pagar el alcalle. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="135">
+            <div type="section" n="135">
                 <head><hi rend="rubrique">C.xxxiiij. Titulo de om<ex>n</ex>e que
                         el &amp; su muger son fiados et <lb break="yes"
                         />deudores a otro om<ex>n</ex>e. o a otra muger.</hi>
@@ -5541,7 +5541,7 @@
                     juez o el sayon co<ex>m</ex>mo es fuero et <lb break="yes"
                     />derecho. </p>
             </div>
-            <div type="chapitre" n="136">
+            <div type="section" n="136">
                 <head><hi rend="rubrique">C.xxxv. Titulo dela costumbre que an
                         los <lb break="yes"/>de bilforado con los que son de
                         fuera que ençi<lb break="no"/>erran en la villa pan
@@ -5563,7 +5563,7 @@
                     villa pan &amp; vino <lb break="yes"/>et non deuen dar
                     condeseio ninguno. </p>
             </div>
-            <div type="chapitre" n="137">
+            <div type="section" n="137">
                 <head><hi rend="rubrique" type="merged">C.xxxvi. Ti<lb
                             break="no"/>tulo del mandamie<ex>n</ex>to delos
                             alcall<ex>e</ex>s q<ex>u</ex><hi rend="superscript"
@@ -5604,7 +5604,7 @@
                         deue<ex>n</ex> testar la heredat ni<ex>n</ex> prendar el
                         <lb break="yes"/>cuerpo. </p>
             </div>
-            <div type="chapitre" n="138">
+            <div type="section" n="138">
                 <head><hi rend="rubrique">C.xxx.vii. Titulo de vna
                             faza<ex>n</ex>nya delos alcall<ex>e</ex>s &amp; <lb
                             break="yes"/>los jurados de bilforado que
@@ -5639,7 +5639,7 @@
                         n="50v"/>
                     <cb type="single-column"/><lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="139">
+            <div type="section" n="139">
                 <head><hi rend="rubrique" type="merged">C.xxx.viij. Titulo de
                         vna faza<ex>n</ex>nia de gunçalo Royz &amp;
                             ferra<ex>n</ex>t +<lb break="yes"/>Roart
@@ -5662,7 +5662,7 @@
                     Regno las cosas vedadas. &amp; que <lb break="yes"/>diessen
                     sus portadgos o los ouyessen de dar. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="140">
+            <div type="section" n="140">
                 <head><hi rend="rubrique">C.xxx.ix. Titulo de om<ex>n</ex>es o
                         de mugeres que fallan mu<lb break="no"/>erto en el
                             t<ex>er</ex>myno. &amp; non es apreçiado.</hi>
@@ -5682,7 +5682,7 @@
                     <cb type="single-column"/><lb break="yes"/>logar dela villa.
                 </p>
             </div>
-            <div type="chapitre" n="141">
+            <div type="section" n="141">
                 <head><hi rend="rubrique">C.xL. Titulo de judio que deman<lb
                             break="no"/>da deuda a om<ex>n</ex>e de fuera dela
                         villa.</hi>
@@ -5698,7 +5698,7 @@
                         rend="superscript">i</hi>ere atener a lo que se atouo
                     fasta aqui <lb break="yes"/>tenga se. </p>
             </div>
-            <div type="chapitre" n="142">
+            <div type="section" n="142">
                 <head><hi rend="rubrique">C.xLi. Titulo del juyzio que da el
                         alcalle <lb break="yes"/>a dos om<ex>n</ex>es. &amp; el
                         vno calla a la ora.</hi>
@@ -5716,7 +5716,7 @@
                     p<ex>er</ex>diere con testimonio <lb break="yes"/>sobre el
                     alcalle de seys vezinos derechos. </p>
             </div>
-            <div type="chapitre" n="143">
+            <div type="section" n="143">
                 <head><hi rend="rubrique" type="merged">C.xLii. Titu<lb
                             break="no"/>lo de om<ex>n</ex>e que a juyzio ante el
                         alcalle &amp; an me<ex>ne</ex>ster +<lb break="yes"
@@ -5835,7 +5835,7 @@
                         break="yes"/>la boz de conçeio a dos. Et ellos pueden
                     dar a <lb break="yes"/>Razonar en vos de conçeio a vno. </p>
             </div>
-            <div type="chapitre" n="144">
+            <div type="section" n="144">
                 <head><hi rend="rubrique">C.xLiii. Titulo de <lb break="yes"
                             />om<ex>n</ex>e &amp; de muger que son casados en
                         vno. &amp; fijos <lb break="yes"/>et fijas an en vno.
@@ -5885,7 +5885,7 @@
                     />que muriesse non deue<ex>n</ex> Recodir los otros fijos
                         <lb break="yes"/>dela particion. </p>
             </div>
-            <div type="chapitre" n="145">
+            <div type="section" n="145">
                 <head><hi rend="rubrique">C.xLiiij. Titulo del Ryego del agua
                             ⇒<pb n="53v"/>
                         <cb type="single-column"/><lb break="yes"/>que passa
@@ -5919,7 +5919,7 @@
                         <lb break="yes"/>este. deue valer por fuero pues la
                     heredat es <lb break="yes"/>dela mug<ex>er</ex>. </p>
             </div>
-            <div type="chapitre" n="146">
+            <div type="section" n="146">
                 <head><hi rend="rubrique" type="merged">C.xLv. Titulo delos
                         arboles que son <choice>
                             <sic>q<ex>ue</ex></sic>
@@ -5950,7 +5950,7 @@
                     las heredades. &amp; taiar <lb break="yes"/>q<ex>u</ex><hi
                         rend="superscript">a</hi>ntas alçaren. </p>
             </div>
-            <div type="chapitre" n="147">
+            <div type="section" n="147">
                 <head><hi rend="rubrique" type="merged">C.xLvi. Titulo delos
                             pesq<ex>u</ex><hi rend="superscript">i</hi>ridores
                         que +<lb break="yes"/>se non pueden abenir. </hi>
@@ -5975,7 +5975,7 @@
                         m<ex>er</ex>yno fasta que diga por que el om<ex>n</ex>e
                     non <lb break="yes"/>pierda su derecho. </p>
             </div>
-            <div type="chapitre" n="148">
+            <div type="section" n="148">
                 <head><hi rend="rubrique">C.xLvii. Titulo de com<ex>m</ex>o deue
                         omne ⇒<pb n="54v"/>
                         <cb type="single-column"/><lb break="yes"/>fazer
@@ -6031,7 +6031,7 @@
                         da<ex>n</ex>no fiziere de<lb break="no"/>ue lo pechar al
                         due<ex>n</ex>no dela casa. </p>
             </div>
-            <div type="chapitre" n="149">
+            <div type="section" n="149">
                 <head><hi rend="rubrique" type="merged"><add hand="#other"
                             >C.xL.viii.</add> Titulo del mo<lb break="no"/>lino
                         que cahe fasta q<ex>u</ex><hi rend="superscript"
@@ -6070,7 +6070,7 @@
                         ni<ex>n</ex> de juso nin a otras <lb break="yes"
                     />heredades. </p>
             </div>
-            <div type="chapitre" n="150">
+            <div type="section" n="150">
                 <head><hi rend="rubrique">C.xLix. Titulo de om<ex>n</ex>e que
                         vende he<lb break="no"/>redat a otro &amp; no<ex>n</ex>
                         gela puede faz<ex>er</ex> sana.</hi>
@@ -6111,7 +6111,7 @@
                     don gu<ex>n</ex>çalo <lb break="yes"/>M<ex>artine</ex>s ouo
                     de tornar sus din<ex>er</ex>os. &amp; su mysion. </p>
             </div>
-            <div type="chapitre" n="151">
+            <div type="section" n="151">
                 <head><hi rend="rubrique">C.L. Ti<lb break="no"/>tulo de una
                             faza<ex>n</ex>nya de Mateo franco. &amp; de <lb
                             break="yes"/>mari diaz. &amp; de maria mendez.</hi>
@@ -6148,7 +6148,7 @@
                         />m<ex>o</ex>r<ex>avedi</ex>s et el da<ex>n</ex>no
                     doblado. </p>
             </div>
-            <div type="chapitre" n="152">
+            <div type="section" n="152">
                 <head><hi rend="rubrique">C.Li. Titulo del que tuelle <lb
                             break="yes"/>los pe<ex>n</ex>nos al cogedor del
                         pecho del Rey.</hi>
@@ -6166,7 +6166,7 @@
                     el otro. nin el vario que pa<lb break="no"/>gado ouyesse non
                     fuesse p<ex>re</ex>ndado por el otro. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="153">
+            <div type="section" n="153">
                 <head><hi rend="rubrique" type="merged">C.Lij. Titulo del
                             m<ex>er</ex>yno que demanda alos om<ex>n</ex>es <lb
                             break="yes"/>que fuero<ex>n</ex> alcall<ex>e</ex>s
@@ -6196,7 +6196,7 @@
                         >a</hi>ndo era<ex>n</ex>
                     <lb break="yes"/>alcall<ex>e</ex>s. </p>
             </div>
-            <div type="chapitre" n="154">
+            <div type="section" n="154">
                 <head><hi rend="rubrique" type="merged">C.Liij. Titulo de
                             om<ex>n</ex>e que deue a otro. &amp; son todos +<lb
                             break="yes"/>los plazos ençerrados. </hi>
@@ -6216,7 +6216,7 @@
                     enplazado mandar <lb break="yes"/>al m<ex>er</ex>yno quel
                     entergue luego com<ex>m</ex>o es fuero. </p>
             </div>
-            <div type="chapitre" n="155">
+            <div type="section" n="155">
                 <head><hi rend="rubrique">C.Liiij. Ti<lb break="no"/>tulo delos
                         que mora<ex>n</ex> vnos çerca de otros co<ex>m</ex>mo
                         deue <lb break="yes"/>vedar cada vno el agua de su
@@ -6243,7 +6243,7 @@
                     por tenimie<ex>n</ex>to el otro <lb break="yes"
                         />om<ex>n</ex>e. </p>
             </div>
-            <div type="chapitre" n="156">
+            <div type="section" n="156">
                 <head><hi rend="rubrique">C.Lx. Titulo de dos om<ex>n</ex>es que
                         an molinos <lb break="yes"/>en vno com<ex>m</ex>o deuen
                         meter los molinos.</hi>
@@ -6258,7 +6258,7 @@
                     <lb break="yes"/>de a cada vno delos herederos su derecho.
                         <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="157">
+            <div type="section" n="157">
                 <head><hi rend="rubrique">C.Lvi. Titulo del corredor que es
                         puesto por con<lb break="no"/>çeio com<ex>m</ex>o puede
                         vender Ropa o otras cosas.</hi>
@@ -6277,7 +6277,7 @@
                     cosas que de Re-caubdo <lb break="yes"/>dello com<ex>m</ex>o
                     otro om<ex>n</ex>e faria. </p>
             </div>
-            <div type="chapitre" n="158">
+            <div type="section" n="158">
                 <head><hi rend="rubrique" type="merged">C.Lvi. Titulo de ⇒<pb
                             n="58r"/>
                         <cb type="single-column"/><lb break="yes"
@@ -6285,7 +6285,7 @@
                         deuen vendemar + <lb break="yes"/>terçer dia ante. </hi>
                 </head>
                 <note resp="#mgl">Le rubricateur commet ici une deuxième erreur
-                    de numérotation. Il s'agit du chapitre 158.</note>
+                    de numérotation. Il s'agit du section 158.</note>
                 <p><lb break="yes"/><lb break="yes"/><hi rend="initiale" n="3"
                         >E</hi>sto es por fuero que en <lb break="yes"/>el
                     tiempo de vendema que el Rey et el <lb break="yes"
@@ -6298,7 +6298,7 @@
                     sesenta sueldos. sil fuere p<ex>ro</ex><lb break="no"/>uado
                     con dos vezi<ex>n</ex>nos derechos. </p>
             </div>
-            <div type="chapitre" n="159">
+            <div type="section" n="159">
                 <head><hi rend="rubrique">C.Lvij. Titulo de om<ex>n</ex>e <lb
                             break="yes"/>que furta &amp; del p<ex>r</ex><hi
                             rend="superscript">i</hi>mer furto lo quel
@@ -6324,7 +6324,7 @@
                         break="no"/>ger todo lo suyo pues ella non furta. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="160">
+            <div type="section" n="160">
                 <head><hi rend="rubrique">C.Lviij. Titulo delos que an molinos
                         en vno.</hi>
                 </head>
@@ -6343,7 +6343,7 @@
                         break="no"/>uyere leuado nin contar le en la mision.
                 </p>
             </div>
-            <div type="chapitre" n="161">
+            <div type="section" n="161">
                 <head><hi rend="rubrique" type="merged">C.Lix. Titu<lb
                             break="no"/>lo de om<ex>n</ex>e de fuera que demanda
                         deuda a om<ex>n</ex>e +<lb break="yes"/>dela villa.
@@ -6361,7 +6361,7 @@
                     Maguer sea dante la <lb break="yes"/>demanda que se salue
                     luego al dia. </p>
             </div>
-            <div type="chapitre" n="162">
+            <div type="section" n="162">
                 <head><hi rend="rubrique">C.Lx. Titulo <lb break="yes"/>del
                             om<ex>n</ex>e que deçepa monte con açada.</hi>
                 </head>
@@ -6389,7 +6389,7 @@
                     segur q<ex>u</ex><hi rend="superscript">a</hi>tro sueldos o
                     de bestia çinco sueldos. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="163">
+            <div type="section" n="163">
                 <head><hi rend="rubrique">C.Lxi. Titulo delos om<ex>n</ex>es que
                         pelean. &amp; los feridos ap<ex>re</ex>çian <lb
                             break="yes"/>se et sy ouyere y algun muerto en la
@@ -6437,7 +6437,7 @@
                         q<ex>u</ex><hi rend="superscript">i</hi>nto &amp; vale
                     aquel ap<ex>re</ex>çiamiento. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="164">
+            <div type="section" n="164">
                 <head><hi rend="rubrique">C.Lxij. Titulo de om<ex>n</ex>e que
                         deue seer enemigo.</hi>
                 </head>
@@ -6468,7 +6468,7 @@
                     <cb type="single-column"/><lb break="yes"/>de fazer sus
                     enemigos deuen ser. </p>
             </div>
-            <div type="chapitre" n="165">
+            <div type="section" n="165">
                 <head><hi rend="rubrique" type="merged">C.Lxiij. Titulo <lb
                             break="yes"/>de om<ex>n</ex>e de villa que tiene
                             Razo<ex>n</ex> de om<ex>n</ex>e de fuera +<lb
@@ -6484,7 +6484,7 @@
                         om<ex>n</ex>e de fuera contra el que es ve<lb break="no"
                         />zi<ex>n</ex>no dela villa. </p>
             </div>
-            <div type="chapitre" n="166">
+            <div type="section" n="166">
                 <head><hi rend="rubrique">C.Lxiiij. Titulo de om<ex>n</ex>e que
                         fiere a mug<ex>er</ex>.</hi>
                 </head>
@@ -6504,7 +6504,7 @@
                     deua dar derecho <lb break="yes"/>a la ferida deuen la
                     prendar. </p>
             </div>
-            <div type="chapitre" n="167">
+            <div type="section" n="167">
                 <head><hi rend="rubrique" type="merged">C.Lxv. Titulo delos <lb
                             break="yes"/>om<ex>n</ex>es que baraian &amp; ay
                             om<ex>n</ex>es feridos &amp; muer<lb break="no"/>tos
@@ -6530,7 +6530,7 @@
                     fasta que faga<ex>n</ex>
                     <lb break="yes"/>derecho &amp; prendan derecho. </p>
             </div>
-            <div type="chapitre" n="168">
+            <div type="section" n="168">
                 <head><hi rend="rubrique">C.Lxvj. Titulo por q<ex>u</ex><hi
                             rend="superscript">a</hi>l <lb break="yes"/>Razon
                         pueden fazer al om<ex>n</ex>e falso.</hi>
@@ -6551,7 +6551,7 @@
                         >i</hi>ntar los dien<lb break="no"/>tes seyendo prouado
                         com<ex>m</ex>o es derecho. </p>
             </div>
-            <div type="chapitre" n="169">
+            <div type="section" n="169">
                 <head><hi rend="rubrique" type="merged">C.Lxvij. Titulo <lb
                             break="yes"/>de com<ex>m</ex>o deue tomar la jura vn
                             om<ex>n</ex>e +<lb break="yes"/>a otro. </hi>
@@ -6568,7 +6568,7 @@
                     de dar la jura que <lb break="yes"/>de el om<ex>n</ex>e a
                     derecho. </p>
             </div>
-            <div type="chapitre" n="170">
+            <div type="section" n="170">
                 <head><hi rend="rubrique" type="merged">C.Lxviij. Titulo delos
                         fijos que no<ex>n</ex> +<lb break="yes"/>son lindos
                             co<ex>m</ex>mo hereda<ex>n</ex>. </hi>
@@ -6588,7 +6588,7 @@
                         <lb break="yes"/>vezinos derechos &amp; due<ex>n</ex>nos
                     de sus casas. </p>
             </div>
-            <div type="chapitre" n="171">
+            <div type="section" n="171">
                 <head><hi rend="rubrique" type="merged">C.Lxix. Titu<lb
                             break="no"/>lo del que faze omezidio o
                             calo<ex>n</ex>nias. &amp; se va +<lb break="yes"
@@ -6612,7 +6612,7 @@
                         q<ex>ue</ex>
                     <lb break="yes"/>a querella. </p>
             </div>
-            <div type="chapitre" n="172">
+            <div type="section" n="172">
                 <head><hi rend="rubrique" type="merged">C.Lxx. Titulo delos
                         fijos dalgo de Cas<lb break="no"/>tiella de
                             q<ex>u</ex><hi rend="superscript"
@@ -6626,7 +6626,7 @@
                     en sus na<lb break="no"/>turas. &amp; cauall<ex>er</ex>os
                     non. </p>
             </div>
-            <div type="chapitre" n="173">
+            <div type="section" n="173">
                 <head><hi rend="rubrique">C.Lxxi. Titulo de vn om<ex>n</ex>e <lb
                             break="yes"/>que demanda a otro por su deudor.</hi>
                 </head>
@@ -6640,7 +6640,7 @@
                         de<lb break="no"/>udor o quito otro fiador o deudor.
                 </p>
             </div>
-            <div type="chapitre" n="174">
+            <div type="section" n="174">
                 <head><hi rend="rubrique" type="merged">C.Lxxij. Titulo de <lb
                             break="yes"/>co<ex>m</ex>mo el merino deue yr al
                         alcalle a dema<ex>n</ex><lb break="no"/>dar sy apreçio
@@ -6655,7 +6655,7 @@
                     meryno por dezir le los om<ex>n</ex>es <lb break="yes"/>que
                     apreçio. </p>
             </div>
-            <div type="chapitre" n="175">
+            <div type="section" n="175">
                 <head><hi rend="rubrique" type="merged">C.Lxxiij. Titulo de
                             om<ex>n</ex>e que demanda a +<lb break="yes"/>otro
                         si es fiador o non. </hi>
@@ -6666,7 +6666,7 @@
                     <lb break="yes"/>el es fiador por el. deuel dezir si li es
                         fi<lb break="no"/>ador o non ante el alcalle. </p>
             </div>
-            <div type="chapitre" n="176">
+            <div type="section" n="176">
                 <head><hi rend="rubrique" type="merged">C.Lxxiiij. Titulo de
                             com<ex>m</ex>o pu<lb break="no"/>ede dar el fijo
                         dalgo al fijo de barraga<ex>n</ex>na q<ex>u</ex><hi
@@ -6707,7 +6707,7 @@
                         break="yes"/>de behetria que sano sea nin solariego esso
                         <lb break="yes"/>mysmo. </p>
             </div>
-            <div type="chapitre" n="177">
+            <div type="section" n="177">
                 <head><hi rend="rubrique" type="merged">C.Lxxv. Titulo de
                             com<ex>m</ex>o ningun fijo dalgo <lb break="yes"
                             />no<ex>n</ex> puede comprar en la villa do non es
@@ -6729,7 +6729,7 @@
                     />deuysero puede comprar heredat todo heredami<lb break="no"
                     />ento de vn labrador a fumo muerto. </p>
             </div>
-            <div type="chapitre" n="178">
+            <div type="section" n="178">
                 <head><hi rend="rubrique" type="merged">C.Lxxvi. Titulo del <lb
                             break="yes"/>que seguda a otro seyendo en tregua con
                         el et +<lb break="yes"/>non le fiere. </hi>
@@ -6751,7 +6751,7 @@
                         break="yes"/>ni<ex>n</ex> le fizo mal por esto non deue
                     dar ni<ex>n</ex>gu<lb break="no"/>na emyenda. </p>
             </div>
-            <div type="chapitre" n="179">
+            <div type="section" n="179">
                 <head><hi rend="rubrique">C.Lxx.vij. Titulo de com<ex>m</ex>o a
                         de tomar el <lb break="yes"/><choice>
                             <sic>el</sic>
@@ -6767,7 +6767,7 @@
                     Et enter<lb break="no"/>gar a cabo de nueue dias. Et esto
                     deue seer en <lb break="yes"/>las behertias. </p>
             </div>
-            <div type="chapitre" n="180">
+            <div type="section" n="180">
                 <head><hi rend="rubrique" type="merged">C.Lxx.viij. Titulo de
                             q<ex>u</ex><hi rend="superscript">a</hi>ndo se
                         buelue vn <lb break="yes"/>conçeio con otro &amp; ay
@@ -6792,7 +6792,7 @@
                     <cb type="single-column"/><lb break="yes"/>aquellos que
                     deuen jurar. </p>
             </div>
-            <div type="chapitre" n="181">
+            <div type="section" n="181">
                 <head><hi rend="rubrique" type="merged">C.Lxxix. Titulo del
                             om<ex>n</ex>e <lb break="yes"/>que es enplazado para
                         casa del Rey que plazo +<lb break="yes"/>deue auer.
@@ -6808,7 +6808,7 @@
                         >i</hi>nze dias sy fuere el <lb break="yes"/>plazo a
                     cordoua o seuillia o a essa tierra. </p>
             </div>
-            <div type="chapitre" n="182">
+            <div type="section" n="182">
                 <head><hi rend="rubrique" type="merged">Ti<lb break="no"/>tulo
                         delos fijos dalgo que van a fazienda v<lb break="no"
                         />nos contra otros. </hi></head>
@@ -6841,7 +6841,7 @@
                         sacaro<ex>n</ex> por enemigos alos <lb break="yes"/>que
                     mataron su pariente. </p>
             </div>
-            <div type="chapitre" n="183">
+            <div type="section" n="183">
                 <head><hi rend="rubrique">C.Lxxxi. Titulo sy fijo dalgo <lb
                             break="yes"/>pelea vno con otro fijo dalgo. et
                         passada la <lb break="yes"/>pelea com<ex>m</ex>o a de
@@ -6871,7 +6871,7 @@
                     aquel a q<ex>u</ex><hi rend="superscript">i</hi>en dessafio.
                 </p>
             </div>
-            <div type="chapitre" n="184">
+            <div type="section" n="184">
                 <head><hi rend="rubrique">C.Lxxxij. Titu<lb break="no"/>lo dela
                             duen<ex>n</ex>a en cabellos que se casa o se <lb
                             break="yes"/>va con alguno sin plazer de sus
@@ -6907,7 +6907,7 @@
                         />com<ex>m</ex>o es derecho. Et despues casar non deue
                         <lb break="yes"/>ser deseredada. </p>
             </div>
-            <div type="chapitre" n="185">
+            <div type="section" n="185">
                 <head><hi rend="rubrique" type="merged">C.Lxxxiij. Titulo del
                         fijo dalgo que de<lb break="no"/>pues dela tregua que a
                         con otro fijo dalgo +<lb break="yes"/>le mata o le fiere
@@ -6925,7 +6925,7 @@
                     que no<ex>n</ex>
                     <lb break="yes"/>le aya dessaffiado. </p>
             </div>
-            <div type="chapitre" n="186">
+            <div type="section" n="186">
                 <head><hi rend="rubrique">C.Lxxxiiij. Titulo de om<ex>n</ex>e
                         que fur<lb break="no"/>tan algo co<ex>m</ex>mo a de dar
                         la querella.</hi>
@@ -6952,7 +6952,7 @@
                     yr a aquel quel <lb break="yes"/>echo fiador. &amp; que
                     recuda con el. </p>
             </div>
-            <div type="chapitre" n="187">
+            <div type="section" n="187">
                 <head><hi rend="rubrique" type="merged">C.Lxxxv. Titulo de vna
                             <lb break="yes"/>faza<ex>n</ex>nia de lope
                             gu<ex>n</ex>çales de sag<ex>r</ex><hi
@@ -6979,7 +6979,7 @@
                         <corr/>
                     </choice>tir. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="188">
+            <div type="section" n="188">
                 <head><hi rend="rubrique" type="merged">C.Lxxx.vi. Titulo de
                         carrera de puente deue seer tan <lb break="yes"/>ancha
                         que dos mug<ex>er</ex>es vayan con sus orços +<lb
@@ -7007,7 +7007,7 @@
                     />to. Maguer non gela mando labrar su due<ex>n</ex>no. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="189">
+            <div type="section" n="189">
                 <head><hi rend="rubrique" type="merged">C.Lxxx.vij. Titulo dela
                             due<ex>n</ex>na que cauall<ex>er</ex>o o escudero
                         lieua +<lb break="yes"/>Robada. </hi>
@@ -7038,7 +7038,7 @@
                         break="yes"/>el Rey le pudiere auer deuel justiciar.
                 </p>
             </div>
-            <div type="chapitre" n="190">
+            <div type="section" n="190">
                 <head><hi rend="rubrique">C.Lxxx.viij. Titulo <lb break="yes"
                         />de villa gallixo. &amp; de sant cl<hi
                             rend="superscript">i</hi>me<ex>n</ex>t q<ex>ue</ex>
@@ -7057,7 +7057,7 @@
                     fazeras. &amp; echasen fiador al t<ex>er</ex>myno. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="191">
+            <div type="section" n="191">
                 <head><hi rend="rubrique" type="merged">C.Lxxx.ix. Titulo dela
                         querella que a vn om<ex>n</ex>e de otro et +<lb
                             break="yes"/>prendal por ello. </hi>
@@ -7075,7 +7075,7 @@
                     />derecho prendar mas al fiador fasta que faga <lb
                         break="yes"/>derecho. </p>
             </div>
-            <div type="chapitre" n="192">
+            <div type="section" n="192">
                 <head><hi rend="rubrique">C.xc. Titulo del logrero delas
                         casas.</hi>
                 </head>
@@ -7089,7 +7089,7 @@
                     />que faga que no<ex>n</ex> es para otro. Mas para sy. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="193">
+            <div type="section" n="193">
                 <head><hi rend="rubrique">C.xc.j. Titulo de dos om<ex>n</ex>es
                         que an juyzio ante el <lb break="yes"/>alcalle
                             co<ex>m</ex>mo an de tomar fiel.</hi>
@@ -7112,7 +7112,7 @@
                     suerte sera fiel. Et ellos deuen le dar cada <lb break="yes"
                     />dia vn sueldo. &amp; a comer al fiel. </p>
             </div>
-            <div type="chapitre" n="194">
+            <div type="section" n="194">
                 <head><hi rend="rubrique">C.xc.ij. Titulo delas <lb break="yes"
                         />prueuas de comprar heredat o de mueble.</hi>
                 </head>
@@ -7135,7 +7135,7 @@
                         break="yes"/>seys om<ex>n</ex>es que a de dar el
                         cl<ex>er</ex>igo para prouar. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="195">
+            <div type="section" n="195">
                 <head><hi rend="rubrique">C.xc.iij. Titulo de demanda que a
                         padre o madre co<ex>n</ex>tra <lb break="yes"/>fijos. o
                         fijos &amp; fijas co<ex>n</ex>tra padre o
@@ -7153,7 +7153,7 @@
                     Et alcalle <lb break="yes"/>de cereso testigua por dos
                         om<ex>n</ex>es en testimonio. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="196">
+            <div type="section" n="196">
                 <head><hi rend="rubrique">C.xc.iiij. Titulo de demanda que a vn
                         fijo dalgo a otro.</hi>
                 </head>
@@ -7166,7 +7166,7 @@
                         break="yes"/>quebrantamie<ex>n</ex>to de casa a sesenta
                     sueldos. </p>
             </div>
-            <div type="chapitre" n="197">
+            <div type="section" n="197">
                 <head><hi rend="rubrique">C.xc.v. Titu<lb break="no"/>lo en
                             co<ex>m</ex>mo quebrantaro<ex>n</ex> el molino de
                         sant <lb break="yes"/>climente de los villa
@@ -7226,7 +7226,7 @@
                     tierra non a parti en atal que <lb break="yes"
                     />om<ex>n</ex>e non a muerto. </p>
             </div>
-            <div type="chapitre" n="198">
+            <div type="section" n="198">
                 <head><hi rend="rubrique">C.xc.vi. Titulo del heredami<lb
                             break="no"/>ento que marido &amp; mug<ex>er</ex>
                         ganan delos <lb break="yes"/>monesterios para en sus
@@ -7249,7 +7249,7 @@
                         <lb break="yes"/>ganaron por sus dias &amp; mostrandolo
                         co<ex>m</ex>mo es <lb break="yes"/>derecho. </p>
             </div>
-            <div type="chapitre" n="199">
+            <div type="section" n="199">
                 <head><hi rend="rubrique">C.xc.vij. Titulo sy om<ex>n</ex>e o
                             mug<ex>er</ex> fiere a mug<ex>er</ex>
                         <lb break="yes"/>prennada &amp; muere de aquel
@@ -7268,7 +7268,7 @@
                         rend="superscript">i</hi>atura non era <lb break="yes"
                     />nasçida. </p>
             </div>
-            <div type="chapitre" n="200">
+            <div type="section" n="200">
                 <head><hi rend="rubrique">C.ixviij. Titulo de co<ex>m</ex>mo a
                         de cumplir de fu<lb break="no"/>ero el que a çinco
                         cabriadas de casa en la villa.</hi>
@@ -7278,7 +7278,7 @@
                     cabriadas de casas en la villa para <lb break="yes"/>cumplir
                     de fuero es fiador. </p>
             </div>
-            <div type="chapitre" n="201">
+            <div type="section" n="201">
                 <head><hi rend="rubrique">C.xc.ix. Titulo de <lb break="yes"
                         />omne que demanda deuda ante el alcalle. <lb
                             break="yes"/>et dize el otro quel pago.</hi>
@@ -7295,7 +7295,7 @@
                         break="no"/>to el fuero mandar de aquello que dize que
                         auy<lb break="no"/>a pagado demas. </p>
             </div>
-            <div type="chapitre" n="202">
+            <div type="section" n="202">
                 <head><hi rend="rubrique" type="merged">CC. Titulo del que
                         demanda quel +<lb break="yes"/>furtaron aue de caça.
                     </hi>
@@ -7310,7 +7310,7 @@
                     es ladron por esso nin el mery<lb break="no"/>no non deue
                     demandar nada por tal Razon. </p>
             </div>
-            <div type="chapitre" n="203">
+            <div type="section" n="203">
                 <head><hi rend="rubrique" type="merged">CC.j. Titu<lb break="no"
                         />lo del que demanda al fiador. &amp; el fiador niega
                             +<lb break="yes"/>la fiadura. </hi>
@@ -7344,7 +7344,7 @@
                         q<ex>u</ex><hi rend="superscript">i</hi>tar <lb
                         break="yes"/>aquel quel echo fiador. </p>
             </div>
-            <div type="chapitre" n="204">
+            <div type="section" n="204">
                 <head><hi rend="rubrique" type="merged">CC.ij. Titulo delas
                             prue<lb break="no"/>uas de comprar heredat &amp; de
                             co<ex>m</ex>mo deue el co<ex>n</ex>çe<lb break="no"
@@ -7369,7 +7369,7 @@
                         granno<ex>n</ex> puede se alçar <lb break="yes"/>al
                     adelantado &amp; del adelantado al Rey. </p>
             </div>
-            <div type="chapitre" n="205">
+            <div type="section" n="205">
                 <head><hi rend="rubrique" type="merged">CC.iij. Titu-<choice>
                             <corr>lo</corr>
                             <sic/>
@@ -7382,7 +7382,7 @@
                     prenda por ello ante de nauydat <lb break="yes"/>despues non
                     le deue Recudir fasta lo nueuo. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="206">
+            <div type="section" n="206">
                 <head><hi rend="rubrique" type="merged">CC.iiij. Titulo del
                         furto que furta<ex>n</ex> a alguno co<ex>m</ex>mo de<lb
                             break="no"/>uen los alcall<ex>e</ex>s &amp; los
@@ -7421,7 +7421,7 @@
                         om<ex>n</ex>e por que p<ex>er</ex>diesse lo que o<lb
                         break="no"/>uyesse. </p>
             </div>
-            <div type="chapitre" n="207">
+            <div type="section" n="207">
                 <head><hi rend="rubrique">CC.v. Titulo de vna faza<ex>n</ex>nia
                         de don gil. ⇒<pb n="70v"/>
                         <cb type="single-column"/><lb break="yes"/>et Johan
@@ -7468,7 +7468,7 @@
                     />sueldos. &amp; ser enemigo de sus parientes del muerto.
                         <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="208">
+            <div type="section" n="208">
                 <head><hi rend="rubrique" type="merged">CC.vi. Titulo de vna
                             faza<ex>n</ex>nya del abad de sant milian +<lb
                             break="yes"/>et del conçeio de bilforado. </hi>
@@ -7501,7 +7501,7 @@
                     fijos dalgo &amp; delos monesterios <lb break="yes"/>que non
                     fuessen sus vasallos. </p>
             </div>
-            <div type="chapitre" n="209">
+            <div type="section" n="209">
                 <head><hi rend="rubrique" type="merged">CC.vij. Titulo de
                             om<ex>n</ex>e o ⇒<pb n="71v"/>
                         <cb type="single-column"/><lb break="yes"/>de
@@ -7521,7 +7521,7 @@
                         q<ex>u</ex><hi rend="superscript">a</hi>rto &amp; dar la
                     por <lb break="yes"/>su alma ally do el mandare. </p>
             </div>
-            <div type="chapitre" n="210">
+            <div type="section" n="210">
                 <head><hi rend="rubrique">CC.viij. Titulo del om<ex>n</ex>e <lb
                             break="yes"/>que demanda a otro &amp; del <lb
                             break="yes"/>juyzio co<ex>m</ex>mo se pu<lb
@@ -7552,7 +7552,7 @@
                         break="yes"/>et que sean due<ex>n</ex>nos de sus casas.
                 </p>
             </div>
-            <div type="chapitre" n="211">
+            <div type="section" n="211">
                 <head><hi rend="rubrique">CC.ix. Titulo de <lb break="yes"/>vna
                             faza<ex>n</ex>nia de dona bozenda &amp; de sus
                         fijos.</hi>
@@ -7585,7 +7585,7 @@
                         break="yes"/>de domi<ex>n</ex>go bueno en la villa
                     omezida. </p>
             </div>
-            <div type="chapitre" n="212">
+            <div type="section" n="212">
                 <head><hi rend="rubrique">CC.x. Titu<lb break="no"/>lo de vna
                             faza<ex>n</ex>nya de don lope de faro.</hi>
                 </head>
@@ -7618,7 +7618,7 @@
                         break="yes"/>peche tanto co<ex>m</ex>mo en otra heredat
                     de aq<ex>ue</ex>l sen<ex>n</ex>or. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="213">
+            <div type="section" n="213">
                 <head><hi rend="rubrique" type="merged">CC.xi. Titulo de
                             com<ex>m</ex>o deuen partir termyno dos vil<lb
                             break="no"/>las fazeras. </hi></head>
@@ -7628,7 +7628,7 @@
                     deuen <lb break="yes"/>partir a pertiga medida &amp;
                         deue<ex>n</ex> lo partir fieles. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="214">
+            <div type="section" n="214">
                 <head><hi rend="rubrique">CC.xii. Titulo del exido dela villa.
                         &amp; del sen<ex>n</ex>or.</hi>
                 </head>
@@ -7641,7 +7641,7 @@
                     <cb type="single-column"/><lb break="yes"/>Rey quisiesse
                     entrar lo ya para sy con derecho. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="215">
+            <div type="section" n="215">
                 <head><hi rend="rubrique">CC.xiij. Titulo de vna
                         faza<ex>n</ex>ny de don diago de cuer<lb break="no"
                         />çedes &amp; pasquoal su hermanno.</hi>
@@ -7670,7 +7670,7 @@
                     &amp; no<ex>n</ex>
                     <lb break="yes"/>dieron omezidio nin pecharon nada. </p>
             </div>
-            <div type="chapitre" n="216">
+            <div type="section" n="216">
                 <head><hi rend="rubrique">CC.xiiij. Titulo <lb break="yes"/>de
                             om<ex>n</ex>e o muger que fueren feridos de vn <lb
                             break="yes"/>colpe o de mas &amp; non se
@@ -7689,7 +7689,7 @@
                     <cb type="single-column"/><lb break="yes"/>pecharan nada por
                     ello al sen<ex>n</ex>or. </p>
             </div>
-            <div type="chapitre" n="217">
+            <div type="section" n="217">
                 <head><hi rend="rubrique" type="merged">CC.xv. Titulo <lb
                             break="yes"/>del judio que fiere a otro
                         om<ex>n</ex>e &amp; non se q<ex>u</ex><hi
@@ -7716,7 +7716,7 @@
                     fuere la demanda de <lb break="yes"/>calo<ex>n</ex>nias deue
                     se juzgar por fuero de vigu<lb break="no"/>era. </p>
             </div>
-            <div type="chapitre" n="218">
+            <div type="section" n="218">
                 <head><hi rend="rubrique">CC.xvi. Titulo de judio que fiere a
                             xpi<ex>sti</ex>ano o de <lb break="yes"
                             />xpi<ex>sti</ex>ano que fiere a judio &amp;
@@ -7784,7 +7784,7 @@
                     que den aladma q<ex>u</ex><hi rend="superscript">i</hi>en lo
                     sabe deuen la dar. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="219">
+            <div type="section" n="219">
                 <head><hi rend="rubrique" type="merged">CC.xvij. Titulo delos
                         pesquiridores sobre demanda que +<lb break="yes"/>a vn
                             om<ex>n</ex>e contra otro. </hi>
@@ -7815,7 +7815,7 @@
                     <cb type="single-column"/><lb break="yes"/>delos
                     pesquiridores &amp; Recudieron ame<ex>n</ex>. </p>
             </div>
-            <div type="chapitre" n="220">
+            <div type="section" n="220">
                 <head><hi rend="rubrique" type="merged">CC.xviij. Titulo <lb
                             break="yes"/>de com<ex>m</ex>o el vedin delos judios
                         a de tomar las <lb break="yes"/>cadenas delas bestias
@@ -7835,7 +7835,7 @@
                     gela al <lb break="yes"/>sen<ex>n</ex>or dela villa &amp;
                     seer suya. </p>
             </div>
-            <div type="chapitre" n="221">
+            <div type="section" n="221">
                 <head><hi rend="rubrique">CC.xx. Titulo dela pena <lb
                             break="yes"/>que an los judios q<ex>u</ex><hi
                             rend="superscript">a</hi>ndo fieren vnos a
@@ -7914,7 +7914,7 @@
                     dentro en castiello co<ex>m</ex>mo fu<lb break="no"/>era.
                 </p>
             </div>
-            <div type="chapitre" n="222">
+            <div type="section" n="222">
                 <head><hi rend="rubrique" type="merged">CC.xx. Titulo dela deuda
                         que demanda vn ju<lb break="no"/>dio a otro.
                     </hi></head>
@@ -7924,7 +7924,7 @@
                         break="no"/>do te he deuel jurar que pagado le ha et <lb
                         break="yes"/>passara por y. </p>
             </div>
-            <div type="chapitre" n="223">
+            <div type="section" n="223">
                 <head><hi rend="rubrique" type="merged">CC.xxi. Titulo de
                             om<ex>n</ex>e que mata a o<lb break="no"/>tro &amp;
                         fue apreçiado del alcalle &amp; testiguado +<lb
@@ -7953,7 +7953,7 @@
                     castigado que sea su ene<lb break="no"/>migo &amp; dando
                     aquesta prueua deue ser su <lb break="yes"/>enemigo. </p>
             </div>
-            <div type="chapitre" n="224">
+            <div type="section" n="224">
                 <head><hi rend="rubrique" type="merged">CC.xxii. Titulo de
                             om<ex>n</ex>e que matan &amp; +<lb break="yes"/>non
                         a mas de vn colpe. </hi>
@@ -7985,7 +7985,7 @@
                         om<ex>n</ex>e a q<ex>u</ex><hi rend="superscript"
                     >i</hi>en acusar. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="225">
+            <div type="section" n="225">
                 <head><hi rend="rubrique" type="merged">CC.xxiij. Titulo del
                             cl<ex>er</ex>igo que fiere a otro cl<ex>er</ex>igo o le-<choice>
                             <sic>le</sic>
@@ -8001,7 +8001,7 @@
                     auer la ca<lb break="no"/>lo<ex>n</ex>nya el sen<ex>n</ex>or
                     dela villa. </p>
             </div>
-            <div type="chapitre" n="226">
+            <div type="section" n="226">
                 <head><hi rend="rubrique" type="merged">CC.xxiiij. Titulo de vna
                             <lb break="yes"/>faza<ex>n</ex>nya de gunçalo
                         alfonso ferrero et +<lb break="yes"/>de su hermano.
@@ -8022,7 +8022,7 @@
                     era traydor <lb break="yes"/>nin aleuoso &amp; mandol dexar.
                 </p>
             </div>
-            <div type="chapitre" n="227">
+            <div type="section" n="227">
                 <head><hi rend="rubrique">CC.xxv. Titulo de <lb break="yes"/>vna
                             faza<ex>n</ex>nya de gunçalo Royz &amp; de fer-rant
                             ⇒<pb n="77v"/>
@@ -8066,7 +8066,7 @@
                         x<ex>r</ex><hi rend="superscript">i</hi>stoual <lb
                         break="yes"/>el cl<ex>er</ex>igo nada. </p>
             </div>
-            <div type="chapitre" n="228">
+            <div type="section" n="228">
                 <head><hi rend="rubrique" type="merged">CC.xxvi. Titulo delos
                             mandamie<ex>n</ex>tos de <lb break="yes"/>los
                             alcall<ex>e</ex>s de burgos sobre pleyto que a vn
@@ -8100,7 +8100,7 @@
                     />testimonyos &amp; asy lo deue el alcalle mandar. <lb
                         break="yes"/></p>
             </div>
-            <div type="chapitre" n="229">
+            <div type="section" n="229">
                 <head><hi rend="rubrique" type="merged">CC.xxvij. Titulo dela
                         fija de ferrando de <ex>santo</ex> domingo q<ex>ue</ex>
                         la +<lb break="yes"/>mato ferra<ex>n</ex>do &amp; su
@@ -8129,7 +8129,7 @@
                         <lb break="yes"/>burgos que no<ex>n</ex> deuya pechar
                     nada &amp; no<ex>n</ex> pecho <lb break="yes"/>nada. </p>
             </div>
-            <div type="chapitre" n="230">
+            <div type="section" n="230">
                 <head><hi rend="rubrique" type="merged">CC.xxviij. Titulo de
                         gunçalo p<ex>ere</ex>s fijo de ferrando +<lb break="yes"
                         />peligero &amp; su muger. </hi>
@@ -8205,7 +8205,7 @@
                     />essen a tal Razo<ex>n</ex> com<ex>m</ex>o aquella
                     demandaua. </p>
             </div>
-            <div type="chapitre" n="231">
+            <div type="section" n="231">
                 <head><hi rend="rubrique" type="merged">CC.xxix. Titulo <lb
                             break="yes"/>del carçelage del preso &amp; em
                             com<ex>m</ex>o lo a de pechar +<lb break="yes"/>el
@@ -8223,7 +8223,7 @@
                     çepo o en fierros en los pies <lb break="yes"/>o a la
                     garganta. </p>
             </div>
-            <div type="chapitre" n="232">
+            <div type="section" n="232">
                 <head><hi rend="rubrique" type="merged">CC.xxx. Titulo del
                             om<ex>n</ex>e que deue +<lb break="yes"/>dar
                             palmie<ex>n</ex>to. </hi>
@@ -8243,7 +8243,7 @@
                     />cados que cate madera con que afirme su <lb break="yes"
                     />casa. </p>
             </div>
-            <div type="chapitre" n="233">
+            <div type="section" n="233">
                 <head><hi rend="rubrique">CC.xxxi. Titulo de vna
                         faza<ex>n</ex>nya de don Mar<lb break="no"/>tin de mira
                         veche &amp; de vn tornadizo.</hi>
@@ -8325,7 +8325,7 @@
                         om<ex>n</ex>es armados ader<lb break="no"/>redor asy que
                     non pueda yr a ni<ex>n</ex>guna parte. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="234">
+            <div type="section" n="234">
                 <head><hi rend="rubrique" type="merged">Titulo de om<ex>n</ex>e
                         que planta tierra agena non +<lb break="yes"/>gela
                         mandando su due<ex>n</ex>no. </hi>
@@ -8353,7 +8353,7 @@
                     leuar por <lb break="yes"/>tenimie<ex>n</ex>to el que la
                     planto. </p>
             </div>
-            <div type="chapitre" n="235">
+            <div type="section" n="235">
                 <head><hi rend="rubrique" type="merged">CC.xxxiij. Titulo delos
                             pe<ex>n</ex>nos <lb break="yes"/>que son mueble que
                         echa xpi<ex>sti</ex>ano a judio o judio +<lb break="yes"
@@ -8382,7 +8382,7 @@
                         >a</hi>nto le saluare de logro o de caubdal q<ex>ue</ex>
                     <lb break="yes"/>a sobre ello quel de tanto. </p>
             </div>
-            <div type="chapitre" n="236">
+            <div type="section" n="236">
                 <head><hi rend="rubrique">CC.xxxiiij. Titulo de om<ex>n</ex>e
                         que ⇒<pb n="81v"/>
                         <cb type="single-column"/><lb break="yes"/>ha de dar
@@ -8408,7 +8408,7 @@
                     morare en casa prender <lb break="yes"/>le el cuerpo fasta
                     que çierre o de palmie<ex>n</ex>to. </p>
             </div>
-            <div type="chapitre" n="237">
+            <div type="section" n="237">
                 <head><hi rend="rubrique" type="merged">CC.xxxv. Ti<lb
                             break="no"/>tulo dela tierra que da vno a otro
                             p<ex>ar</ex>a labrar +<lb break="yes"/>et non se
@@ -8430,7 +8430,7 @@
                     </choice>ada açada vn sueldo. pro<lb break="no"/>uandolo
                         co<ex>m</ex>mo es derecho. </p>
             </div>
-            <div type="chapitre" n="238">
+            <div type="section" n="238">
                 <head><hi rend="rubrique" type="merged">CC.xxxvi. Titulo de
                             co<ex>m</ex>mo se ⇒<pb n="82r"/>
                         <cb type="single-column"/><lb break="yes"/>deue
@@ -8458,7 +8458,7 @@
                     />sea vendimyado. Et casa de sant ioh<ex>a</ex>n fasta
                         sa<ex>n</ex>t <lb break="yes"/>joh<ex>a</ex>n. </p>
             </div>
-            <div type="chapitre" n="239">
+            <div type="section" n="239">
                 <head><hi rend="rubrique">CCxxxvij. Titulo de com<ex>m</ex>o
                         deuen yr ante el alcalle <lb break="yes"/>a juyzio por
                         fuero de çereso.</hi>
@@ -8471,7 +8471,7 @@
                     puede dar otro <lb break="yes"/>fiador. Et por fuero de
                     burgos no<ex>n</ex>. </p>
             </div>
-            <div type="chapitre" n="240">
+            <div type="section" n="240">
                 <head><hi rend="rubrique" type="merged">CC.xxx<choice>
                             <corr>v</corr>
                             <sic/>
@@ -8517,7 +8517,7 @@
                         p<ex>ro</ex><lb break="no"/>uadas las deudas
                         com<ex>m</ex>o es derecho. </p>
             </div>
-            <div type="chapitre" n="241">
+            <div type="section" n="241">
                 <head><hi rend="rubrique" type="merged">CC.xxxix. Titulo <lb
                             break="yes"/>delo que
                             g<supplied>an</supplied>a<ex>n</ex> los desposados
@@ -8537,7 +8537,7 @@
                     deubda cada vno por sy. el que la <lb break="yes"/>fiziere
                     el la deue pagar. </p>
             </div>
-            <div type="chapitre" n="242">
+            <div type="section" n="242">
                 <head><hi rend="rubrique" type="merged">CC.xL. Titulo de vna
                             faza<ex>n</ex><lb break="no"/>nya de dona eluyra
                         fija de don ferrando gom<ex>e</ex>z +<lb break="yes"/>de
@@ -8582,7 +8582,7 @@
                     &amp; diol todo lo q<ex>ue</ex>l <lb break="yes"/>auya dado.
                 </p>
             </div>
-            <div type="chapitre" n="243">
+            <div type="section" n="243">
                 <head><hi rend="rubrique">CC.xLi. Titulo del om<ex>n</ex>e que
                         muere en el <lb break="yes"/>agua en la madre o en el
                         calze en que guisa <lb break="yes"/>a el conçeio de
@@ -8604,7 +8604,7 @@
                         m<ex>er</ex>yno tor<lb break="no"/>nose a el &amp;
                         no<ex>n</ex> al conçeio. </p>
             </div>
-            <div type="chapitre" n="244">
+            <div type="section" n="244">
                 <head><hi rend="rubrique" type="merged">CC.xLii. Titulo o de
                         padre <lb break="yes"/>o de madre que muere &amp; dexa
                         sus fijos a pari<lb break="no"/>ente que los crie.
@@ -8616,7 +8616,7 @@
                     <cb type="single-column"/><lb break="yes"/>los crie non lo
                     puede fazer. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="245">
+            <div type="section" n="245">
                 <head><hi rend="rubrique">CC.xLiij. Titulo del om<ex>n</ex>e que
                         muere &amp; dexa fijos chicos.</hi>
                 </head>
@@ -8645,7 +8645,7 @@
                         co<ex>m</ex><lb break="no"/>mo los otros om<ex>n</ex>es.
                 </p>
             </div>
-            <div type="chapitre" n="246">
+            <div type="section" n="246">
                 <head><hi rend="rubrique">CC.xLiiij. Titulo del om<ex>n</ex>e
                         que deue <lb break="yes"/>deuda o es en plazas entrado
                             co<ex>m</ex>mo deue ent<ex>er</ex>gar.</hi>
@@ -8685,7 +8685,7 @@
                     fiador a aquel <lb break="yes"/>que lo vendiere el corredor
                     por mandado del <lb break="yes"/>alcalle. </p>
             </div>
-            <div type="chapitre" n="247">
+            <div type="section" n="247">
                 <head><hi rend="rubrique">CC.xLv. Titulo del fuero de
                         çereso.</hi>
                 </head>
@@ -8737,7 +8737,7 @@
                     colpes murio q<ex>u</ex><hi rend="superscript">a</hi>ndo lo
                     el non <lb break="yes"/>auya testiguado. </p>
             </div>
-            <div type="chapitre" n="248">
+            <div type="section" n="248">
                 <head><hi rend="rubrique" type="merged">CC.xLvi. Titulo de vna
                             faza<ex>n</ex>nya +<lb break="yes"/>de
                             m<ex>artin</ex> gunçalez cauall<ex>er</ex>o. </hi>
@@ -8764,7 +8764,7 @@
                     quel salliessen del Reg<lb break="no"/>no al dia del plazo.
                 </p>
             </div>
-            <div type="chapitre" n="249">
+            <div type="section" n="249">
                 <head><hi rend="rubrique">CC.xLvij. Titulo delos
                             alcall<ex>e</ex>s <lb break="yes"/>de Burgos que
                             iuzga<ex>n</ex> los p<ex>r</ex><hi
@@ -8788,7 +8788,7 @@
                     />que sea juzgado &amp; otorgado en casa del Rey <lb
                         break="yes"/>por fuero. </p>
             </div>
-            <div type="chapitre" n="250">
+            <div type="section" n="250">
                 <head><hi rend="rubrique">CC.xLviij. Titulo de vna
                             faza<ex>n</ex>nya de Mo<lb break="no"/>se amordosiel
                         de Burgos et de ferra<ex>n</ex>t y<ex>uanne</ex>s.</hi>
@@ -8832,7 +8832,7 @@
                     m<ex>er</ex>yno por que era la <lb break="yes"/>demanda de
                         om<ex>n</ex>e muerto. </p>
             </div>
-            <div type="chapitre" n="251">
+            <div type="section" n="251">
                 <head><hi rend="rubrique" type="merged">CC.xLix. Titulo del
                             ap<ex>re</ex><lb break="no"/>çiamie<ex>n</ex>to de
                             om<ex>n</ex>e ferido &amp; que muere de +<lb
@@ -8903,7 +8903,7 @@
                     />das deue pechar omizidio &amp; seer enemi<lb break="no"
                     />go. </p>
             </div>
-            <div type="chapitre" n="252">
+            <div type="section" n="252">
                 <head><hi rend="rubrique" type="merged">CC.L. Titulo en
                             com<ex>m</ex>o los pastores an de po<lb break="no"
                         />ner en mano de fiel el gan<choice>
@@ -8938,7 +8938,7 @@
                     <lb break="yes"/>Recaubdo que no<ex>n</ex> lo demande otro.
                 </p>
             </div>
-            <div type="chapitre" n="253">
+            <div type="section" n="253">
                 <head><hi rend="rubrique" type="merged">CC.Li. Titu<lb
                             break="no"/>lo dela partiçio<ex>n</ex> que
                             demanda<ex>n</ex> los fijos al +<lb break="yes"
@@ -8964,7 +8964,7 @@
                         particio<ex>n</ex> dela criazo<ex>n</ex> que fizo el
                         ga<lb break="no"/>nado. </p>
             </div>
-            <div type="chapitre" n="254">
+            <div type="section" n="254">
                 <head><hi rend="rubrique">CC.Lii. Titulo de vna
                         faza<ex>n</ex>nia de don diago <lb break="yes"/>de faro
                         &amp; del gascon que mato el aztor.</hi>
@@ -8981,7 +8981,7 @@
                     &amp; que souyesse y fasta que muri<lb break="no"/>esse.
                 </p>
             </div>
-            <div type="chapitre" n="255">
+            <div type="section" n="255">
                 <head><hi rend="rubrique" type="merged">CC.L.iij. Titulo de vna
                             faza<ex>n</ex>nya de mari p<ex>ere</ex>s la +<lb
                             break="yes"/><choice>
@@ -9052,7 +9052,7 @@
                         ioh<ex>a</ex>n doriz asi co<ex>m</ex>mo era derecho.
                 </p>
             </div>
-            <div type="chapitre" n="256">
+            <div type="section" n="256">
                 <head><hi rend="rubrique" type="merged">CC.Liiij. Titulo del <lb
                             break="yes"/>omezidio que demanda el m<ex>er</ex>yno
                         a om<ex>n</ex>e que +<lb break="yes"/>mata a otro. </hi>
@@ -9084,7 +9084,7 @@
                         p<ex>er</ex><lb break="no"/>der todo omizidio &amp;
                         calo<ex>n</ex>nias. </p>
             </div>
-            <div type="chapitre" n="257">
+            <div type="section" n="257">
                 <head><hi rend="rubrique" type="merged">CC.Lv. Titulo de
                             om<ex>n</ex>e <lb break="yes"/>que es fallado muerto
                         en casa de algun +<lb break="yes"/>om<ex>n</ex>e
@@ -9114,7 +9114,7 @@
                         <sic/>
                     </choice>a. </p>
             </div>
-            <div type="chapitre" n="258">
+            <div type="section" n="258">
                 <head><hi rend="rubrique">CC.Lvi. Titulo de om<ex>n</ex>e muerto
                             libora<lb break="no"/>do &amp; non
                         ap<ex>re</ex>çiado &amp; lo falla el m<ex>er</ex>yno
@@ -9132,7 +9132,7 @@
                     pechar los quel mouyero<ex>n</ex>
                     <lb break="yes"/>el omizidio. </p>
             </div>
-            <div type="chapitre" n="259">
+            <div type="section" n="259">
                 <head><hi rend="rubrique" type="merged">CC.Lvij. Titulo de vna
                             faza<ex>n</ex>nya de Joh<ex>a</ex>n +<lb break="yes"
                         />cubiella &amp; Roy doarte. </hi>
@@ -9166,7 +9166,7 @@
                         om<ex>n</ex>e sin baraia que era traydor &amp; <lb
                         break="yes"/>mandol el Rey pregonar por traydor. </p>
             </div>
-            <div type="chapitre" n="260">
+            <div type="section" n="260">
                 <head><hi rend="rubrique">CC.Lviij. Ti<lb break="no"/>tulo de
                         vna faza<ex>n</ex>nya de Rodrigo fijo de Mar<lb
                             break="no"/>tin Rodrigo &amp; de domingo
@@ -9189,7 +9189,7 @@
                     castiella &amp; mandol p<ex>re</ex>nder &amp; enforcaron le.
                         <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="261">
+            <div type="section" n="261">
                 <head><hi rend="rubrique">CC.Lix. Titulo de vna
                         faza<ex>n</ex>nya de Joh<ex>a</ex>n delos
                         mo<ex>n</ex>tes.</hi>
@@ -9204,7 +9204,7 @@
                     <cb type="single-column"/><lb break="yes"/>mug<ex>er</ex>es
                     &amp; mandol enforcar. </p>
             </div>
-            <div type="chapitre" n="262">
+            <div type="section" n="262">
                 <head><hi rend="rubrique" type="merged">CC.Lx. Titulo de vna <lb
                             break="yes"/>faza<ex>n</ex>nya de Joh<ex>a</ex>n
                         negriello &amp; de su muger +<lb break="yes"/>dona
@@ -9237,7 +9237,7 @@
                         parie<ex>n</ex>tes todo lo <lb break="yes"/>suyo dellos.
                 </p>
             </div>
-            <div type="chapitre" n="263">
+            <div type="section" n="263">
                 <head><hi rend="rubrique" type="merged">CC.Lxi. Titulo de vna
                             faza<ex>n</ex>nya de dona vr<lb break="no"/>raca
                         &amp; dela condesa. </hi></head>
@@ -9292,7 +9292,7 @@
                     <lb break="yes"/>dela yda de Roma por Ruego dela Reyna <lb
                         break="yes"/>dona beringuela. </p>
             </div>
-            <div type="chapitre" n="264">
+            <div type="section" n="264">
                 <head><hi rend="rubrique" type="merged">CC.Lxij. Titulo de vna
                             faza<ex>n</ex>nya <lb break="yes"/>del Rey don
                         anrique fijo del Rey don alfon<lb break="no"/>so.
@@ -9348,7 +9348,7 @@
                     gunçalo muriero<ex>n</ex> en marruecos en t<ex>ie</ex>rra
                         <lb break="yes"/>de moros. </p>
             </div>
-            <div type="chapitre" n="265">
+            <div type="section" n="265">
                 <head><hi rend="rubrique">CC.Lxiij. Titulo en co<ex>m</ex>mo
                         puede dar el ma<lb break="no"/>rido ala muger &amp; la
                             mug<ex>er</ex> al marido.</hi>
@@ -9357,7 +9357,7 @@
                     fuero logronno que pue<lb break="no"/>de dar el marido al
                     muger &amp; la mu<lb break="no"/>ger al marido. </p>
             </div>
-            <div type="chapitre" n="266">
+            <div type="section" n="266">
                 <head><hi rend="rubrique" type="merged">CC.Lx.iiij. Titulo de
                         vna faza<ex>n</ex>nya de <lb break="yes"/>gil buhon
                         &amp; de su mug<ex>er</ex> dona flore<ex>n</ex>çia &amp;
@@ -9394,7 +9394,7 @@
                         <lb break="yes"/>que otorgo que ella los auya furtados
                     non <lb break="yes"/>le faziendo ni<ex>n</ex>guna pena. </p>
             </div>
-            <div type="chapitre" n="267">
+            <div type="section" n="267">
                 <head><hi rend="rubrique">CC.Lx.vij. Titulo de q<ex>u</ex><hi
                             rend="superscript">a</hi>ndo ma<lb break="no"/>dre o
                         padre fiere a fijo o a fija o a mançebo o a <lb
@@ -9412,7 +9412,7 @@
                         <lb break="yes"/>la calo<ex>n</ex>nya. Et sy muriere que
                     peche el ome<lb break="no"/>zidio. </p>
             </div>
-            <div type="chapitre" n="268">
+            <div type="section" n="268">
                 <head><hi rend="rubrique">CC.Lx.vi. Titulo en co<ex>m</ex>mo sy
                         muere el marido <lb break="yes"/>o la muger el que
                         fincar que deue sacar ⇒<pb n="93v"/>
@@ -9430,7 +9430,7 @@
                     dia <lb break="yes"/>et lo al partir lo co<ex>m</ex>mo es
                     derecho. </p>
             </div>
-            <div type="chapitre" n="269">
+            <div type="section" n="269">
                 <head><hi rend="rubrique">CC.Lx.vij. Titulo <lb break="yes"
                         />dela meioria que deue auer el cauall<ex>er</ex>o o la
                             <lb break="yes"/>due<ex>n</ex>na depues que finare
@@ -9453,7 +9453,7 @@
                         ouyere<ex>n</ex> &amp; vna bestia <lb break="yes"/>para
                     azemila sy la ouyere. </p>
             </div>
-            <div type="chapitre" n="270">
+            <div type="section" n="270">
                 <head><hi rend="rubrique">CC.Lxviij. Titulo de com<ex>m</ex>o
                             <lb break="yes"/>se deue pechar el omezidio de
                             ca<ex>n</ex>po.</hi>
@@ -9469,7 +9469,7 @@
                         q<ex>u</ex><hi rend="superscript">a</hi>tro <lb
                         break="yes"/>m<ex>o</ex>r<ex>avedi</ex>s. </p>
             </div>
-            <div type="chapitre" n="271">
+            <div type="section" n="271">
                 <head><hi rend="rubrique">CC.Lxix. Titulo de vna
                         faza<ex>n</ex>nya dela emie<ex>n</ex>da que <lb
                             break="yes"/>fizo Roy velasquez por Roy diaz de
@@ -9491,7 +9491,7 @@
                     <lb break="yes"/>ferrandez &amp; andido çiego mientre
                         q<ex>ue</ex> visquo. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="272">
+            <div type="section" n="272">
                 <head><hi rend="rubrique">CC.Lxx. Titulo de vna
                         faza<ex>n</ex>nya de com<ex>m</ex>o enforco
                         p<ex>er</ex>o <lb break="yes"/>diaz meryno a
@@ -9531,7 +9531,7 @@
                     Rey de <lb break="yes"/>aragon por ellos al Rey don alfonso
                     de castiella <lb break="yes"/>et p<ex>er</ex>dono los. </p>
             </div>
-            <div type="chapitre" n="273">
+            <div type="section" n="273">
                 <head><hi rend="rubrique">CC.Lxx.i. Titulo de vna
                         faza<ex>n</ex>nya en co<ex>m</ex>mo <lb break="yes"
                         />entro p<ex>er</ex>o fijo de ioh<ex>a</ex>n grande a
@@ -9562,7 +9562,7 @@
                         parie<ex>n</ex>tes &amp; ellos trauaro<ex>n</ex>
                     <lb break="yes"/>la soga fasta que fue muerto. </p>
             </div>
-            <div type="chapitre" n="274">
+            <div type="section" n="274">
                 <head><hi rend="rubrique" type="merged">CC.Lxx.ii. Titulo de
                             co<ex>m</ex>mo +<lb break="yes"/>taiaro<ex>n</ex>
                         las maletas a vn Rom<ex>er</ex>o. </hi>
@@ -9591,7 +9591,7 @@
                         Rogaro<ex>n</ex> &amp; depues ca<ex>n</ex>to <lb
                         break="yes"/>en la villa. </p>
             </div>
-            <div type="chapitre" n="275">
+            <div type="section" n="275">
                 <head><hi rend="rubrique">CC.Lxx.iij. Titulo del que deue deuda
                         a otro &amp; <lb break="yes"/>viene en conosçido o del
                         que entra por fiador.</hi>
@@ -9614,7 +9614,7 @@
                     fiador diere a com<ex>er</ex> o a be<lb break="no"/>uer ala
                     bestia que gelo pague<ex>n</ex>. </p>
             </div>
-            <div type="chapitre" n="276">
+            <div type="section" n="276">
                 <head><hi rend="rubrique" type="merged">CC.Lxxiiij. Titulo de
                             <lb break="yes"/>omne que non puede ma<ex>n</ex>dar
                         por su al<lb break="no"/>ma. </hi></head>
@@ -9635,7 +9635,7 @@
                     >i</hi>nto del mu<lb break="no"/>eble et vna heredat en sus
                     dias. </p>
             </div>
-            <div type="chapitre" n="277">
+            <div type="section" n="277">
                 <head><hi rend="rubrique">CC.Lxxv. Titulo <lb break="yes"/>de
                         vna faza<ex>n</ex>nya de don morial m<ex>er</ex>yno <lb
                             break="yes"/>mayor &amp; del alcalle de oia
@@ -9654,7 +9654,7 @@
                     dexar &amp; dexaron <lb break="yes"/>le luego &amp; que
                     iuzgasse su fuero. </p>
             </div>
-            <div type="chapitre" n="278">
+            <div type="section" n="278">
                 <head><hi rend="rubrique">CC.Lxx.vi. Titulo de <lb break="yes"
                         />vna faza<ex>n</ex>nya de don p<ex>er</ex>o de sant
                         Martin &amp; de <lb break="yes"/>vna mug<ex>er</ex> quel
@@ -9681,7 +9681,7 @@
                         break="yes"/>diziendo q<ex>u</ex><hi rend="superscript"
                         >i</hi> tal fizo tal p<ex>re</ex>nda. </p>
             </div>
-            <div type="chapitre" n="279">
+            <div type="section" n="279">
                 <head><hi rend="rubrique" type="merged">CC.Lxx.vij. Titulo de
                             co<ex>m</ex>mo <lb break="yes"/>deue el alcalle
                             ent<ex>er</ex>gar el omizidio a los pa<lb break="no"
@@ -9700,7 +9700,7 @@
                         break="yes"/>den treguas de trenta dias et que coia su
                         <lb break="yes"/>omezidio. </p>
             </div>
-            <div type="chapitre" n="280">
+            <div type="section" n="280">
                 <head><hi rend="rubrique">CC.Lxxviij. Titulo del fuero de cereso
                         de co<ex>m</ex>mo <lb break="yes"/>deue tornar
                         heredamiento Rayz a Rayz.</hi>
@@ -9724,7 +9724,7 @@
                     meytad &amp; auer los fijos la heredat. <lb break="yes"
                     /></p>
             </div>
-            <div type="chapitre" n="281">
+            <div type="section" n="281">
                 <head><hi rend="rubrique" type="merged">CC.Lxxix. Titulo de
                             com<ex>m</ex>o los herederos no<ex>n</ex> deuen
                         parar <lb break="yes"/>lagar ni<ex>n</ex> molino nin
@@ -9747,7 +9747,7 @@
                     partir <lb break="yes"/>asy el arbol &amp; p<ex>er</ex>der
                     los vnos por los otros. </p>
             </div>
-            <div type="chapitre" n="282">
+            <div type="section" n="282">
                 <head><hi rend="rubrique" type="merged">CC.Lxxx. Ti<lb
                             break="no"/>tulo de om<ex>n</ex>e de fuera dela
                         villa que demanda +<lb break="yes"/>al dela villa. </hi>
@@ -9778,7 +9778,7 @@
                         break="yes"/>fuero de castiella prouara alli do fuere la
                         de<lb break="no"/>uda fecha con los de aquel logar. </p>
             </div>
-            <div type="chapitre" n="283">
+            <div type="section" n="283">
                 <head><hi rend="rubrique" type="merged">CC.Lxxxi. Titulo <lb
                             break="yes"/>de com<ex>m</ex>o a de dar otor aquel
                         que demanda +<lb break="yes"/>por furto &amp; por
@@ -9812,7 +9812,7 @@
                     el tercero o<lb break="no"/>tor deue cu<ex>m</ex>plir de
                     fuero &amp; seer encorrido. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="284">
+            <div type="section" n="284">
                 <head><hi rend="rubrique">CC.Lxxxii. Titulo de vna
                             faza<ex>n</ex>nya de vn serra<ex>n</ex>no de
                         ca-noles ⇒<pb n="98r"/>
@@ -9856,7 +9856,7 @@
                     atendiesse el <lb break="yes"/>serra<ex>n</ex>no fasta el
                     medio an<ex>n</ex>o. </p>
             </div>
-            <div type="chapitre" n="285">
+            <div type="section" n="285">
                 <head><hi rend="rubrique">CC.Lxxxiij. Titulo de mug<ex>er</ex>
                             ⇒<pb n="98v"/>
                         <cb type="single-column"/><lb break="yes"
@@ -9875,7 +9875,7 @@
                     deuda que deua <lb break="yes"/>jurar non deue jurar fasta
                     que sea parida. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="286">
+            <div type="section" n="286">
                 <head><hi rend="rubrique" type="merged">CC.Lxxxiiij. Titulo de
                         vn om<ex>n</ex>e que demanda a otro &amp; dize <lb
                             break="yes"/>el demandado al demandador sil a mas
@@ -9902,7 +9902,7 @@
                     ni<ex>n</ex>guna demanda quel faga fas<lb break="no"/>ta
                     aquel dia. </p>
             </div>
-            <div type="chapitre" n="287">
+            <div type="section" n="287">
                 <head><hi rend="rubrique">CC.Lxxxv. Titulo del fijo que non es
                             ⇒<pb n="99r"/>
                         <cb type="single-column"/><lb break="yes"/>legitimo
@@ -9921,7 +9921,7 @@
                     herma<ex>n</ex>nos de parte de su madre et <lb break="yes"
                     />sus parientes de parte de su padre. </p>
             </div>
-            <div type="chapitre" n="288">
+            <div type="section" n="288">
                 <head><hi rend="rubrique" type="merged">CC.Lxxx.vi. Titulo <lb
                             break="yes"/>en co<ex>m</ex>mo an de dezir en
                         testimonio los de +<lb break="yes"/>nagera &amp; de
@@ -9938,7 +9938,7 @@
                         no<ex>n</ex> dixiere el <lb break="yes"/>vno
                         com<ex>m</ex>o el otro non cumple. </p>
             </div>
-            <div type="chapitre" n="289">
+            <div type="section" n="289">
                 <head><hi rend="rubrique" type="merged">CC.Lxxx.vij. Titulo del
                             o<lb break="no"/>m<ex>n</ex>e que casa o dela
                             mug<ex>er</ex> com<ex>m</ex>o a la meatad de +<lb
@@ -9958,7 +9958,7 @@
                     <lb break="yes"/>de pechar por medio. Et depues que fues<lb
                         break="no"/>sen casados otrosy. </p>
             </div>
-            <div type="chapitre" n="290">
+            <div type="section" n="290">
                 <head><hi rend="rubrique" type="merged">CC.Lxxx.viij. Titulo de
                         vna fazan<lb break="no"/>nya de ferrando &amp; su
                         hermano migel p<ex>ere</ex>s +<lb break="yes"/>et
@@ -10037,7 +10037,7 @@
                     colpes murio Rodrigo &amp; murio millian. <lb break="yes"
                     /></p>
             </div>
-            <div type="chapitre" n="291">
+            <div type="section" n="291">
                 <head><hi rend="rubrique" type="merged">CC.Lxxxix. Titulo del
                             heredamie<ex>n</ex>to que se vende en çimiterio +<lb
                             break="yes"/>o en ygl<ex>es</ex>ia. </hi>
@@ -10053,7 +10053,7 @@
                     la a<lb break="no"/>uer por el paso que no<ex>n</ex> puede
                     auer çimit<ex>er</ex>io. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="292">
+            <div type="section" n="292">
                 <head><hi rend="rubrique" type="merged">CC.xc. Titulo de
                             om<ex>n</ex>e &amp; de muger que manda al<lb
                             break="no"/>go a ora de muerte por su alma.
@@ -10067,7 +10067,7 @@
                     &amp; non <lb break="yes"/>p<ex>ro</ex>uare que gelo dio es
                     vençido. </p>
             </div>
-            <div type="chapitre" n="293">
+            <div type="section" n="293">
                 <head><hi rend="rubrique">CCxci. Titulo de vna <lb break="yes"
                             />faza<ex>n</ex>nya de don doarte gunçalez &amp; de
                             Joh<ex>a</ex>n doarte <lb break="yes"/>su fijo.
@@ -10094,7 +10094,7 @@
                         <lb break="yes"/>p<ex>ar</ex>tes del mueble &amp; dela
                     heredat que auya ga<lb break="no"/>nado con su marido. </p>
             </div>
-            <div type="chapitre" n="294">
+            <div type="section" n="294">
                 <head><hi rend="rubrique" type="merged">CC.xcii. Titulo del que
                         vende he<lb break="no"/>redat &amp; non mete en la venta
                         los arboles &amp; +<lb break="yes"/>los
@@ -10110,7 +10110,7 @@
                     entrada en la heredat <lb break="yes"/>para los arboles.
                 </p>
             </div>
-            <div type="chapitre" n="295">
+            <div type="section" n="295">
                 <head><hi rend="rubrique" type="merged">Titulo de om<ex>n</ex>e
                         que demanda <lb break="yes"/>heredat a otro &amp; dize
                         que la fara suya &amp; de par-timie<ex>n</ex>to +<lb
@@ -10136,7 +10136,7 @@
                     alcalle mandare deuelo atener <lb break="yes"/>et pechar por
                     el niego sesenta sueldos. </p>
             </div>
-            <div type="chapitre" n="296">
+            <div type="section" n="296">
                 <head><hi rend="rubrique" type="merged">CC.xciiij. Titulo <lb
                             break="yes"/>dela demanda que auya joh<ex>a</ex>n
                         giralte con gil <lb break="yes"/>gunc<choice>
@@ -10181,7 +10181,7 @@
                         m<ex>o</ex>r<ex>avedi</ex>s <lb break="yes"/>et pecholos
                     a don<ex>n</ex>a estora. </p>
             </div>
-            <div type="chapitre" n="297">
+            <div type="section" n="297">
                 <head><hi rend="rubrique" type="merged">CC.xcv. Titulo de
                             co<ex>m</ex>mo a de <lb break="yes"/>dar
                             om<ex>n</ex>e otor de bestia q<ex>ue</ex> compra o
@@ -10205,7 +10205,7 @@
                     tanto pudiere <lb break="yes"/>auer Otor deue Razonar por el
                     fuero. </p>
             </div>
-            <div type="chapitre" n="298">
+            <div type="section" n="298">
                 <head><hi rend="rubrique">CC.xcvi. Titulo <lb break="yes"/>en
                             co<ex>m</ex>mo deue tener la voz el mas
                             çerca<ex>n</ex>no dellos.</hi>
@@ -10241,7 +10241,7 @@
                         alcall<ex>e</ex>s Razonar lo delos <lb break="yes"
                     />huerfanos. </p>
             </div>
-            <div type="chapitre" n="299">
+            <div type="section" n="299">
                 <head><hi rend="rubrique" type="merged">CC.xcvij. Titulo delos
                             q<ex>ue</ex> q<ex>u</ex><hi rend="superscript"
                             >i</hi>eren porfirar a ot<ex>r</ex><hi
@@ -10260,7 +10260,7 @@
                     fijas q<ex>ue</ex> auran no<ex>n</ex> otorgassen &amp;
                     seyendo <lb break="yes"/>de t<ex>iem</ex>po de otorgar. </p>
             </div>
-            <div type="chapitre" n="300">
+            <div type="section" n="300">
                 <head><hi rend="rubrique" type="merged">CC.xcviij. Titulo de
                             com<ex>m</ex>o repto vn es<lb break="no"/>cudero
                             q<ex>ue</ex>l dizian lope diaz a dia
@@ -10295,7 +10295,7 @@
                         >a</hi>ndo <lb break="yes"/>mato a dia sanch<ex>e</ex>s.
                 </p>
             </div>
-            <div type="chapitre" n="301">
+            <div type="section" n="301">
                 <head><hi rend="rubrique" type="merged">CC.xcix. Titulo del que
                         faze calo<ex>n</ex>nyas +<lb break="yes"/>et
                             no<ex>n</ex> ha mueble &amp; ha h<ex>er</ex>edat.
@@ -10314,7 +10314,7 @@
                         <lb break="yes"/>q<ex>ue</ex> aya ent<ex>er</ex>ga dela
                         calo<ex>n</ex>nya. </p>
             </div>
-            <div type="chapitre" n="302">
+            <div type="section" n="302">
                 <head><hi rend="rubrique" type="merged">CCC. Titulo de vna
                             faza<ex>n</ex>nya <lb break="yes"/>de
                         domi<ex>n</ex>go de nag<ex>er</ex>a que era casado en
@@ -10339,7 +10339,7 @@
                         hand="#other">tenia</add>
                     <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="303">
+            <div type="section" n="303">
                 <head><hi rend="rubrique">CCC.j. Titulo de vna faza<ex>n</ex>nia
                         de vn om<ex>n</ex>e de castro ordiales.</hi>
                 </head>
@@ -10356,7 +10356,7 @@
                         break="yes"/>q<ex>ue</ex>l cortasen la mano &amp;
                     despues q<ex>ue</ex>l enforcassen. <lb break="yes"/></p>
             </div>
-            <div type="chapitre" n="304">
+            <div type="section" n="304">
                 <head><hi rend="rubrique">CCC.ij. Titulo de vna
                         faza<ex>n</ex>nya de co<ex>m</ex>mo don Rodrigo de <lb
                             break="yes"/>palençia dio querella al Rey de Martin
@@ -10400,7 +10400,7 @@
                         p<ex>ere</ex>s no<ex>n</ex> fuesse que ca<lb break="no"
                     />tasse que fazia. </p>
             </div>
-            <div type="chapitre" n="305">
+            <div type="section" n="305">
                 <head><hi rend="rubrique" type="merged">CCC.iij. Titulo delas
                         cortes de nag<ex>er</ex>a que nin<lb break="no"/>gun
                             h<ex>er</ex>edamie<ex>n</ex>to de Rey no<ex>n</ex>
@@ -10425,7 +10425,7 @@
                         no<ex>n</ex> la ouyere entrada el fijo dalgo cuyo <lb
                         break="yes"/>era el labrador. </p>
             </div>
-            <div type="chapitre" n="306">
+            <div type="section" n="306">
                 <head><hi rend="rubrique">CCC.iiij. Titulo dela demanda
                             q<ex>ue</ex> faze Judio <lb break="yes"/>a
                             x<ex>r</ex><hi rend="superscript"
@@ -10446,7 +10446,7 @@
                         dize<ex>n</ex> quel prueue sin <pb n="104v"/>
                     <cb type="single-column"/><lb break="yes"/>Judio. </p>
             </div>
-            <div type="chapitre" n="307">
+            <div type="section" n="307">
                 <head><hi rend="rubrique">CCC.v. Titulo de demanda dela erzida
                         de dos o<ex>mne</ex>s <lb break="yes"/>al Rey quando es
                         en la çiubdat de seuilla.</hi>
@@ -10458,7 +10458,7 @@
                     &amp; alguno dellos <lb break="yes"/>demandare erzida al Rey
                     que los echen al Rey <lb break="yes"/>onde fuere. </p>
             </div>
-            <div type="chapitre" n="308">
+            <div type="section" n="308">
                 <head><hi rend="rubrique">CCC.vi. Titulo de vna
                         faza<ex>n</ex>nya delos fijos de <lb break="yes"/>yenego
                         quel dizia<ex>n</ex> lionis &amp; no<ex>n</ex> dexo fijo
