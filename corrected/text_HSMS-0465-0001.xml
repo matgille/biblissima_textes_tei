@@ -298,7 +298,7 @@
                 facs="/home/mgl/Bureau/Travail/projets/Biblissima-Text/data/Biblissima-Textes/facsimiles/HSMS-0465/0012.pdf"/>
             <cb type="double-column"/>
             <lb break="yes"/>
-            <div type="prologue" n="2">
+            <div type="prologue">
                 <head><hi rend="rubrique">Este libro se llama doctri<lb
                             break="no"/>nal delos caualleros En <lb break="yes"
                             />q<ex>ue</ex> esta<ex>n</ex> copiladas çiertas <lb
@@ -525,7 +525,7 @@
                         vna ley. <lb break="yes"/></p>
                 </div>
             </div>
-            <div type="prologue" n="7">
+            <div type="prologue">
                 <head><hi rend="rubrique">Conclusion.</hi>
                 </head>
                 <p><lb break="yes"/>Asi pareçe que hay en este libro <lb
@@ -901,7 +901,7 @@
                             break="yes"/>trinidad &amp; dela fe catholica.</hi>
                 </head>
                 <lb break="yes"/>
-                <div type="prologue" n="9">
+                <div type="prologue">
                     <head><hi rend="rubrique">Jntroduçion en el libro
                             primero</hi>
                     </head>
@@ -944,7 +944,7 @@
                         las leyes q<ex>ue</ex> della fabla<ex>n</ex>. <lb
                             break="yes"/></p>
                 </div>
-                <div type="prologue" n="10">
+                <div type="prologue">
                     <head><hi rend="rubrique">El rey don alfonso el deçimo enla
                                 pri<lb break="no"/>mera partida. Titulo
                                 t<ex>er</ex>çero dize Asi</hi>
@@ -1150,7 +1150,7 @@
                     </head>
 
                     <lb break="yes"/>
-                    <div type="prologue" n="1">
+                    <div type="prologue">
                         <head><hi rend="rubrique">Jntroduçion</hi>
                         </head>
                         <p><lb break="yes"/><hi rend="initiale" n="2">P</hi>ues
@@ -5771,7 +5771,7 @@
                             de fazer deuen auer <lb break="yes"/>tal pena como
                             en esta ley mesma dize. </p>
                     </div>
-                    <div type="sous-sous-section" subtype="ley">
+                    <div type="sous-sous-section" subtype="ley" n="22">
                         <head><lb break="yes"/><hi rend="rubrique">Como deuen
                                 ser o como deuen pasar aposentadas <lb
                                     break="yes"/>las huestes qua<ex>n</ex>do
@@ -5909,7 +5909,7 @@
                             cabdillos fiziesen deuen auer pena. Se<lb break="no"
                             />gund esta mesma ley dize. <lb break="yes"/></p>
                     </div>
-                    <div type="sous-sous-section" n="22" subtype="ley">
+                    <div type="sous-sous-section" n="23" subtype="ley">
                         <head><hi rend="rubrique">Como deue<ex>n</ex> los
                                     q<ex>ue</ex> fueren a la hueste ser
                                 aparejados delas <lb break="yes"/>otras cosas
@@ -6026,7 +6026,7 @@
                             cabdillos que lo ouiesen de mandar <lb break="yes"
                             /></p>
                     </div>
-                    <div type="sous-sous-section" n="23" subtype="ley">
+                    <div type="sous-sous-section" n="24" subtype="ley">
                         <head><hi rend="rubrique">Como los Reys &amp; los otros
                                 cabdillos dela hueste deuen <lb break="yes"
                                 />catar todas aquellas cosas co<ex>n</ex>
@@ -8596,7 +8596,7 @@
                 <head><hi rend="rubrique">Comiença El segundo libro.</hi>
                 </head>
                 <lb break="yes"/>
-                <div type="prologue" n="112">
+                <div type="prologue">
                     <head><hi rend="rubrique">Prologo</hi>
                     </head>
                     <p><lb break="yes"/><hi rend="initiale" n="2">O</hi>ydo
@@ -17217,7 +17217,7 @@
                             break="yes"/>E comiença el terçero.</hi>
                 </head>
                 <lb break="yes"/>
-                <div type="prologue" n="231">
+                <div type="prologue">
                     <head><hi rend="rubrique">Prologo</hi>
                     </head>
                     <p><lb break="yes"/><hi rend="initiale" n="2">C</hi>on
@@ -17434,7 +17434,7 @@
                         pierda con la dulçura dela delectable amistad. <lb
                             break="yes"/></p>
                 </div>
-                <div type="prologue" n="232">
+                <div type="prologue">
                     <head><hi rend="rubrique">Jntroduçion</hi>
                     </head>
                     <p><lb break="yes"/><hi rend="initiale" n="2">P</hi>aresçen
@@ -22426,7 +22426,7 @@
                         </choice>nça el quarto</hi>
                 </head>
                 <lb break="yes"/>
-                <div type="prologue" n="360">
+                <div type="prologue">
                     <head><hi rend="rubrique">Prologo.</hi>
                     </head>
                     <p><lb break="yes"/><hi rend="initiale" n="2"
@@ -25320,7 +25320,7 @@
                     <head><hi rend="rubrique">Titulo. vi. delas en comiendas.
                             Jntroduçion.</hi>
                     </head>
-                    <div type="prologue" n="439">
+                    <div type="prologue">
                         <p><lb break="yes"/><hi rend="initiale" n="2"
                             >S</hi>uelen tener vasallos ajenos algunos señores
                             en encomien<lb break="no"/>das. E casos ha en que lo
@@ -25621,7 +25621,7 @@
                                 rend="superscript">s</hi>
                             <lb break="yes"/>delos caualleros. Jntroduçion.</hi>
                     </head>
-                    <div type="prologue" n="446">
+                    <div type="prologue">
                         <p><lb break="yes"/><hi rend="initiale" n="2">E</hi>n
                             los libros suso scriptos apliq<ex>ue</ex> las leys
                                 q<ex>ue</ex> me pareçia<ex>n</ex> fazer <lb
@@ -26438,7 +26438,7 @@
                             faria el que andouiese en talle de cauallo
                                 no<ex>n</ex> lo seye<ex>n</ex>do</p>
                     </div>
-                    <div type="sous-sous-section">
+                    <div type="sous-sous-section" n="11">
                         <head><lb break="yes"/>Rubriçela quinta delos
                             castillares viejos &amp; delos malfechores que <lb
                                 break="yes"/>se acojen a los castillos del
@@ -26469,7 +26469,7 @@
                             fortalezas sin n<ex>uest</ex>ro mandado <lb
                                 break="yes"/><lb break="yes"/></p>
                     </div>
-                    <div type="sous-sous-section" n="11" subtype="ley">
+                    <div type="sous-sous-section" n="12" subtype="ley">
                         <head><hi rend="rubrique">Que se ha de fazer quando
                                 algunos malfechores <lb break="yes"/>se acojeren
                                 en algund castillo o fortaleza.</hi>
@@ -26501,7 +26501,7 @@
                                 break="yes"/>pague<ex>n</ex> sus bienes enla
                             manera q<ex>ue</ex> dicha es. <lb break="yes"/></p>
                     </div>
-                    <div type="sous-sous-section" n="12" subtype="ley">
+                    <div type="sous-sous-section" n="13" subtype="ley">
                         <head><hi rend="rubrique">Rubriçela delas ligas del
                                     ordenamie<ex>n</ex>to de guadalfa<lb
                                     break="no"/>jara fecho por el rrey don juan
@@ -26664,7 +26664,7 @@
                             podriamos escusar deponer en ello <lb break="yes"
                             />rremedio conuenible. </p>
                     </div>
-                    <div type="sous-sous-section" n="13" subtype="ley">
+                    <div type="sous-sous-section" n="14" subtype="ley">
                         <head><hi rend="rubrique">Del ordenamie<ex>n</ex>to de
                                 madrid fecho por <lb break="yes"/>el rrey
                                     do<ex>n</ex> enrriq<ex>ue</ex> el terçero
@@ -26673,7 +26673,7 @@
                         </head>
                         <p><lb break="yes"/></p>
                     </div>
-                    <div type="sous-sous-section" n="14" subtype="ley">
+                    <div type="sous-sous-section" n="15" subtype="ley">
                         <head><hi rend="rubrique">Que sea guardada la ley que
                                 vieda las ligas.</hi>
                         </head>
@@ -26768,14 +26768,14 @@
                             <lb break="yes"/>por q<ex>ue</ex> todos sean amigos
                             &amp; viuan en paz &amp; buena amistad. </p>
                     </div>
-                    <div type="sous-sous-section" n="15" subtype="ley">
+                    <div type="sous-sous-section" n="16" subtype="ley">
                         <head><hi rend="rubrique">Ru<lb break="no"/>briçela
                                 setima delas presiones del titulo veynte &amp;
                                 nueue dela seti<lb break="no"/>ma partida.</hi>
                         </head>
                         <p><lb break="yes"/></p>
                     </div>
-                    <div type="sous-sous-section" n="16" subtype="ley">
+                    <div type="sous-sous-section" n="17" subtype="ley">
                         <head><hi rend="rubrique">Que qual quier om<ex>n</ex>e
                                 puede prender al cauallero q<ex>ue</ex>
                                 <lb break="yes"/>desampara el logar donde le
@@ -26831,7 +26831,7 @@
                                 d<ex>e</ex> cauall<ex>er</ex>ia <lb break="yes"
                             /></p>
                     </div>
-                    <div type="sous-sous-section" n="17" subtype="ley">
+                    <div type="sous-sous-section" n="18" subtype="ley">
                         <head><hi rend="rubrique">Quales juezes pueden fazer
                                 prender &amp; rrecaudar <lb break="yes"/>a los
                                 que fuesen caualleros &amp; judgarlos.</hi>
@@ -26912,7 +26912,7 @@
                             derecho <lb break="yes"/>ma<ex>n</ex>da. E el
                             alferez o el caudillo deuelo fazer asi. </p>
                     </div>
-                    <div type="sous-sous-section" n="18" subtype="ley">
+                    <div type="sous-sous-section" n="19" subtype="ley">
                         <head><hi rend="rubrique">Rubriçela oc<lb break="no"
                                 />taua delos q<ex>ue</ex> rreniega<ex>n</ex> del
                                 titulo vey<choice>
@@ -26922,7 +26922,7 @@
                         </head>
                         <p><lb break="yes"/></p>
                     </div>
-                    <div type="sous-sous-section" n="19" subtype="ley">
+                    <div type="sous-sous-section" n="20" subtype="ley">
                         <head><hi rend="rubrique">Que pena mereçe el rrico
                                     om<ex>n</ex>e q<ex>ue</ex> denuesta <lb
                                     break="yes"/>a dios &amp; a sancta maria
@@ -26956,7 +26956,7 @@
                             vez pierdala por dos años E por la .iij. pierda la
                             del año. <lb break="yes"/></p>
                     </div>
-                    <div type="sous-sous-section" n="20" subtype="ley">
+                    <div type="sous-sous-section" n="21" subtype="ley">
                         <head><hi rend="rubrique">Que pena mereçe el cauallero o
                                 escudero que <lb break="yes"/>tiene
                                 t<ex>ie</ex>rra q<ex>ue</ex> dixiere el denuesto
@@ -27003,7 +27003,7 @@
                             aya la meytad dela pena sobredicha en <lb
                                 break="yes"/>esta ley. </p>
                     </div>
-                    <div type="sous-sous-section" n="21" subtype="ley">
+                    <div type="sous-sous-section" n="22" subtype="ley">
                         <head><hi rend="rubrique">Jte<ex>m</ex> el rrey
                                     do<ex>n</ex> alfo<ex>n</ex>so el. xi en el
                                     ordenamie<ex>n</ex>to delas tafu<lb
@@ -27012,7 +27012,7 @@
                         </head>
                         <p><lb break="yes"/></p>
                     </div>
-                    <div type="sous-sous-section" n="22" subtype="ley">
+                    <div type="sous-sous-section" n="23" subtype="ley">
                         <head><hi rend="rubrique">Q<choice>
                                     <corr>u</corr>
                                     <sic><hi rend="inverted-char">u</hi></sic>
@@ -27050,7 +27050,7 @@
                                 />al<ex>cal</ex>ld<ex>e</ex>s &amp; las
                             justiçias en guisa que parezca ante el rrey. </p>
                     </div>
-                    <div type="sous-sous-section" n="23" subtype="ley">
+                    <div type="sous-sous-section" n="24" subtype="ley">
                         <head><hi rend="rubrique">Rubriçela <lb break="yes"
                                 />nouena d<ex>e</ex> los q<ex>ue</ex>
                                     da<ex>n</ex> fauor a los herejes
@@ -27059,7 +27059,7 @@
                         </head>
                         <p><lb break="yes"/></p>
                     </div>
-                    <div type="sous-sous-section" n="24" subtype="ley">
+                    <div type="sous-sous-section" n="25" subtype="ley">
                         <head><hi rend="rubrique">Que pena mereçen los rricos
                                     om<ex>ne</ex>s o el señor que ampara <lb
                                     break="yes"/>los erejes en sus castillos o
