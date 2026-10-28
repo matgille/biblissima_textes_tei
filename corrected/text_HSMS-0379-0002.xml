@@ -1,0 +1,377 @@
+<?xml-model href="/home/mgl/Bureau/Travail/projets/Biblissima-Text/Transform/schemata/out/ODD_gold.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ley sobre las muertes accidentales</title>
+                <respStmt>
+                    <resp>Transcrit par</resp>
+                    <name><surname>Waltman</surname><forename>Franklin</forename></name>
+                    <name><surname>Kaplan</surname><forename>Greg</forename></name>
+                </respStmt>
+                <respStmt>
+                    <resp>Textes édités et rassemblés par </resp>
+                    <name>
+                        <forename>Francisco</forename>
+                        <surname>Gago Jover</surname>
+                    </name>
+                    <name>
+                        <forename>Javier</forename>
+                        <surname>Pueyo Mena</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Modélisation, encodage et structuration XML-TEI
+                        par</resp>
+                    <name xml:id="mgl">
+                        <forename>Matthias</forename>
+                        <surname>Gille Levenson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabilité du projet Biblissima-Textes: </resp>
+                    <name>
+                        <forename>Thibault</forename>
+                        <surname>Clérice</surname>
+                    </name>
+                    <name>
+                        <forename>Olivier</forename>
+                        <surname>Brisville-Fertin</surname>
+                    </name>
+                    <name>
+                        <forename>Ariane</forename>
+                        <surname>Pinche</surname>
+                    </name>
+                    <name>
+                        <forename>Marianne</forename>
+                        <surname>Reboul</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Publié dans le cadre de Biblissima-textes à partir de
+                    matériaux publiés auparavant.</publisher>
+                <availability status="restricted">
+                    <licence
+                        target="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Creative Commons Attribution Non Commercial Share Alike
+                        4.0 International</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!--La source premi&#232;re: le projet OSTA-->
+                <bibl xml:id="FNJ" type="source-transcription">
+                    <title>TEXT.FNJ.txt</title>
+                    <editor>
+                        <forename>Francisco</forename>
+                        <surname>Gago Jover</surname>
+                    </editor>
+                    <editor>
+                        <forename>Javier</forename>
+                        <surname>Pueyo Mena</surname>
+                    </editor>
+                    <publisher>Hispanic Seminary of Medieval Studies</publisher>
+                    <date when="2026-03-07"/>
+                    <availability status="restricted">
+                        <licence
+                            target="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+                            >Creative Commons Attribution Non Commercial Share
+                            Alike 4.0 International</licence>
+                    </availability>
+                    <note>Projet OSTA (Old Spanish Textual Archive). Source des
+                        données: <ptr
+                            target="https://raw.githubusercontent.com/hispanicseminary/OSTA/refs/heads/main/transcriptions/TEXT.FNJ.txt"
+                        />, v 1.0.</note>
+                </bibl>
+                <!--La source premi&#232;re: le projet OSTA-->
+
+                <!--L'oeuvre abstraite = work-->
+                <!--On va cat&#233;goriser la classe frbr et la forme<-->
+                <bibl ana="#frbr.work" type="work">
+                    <title>Ley sobre las muertes accidentales</title>
+                    <author
+                        corresp="https://database.factgrid.de/entity/Q1078705"
+                            ><surname>Thibault
+                        II</surname><forename/></author><date when="1269-07-02"
+                        >1269-07-02</date>
+                    <idno type="HSMS-WORK">HSMS-0379-0002</idno>
+                    <idno type="beta-texid">4379</idno>
+                    <idno type="factgrid-id"
+                        corresp="https://database.factgrid.de/entity/Q1086336"
+                        >Q1086336</idno>
+                    <idno type="biblissima-id"/>
+                    <idno type="BNF-id"/>
+                    <idno type="BNE-id"/>
+                    <idno type="VIAF-id"/>
+                </bibl>
+                <!--L'oeuvre abstraite-->
+
+                <!--Exemplaire / manuscrit = frbr.item (imprim&#233;) ou frbr.manifestation_singleton (manuscrit). Attribut ajout&#233; automatiquement.-->
+                <msDesc ana="#frbr.manifestation_singleton">
+                    <msIdentifier
+                        facs="http://bdh.bne.es/bnesearch/detalle/bdh0000040232">
+                        <settlement>Madrid</settlement>
+                        <!--Un identifiant de biblioth&#232;que id&#233;alement-->
+                        <repository
+                            corresp="https://database.factgrid.de/entity/Q390927"
+                            >Biblioteca Nacional de España</repository>
+                        <!--Un identifiant de biblioth&#232;que id&#233;alement-->
+                        <idno type="cote">MSS/280</idno>
+                        <idno type="HSMS-ID">HSMS-0379</idno>
+                        <idno type="factgrid-id"
+                            corresp="https://database.factgrid.de/entity/Q1041393"
+                            >Q1041393</idno>
+                        <idno type="biblissima-id"/>
+                        <!--Manuscrit-->
+                        <idno type="beta-manid"
+                            corresp="https://philobiblon.upf.edu/xtf/servlet/org.cdlib.xtf.dynaXML.DynaXML?source=/unified/Display/3743BETA.MsEd.xml&amp;style=MsEd.xsl"
+                            >3743</idno>
+                        <!--Manuscrit-->
+                        <!--Imprim&#233;-->
+                        <!--Imprim&#233;-->
+                        <msName>MS: Madrid: Nacional (BNE), MSS/280. Garsia,
+                            1331 a quo - 1400 ca. Desconocido, Fuero general de
+                            Navarra (Versión A), escrito 1250.</msName>
+                    </msIdentifier>
+                    <history>
+                        <!--Le corresp permet de lier la date &#224; l'unit&#233; codicologique, dans le cas de recueils organis&#233;s-->
+                        <origin>
+                            <origDate corresp="#HSMS-0379-0002" cert="medium"
+                                notBefore-iso="1331" notAfter-iso="1400">1331 a
+                                quo - 1400 ca.</origDate>
+                        </origin>
+                        <!--Le corresp permet de lier la date &#224; l'unit&#233; codicologique -->
+                    </history>
+
+                    <msContents>
+                        <msItem xml:id="HSMS-0379-0002">
+                            <locus>131ra-131va</locus>
+                            <idno type="beta-cnum">8268</idno>
+                            <idno type="factgrid-cnum"
+                                corresp="https://database.factgrid.de/entity/Q1051389"
+                                >Q1051389</idno>
+                            <incipit>Nos don Tibalt | por la gracia de
+                                dios</incipit>
+                            <explicit>mal dicho de dios &amp; de nos. et no aya
+                                part en paradiso amen</explicit>
+                            <colophon/>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <!--Exemplaire-->
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nav-x-med">navarro</language>
+            </langUsage>
+            <textClass>
+                <catRef target="#prose #didactica #juridica #codigo"/>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Ce document est le fruit d'une conversion automatisée de la
+                    transcription originale, qui utilise des normes d'encodages
+                    propres au projet OSTA (Old Spanish Textual Archive).</p>
+                <p>Transcription de type graphématique: réduction des
+                    allographes au graphème. Tous les graphèmes sont conservés
+                    excepté pour les abréviations qui sont développées sans
+                    conservation de la graphie originale, en indiquant cependant
+                    qu'il s'agit d'une expansion. Les transcriptions ne sont ni
+                    ponctuées, ni accentuées selon les normes actuelles. La
+                    césure à la ligne est indiquée.</p>
+                <p>La description des phénomènes matériels et/ou non textuels
+                    est conservée: sauts de ligne, changements de colonne,
+                    espaces en blanc, miniatures, illustrations, diagrammes,
+                    etc.</p>
+                <p>Le texte est structuré en divisions minimales (sections), en
+                    fonction de son genre. La division en paragraphes, pour la
+                    prose, n'est pas réalisée.</p>
+                <p>Pour plus d'informations, voir l'ODD.</p>
+            </editorialDecl>
+            <refsDecl n="physical">
+                <!--Doit &#234;tre adapt&#233; &#224; chaque structure de document, &#224; reprendre-->
+                <citeStructure unit="page" match="//body//pb" use="@n">
+                    <citeStructure unit="column" match=".//cb" use="@n"
+                        delim=".">
+                        <citeStructure unit="line" match=".//lb" use="@n"
+                            delim="."/>
+                    </citeStructure>
+                </citeStructure>
+                <refsDecl n="default">
+                    <citeStructure match="/TEI/text/body/div" use="@n"
+                        unit="chapter">
+                        <citeStructure match=".//milestone[@unit='section']"
+                            use="@n" unit="section" delim="."/>
+                    </citeStructure>
+                </refsDecl>
+                <!--Doit &#234;tre adapt&#233; &#224; chaque structure de document-->
+            </refsDecl>
+            <classDecl>
+                <taxonomy>
+                    <bibl>
+                        <title>Catégories de segments annotés</title>
+                    </bibl>
+                    <category xml:id="glose">
+                        <catDesc>Segment glosé</catDesc>
+                    </category>
+                    <category xml:id="addendum">
+                        <catDesc>Ajout intellectuel</catDesc>
+                    </category>
+                </taxonomy>
+                <!--Merci &#224; Morgane PICA pour son aide sur l'adaptation &#224; la mod&#233;lisation FRBR-->
+                <taxonomy xml:id="frbr"
+                    sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/">
+                    <bibl>
+                        <title>Catégories FRBRoo</title>
+                    </bibl>
+                    <category xml:id="frbr.work"
+                        sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/F1">
+                        <catDesc>Work</catDesc>
+                    </category>
+                    <category xml:id="frbr.expression"
+                        sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/F2">
+                        <catDesc>Expression</catDesc>
+                    </category>
+                    <category xml:id="frbr.manifestation"
+                        sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/F3">
+                        <catDesc>Manifestation</catDesc>
+                    </category>
+                    <category xml:id="frbr.manifestation_singleton"
+                        sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/F4">
+                        <catDesc>Manifestation Singleton</catDesc>
+                    </category>
+                    <category xml:id="frbr.item"
+                        sameAs="http://iflastandards.info/ns/fr/frbr/frbroo/F5">
+                        <catDesc>Item</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="categorisation_formelle">
+                    <bibl>
+                        <title>Catégorisation formelle</title>
+                    </bibl>
+                    <category xml:id="prose">
+                        <catDesc xml:lang="es">prosa</catDesc>
+                        <catDesc xml:lang="fr">prose</catDesc>
+                    </category>
+                    <category xml:id="vers">
+                        <catDesc xml:lang="es">verso</catDesc>
+                        <catDesc xml:lang="fr">vers</catDesc>
+                    </category>
+                </taxonomy>
+                <taxonomy xml:id="matiere_textuelle">
+                    <bibl>
+                        <title>Matière textuelle</title>
+                    </bibl>
+                    <category xml:id="didactica">
+                        <catDesc xml:lang="es">Didáctica</catDesc>
+                        <catDesc xml:lang="fr">Didactique</catDesc>
+                    </category>
+                    <category xml:id="juridica">
+                        <catDesc xml:lang="es">Jurídica</catDesc>
+                        <catDesc xml:lang="fr">Juridique</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="131r"
+                facs="/home/mgl/Bureau/Travail/projets/Biblissima-Text/data/Biblissima-Textes/facsimiles/HSMS-0379/pg_0272.pdf"/>
+            <div type="section" n="1">
+                <head><hi rend="rubrique">De gr<ex>aci</ex>a dellos ho<ex>m</ex>
+                            i<lb break="no"/>çidios suscessiuos. </hi></head>
+                <p><lb break="yes"/><hi rend="initiale" n="1">N</hi>os don
+                    Tibalt. <cb type="double-column"/><lb break="yes"/><choice>
+                        <corr><gap reason="illegible" extent="words"/></corr>
+                        <sic/>
+                    </choice>
+                    <lb break="yes"/><choice>
+                        <corr><gap reason="illegible" extent="words"/></corr>
+                        <sic/>
+                    </choice>
+                    <lb break="yes"/><choice>
+                        <corr><gap reason="illegible" extent="words"/></corr>
+                        <sic/>
+                    </choice>
+                    <lb break="yes"/><choice>
+                        <corr><gap reason="illegible" extent="words"/></corr>
+                        <sic/>
+                    </choice>
+                    <lb break="yes"/><choice>
+                        <corr><gap reason="illegible" extent="words"/></corr>
+                        <sic/>
+                    </choice>
+                    <lb break="yes"/>&amp; de nj<ex>n</ex>os <choice>
+                        <corr><gap reason="illegible" extent="words"/></corr>
+                        <sic/>
+                    </choice>
+                    <lb break="yes"/>Res. Rregnados en nauarra.
+                        <supplied>et</supplied>
+                    <lb break="yes"/>todos los homjçidios q<ex>ue</ex>
+                        co<ex>n</ex>tez<lb break="no"/>can por las cosas
+                        s<ex>us</ex>ç<choice>
+                        <sic>ç</sic>
+                        <corr/>
+                    </choice>essiuas. <lb break="yes"/>q<ex>ue</ex> no aujengan
+                    por mano <lb break="yes"/>de o<ex>mn</ex>e. Como por cayda
+                    de ca<lb break="no"/>sa. ho de casa q<ex>ue</ex> caya algo.
+                        <lb break="yes"/>ho por caydas de bestias. ho <lb
+                        break="yes"/>por ferida de bestia. ho por <lb
+                        break="yes"/>mordedur<supplied>a</supplied>. assi
+                        q<ex>ue</ex> por nj<ex>n</ex>gu<ex>n</ex>a <lb
+                        break="yes"/>achaq<ex>u</ex><hi rend="superscript"
+                        >i</hi>a q<ex>ue</ex> ujenga q<ex>ue</ex> no lis sea <lb
+                        break="yes"/>dema<ex>n</ex>do homjçidio. Et
+                        q<ex>u</ex><hi rend="superscript">i</hi> fu<ex>er</ex>e
+                        <lb break="yes"/>co<ex>n</ex>tra este n<ex>uest</ex>ro
+                    fecho. sea m<hi rend="superscript">a</hi>l <lb break="yes"
+                    />dicho de di<ex>os</ex> &amp; de nos. et no <lb break="yes"
+                    />aya part en paradiso. ame<ex>n</ex>. </p>
+            </div>
+        </body>
+        <back>
+            <div type="epilogue">
+                <p><lb break="yes"/><foreign xml:lang="lat"><hi rend="initiale"
+                            n="2">C</hi>auta fuit tutela <lb break="yes"/>de
+                        jllustri rege aldeffon<lb break="no"/>sso
+                        p<ex>re</ex>fato cu<ex>m</ex> dei gra<ex>tia</ex>. &amp;
+                            auxili<supplied>o</supplied></foreign>
+                    <pb n="131v"
+                        facs="/home/mgl/Bureau/Travail/projets/Biblissima-Text/data/Biblissima-Textes/facsimiles/HSMS-0379/pg_0273.pdf"/>
+                    <cb type="double-column"/><lb break="yes"/><choice>
+                        <corr><gap reason="illegible" extent="words"/></corr>
+                        <sic/>
+                    </choice>
+                    <lb break="yes"/><choice>
+                        <corr><gap reason="illegible" extent="words"/></corr>
+                        <sic/>
+                    </choice>
+                    <lb break="yes"/><choice>
+                        <corr><gap reason="illegible" extent="words"/></corr>
+                        <sic/>
+                    </choice>
+                    <foreign xml:lang="lat">Gen<ex>i</ex>al<ex>is</ex></foreign>
+                    <cb type="double-column"/><lb break="yes"/><choice>
+                        <corr><gap reason="illegible" extent="words"/></corr>
+                        <sic/>
+                    </choice>
+                </p>
+            </div>
+            <div type="colophon">
+                <p><lb break="yes"/><foreign xml:lang="lat"
+                            ><supplied>f</supplied>injto libro sit la<ex>us</ex>
+                        &amp; gl<ex>ori</ex>a xp<ex>ist</ex>o <lb break="yes"
+                            /><g ref="#calderon1"/> Garsia est dict<ex>us</ex>
+                            q<ex>u</ex><hi rend="superscript">i</hi>
+                            sc<ex>r</ex><hi rend="superscript">i</hi>psit sit
+                            b<ex>e</ex>n<ex>e</ex><choice>
+                            <corr>dictum</corr>
+                            <sic/>
+                        </choice></foreign></p>
+            </div>
+        </back>
+    </text>
+</TEI>
