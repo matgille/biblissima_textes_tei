@@ -193,7 +193,6 @@
                     section, titres: sous-section et lois: sous-sous-section).
                     La division en paragraphes, pour la prose, n'est pas
                     réalisée. La numérotation a été vérifiée.</p>
-                <!--TODO: vérifier les chapitres dont la numérotation du copiste diverge avec la numérotation automatique avec check="revoir"-->
                 <p>Pour plus d'informations, voir l'ODD.</p>
             </editorialDecl>
             <refsDecl n="physical">
